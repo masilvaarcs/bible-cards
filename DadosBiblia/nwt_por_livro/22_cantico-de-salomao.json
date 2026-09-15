@@ -1,0 +1,675 @@
+{
+  "traducao": "Tradução do Novo Mundo da Bíblia Sagrada (revisão de 2015)",
+  "idioma": "pt",
+  "fonte": "jw.org",
+  "livro": {
+    "nome": "Cântico de Salomão",
+    "abreviacao": "Cân",
+    "slug": "cantico-de-salomao",
+    "testamento": "hebraico",
+    "ordem": 22,
+    "total_capitulos": 8
+  },
+  "capitulos": [
+    {
+      "numero": 1,
+      "versiculos": [
+        {
+          "versiculo": 8,
+          "texto": "O Cântico de Salomão 1:1-17 REPRODUZIR CONTEÚDO DO LIVRO Cântico dos cânticos ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") Moça ( 2-7 ) Filhas de Jerusalém ("
+        },
+        {
+          "versiculo": 8,
+          "texto": ") Rei ( 9-11 ) “Nós lhe faremos enfeites de ouro” ("
+        },
+        {
+          "versiculo": 11,
+          "texto": ") Moça ( 12-14 ) ‘Meu querido é como uma pequena bolsa de mirra perfumada’ ("
+        },
+        {
+          "versiculo": 13,
+          "texto": ") Pastor ("
+        },
+        {
+          "versiculo": 15,
+          "texto": ") “Como você é bela, minha amada” Moça ( 16, 17 ) “Como você é belo, meu querido” ("
+        },
+        {
+          "versiculo": 16,
+          "texto": ")"
+        },
+        {
+          "versiculo": 1,
+          "texto": "O cântico dos cânticos, de Salomão:"
+        },
+        {
+          "versiculo": 2,
+          "texto": "“Beije-me com os beijos dos seus lábios, Pois as suas expressões de amor são melhores do que o vinho."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Agradável é a fragrância dos seus perfumes; Seu nome é como óleo aromático derramado. É por isso que as moças o amam."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Leve-me com você, e corramos. O rei me trouxe ao seu aposento reservado! Alegremo-nos e exultemos juntos. Celebremos suas expressões de amor, que são melhores do que o vinho. É com razão que elas o amam!"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Sou morena, mas bela, ó filhas de Jerusalém, Como as tendas de Quedar, como os panos da tenda de Salomão."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Não fiquem me olhando por eu ser morena, Pois o sol fixou em mim o seu olhar. Os filhos de minha mãe zangaram-se comigo; Mandaram-me guardar os vinhedos, Mas o meu próprio vinhedo eu não pude guardar."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Diga-me, você a quem eu tanto amo, Aonde leva seu rebanho para pastar? Onde o faz deitar ao meio-dia? Por que eu deveria ser como uma mulher coberta com um véu Entre os rebanhos dos seus amigos?”"
+        },
+        {
+          "versiculo": 8,
+          "texto": "“Se você não sabe, ó mais bela das mulheres, Siga o rastro do rebanho E leve seus cabritos para pastar junto às tendas dos pastores.”"
+        },
+        {
+          "versiculo": 9,
+          "texto": "“Eu comparo você, minha amada, a uma égua dos carros de Faraó."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Belas são as suas faces com adornos, Também seu pescoço, com colares de contas."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Nós lhe faremos enfeites de ouro Incrustados de prata.”"
+        },
+        {
+          "versiculo": 12,
+          "texto": "“Enquanto o rei está à sua mesa, Meu perfume exala a sua fragrância."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Meu querido é para mim como uma pequena bolsa de mirra perfumada, Que passa a noite entre os meus seios."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Meu querido é para mim como um ramalhete de hena Entre os vinhedos de En-Gedi.”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "“Como você é bela, minha amada! Como você é bela! Seus olhos são como os das pombas.”"
+        },
+        {
+          "versiculo": 16,
+          "texto": "“Como você é belo, meu querido! Como você é encantador! Nossa cama está entre as folhagens."
+        },
+        {
+          "versiculo": 17,
+          "texto": "As vigas da nossa casa são cedros, Os caibros do nosso telhado são juníperos."
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "versiculos": [
+        {
+          "versiculo": 8,
+          "texto": "O Cântico de Salomão 2:1-17 REPRODUZIR CONTEÚDO DO LIVRO Moça ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") “Sou apenas uma flor de açafrão” Pastor ("
+        },
+        {
+          "versiculo": 2,
+          "texto": ") ‘Minha amada é como um lírio’ Moça ( 3-14 ) ‘Não suscitem amor até que este o queira’ ("
+        },
+        {
+          "versiculo": 7,
+          "texto": ") Citação do pastor ( 10b-14 ) “Minha bela, venha comigo” ( 10b ,"
+        },
+        {
+          "versiculo": 13,
+          "texto": ") Irmãos da moça ("
+        },
+        {
+          "versiculo": 15,
+          "texto": ") “Peguem as raposas para nós” Moça ( 16, 17 ) “Meu querido é meu, e eu sou dele” ("
+        },
+        {
+          "versiculo": 16,
+          "texto": ")"
+        },
+        {
+          "versiculo": 2,
+          "texto": "“Sou apenas uma flor de açafrão da planície costeira, Um lírio dos vales.”"
+        },
+        {
+          "versiculo": 2,
+          "texto": "“Como um lírio entre os espinhos, Assim é minha amada entre as moças.”"
+        },
+        {
+          "versiculo": 3,
+          "texto": "“Como uma macieira entre as árvores da floresta, Assim é meu querido entre os rapazes. Desejo ardentemente me sentar à sua sombra, E seu fruto é doce ao meu paladar."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Ele me levou à sala de banquete, E seu estandarte sobre mim era o amor."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Revigorem-me com passas prensadas, Sustentem-me com maçãs, Pois estou desfalecendo de amor."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Sua mão esquerda está sob a minha cabeça, E sua mão direita me abraça."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Eu as ponho sob juramento, ó filhas de Jerusalém, Pelas gazelas e pelas corças do campo: Não tentem despertar nem suscitar em mim amor até que este o queira."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Ouço o meu querido chegando! Vejam! Lá vem ele, Escalando os montes, saltando pelas colinas."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Meu querido é como uma gazela, como um filhote de corça. Lá está ele, atrás da nossa parede, Olhando pelas janelas, Espreitando pelas treliças."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Meu querido me diz: ‘Levante-se, minha amada, Minha bela, venha comigo."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Veja! O inverno passou. As chuvas cessaram, elas se foram."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Apareceram as flores na terra, Já chegou o tempo da poda, E ouve-se o canto da rolinha nos campos."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Amadureceram os primeiros frutos da figueira; As videiras estão em flor e exalam sua fragrância. Levante-se, minha amada, e venha. Minha bela, venha comigo."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Ó minha pomba, nos abrigos dos rochedos, Nas fendas dos penhascos, Deixe-me vê-la e ouvir a sua voz, Pois a sua voz é agradável, e bela é a sua aparência.’”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "“Peguem as raposas para nós, As pequenas raposas que estragam os vinhedos, Pois os nossos vinhedos estão em flor.”"
+        },
+        {
+          "versiculo": 16,
+          "texto": "“Meu querido é meu, e eu sou dele. Ele pastoreia entre os lírios."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Antes que sopre a brisa do dia e as sombras fujam, Volte depressa, meu querido, Como a gazela ou o filhote de corça sobre as montanhas de separação."
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "versiculos": [
+        {
+          "versiculo": 8,
+          "texto": "O Cântico de Salomão 3:1-11 REPRODUZIR CONTEÚDO DO LIVRO Moça ( 1-5 ) ‘De noite, busquei aquele a quem eu amo’ ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") Filhas de Sião ( 6-11 ) Passa o cortejo de Salomão"
+        },
+        {
+          "versiculo": 3,
+          "texto": "“Em minha cama, durante as noites, Busquei aquele a quem eu amo. Eu o busquei, mas não o encontrei."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Vou me levantar e percorrer a cidade; Nas ruas e nas praças Procurarei aquele a quem eu amo. Eu o procurei, mas não o encontrei."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Os vigias que faziam a ronda da cidade me acharam. Perguntei-lhes: ‘Vocês viram aquele a quem eu amo?’"
+        },
+        {
+          "versiculo": 4,
+          "texto": "Mal eu havia passado por eles, Quando encontrei aquele a quem eu amo. Eu o segurei e não o larguei Até fazê-lo entrar na casa da minha mãe, No quarto daquela que me concebeu."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Eu as ponho sob juramento, ó filhas de Jerusalém, Pelas gazelas e pelas corças do campo: Não tentem despertar nem suscitar em mim amor até que este o queira.”"
+        },
+        {
+          "versiculo": 6,
+          "texto": "“O que é isso subindo do deserto como colunas de fumaça, Perfumado com mirra e olíbano, Com todo tipo de pó aromático de mercador?”"
+        },
+        {
+          "versiculo": 7,
+          "texto": "“Vejam! É a liteira de Salomão. Em volta dela há sessenta homens valentes, Dentre os guerreiros valentes de Israel;"
+        },
+        {
+          "versiculo": 8,
+          "texto": "Todos eles armados com uma espada, Todos treinados para a guerra, Cada um com sua espada na cintura Para protegê-lo dos perigos da noite.”"
+        },
+        {
+          "versiculo": 9,
+          "texto": "“É a liteira real que o rei Salomão Fez para si com árvores do Líbano."
+        },
+        {
+          "versiculo": 10,
+          "texto": "As colunas ele fez de prata; Os suportes, de ouro. O assento é de lã roxa; O interior foi decorado com amor Pelas filhas de Jerusalém.”"
+        },
+        {
+          "versiculo": 11,
+          "texto": "“Venham, ó filhas de Sião, Admirem Salomão, o rei, Com a coroa de flores que a sua mãe lhe fez No dia do casamento dele, No dia da alegria do seu coração.”"
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "versiculos": [
+        {
+          "versiculo": 8,
+          "texto": "O Cântico de Salomão 4:1-16 REPRODUZIR CONTEÚDO DO LIVRO Pastor ( 1-5 ) “Como você é bela, minha amada” ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") Moça ("
+        },
+        {
+          "versiculo": 6,
+          "texto": ") Pastor ( 7-16a ) ‘Você roubou meu coração, minha noiva’ ("
+        },
+        {
+          "versiculo": 9,
+          "texto": ") Moça ( 16b )"
+        },
+        {
+          "versiculo": 4,
+          "texto": "“Como você é bela, minha amada! Como você é bela! Seus olhos por trás do véu são como os das pombas. Seu cabelo é como um rebanho de cabras Que descem as montanhas de Gileade."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Seus dentes são como um rebanho de ovelhas recém-tosquiadas Que acabam de ser lavadas; Todas elas com gêmeos, E nenhuma perdeu a cria."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Seus lábios são como um fio escarlate, E sua fala é agradável. Como as metades de uma romã São as suas faces atrás do véu."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Seu pescoço é como a torre de Davi, Construída com fileiras de pedras, Na qual se penduram mil escudos, Todos os escudos redondos dos guerreiros valentes."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Seus seios são como dois filhotes de cervo, Crias gêmeas de uma gazela, Que pastam entre os lírios.”"
+        },
+        {
+          "versiculo": 6,
+          "texto": "“Antes que sopre a brisa do dia e as sombras fujam, Irei ao monte de mirra E à colina de olíbano.”"
+        },
+        {
+          "versiculo": 7,
+          "texto": "“Você é inteiramente bela, minha amada, Não há defeito em você."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Desçamos juntos do Líbano, minha noiva, Desçamos juntos do Líbano. Desça do cume do Amana, Do cume de Senir, do cume do Hermom, Dos esconderijos dos leões, das montanhas dos leopardos."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Você roubou meu coração, minha irmã, minha noiva, Roubou meu coração com apenas um olhar, Com apenas um pingente do seu colar."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Como são belas as suas expressões de amor, minha irmã, minha noiva! Suas expressões de amor são muito melhores do que o vinho; E a fragrância do seu perfume, do que qualquer especiaria!"
+        },
+        {
+          "versiculo": 11,
+          "texto": "Seus lábios, minha noiva, gotejam mel dos favos. Há mel e leite sob a sua língua, E a fragrância das suas roupas é como a fragrância do Líbano."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Minha irmã, minha noiva, é como um jardim trancado; Um jardim trancado, uma fonte fechada."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Seus brotos são um paraíso de romãs, Com os frutos mais seletos, também hena junto com nardo,"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Nardo e açafrão, cálamo e canela, Junto com todo tipo de árvores de olíbano, também mirra e aloés, Junto com todos os perfumes mais finos."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Você é uma fonte de jardim, um poço de água doce, E riachos vindos do Líbano."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Desperte, ó vento norte; Entre, ó vento sul. Sopre suavemente no meu jardim, Para que se espalhem os seus perfumes.” “Que o meu querido entre no seu jardim E coma dos seus frutos seletos.”"
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "versiculos": [
+        {
+          "versiculo": 8,
+          "texto": "O Cântico de Salomão 5:1-16 REPRODUZIR CONTEÚDO DO LIVRO Pastor ( 1a ) Mulheres de Jerusalém ( 1b ) ‘Fiquem inebriados com amor!’ Moça ( 2-8 ) Conta seu sonho Filhas de Jerusalém ("
+        },
+        {
+          "versiculo": 9,
+          "texto": ") “O que faz o seu querido ser melhor do que qualquer outro?” Moça ( 10-16 ) “Ele se destaca entre dez mil” ("
+        },
+        {
+          "versiculo": 10,
+          "texto": ")"
+        },
+        {
+          "versiculo": 5,
+          "texto": "“Entrei no meu jardim, Ó minha irmã, minha noiva. Colhi a minha mirra e o meu bálsamo. Comi o meu favo e o meu mel; Bebi o meu vinho e o meu leite.” “Comam, caros amigos! Bebam e fiquem inebriados com expressões de amor!”"
+        },
+        {
+          "versiculo": 2,
+          "texto": "“Estou adormecida, mas o meu coração está acordado. Ouço o som do meu querido batendo! ‘Abra, ó minha irmã, minha amada, Minha pomba sem defeito! Pois a minha cabeça está molhada de orvalho; Os cachos do meu cabelo, do sereno da noite.’"
+        },
+        {
+          "versiculo": 3,
+          "texto": "Tirei a minha túnica; Devo vesti-la outra vez? Lavei os pés; Devo sujá-los novamente?"
+        },
+        {
+          "versiculo": 4,
+          "texto": "Meu querido retirou a mão do buraco da porta, E o meu coração estremeceu por causa dele."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Eu me levantei para abrir a porta ao meu querido; Minhas mãos gotejavam mirra; E meus dedos, óleo de mirra Na maçaneta da fechadura."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Abri a porta ao meu querido, Mas o meu querido tinha se afastado, ido embora. Fiquei aflita quando ele partiu. Eu o procurei, mas não o encontrei. Eu o chamei, mas ele não me respondeu."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Os vigias que faziam a ronda na cidade me acharam. Eles me bateram, eles me feriram. Os vigias das muralhas arrancaram o meu xale."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Eu as ponho sob juramento, ó filhas de Jerusalém: Se acharem o meu querido, Digam a ele que estou desfalecendo de amor.”"
+        },
+        {
+          "versiculo": 9,
+          "texto": "“O que faz o seu querido ser melhor do que qualquer outro, Ó mais bela das mulheres? O que faz o seu querido ser melhor do que qualquer outro, A ponto de nos fazer jurar assim?”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "“Meu querido é deslumbrante e corado, Ele se destaca entre dez mil."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Sua cabeça é ouro, o mais puro ouro. Os cachos do seu cabelo balançam como folhas de palmeira, São negros como o corvo."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Seus olhos são como pombas junto a correntes de água, Banhando-se em leite, Repousando nas margens de uma lagoa repleta de água."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Suas faces são como um canteiro de bálsamo, Montes de ervas aromáticas. Seus lábios são lírios, gotejando óleo de mirra."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Suas mãos são cilindros de ouro, incrustados de crisólitos. Seu abdômen é marfim polido, coberto de safiras."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Suas pernas são colunas de mármore fixadas em bases do mais puro ouro. Sua aparência é como o Líbano, inigualável como os cedros."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Sua boca é a própria doçura, E tudo nele é desejável. Esse é o meu querido, esse é o meu amado, ó filhas de Jerusalém.”"
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "versiculos": [
+        {
+          "versiculo": 8,
+          "texto": "O Cântico de Salomão 6:1-13 REPRODUZIR CONTEÚDO DO LIVRO Filhas de Jerusalém ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") Moça ( 2, 3 ) “Eu sou do meu querido, e o meu querido é meu” ("
+        },
+        {
+          "versiculo": 3,
+          "texto": ") Rei ( 4-10 ) “Você é tão bonita quanto Tirza” ("
+        },
+        {
+          "versiculo": 4,
+          "texto": ") Citação das mulheres ("
+        },
+        {
+          "versiculo": 10,
+          "texto": ") Moça ( 11, 12 ) Rei (e outros) ( 13a ) Moça ( 13b ) Rei (e outros) ( 13c )"
+        },
+        {
+          "versiculo": 6,
+          "texto": "“Onde está o seu querido, Ó mais bela das mulheres? Em que direção foi o seu querido? Vamos procurá-lo com você.”"
+        },
+        {
+          "versiculo": 2,
+          "texto": "“Meu querido desceu ao seu jardim, Aos canteiros de bálsamo, Para pastorear entre os jardins E para colher lírios."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Eu sou do meu querido, E o meu querido é meu. Ele pastoreia entre os lírios.”"
+        },
+        {
+          "versiculo": 4,
+          "texto": "“Você é tão bonita quanto Tirza, minha amada, Bela como Jerusalém, Deslumbrante como exércitos ao redor de suas bandeiras."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Desvie de mim os seus olhos, Pois eles me fascinam. Seu cabelo é como um rebanho de cabras Que descem as encostas de Gileade."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Seus dentes são como um rebanho de ovelhas Que acabam de ser lavadas; Todas elas com gêmeos, E nenhuma perdeu a cria."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Como as metades de uma romã São as suas faces atrás do véu."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Pode haver sessenta rainhas, Oitenta concubinas E inúmeras moças,"
+        },
+        {
+          "versiculo": 9,
+          "texto": "Mas apenas uma é a minha pomba sem defeito. Ela é a única de sua mãe, A preferida daquela que a deu à luz. As moças a veem e a chamam de feliz; Rainhas e concubinas a louvam."
+        },
+        {
+          "versiculo": 10,
+          "texto": "‘Quem é essa que brilha como a aurora, Bela como a lua cheia, Pura como a luz do sol, Deslumbrante como exércitos ao redor de suas bandeiras?’”"
+        },
+        {
+          "versiculo": 11,
+          "texto": "“Eu desci ao pomar das nogueiras Para ver o que havia crescido no vale, Para ver se a videira havia brotado, Se as romãzeiras haviam florido."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Antes de eu perceber, Meu desejo me levou Para perto dos carros do meu nobre povo.”"
+        },
+        {
+          "versiculo": 13,
+          "texto": "“Volte, volte, ó sulamita! Volte, volte, Para que possamos contemplá-la!” “Por que vocês olham com admiração para a sulamita?” “Ela é como a dança de dois acampamentos!”"
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "versiculos": [
+        {
+          "versiculo": 8,
+          "texto": "O Cântico de Salomão 7:1-13 REPRODUZIR CONTEÚDO DO LIVRO Rei ( 1-9a ) ‘Como você é encantadora, ó amada’ ("
+        },
+        {
+          "versiculo": 6,
+          "texto": ") Moça ( 9b-13 ) “Eu sou do meu querido, e é a mim que ele deseja” ("
+        },
+        {
+          "versiculo": 10,
+          "texto": ")"
+        },
+        {
+          "versiculo": 7,
+          "texto": "“Como são belos os seus pés nas suas sandálias, Ó nobre moça! Os contornos das suas coxas são como joias, Trabalho das mãos de um artesão."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Seu umbigo é uma taça redonda Em que nunca falta vinho misturado. Seu ventre é um monte de trigo, Cercado de lírios."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Seus seios são como dois filhotes de cervo, Crias gêmeas de uma gazela."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Seu pescoço é como uma torre de marfim. Seus olhos são como as águas de Hesbom, Junto ao portão de Bate-Rabim. Seu nariz é como a torre do Líbano, Voltada para Damasco."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Sua cabeça é como o Carmelo, E seus cabelos são como fios de lã roxa. O rei é mantido cativo pelos seus cachos esvoaçantes."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Como você é bela e encantadora, Ó amada, você está acima de todas as delícias!"
+        },
+        {
+          "versiculo": 7,
+          "texto": "Seu porte é como o da palmeira, E seus seios são como cachos de tâmaras."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Eu disse: ‘Subirei na palmeira, Para pegar os seus frutos.’ Sejam os seus seios como cachos de uva; Seu hálito, como o perfume das maçãs;"
+        },
+        {
+          "versiculo": 9,
+          "texto": "E sua boca, como o melhor vinho.” “Que ele escorra suavemente para o meu amado, Deslizando levemente sobre os lábios dos adormecidos."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Eu sou do meu querido, E é a mim que ele deseja."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Venha, meu querido, Vamos ao campo; Fiquemos entre os arbustos de hena."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Levantemo-nos cedo e vamos aos vinhedos Para ver se a videira brotou, Se as flores se abriram, Se as romãzeiras estão em flor. Ali expressarei o meu amor por você."
+        },
+        {
+          "versiculo": 13,
+          "texto": "As mandrágoras exalam a sua fragrância; Às nossas portas há todo tipo de frutos seletos. Os frescos, bem como os secos, Ó meu querido, eu guardei para você."
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "versiculos": [
+        {
+          "versiculo": 8,
+          "texto": "O Cântico de Salomão 8:1-14 REPRODUZIR CONTEÚDO DO LIVRO Moça ( 1-4 ) “Quem me dera que você fosse como um irmão meu” ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") Irmãos da moça ( 5a ) ‘Quem é essa, apoiada no seu querido?’ Moça ( 5b-7 ) “O amor é tão forte como a morte” ("
+        },
+        {
+          "versiculo": 6,
+          "texto": ") Irmãos da moça ( 8, 9 ) “Se ela for uma muralha, . . . mas, se ela for uma porta, . . .” ("
+        },
+        {
+          "versiculo": 9,
+          "texto": ") Moça ( 10-12 ) “Sou uma muralha” ("
+        },
+        {
+          "versiculo": 10,
+          "texto": ") Pastor ("
+        },
+        {
+          "versiculo": 13,
+          "texto": ") ‘Deixe-me ouvir sua voz’ Moça ("
+        },
+        {
+          "versiculo": 14,
+          "texto": ") “Seja veloz como uma gazela”"
+        },
+        {
+          "versiculo": 8,
+          "texto": "“Quem me dera que você fosse como um irmão meu, Amamentado aos seios da minha mãe! Então, se o encontrasse lá fora, eu o beijaria, E ninguém me desprezaria."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Eu o conduziria E o levaria à casa da minha mãe, Aquela que me educou. Eu lhe daria vinho aromatizado para beber E suco fresco de romãs."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Sua mão esquerda estaria sob a minha cabeça, E sua mão direita me abraçaria."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Eu as ponho sob juramento, ó filhas de Jerusalém: Não tentem despertar nem suscitar em mim amor até que este o queira.”"
+        },
+        {
+          "versiculo": 5,
+          "texto": "“Quem é essa que vem subindo do deserto, Apoiada no seu querido?” “Debaixo da macieira eu despertei você. Ali a sua mãe sentiu dores de parto. Ali ela o deu à luz com dores de parto."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Ponha-me como selo sobre o seu coração, Como selo sobre o seu braço, Pois o amor é tão forte como a morte, E a devoção exclusiva é tão implacável como a Sepultura. Suas chamas são um fogo ardente, a chama de Jah."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Águas turbulentas não podem extinguir o amor, Nem podem os rios levá-lo na correnteza. Se um homem oferecesse todas as riquezas da sua casa em troca do amor, Essas seriam completamente desprezadas.”"
+        },
+        {
+          "versiculo": 8,
+          "texto": "“Temos uma irmãzinha, E ela ainda não tem seios. O que faremos por nossa irmã No dia em que for pedida em casamento?”"
+        },
+        {
+          "versiculo": 9,
+          "texto": "“Se ela for uma muralha, Construiremos sobre ela um parapeito de prata; Mas, se ela for uma porta, Nós a fecharemos com uma tábua de cedro.”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "“Sou uma muralha, E meus seios são como torres. Assim, eu me tornei aos olhos dele Como alguém que encontra paz."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Salomão tinha um vinhedo em Baal-Hamom. Ele confiou o vinhedo a lavradores. Cada um deles lhe dava mil peças de prata pelos seus frutos."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Eu tenho o meu próprio vinhedo à minha disposição. As mil peças de prata lhe pertencem, ó Salomão, E duzentas pertencem aos que tomam conta dos seus frutos.”"
+        },
+        {
+          "versiculo": 13,
+          "texto": "“Ó você que mora nos jardins, Os companheiros prestam atenção à sua voz. Deixe-me também ouvi-la.”"
+        },
+        {
+          "versiculo": 14,
+          "texto": "“Corra, meu querido, Seja veloz como uma gazela Ou como um filhote de corça Sobre os montes de bálsamo.”"
+        }
+      ]
+    }
+  ]
+}

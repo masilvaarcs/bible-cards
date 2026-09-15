@@ -1,0 +1,3501 @@
+{
+  "traducao": "Tradução do Novo Mundo da Bíblia Sagrada (revisão de 2015)",
+  "idioma": "pt",
+  "fonte": "jw.org",
+  "livro": {
+    "nome": "1 Reis",
+    "abreviacao": "1Reis",
+    "slug": "1-reis",
+    "testamento": "hebraico",
+    "ordem": 11,
+    "total_capitulos": 22
+  },
+  "capitulos": [
+    {
+      "numero": 1,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 1:1-53 REPRODUZIR CONTEÚDO DO LIVRO Davi e Abisague ( 1-4 ) Adonias procura obter o trono ( 5-10 ) Natã e Bate-Seba agem ( 11-27 ) Davi ordena a unção de Salomão ( 28-40 ) Adonias foge para o altar ( 41-53 )"
+        },
+        {
+          "versiculo": 1,
+          "texto": "O rei Davi já era de idade bem avançada, e embora o cobrissem, ele não se aquecia."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Então os seus servos lhe disseram: “Vamos procurar uma moça, uma virgem, para o meu senhor, o rei, e ela servirá o rei como sua enfermeira. Ela se deitará em seus braços para que o meu senhor, o rei, se aqueça.”"
+        },
+        {
+          "versiculo": 3,
+          "texto": "Assim, eles procuraram em todo o território de Israel uma moça bonita e acharam Abisague, a sunamita, e a levaram ao rei."
+        },
+        {
+          "versiculo": 4,
+          "texto": "A moça era extremamente bela; ela se tornou a enfermeira do rei e o servia, mas o rei não teve relações sexuais com ela."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Nesse meio-tempo, Adonias, filho de Hagite, se enaltecia, dizendo: “Eu serei o rei!” Ele providenciou para si um carro real e cavaleiros, bem como 50 homens para correrem à frente dele."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Mas seu pai nunca o tinha confrontado, dizendo: “Por que você faz isso?” Ele também era muito bonito, e tinha nascido depois de Absalão."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Adonias conversou com Joabe, filho de Zeruia, e com Abiatar, o sacerdote, e eles lhe ofereceram ajuda e apoio."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Mas Zadoque, o sacerdote, Benaia, filho de Jeoiada, Natã, o profeta, Simei, Reí e os guerreiros valentes de Davi não apoiaram Adonias."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Por fim, Adonias ofereceu sacrifícios de ovelhas, de bois e de bezerros gordos, junto à pedra de Zoelete, que fica perto de En-Rogel. Ele convidou todos os seus irmãos, os filhos do rei, e todos os homens de Judá, os servos do rei."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Mas não convidou Natã, o profeta, nem Benaia e os guerreiros valentes, nem Salomão, seu irmão."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Natã disse então a Bate-Seba, mãe de Salomão: “Você não ouviu dizer que Adonias, filho de Hagite, se tornou rei? E o nosso senhor Davi não está sabendo de nada disso."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Portanto, escute-me agora, por favor; vou lhe dar um conselho, para que você possa salvar a sua vida e a vida do seu filho Salomão."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Vá ao rei Davi, e diga-lhe: ‘Não foi o meu senhor, o rei, que jurou à sua serva: “Seu filho Salomão se tornará rei depois de mim, e é ele quem se sentará no meu trono”? Então, por que Adonias se tornou rei?’"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Enquanto você ainda estiver falando com o rei, eu entrarei e confirmarei as suas palavras.”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Assim, Bate-Seba entrou no quarto do rei. O rei estava muito idoso, e Abisague, a sunamita, servia o rei."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Bate-Seba se curvou e se prostrou diante do rei. O rei perguntou: “Qual é o seu pedido?”"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Ela respondeu: “Foi o meu senhor que jurou à sua serva por Jeová, seu Deus: ‘Seu filho Salomão se tornará rei depois de mim, e é ele quem se sentará no meu trono.’"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Mas agora Adonias tornou-se rei, e o meu senhor, o rei, não está sabendo de nada disso."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Ele sacrificou touros, bezerros gordos e ovelhas, em grande quantidade, e convidou todos os filhos do rei, bem como Abiatar, o sacerdote, e Joabe, chefe do exército; mas não convidou Salomão, seu servo."
+        },
+        {
+          "versiculo": 20,
+          "texto": "E agora, meu senhor, o rei, os olhos de todo o Israel estão voltados para o senhor, para que lhes diga quem se sentará no seu trono, como sucessor do meu senhor, o rei."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Se não fizer isso, assim que o meu senhor, o rei, descansar com os seus antepassados, eu e meu filho Salomão seremos considerados traidores.”"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Enquanto ela ainda estava falando com o rei, chegou Natã, o profeta."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Imediatamente informaram ao rei: “O profeta Natã está aqui!” Ele entrou perante o rei e prostrou-se diante do rei com o rosto por terra."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Natã perguntou: “Meu senhor, o rei, por acaso o senhor disse: ‘Adonias se tornará rei depois de mim, e é ele quem se sentará no meu trono’?"
+        },
+        {
+          "versiculo": 25,
+          "texto": "Pois hoje ele foi sacrificar touros, bezerros gordos e ovelhas, em grande quantidade, e convidou todos os filhos do rei, os chefes do exército e Abiatar, o sacerdote. Eles estão lá comendo e bebendo com ele, e estão dizendo: ‘Viva o rei Adonias!’"
+        },
+        {
+          "versiculo": 26,
+          "texto": "Mas ele não convidou a mim, seu servo, nem a Zadoque, o sacerdote, nem a Benaia, filho de Jeoiada, nem a Salomão, seu servo."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Por acaso o meu senhor, o rei, autorizou isso sem dizer ao seu servo quem deve se sentar no seu trono como sucessor do meu senhor, o rei?”"
+        },
+        {
+          "versiculo": 28,
+          "texto": "Em vista disso, o rei Davi disse: “Chamem Bate-Seba.” Então ela entrou e ficou de pé diante do rei."
+        },
+        {
+          "versiculo": 29,
+          "texto": "E o rei fez o seguinte juramento: “Tão certo como vive Jeová, aquele que me livrou de toda aflição,"
+        },
+        {
+          "versiculo": 30,
+          "texto": "assim como lhe jurei por Jeová, o Deus de Israel, dizendo: ‘Seu filho Salomão se tornará rei depois de mim, e é ele quem se sentará no meu trono em meu lugar!’, assim farei neste dia.”"
+        },
+        {
+          "versiculo": 31,
+          "texto": "Então Bate-Seba se curvou e se prostrou com o rosto por terra diante do rei, e disse: “Que o meu senhor, o rei Davi, viva para sempre!”"
+        },
+        {
+          "versiculo": 32,
+          "texto": "O rei Davi disse imediatamente: “Chamem Zadoque, o sacerdote, Natã, o profeta, e Benaia, filho de Jeoiada.” Então eles entraram perante o rei."
+        },
+        {
+          "versiculo": 33,
+          "texto": "O rei disse-lhes: “Levem com vocês os servos do seu senhor, e façam meu filho Salomão montar na minha mula e conduzam-no para baixo, a Giom."
+        },
+        {
+          "versiculo": 34,
+          "texto": "Lá, Zadoque, o sacerdote, e Natã, o profeta, o ungirão rei sobre Israel. Depois toquem a buzina e digam: ‘Viva o rei Salomão!’"
+        },
+        {
+          "versiculo": 35,
+          "texto": "Então voltem atrás dele, e ele virá e se sentará no meu trono. Ele será rei no meu lugar, e eu o designarei como líder de Israel e de Judá.”"
+        },
+        {
+          "versiculo": 36,
+          "texto": "Em vista disso, Benaia, filho de Jeoiada, disse imediatamente ao rei: “Amém! Que Jeová, o Deus do meu senhor, o rei, confirme isso."
+        },
+        {
+          "versiculo": 37,
+          "texto": "Assim como Jeová esteve com o meu senhor, o rei, esteja também com Salomão, e que Ele faça o trono de Salomão maior do que o trono do meu senhor, o rei Davi.”"
+        },
+        {
+          "versiculo": 38,
+          "texto": "Então Zadoque, o sacerdote, Natã, o profeta, Benaia, filho de Jeoiada, e os queretitas e os peletitas foram e fizeram Salomão montar na mula que pertencia ao rei Davi, e o conduziram a Giom."
+        },
+        {
+          "versiculo": 39,
+          "texto": "E Zadoque, o sacerdote, trouxe da tenda o chifre com o óleo e ungiu Salomão; então começaram a tocar a buzina, e todo o povo começou a gritar: “Viva o rei Salomão!”"
+        },
+        {
+          "versiculo": 40,
+          "texto": "Depois, todo o povo subiu atrás dele, tocando flautas e alegrando-se muito, de modo que a terra tremia com o barulho deles."
+        },
+        {
+          "versiculo": 41,
+          "texto": "Ao terminarem de comer, Adonias e todos os seus convidados ouviram o barulho. Assim que Joabe ouviu o som da buzina, disse: “O que significa essa agitação na cidade?”"
+        },
+        {
+          "versiculo": 42,
+          "texto": "Enquanto ainda falava, chegou Jonatã, filho de Abiatar, o sacerdote. Adonias disse então: “Entre, pois você é um homem bom e deve trazer boas notícias.”"
+        },
+        {
+          "versiculo": 43,
+          "texto": "Mas Jonatã disse a Adonias: “Pelo contrário. Nosso senhor, o rei Davi, fez Salomão rei."
+        },
+        {
+          "versiculo": 44,
+          "texto": "O rei enviou Zadoque, o sacerdote, Natã, o profeta, Benaia, filho de Jeoiada, bem como os queretitas e os peletitas para acompanhar Salomão, e fizeram-no montar na mula que pertence ao rei."
+        },
+        {
+          "versiculo": 45,
+          "texto": "Então Zadoque, o sacerdote, e Natã, o profeta, o ungiram rei em Giom. Depois eles subiram de lá, alegrando-se, e a cidade está agitada. Esse foi o barulho que vocês ouviram."
+        },
+        {
+          "versiculo": 46,
+          "texto": "Além disso, Salomão sentou-se no trono real."
+        },
+        {
+          "versiculo": 47,
+          "texto": "Outra coisa, os servos do rei foram parabenizar o nosso senhor, o rei Davi, dizendo: ‘Que o seu Deus faça o nome de Salomão mais glorioso do que o nome do senhor e faça o trono dele maior do que o trono do senhor!’ Então o rei se curvou sobre a cama."
+        },
+        {
+          "versiculo": 48,
+          "texto": "E o rei também disse: ‘Louvado seja Jeová, o Deus de Israel, que hoje providenciou alguém para se sentar no meu trono e permitiu que os meus próprios olhos vissem isso!’”"
+        },
+        {
+          "versiculo": 49,
+          "texto": "E todos os convidados de Adonias ficaram apavorados; eles se levantaram e foram embora."
+        },
+        {
+          "versiculo": 50,
+          "texto": "Adonias também ficou com medo por causa de Salomão. Por isso se levantou e foi agarrar-se aos chifres do altar."
+        },
+        {
+          "versiculo": 51,
+          "texto": "Então informaram ao rei Salomão: “Adonias ficou com medo do rei Salomão e se agarrou aos chifres do altar, dizendo: ‘Que o rei Salomão primeiro me jure que não entregará seu servo à morte pela espada.’”"
+        },
+        {
+          "versiculo": 52,
+          "texto": "Diante disso, Salomão disse: “Se ele se comportar de modo digno, nem sequer um fio de cabelo seu cairá ao chão; mas, se for achado nele o que é mau, terá de morrer.”"
+        },
+        {
+          "versiculo": 53,
+          "texto": "Portanto, o rei Salomão mandou que o fizessem descer do altar. Ele entrou então e se curvou diante do rei Salomão, e Salomão lhe disse: “Vá para a sua casa.”"
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 2:1-46 REPRODUZIR CONTEÚDO DO LIVRO Davi instrui Salomão ( 1-9 ) Davi morre; Salomão assume o trono ( 10-12 ) Trama de Adonias resulta na sua morte ( 13-25 ) Abiatar é banido; Joabe é morto ( 26-35 ) Simei é morto ( 36-46 )"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Quando se aproximou a morte de Davi, ele deu as seguintes instruções ao seu filho Salomão:"
+        },
+        {
+          "versiculo": 2,
+          "texto": "“Logo vou morrer. Portanto, seja forte e seja homem."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Cumpra a sua obrigação para com Jeová, seu Deus, andando nos seus caminhos e obedecendo aos seus decretos, aos seus mandamentos, às suas decisões judiciais e às suas advertências, conforme estão escritos na Lei de Moisés. Assim, você será bem-sucedido em tudo o que fizer e aonde quer que for."
+        },
+        {
+          "versiculo": 4,
+          "texto": "E Jeová cumprirá a promessa que fez a meu respeito: ‘Se os seus filhos prestarem atenção ao caminho deles, andando fielmente diante de mim, de todo o coração e de toda a alma, sempre haverá um descendente seu sentado no trono de Israel.’"
+        },
+        {
+          "versiculo": 5,
+          "texto": "“Além disso, você sabe o que me fez Joabe, filho de Zeruia, o que ele fez aos dois chefes dos exércitos de Israel, Abner, filho de Ner, e Amasa, filho de Jeter. Ele os matou, derramando sangue de guerra em tempo de paz e manchou com sangue de guerra o cinto que tinha na cintura e as sandálias que tinha nos pés."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Aja segundo a sua sabedoria e não deixe que os cabelos brancos dele desçam em paz à Sepultura."
+        },
+        {
+          "versiculo": 7,
+          "texto": "“Mas você deve demonstrar amor leal aos filhos de Barzilai, o gileadita; eles devem estar entre os que comem à sua mesa, pois ficaram do meu lado quando fugi do seu irmão Absalão."
+        },
+        {
+          "versiculo": 8,
+          "texto": "“Não muito longe vive Simei, filho de Gera, benjaminita de Baurim. Foi ele quem me amaldiçoou com uma terrível maldição no dia em que fui a Maanaim; mas, quando ele desceu ao meu encontro no Jordão, eu lhe jurei por Jeová: ‘Não o entregarei à morte pela espada.’"
+        },
+        {
+          "versiculo": 9,
+          "texto": "Agora não o deixe impune, pois você é um homem sábio e sabe o que deve fazer com ele. Faça os cabelos brancos dele descer com sangue à Sepultura.”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Então Davi descansou com os seus antepassados e foi enterrado na Cidade de Davi."
+        },
+        {
+          "versiculo": 11,
+          "texto": "O tempo que Davi reinou sobre Israel foi 40 anos. Em Hebrom ele reinou por 7 anos, e em Jerusalém reinou por 33 anos."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Salomão se sentou então no trono de Davi, seu pai. Aos poucos, seu reinado ficou firmemente estabelecido."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Passado algum tempo, Adonias, filho de Hagite, foi falar com Bate-Seba, mãe de Salomão. Ela perguntou: “A sua vinda é pacífica?” Ele respondeu: “É pacífica.”"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Então ele disse: “Tenho algo para lhe falar.” Ela disse: “Fale.”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Ele continuou: “A senhora sabe que o reinado ia tornar-se meu, e todo o Israel esperava que eu fosse rei; mas o reinado escapou das minhas mãos e passou a ser do meu irmão, pois era da vontade de Jeová que ele fosse rei."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Mas agora tenho apenas um pedido para lhe fazer. Não me recuse esse pedido.” Portanto, ela lhe disse: “Fale.”"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Ele disse então: “Por favor, peça a Salomão, o rei, que me dê Abisague, a sunamita, como esposa. Ele não lhe recusará esse pedido.”"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Então Bate-Seba disse: “Está bem! Eu falarei com o rei por você.”"
+        },
+        {
+          "versiculo": 19,
+          "texto": "Assim, Bate-Seba compareceu perante o rei Salomão para falar com ele em favor de Adonias. O rei se levantou imediatamente para ir ao encontro dela e se curvou diante dela. Então se sentou no seu trono e mandou colocar um trono para a mãe do rei, para que ela se sentasse à sua direita."
+        },
+        {
+          "versiculo": 20,
+          "texto": "E ela disse: “Tenho um pequeno pedido para lhe fazer. Não me recuse esse pedido.” Então o rei respondeu: “Faça-o, minha mãe, pois não recusarei o seu pedido.”"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Ela disse: “Dê Abisague, a sunamita, como esposa a seu irmão Adonias.”"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Em resposta, o rei Salomão disse à sua mãe: “Por que está pedindo Abisague, a sunamita, para Adonias? Só falta a senhora pedir também o reinado para ele, pois ele é meu irmão mais velho, e tem o apoio de Abiatar, o sacerdote, e de Joabe, filho de Zeruia.”"
+        },
+        {
+          "versiculo": 23,
+          "texto": "Com isso o rei Salomão jurou por Jeová: “Que Deus me castigue, e que o faça severamente, se Adonias não pagar com a própria vida por ter feito esse pedido."
+        },
+        {
+          "versiculo": 24,
+          "texto": "E agora, tão certo como vive Jeová, aquele que me estabeleceu firmemente e me colocou no trono de Davi, meu pai, e que edificou uma casa para mim, assim como prometeu, hoje Adonias será morto.”"
+        },
+        {
+          "versiculo": 25,
+          "texto": "O rei Salomão enviou imediatamente Benaia, filho de Jeoiada, que foi e golpeou Adonias, e ele morreu."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Ao sacerdote Abiatar, o rei disse: “Vá para os seus campos em Anatote! Você merece morrer, mas neste dia não o matarei, porque você carregou a Arca do Soberano Senhor Jeová diante de Davi, meu pai, e você compartilhou todas as dificuldades que meu pai passou.”"
+        },
+        {
+          "versiculo": 27,
+          "texto": "Portanto, Salomão expulsou Abiatar do sacerdócio de Jeová, para que se cumprisse a palavra de Jeová contra a casa de Eli, em Silo."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Quando a notícia chegou a Joabe — pois Joabe tinha apoiado Adonias, embora não tivesse apoiado Absalão —, Joabe fugiu para a tenda de Jeová e agarrou-se aos chifres do altar."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Informaram então ao rei Salomão: “Joabe fugiu para a tenda de Jeová e está ao lado do altar.” Assim, Salomão enviou Benaia, filho de Jeoiada, dizendo: “Vá, mate-o!”"
+        },
+        {
+          "versiculo": 30,
+          "texto": "Então Benaia foi à tenda de Jeová e disse-lhe: “O rei diz: ‘Venha para fora!’” Mas ele respondeu: “Não! Vou morrer aqui.” Então Benaia levou a informação de volta ao rei: “Foi isso que Joabe falou, foi assim que ele me respondeu.”"
+        },
+        {
+          "versiculo": 31,
+          "texto": "Em vista disso, o rei disse-lhe: “Faça como ele mesmo disse, mate-o e enterre-o; remova de mim e da casa do meu pai o sangue que Joabe derramou sem motivo justo."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Jeová fará o sangue que ele derramou recair sobre a sua própria cabeça, pois sem o conhecimento de meu pai, Davi, ele golpeou e matou à espada dois homens mais justos e melhores do que ele: Abner, filho de Ner e chefe do exército de Israel, e Amasa, filho de Jeter e chefe do exército de Judá."
+        },
+        {
+          "versiculo": 33,
+          "texto": "O sangue deles recairá sobre a cabeça de Joabe e sobre a cabeça da sua descendência para sempre; mas, para Davi, sua descendência, sua casa e seu trono, que haja paz da parte de Jeová para sempre.”"
+        },
+        {
+          "versiculo": 34,
+          "texto": "Então Benaia, filho de Jeoiada, voltou, golpeou Joabe e o matou; e ele foi enterrado na sua casa, no deserto."
+        },
+        {
+          "versiculo": 35,
+          "texto": "Depois o rei designou Benaia, filho de Jeoiada, sobre o exército, no lugar de Joabe; e o rei designou Zadoque, o sacerdote, no lugar de Abiatar."
+        },
+        {
+          "versiculo": 36,
+          "texto": "Então o rei chamou Simei e disse-lhe: “Construa uma casa em Jerusalém e fique morando ali; não saia da cidade para nenhum lugar."
+        },
+        {
+          "versiculo": 37,
+          "texto": "No dia em que você sair e atravessar o vale do Cédron, pode ter certeza de que morrerá. O seu sangue recairá sobre a sua própria cabeça.”"
+        },
+        {
+          "versiculo": 38,
+          "texto": "Simei disse ao rei: “O que o senhor disse é justo. Seu servo fará assim como o meu senhor, o rei, falou.” E Simei ficou em Jerusalém por um bom tempo."
+        },
+        {
+          "versiculo": 39,
+          "texto": "Mas, três anos depois, dois escravos de Simei fugiram e procuraram refúgio com Aquis, filho de Maacá e rei de Gate. Quando contaram a Simei: “Seus escravos estão em Gate”,"
+        },
+        {
+          "versiculo": 40,
+          "texto": "Simei selou imediatamente seu jumento e foi a Aquis, em Gate, em busca dos seus escravos. Quando Simei voltou de Gate com seus escravos,"
+        },
+        {
+          "versiculo": 41,
+          "texto": "informaram a Salomão: “Simei saiu de Jerusalém, foi a Gate e voltou.”"
+        },
+        {
+          "versiculo": 42,
+          "texto": "Em vista disso, o rei chamou Simei e disse-lhe: “Não o pus sob juramento por Jeová e não o avisei: ‘No dia em que você sair daqui e for para qualquer outro lugar, pode ter certeza de que morrerá’? E você não me disse: ‘O que o senhor está dizendo é justo, eu obedecerei’?"
+        },
+        {
+          "versiculo": 43,
+          "texto": "Então por que não guardou o juramento que fez perante Jeová e a ordem que lhe dei?”"
+        },
+        {
+          "versiculo": 44,
+          "texto": "O rei disse então a Simei: “No seu coração você sabe muito bem todo o mal que fez a Davi, meu pai; e Jeová fará o mal que você causou recair sobre a sua própria cabeça."
+        },
+        {
+          "versiculo": 45,
+          "texto": "Mas o rei Salomão será abençoado, e o trono de Davi ficará firmemente estabelecido perante Jeová para sempre.”"
+        },
+        {
+          "versiculo": 46,
+          "texto": "E o rei deu ordem a Benaia, filho de Jeoiada, que saiu e golpeou Simei, e ele morreu. Assim, o reino ficou firmemente estabelecido nas mãos de Salomão."
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 3:1-28 REPRODUZIR CONTEÚDO DO LIVRO Salomão se casa com a filha de Faraó ( 1-3 ) Jeová aparece a Salomão num sonho ( 4-15 ) Salomão pede sabedoria ( 7-9 ) Salomão julga o caso de duas mães ( 16-28 )"
+        },
+        {
+          "versiculo": 3,
+          "texto": "Salomão aliou-se por casamento a Faraó, rei do Egito. Ele se casou com a filha de Faraó. Ele a levou para a Cidade de Davi até que terminasse a construção da sua própria casa e da casa de Jeová, bem como da muralha em volta de Jerusalém."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Mas o povo ainda oferecia sacrifícios nos altos sagrados, porque até aquela época ainda não se tinha construído uma casa para o nome de Jeová."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Salomão continuava a amar a Jeová, andando nos decretos de Davi, seu pai, só que oferecia sacrifícios e fazia fumegar ofertas nos altos sagrados."
+        },
+        {
+          "versiculo": 4,
+          "texto": "O rei foi a Gibeão para oferecer sacrifícios, pois aquele era o alto sagrado mais destacado. Salomão ofereceu mil sacrifícios queimados naquele altar."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Em Gibeão, Jeová apareceu de noite a Salomão num sonho. Deus lhe disse: “Peça o que você gostaria que eu lhe desse.”"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Então Salomão disse: “Tu demonstraste grande amor leal ao teu servo Davi, meu pai, pois ele andou diante de ti de modo fiel e justo, e com um coração reto. E tu continuas a demonstrar-lhe este grande amor leal até hoje, dando-lhe um filho para sentar-se no seu trono."
+        },
+        {
+          "versiculo": 7,
+          "texto": "E agora, Jeová, meu Deus, tu fizeste teu servo rei no lugar de Davi, meu pai, embora eu seja apenas um jovem inexperiente."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Teu servo está entre o povo que escolheste, um povo tão grande que não pode ser contado nem enumerado."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Portanto, concede ao teu servo um coração obediente para julgar o teu povo, para discernir o bem do mal, pois quem pode julgar este teu povo, que é tão numeroso?”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "O pedido que Salomão fez agradou a Jeová."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Então Deus lhe disse: “Visto que você pediu isso, e não pediu uma vida longa, nem riquezas, nem a morte dos seus inimigos, mas pediu entendimento para ouvir questões judiciais,"
+        },
+        {
+          "versiculo": 12,
+          "texto": "farei o que você pediu. Eu lhe darei um coração sábio e entendido, de modo que nunca houve nem haverá ninguém igual a você."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Além disso, vou dar-lhe também o que não pediu, tanto riquezas como glória, de modo que não haverá nenhum outro rei igual a você durante a sua vida."
+        },
+        {
+          "versiculo": 14,
+          "texto": "E, se você andar nos meus caminhos, guardando os meus decretos e os meus mandamentos, assim como fez Davi, seu pai, também vou dar-lhe uma vida longa.”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Quando Salomão acordou, percebeu que tinha sido um sonho. Ele voltou então para Jerusalém, ficou de pé diante da Arca do Pacto de Jeová e ofereceu sacrifícios queimados e ofertas de participação em comum. Fez também um banquete para todos os seus servos."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Naqueles dias, duas prostitutas foram ao rei e ficaram de pé diante dele."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Uma das mulheres disse: “Por favor, meu senhor, eu e esta mulher moramos na mesma casa, e eu dei à luz quando ela estava na casa."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Três dias depois de eu ter dado à luz, esta mulher também deu à luz. Estávamos juntas, só nós duas; não havia ninguém conosco na casa."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Durante a noite, o filho desta mulher morreu, porque ela se deitou sobre ele."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Então ela se levantou no meio da noite, enquanto eu, a escrava do meu senhor, dormia, e tirou o meu filho do meu lado e o colocou ao lado dela; e o filho dela, que estava morto, ela colocou nos meus braços."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Quando me levantei de manhã para amamentar o meu filho, percebi que ele estava morto. Assim, olhei bem para ele e vi que não era o filho que eu tinha dado à luz.”"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Mas a outra mulher disse: “Não! O meu filho é o vivo, e o seu filho é o morto!” E a primeira mulher dizia: “Não! O seu filho é o morto, e o meu filho é o vivo!” E assim discutiam perante o rei."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Por fim, o rei disse: “Uma diz: ‘O meu filho é o que está vivo, e o seu filho é o que está morto!’ e a outra diz: ‘Não! O seu filho é o morto, e o meu filho é o vivo!’”"
+        },
+        {
+          "versiculo": 24,
+          "texto": "Então o rei disse: “Tragam uma espada.” Assim, trouxeram uma espada para o rei."
+        },
+        {
+          "versiculo": 25,
+          "texto": "E o rei disse: “Cortem o menino vivo em dois, e deem metade a uma mulher e metade à outra.”"
+        },
+        {
+          "versiculo": 26,
+          "texto": "Imediatamente a mulher cujo filho era o vivo, movida pela compaixão por seu filho, implorou ao rei: “Por favor, meu senhor! Deem o menino vivo a ela! Não o matem!” Mas a outra mulher dizia: “Ele não será nem meu nem seu! Podem cortá-lo em dois!”"
+        },
+        {
+          "versiculo": 27,
+          "texto": "Então o rei disse: “Deem o menino vivo à primeira mulher, não o matem! Ela é a mãe.”"
+        },
+        {
+          "versiculo": 28,
+          "texto": "E todo o Israel soube da decisão judicial que o rei havia proferido, e ficaram impressionados com o rei, pois viram que a sabedoria de Deus estava com ele para executar a justiça."
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 4:1-34 REPRODUZIR CONTEÚDO DO LIVRO Administração de Salomão ( 1-19 ) Prosperidade sob o reinado de Salomão ( 20-28 ) Segurança debaixo da videira e da figueira ("
+        },
+        {
+          "versiculo": 25,
+          "texto": ") Sabedoria e provérbios de Salomão ( 29-34 )"
+        },
+        {
+          "versiculo": 4,
+          "texto": "O rei Salomão governava todo o Israel."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Estes eram os seus altos funcionários: Azarias, filho de Zadoque, era o sacerdote;"
+        },
+        {
+          "versiculo": 3,
+          "texto": "Eliorefe e Aías, filhos de Sisa, eram secretários; Jeosafá, filho de Ailude, era o cronista;"
+        },
+        {
+          "versiculo": 4,
+          "texto": "Benaia, filho de Jeoiada, era chefe do exército; Zadoque e Abiatar eram sacerdotes;"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Azarias, filho de Natã, era o supervisor dos governantes distritais; Zabude, filho de Natã, era sacerdote e amigo do rei;"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Aisar era o encarregado da casa; e Adonirão, filho de Abda, era o encarregado dos convocados para trabalho obrigatório."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Salomão tinha 12 governantes distritais sobre todo o Israel, que forneciam alimento ao rei e aos da sua casa. Cada um tinha a responsabilidade de fornecer o alimento durante um mês no ano."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Estes eram os governantes distritais: o filho de Hur na região montanhosa de Efraim;"
+        },
+        {
+          "versiculo": 9,
+          "texto": "o filho de Dequer em Macaz, Saalbim, Bete-Semes e Elom-Bete-Hanã;"
+        },
+        {
+          "versiculo": 10,
+          "texto": "o filho de Hesede em Arubote (ele supervisionava Socó e toda a terra de Héfer);"
+        },
+        {
+          "versiculo": 11,
+          "texto": "o filho de Abinadabe em todas as encostas de Dor (Tafate, filha de Salomão, tornou-se sua esposa);"
+        },
+        {
+          "versiculo": 12,
+          "texto": "Baana, filho de Ailude, em Taanaque, Megido e toda a região de Bete-Seã (que faz fronteira com a região de Zaretã, abaixo de Jezreel), desde Bete-Seã até Abel-Meolá, e até a região de Jocmeão;"
+        },
+        {
+          "versiculo": 13,
+          "texto": "o filho de Geber em Ramote-Gileade (ele supervisionava as aldeias de tendas de Jair, filho de Manassés, que ficam em Gileade; também supervisionava a região de Argobe, que fica em Basã: 60 cidades grandes com muralhas e trancas de cobre);"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Ainadabe, filho de Ido, em Maanaim;"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Aimaás em Naftali (ele tomou como esposa outra filha de Salomão, Basemate);"
+        },
+        {
+          "versiculo": 16,
+          "texto": "Baana, filho de Husai, em Aser e Bealote;"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Jeosafá, filho de Parua, em Issacar;"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Simei, filho de Ela, em Benjamim;"
+        },
+        {
+          "versiculo": 19,
+          "texto": "Geber, filho de Uri, na terra de Gileade, a terra que tinha sido de Siom, rei dos amorreus, e de Ogue, rei de Basã. Havia também um governante encarregado de todos esses governantes distritais do país."
+        },
+        {
+          "versiculo": 20,
+          "texto": "O povo de Judá e Israel era tão numeroso como os grãos de areia à beira do mar; eles comiam, bebiam e se alegravam."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Salomão governava todos os reinos desde o rio Eufrates até a terra dos filisteus, e até o limite do território do Egito. Esses reinos traziam tributos e serviram a Salomão durante todos os dias de sua vida."
+        },
+        {
+          "versiculo": 22,
+          "texto": "As provisões diárias de Salomão eram 30 coros de farinha fina e 60 coros de farinha comum,"
+        },
+        {
+          "versiculo": 23,
+          "texto": "bem como 10 cabeças de gado bovino de engorda, 20 de gado criado no pasto, 100 ovelhas, além de alguns cervos, gazelas, corços e também cucos criados para consumo."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Pois ele dominava tudo deste lado do rio Eufrates, desde Tifsa até Gaza, incluindo todos os reis deste lado do rio; e ele tinha paz em todas as regiões ao seu redor."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Judá e Israel moraram em segurança, cada um debaixo da sua própria videira e debaixo da sua própria figueira, desde Dã até Berseba, durante todos os dias de Salomão."
+        },
+        {
+          "versiculo": 26,
+          "texto": "E Salomão tinha 4.000 baias para os cavalos dos seus carros de guerra e 12.000 cavalos."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Os governantes distritais supriam de alimento o rei Salomão e todos os que comiam à mesa do rei Salomão. Cada um era responsável por um mês, e cuidava para que não faltasse nada."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Eles também levavam a sua cota de cevada e palha aonde fosse necessário para os cavalos, inclusive para os cavalos que puxavam carros."
+        },
+        {
+          "versiculo": 29,
+          "texto": "E Deus deu a Salomão sabedoria e discernimento num grau extraordinário, e um coração com uma compreensão além de medida, como a areia à beira do mar."
+        },
+        {
+          "versiculo": 30,
+          "texto": "A sabedoria de Salomão era maior do que a sabedoria de todos os orientais e do que toda a sabedoria do Egito."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Ele era mais sábio do que qualquer outro homem, mais do que Etã, o ezraíta, e Hemã, Calcol e Darda, filhos de Maol; sua fama se espalhou por todas as nações ao redor."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Ele compôs 3.000 provérbios, e seus cânticos chegaram a 1.005."
+        },
+        {
+          "versiculo": 33,
+          "texto": "Ele falava sobre as plantas, do cedro do Líbano ao hissopo que cresce no muro; falava sobre os animais, sobre as aves, sobre os animais rasteiros e sobre os peixes."
+        },
+        {
+          "versiculo": 34,
+          "texto": "Pessoas de todas as nações vinham para ouvir a sabedoria de Salomão, incluindo reis de toda a terra que tinham ouvido falar da sua sabedoria."
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 5:1-18 REPRODUZIR CONTEÚDO DO LIVRO Rei Hirão fornece materiais de construção ( 1-12 ) Trabalhadores convocados por Salomão ( 13-18 )"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Quando Hirão, rei de Tiro, ficou sabendo que Salomão havia sido ungido rei como sucessor do seu pai, enviou seus servos a Salomão, pois Hirão sempre tinha sido amigo de Davi."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Então Salomão mandou dizer a Hirão:"
+        },
+        {
+          "versiculo": 3,
+          "texto": "“Sem dúvida, você sabe que Davi, meu pai, não pôde construir uma casa para o nome de Jeová, seu Deus, por causa das guerras travadas contra ele de todos os lados, até que Jeová colocou os seus inimigos debaixo da sola dos seus pés."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Mas agora, Jeová, meu Deus, me deu descanso de todos os lados. Não há ninguém que se oponha a mim, e não acontece nada de mau."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Por isso pretendo construir uma casa para o nome de Jeová, meu Deus, assim como Jeová prometeu a Davi, meu pai, dizendo: ‘Seu filho, a quem farei sentar no trono no seu lugar, é quem construirá uma casa para o meu nome.’"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Agora ordene que seu povo corte para mim cedros do Líbano; os meus servos trabalharão com os seus servos, e eu pagarei o salário dos seus servos conforme o valor que você determinar. Pois você sabe muito bem que nós não sabemos cortar árvores como os sidônios.”"
+        },
+        {
+          "versiculo": 7,
+          "texto": "Quando Hirão ouviu as palavras de Salomão, alegrou-se muito e disse: “Que hoje Jeová seja louvado, por ter dado a Davi um filho sábio para governar este grande povo!”"
+        },
+        {
+          "versiculo": 8,
+          "texto": "E Hirão mandou dizer a Salomão: “Ouvi a mensagem que me enviou. Farei tudo o que você desejar, providenciando madeira de cedro e madeira de junípero."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Meus servos as levarão para baixo, do Líbano até o mar, e eu farei delas jangadas para seguirem por mar até o lugar que você me indicar. Lá eu as desmancharei, e você poderá levar a madeira embora. Em troca, você providenciará o alimento que eu pedir para os da minha casa.”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Assim, Hirão forneceu toda a madeira de cedro e de junípero que Salomão quis."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Em troca, Salomão deu a Hirão 20.000 coros de trigo como alimento para os da sua casa e 20 coros de azeite de oliva puro. Isso era o que Salomão dava a Hirão todo ano."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Jeová deu sabedoria a Salomão, assim como lhe tinha prometido; e havia paz entre Hirão e Salomão, e os dois fizeram um acordo."
+        },
+        {
+          "versiculo": 13,
+          "texto": "O rei Salomão convocou homens de todo o Israel para trabalho obrigatório; 30.000 homens foram convocados."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Ele os enviava ao Líbano em grupos de 10.000 por mês. Eles ficavam um mês no Líbano e dois meses em casa. E Adonirão supervisionava os convocados para trabalho obrigatório."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Salomão tinha 70.000 trabalhadores comuns e 80.000 cortadores de pedras nos montes,"
+        },
+        {
+          "versiculo": 16,
+          "texto": "além de 3.300 encarregados que serviam como capatazes para supervisionar os trabalhadores."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Às ordens do rei, eles extraíram grandes pedras, pedras caras, para que o alicerce da casa fosse lançado com pedras lavradas."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Portanto, os construtores de Salomão e os construtores de Hirão, bem como os gebalitas, cortavam as pedras e preparavam as madeiras e as pedras para a construção da casa."
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 6:1-38 REPRODUZIR CONTEÚDO DO LIVRO Salomão constrói o templo ( 1-38 ) Compartimento interno ( 19-22 ) Querubins ( 23-28 ) Entalhes, portas e pátio interno ( 29-36 ) O templo é terminado em cerca de sete anos ( 37, 38 )"
+        },
+        {
+          "versiculo": 6,
+          "texto": "No quadringentésimo octogésimo ano depois da saída dos israelitas da terra do Egito, no quarto ano do reinado de Salomão sobre Israel, no mês de zive (isto é, o segundo mês), ele começou a construir a casa de Jeová."
+        },
+        {
+          "versiculo": 2,
+          "texto": "A casa que o rei Salomão construiu para Jeová tinha 60 côvados de comprimento, 20 côvados de largura e 30 côvados de altura."
+        },
+        {
+          "versiculo": 3,
+          "texto": "O pórtico na frente do templo tinha a mesma largura da casa: 20 côvados. O pórtico acrescentava 10 côvados ao comprimento da casa."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Ele fez as janelas da casa com vãos que se estreitavam."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Além disso, encostado às paredes da casa, ele construiu um anexo acompanhando as paredes da casa — as do templo e do compartimento interno. Ele fez salas laterais ao redor da casa."
+        },
+        {
+          "versiculo": 6,
+          "texto": "O andar inferior de salas laterais tinha cinco côvados de largura, o andar do meio tinha seis côvados de largura e o andar superior tinha sete côvados de largura, pois ele deixou recuos nas paredes ao redor de toda a casa, para que as vigas não precisassem ser inseridas nas paredes da casa."
+        },
+        {
+          "versiculo": 7,
+          "texto": "A casa foi construída com pedras já talhadas na pedreira, de modo que não se ouviam martelos, machados nem nenhum outro instrumento de ferro na casa durante a construção."
+        },
+        {
+          "versiculo": 8,
+          "texto": "A entrada do andar inferior de salas laterais ficava no lado sul da casa, e havia uma escada em caracol para subir ao andar do meio, e do andar do meio ao andar superior."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Ele continuou construindo a casa e a terminou; ele cobriu a casa com vigas de cedro e fileiras de tábuas de cedro."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Construiu as salas laterais ao redor de toda a casa, cada uma com cinco côvados de altura, e elas estavam ligadas à casa por meio de madeiras de cedro."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Nesse meio-tempo, Salomão recebeu a seguinte palavra de Jeová:"
+        },
+        {
+          "versiculo": 12,
+          "texto": "“Quanto a esta casa que você está construindo, se você andar nos meus decretos, cumprir as minhas decisões judiciais e obedecer a todos os meus mandamentos, andando segundo eles, eu cumprirei a promessa que fiz a Davi, seu pai, com relação a você,"
+        },
+        {
+          "versiculo": 13,
+          "texto": "residirei entre os israelitas e não abandonarei o meu povo Israel.”"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Salomão continuou construindo a casa para terminá-la."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Ele cobriu as paredes da casa, por dentro, com tábuas de cedro. Ele revestiu de madeira as paredes internas, desde o chão da casa até as vigas do teto; e revestiu o chão da casa com tábuas de junípero."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Ele construiu uma seção que media 20 côvados a partir da parede de trás da casa; ela era de tábuas de cedro, do chão até as vigas; assim ele construiu dentro dela o compartimento interno, o Santíssimo."
+        },
+        {
+          "versiculo": 17,
+          "texto": "E o templo — a parte da casa na frente dele — tinha 40 côvados."
+        },
+        {
+          "versiculo": 18,
+          "texto": "A madeira de cedro no interior da casa era entalhada com figuras de cabaças e de flores abertas. Tudo era de cedro; não se viam pedras."
+        },
+        {
+          "versiculo": 19,
+          "texto": "E ele preparou o compartimento interno dentro da casa para ali colocar a Arca do Pacto de Jeová."
+        },
+        {
+          "versiculo": 20,
+          "texto": "O compartimento interno tinha 20 côvados de comprimento, 20 côvados de largura e 20 côvados de altura; ele o revestiu de ouro puro, e o altar ele revestiu de cedro."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Salomão revestiu o interior da casa com ouro puro e colocou correntes de ouro na frente do compartimento interno, que era revestido de ouro."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Revestiu de ouro toda a casa, a casa inteira; ele também revestiu de ouro todo o altar, que ficava perto do compartimento interno."
+        },
+        {
+          "versiculo": 23,
+          "texto": "No compartimento interno ele fez dois querubins de madeira de pinho, cada um com dez côvados de altura."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Uma asa do querubim tinha cinco côvados, e a outra asa tinha cinco côvados. Havia dez côvados da ponta de uma asa até a ponta da outra asa."
+        },
+        {
+          "versiculo": 25,
+          "texto": "O segundo querubim também tinha dez côvados. Os dois querubins tinham o mesmo tamanho e o mesmo formato."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Um querubim tinha dez côvados de altura, e o outro querubim tinha a mesma altura."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Então ele pôs os querubins dentro do compartimento interno. As asas dos querubins estavam estendidas, de modo que a asa de um querubim tocava uma parede e a asa do outro querubim tocava a outra parede, e as outras asas se estendiam para o centro do compartimento, de modo que tocavam uma na outra."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Ele também revestiu os querubins com ouro."
+        },
+        {
+          "versiculo": 29,
+          "texto": "E, em todas as paredes da casa, tanto ao redor do compartimento interno como do externo, ele entalhou figuras de querubins, de palmeiras e de flores abertas."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Ele revestiu de ouro o assoalho da casa, tanto no compartimento interno como no externo."
+        },
+        {
+          "versiculo": 31,
+          "texto": "E para a entrada do compartimento interno ele fez portas de madeira de pinho, colunas laterais e ombreiras, como uma quinta parte."
+        },
+        {
+          "versiculo": 32,
+          "texto": "As duas portas eram de madeira de pinho, e nelas ele entalhou querubins, palmeiras e flores abertas, e as revestiu de ouro; cobriu os querubins e as palmeiras com ouro batido a martelo."
+        },
+        {
+          "versiculo": 33,
+          "texto": "Para a entrada do templo, ele fez as ombreiras de madeira de pinho da mesma maneira, que pertenciam a uma quarta parte."
+        },
+        {
+          "versiculo": 34,
+          "texto": "E ele fez duas portas de madeira de junípero. Uma porta tinha duas folhas que giravam por meio de pivôs, e a outra porta tinha duas folhas que também giravam por meio de pivôs."
+        },
+        {
+          "versiculo": 35,
+          "texto": "Ele entalhou nelas figuras de querubins, palmeiras e flores abertas, e folheou de ouro as figuras."
+        },
+        {
+          "versiculo": 36,
+          "texto": "Ele construiu o muro do pátio interno com três fileiras de pedras lavradas e uma fileira de madeira de cedro."
+        },
+        {
+          "versiculo": 37,
+          "texto": "No quarto ano, no mês de zive, lançou-se o alicerce da casa de Jeová;"
+        },
+        {
+          "versiculo": 38,
+          "texto": "e no décimo primeiro ano, no mês de bul (isto é, no oitavo mês), a casa foi concluída em todos os detalhes, conforme o projeto. Assim, ele levou sete anos para construí-la."
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 7:1-51 REPRODUZIR CONTEÚDO DO LIVRO Complexo do palácio de Salomão ( 1-12 ) Hirão, homem habilidoso, auxilia Salomão ( 13-47 ) As duas colunas de cobre ( 15-22 ) O Mar feito de metal fundido ( 23-26 ) Os dez carrinhos e bacias de cobre ( 27-39 ) Móveis e utensílios de ouro ( 48-51 )"
+        },
+        {
+          "versiculo": 7,
+          "texto": "Salomão levou 13 anos para construir e terminar a sua própria casa."
+        },
+        {
+          "versiculo": 2,
+          "texto": "E ele construiu a Casa da Floresta do Líbano. Ela tinha 100 côvados de comprimento, 50 côvados de largura e 30 côvados de altura; ficava sobre quatro fileiras de colunas de cedro, e havia caibros de cedro acima das colunas."
+        },
+        {
+          "versiculo": 3,
+          "texto": "A parte superior era revestida de cedro, acima das vigas que ficavam sobre as colunas; havia 45, com 15 por fileira."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Havia três fileiras de janelas com moldura, e as janelas ficavam uma de frente para a outra, em três níveis."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Todas as entradas e as ombreiras eram retangulares, assim como a parte da frente das janelas, que ficavam uma de frente para a outra, em três níveis."
+        },
+        {
+          "versiculo": 6,
+          "texto": "E ele construiu o Salão das Colunas com 50 côvados de comprimento e 30 côvados de largura; e na frente dele havia um pórtico com colunas e um alpendre."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Ele construiu também o Salão do Trono, onde ele julgava — o Salão do Julgamento. E revestiram-no de cedro, desde o chão até as vigas."
+        },
+        {
+          "versiculo": 8,
+          "texto": "A casa em que ele iria morar, no outro pátio, ficava afastada do Salão, e foi feita no mesmo estilo. E Salomão também construiu uma casa semelhante a este Salão para a filha de Faraó, que ele tinha tomado como esposa."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Todas essas construções, desde o alicerce até o alto das paredes, e também a parte externa até o pátio grande, foram feitas com pedras caras, lavradas sob medida e serradas com serras de pedra, tanto no lado interno como no externo."
+        },
+        {
+          "versiculo": 10,
+          "texto": "O alicerce foi lançado com pedras caras e muito grandes; algumas pedras tinham dez côvados e outras oito côvados."
+        },
+        {
+          "versiculo": 11,
+          "texto": "E por cima delas havia outras pedras caras, lavradas sob medida, bem como cedro."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Ao redor do pátio grande havia um muro de três fileiras de pedras lavradas e uma fileira de cedro, igual ao muro do pátio interno da casa de Jeová e do pórtico da casa."
+        },
+        {
+          "versiculo": 13,
+          "texto": "O rei Salomão mandou buscar Hirão em Tiro."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Ele era filho de uma viúva da tribo de Naftali, e seu pai era um fundidor de cobre, de Tiro. Hirão tinha grande habilidade, entendimento e experiência para todo tipo de trabalho em cobre. Assim, ele se apresentou ao rei Salomão e fez todo o trabalho que ele lhe designou."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Então ele fez as duas colunas de cobre fundido. Cada coluna tinha 18 côvados de altura e era necessário uma corda de medir de 12 côvados para dar a volta em cada uma das colunas."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Também fez dois capitéis de cobre fundido para serem postos no topo das colunas. A altura de um capitel era de cinco côvados, e a altura do outro capitel também era de cinco côvados."
+        },
+        {
+          "versiculo": 17,
+          "texto": "O capitel no topo de cada coluna tinha redes de malha com correntes entrelaçadas, sete para um capitel e sete para o outro capitel."
+        },
+        {
+          "versiculo": 18,
+          "texto": "E ele fez duas fileiras de romãs em volta de cada rede para cobrir os capitéis que ficavam no topo das colunas; ele fez o mesmo para os dois capitéis."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Os capitéis no topo das colunas do pórtico tinham o formato de um lírio de quatro côvados de altura."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Os capitéis ficavam sobre as duas colunas, logo acima da parte arredondada rodeada pelas redes; e havia 200 romãs em fileiras em volta de cada capitel."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Ele ergueu as colunas do pórtico do templo. Ergueu a coluna da direita e lhe deu o nome de Jaquim, depois ergueu a coluna da esquerda e lhe deu o nome de Boaz."
+        },
+        {
+          "versiculo": 22,
+          "texto": "O topo das colunas tinha o formato de um lírio. Assim se completou o trabalho das colunas."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Então ele fez o Mar, de metal fundido. Ele era circular, com 10 côvados de uma borda à outra e 5 côvados de altura, e era necessário uma corda de medir de 30 côvados para dar a volta nele."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Abaixo da borda, em toda a sua volta, havia enfeites em forma de cabaças, dez por côvado, circundando todo o Mar, com duas fileiras de cabaças fundidas com ele numa só peça."
+        },
+        {
+          "versiculo": 25,
+          "texto": "O Mar ficava sobre 12 touros, três voltados para o norte, três para o oeste, três para o sul, e três para o leste; o Mar ficava em cima deles, e a parte traseira deles estava voltada para o centro do Mar."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Ele tinha a espessura da largura da mão; a sua borda foi feita como a borda de um cálice, com o formato de uma flor de lírio. Ele continha 2.000 batos."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Então ele fez os dez carrinhos de cobre. Cada carrinho tinha quatro côvados de comprimento, quatro côvados de largura e três côvados de altura."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Os carrinhos foram feitos deste modo: tinham painéis laterais, e esses painéis ficavam entre as armações."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Nos painéis laterais entre as armações havia leões, touros e querubins, e nas armações havia as mesmas figuras. Acima e abaixo dos leões e dos touros havia figuras de festões em relevo."
+        },
+        {
+          "versiculo": 30,
+          "texto": "E cada carrinho tinha quatro rodas de cobre e eixos de cobre, fixados em quatro cantoneiras. Abaixo da bacia havia suportes, que tinham figuras de festões fundidas em suas laterais."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Sua abertura ficava por dentro da coroa e tinha um côvado de altura; a abertura da coroa era redonda e, junto com os suportes, formava uma estrutura de apoio de um côvado e meio de altura, e na coroa havia gravuras. E seus painéis laterais eram retangulares, não redondos."
+        },
+        {
+          "versiculo": 32,
+          "texto": "As quatro rodas ficavam abaixo dos painéis laterais do carrinho, e os suportes das rodas ficavam presos ao carrinho, e cada roda tinha um côvado e meio de altura."
+        },
+        {
+          "versiculo": 33,
+          "texto": "As rodas eram como rodas de carro de guerra. Seus suportes, aros, raios e cubos eram todos de metal fundido."
+        },
+        {
+          "versiculo": 34,
+          "texto": "Havia quatro suportes em cada carrinho; esses suportes eram fundidos como parte do carrinho."
+        },
+        {
+          "versiculo": 35,
+          "texto": "Na parte superior do carrinho havia uma faixa circular de meio côvado de altura; nessa parte superior do carrinho, as molduras e os painéis laterais eram fundidos como parte do carrinho."
+        },
+        {
+          "versiculo": 36,
+          "texto": "Na superfície das molduras e nos painéis laterais ele gravou querubins, leões e palmeiras, conforme o espaço disponível em cada um, além de festões em toda a volta."
+        },
+        {
+          "versiculo": 37,
+          "texto": "Foi assim que ele fez os dez carrinhos; todos foram fundidos da mesma maneira, com a mesma medida e o mesmo formato."
+        },
+        {
+          "versiculo": 38,
+          "texto": "Ele fez dez bacias de cobre; cada uma tinha capacidade para 40 batos. Cada bacia tinha quatro côvados. Havia uma bacia para cada um dos dez carrinhos."
+        },
+        {
+          "versiculo": 39,
+          "texto": "Então ele pôs cinco carrinhos do lado direito da casa e cinco do lado esquerdo da casa, e pôs o Mar do lado direito da casa, ao sudeste."
+        },
+        {
+          "versiculo": 40,
+          "texto": "Hirão também fez as bacias, as pás e as tigelas. Assim, Hirão terminou todo o trabalho que fez para o rei Salomão com respeito à casa de Jeová:"
+        },
+        {
+          "versiculo": 41,
+          "texto": "as duas colunas e os capitéis em forma de tigela que ficavam no topo das duas colunas; as duas redes para cobrir os dois capitéis em forma de tigela que ficavam no topo das colunas;"
+        },
+        {
+          "versiculo": 42,
+          "texto": "as 400 romãs para as duas redes — duas fileiras de romãs para cada rede — para cobrir os dois capitéis em forma de tigela que ficavam nas duas colunas;"
+        },
+        {
+          "versiculo": 43,
+          "texto": "os dez carrinhos e as dez bacias nos carrinhos;"
+        },
+        {
+          "versiculo": 44,
+          "texto": "o Mar e os 12 touros debaixo do Mar;"
+        },
+        {
+          "versiculo": 45,
+          "texto": "e os recipientes, as pás, as tigelas e todos os utensílios, que Hirão fez de cobre polido para o rei Salomão, para a casa de Jeová."
+        },
+        {
+          "versiculo": 46,
+          "texto": "O rei os fundiu em moldes de argila no distrito do Jordão, entre Sucote e Zaretã."
+        },
+        {
+          "versiculo": 47,
+          "texto": "Salomão não pesou os utensílios porque a quantidade era muito grande. O peso do cobre não foi calculado."
+        },
+        {
+          "versiculo": 48,
+          "texto": "Salomão fez os móveis e todos os utensílios para a casa de Jeová: o altar de ouro; a mesa de ouro para colocar os pães da proposição;"
+        },
+        {
+          "versiculo": 49,
+          "texto": "os candelabros de ouro puro, cinco à direita e cinco à esquerda, diante do compartimento interno, as flores, as lâmpadas e os apagadores, de ouro;"
+        },
+        {
+          "versiculo": 50,
+          "texto": "as bacias, os cortadores de pavio, as tigelas, as taças e os braseiros, de ouro puro; e os encaixes de ouro para as portas do compartimento interno, isto é, o Santíssimo, e para as portas do templo."
+        },
+        {
+          "versiculo": 51,
+          "texto": "Assim o rei Salomão terminou todo o trabalho que tinha de fazer para a casa de Jeová. Salomão levou então para dentro as coisas que Davi, seu pai, havia tornado sagradas, e pôs a prata, o ouro e os utensílios no tesouro da casa de Jeová."
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 8:1-66 REPRODUZIR CONTEÚDO DO LIVRO A Arca é levada para o templo ( 1-13 ) Salomão fala ao povo ( 14-21 ) Oração de dedicação feita por Salomão ( 22-53 ) Salomão abençoa o povo ( 54-61 ) Sacrifícios e festividade da dedicação ( 62-66 )"
+        },
+        {
+          "versiculo": 8,
+          "texto": "Naqueles dias, Salomão reuniu os anciãos de Israel: todos os cabeças das tribos e os maiorais das casas paternas de Israel. Eles vieram até o rei Salomão, em Jerusalém, para que a Arca do Pacto de Jeová fosse transferida da Cidade de Davi, isto é, Sião."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Todos os homens de Israel se reuniram diante do rei Salomão na festividade, no mês de etanim, isto é, o sétimo mês."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Então todos os anciãos de Israel vieram, e os sacerdotes levantaram a Arca."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Eles carregaram para cima a Arca de Jeová, a tenda de reunião e todos os utensílios sagrados que havia na tenda. Os sacerdotes e os levitas levaram-nos para cima."
+        },
+        {
+          "versiculo": 5,
+          "texto": "O rei Salomão e toda a assembleia de Israel, que tinha sido convocada para se reunir com ele, estavam diante da Arca; e sacrificaram tantas ovelhas e bois que não podiam ser contados nem enumerados."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Então os sacerdotes levaram a Arca do Pacto de Jeová para o seu lugar, dentro do compartimento interno da casa, o Santíssimo, e a colocaram debaixo das asas dos querubins."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Assim, as asas dos querubins ficavam estendidas sobre o lugar onde estava a Arca, de modo que os querubins cobriam a Arca e seus varais."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Os varais eram tão compridos que as suas pontas podiam ser vistas do Santo, na frente do compartimento interno, mas não podiam ser vistas de fora. E os varais estão ali até hoje."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Não havia nada na Arca a não ser as duas tábuas de pedra colocadas ali por Moisés, em Horebe, quando Jeová fez um pacto com o povo de Israel ao saírem da terra do Egito."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Quando os sacerdotes saíram do lugar santo, a nuvem encheu a casa de Jeová."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Os sacerdotes não puderam ficar lá para realizar o seu serviço por causa da nuvem, pois a glória de Jeová enchia a casa de Jeová."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Então Salomão disse: “Jeová disse que residiria em densas nuvens."
+        },
+        {
+          "versiculo": 13,
+          "texto": "E eu fui bem-sucedido em construir para ti uma magnífica morada, um lugar estabelecido para nele residires para sempre.”"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Então o rei se virou para toda a congregação de Israel e começou a abençoá-la, enquanto toda a congregação de Israel estava de pé."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Ele disse: “Que Jeová, o Deus de Israel, seja louvado, aquele que cumpriu com a própria mão o que a sua boca havia prometido a Davi, meu pai:"
+        },
+        {
+          "versiculo": 16,
+          "texto": "‘Desde o dia em que tirei o meu povo Israel do Egito, não escolhi nenhuma cidade dentre todas as tribos de Israel a fim de nela construir uma casa para que o meu nome permanecesse ali, mas escolhi Davi para reinar sobre o meu povo Israel.’"
+        },
+        {
+          "versiculo": 17,
+          "texto": "E o desejo de coração de Davi, meu pai, era construir uma casa para o nome de Jeová, o Deus de Israel."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Mas Jeová disse a Davi, meu pai: ‘O seu desejo de coração é construir uma casa para o meu nome, e é bom que você tenha esse desejo no coração."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Mas você não construirá a casa; o seu filho, que procederá de você, é quem construirá a casa para o meu nome.’"
+        },
+        {
+          "versiculo": 20,
+          "texto": "Jeová cumpriu a promessa que fez, pois sucedi a Davi, meu pai, e me sentei no trono de Israel, assim como Jeová prometeu. Também construí a casa para o nome de Jeová, o Deus de Israel,"
+        },
+        {
+          "versiculo": 21,
+          "texto": "e estabeleci ali um lugar para a Arca, que contém o pacto que Jeová fez com os nossos antepassados quando os tirou da terra do Egito.”"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Então Salomão ficou de pé diante do altar de Jeová, perante toda a congregação de Israel, estendeu as mãos para os céus"
+        },
+        {
+          "versiculo": 23,
+          "texto": "e disse: “Ó Jeová, Deus de Israel, não há Deus igual a ti nos céus, em cima, nem na terra, embaixo; tu guardas o pacto e demonstras amor leal aos teus servos que andam diante de ti de todo o coração."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Tu cumpriste a promessa que fizeste ao teu servo Davi, meu pai. Fizeste a promessa com a tua própria boca, e hoje a cumpriste com a tua própria mão."
+        },
+        {
+          "versiculo": 25,
+          "texto": "E agora, ó Jeová, Deus de Israel, cumpre a promessa que fizeste ao teu servo Davi, meu pai, quando disseste: ‘Sempre haverá um descendente seu diante de mim para sentar no trono de Israel, desde que os seus filhos prestem atenção ao caminho deles, andando diante de mim assim como você andou diante de mim.’"
+        },
+        {
+          "versiculo": 26,
+          "texto": "E agora, por favor, ó Deus de Israel, que se cumpra a promessa que fizeste ao teu servo Davi, meu pai."
+        },
+        {
+          "versiculo": 27,
+          "texto": "“Mas será que Deus realmente morará na terra? Os céus, sim, o céu dos céus, não te podem conter, quanto menos, então, esta casa que construí!"
+        },
+        {
+          "versiculo": 28,
+          "texto": "Agora, presta atenção à oração e ao pedido de favor do teu servo, ó Jeová, meu Deus, e escuta o clamor por ajuda e a oração que o teu servo faz hoje diante de ti."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Que os teus olhos vigiem dia e noite esta casa, o lugar sobre o qual disseste: ‘Ali estará o meu nome’, e que escutes a oração que o teu servo faz em direção a este lugar."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Escuta o pedido de favor do teu servo e o pedido do teu povo Israel quando orarem em direção a este lugar. Que tu ouças do lugar da tua morada, os céus; sim, que tu ouças e perdoes."
+        },
+        {
+          "versiculo": 31,
+          "texto": "“Se um homem pecar contra o seu próximo e for obrigado a fazer um juramento, ficando assim sujeito aos termos desse juramento, e ele for até o teu altar nesta casa enquanto estiver sob esse juramento,"
+        },
+        {
+          "versiculo": 32,
+          "texto": "que tu ouças desde os céus, e que ajas e julgues os teus servos: que declares culpado àquele que fez o mal, fazendo os seus atos recair sobre a sua própria cabeça, e que declares inocente àquele que é justo, recompensando-o conforme a sua própria justiça."
+        },
+        {
+          "versiculo": 33,
+          "texto": "“Se o teu povo Israel for derrotado por um inimigo, por terem persistido em pecar contra ti, e eles voltarem para ti e glorificarem o teu nome, e orarem e implorarem o teu favor nesta casa,"
+        },
+        {
+          "versiculo": 34,
+          "texto": "então que tu ouças desde os céus, e que perdoes o pecado do teu povo Israel e os tragas de volta à terra que deste aos seus antepassados."
+        },
+        {
+          "versiculo": 35,
+          "texto": "“Se os céus se fecharem e não chover, por teu povo ter persistido em pecar contra ti, e eles orarem em direção a este lugar e glorificarem o teu nome, e recuarem do seu pecado, por tu lhes teres ensinado a ser humildes,"
+        },
+        {
+          "versiculo": 36,
+          "texto": "então que tu ouças desde os céus e perdoes o pecado dos teus servos, do teu povo Israel, e os instruas sobre o bom caminho em que devem andar; e que tu tragas chuva sobre a terra que deste ao teu povo como herança."
+        },
+        {
+          "versiculo": 37,
+          "texto": "“Se houver uma fome no país, ou uma peste, calor abrasador, bolor, nuvens de gafanhotos, ou gafanhotos devastadores; ou se o inimigo os cercar em alguma das cidades do país, ou se qualquer outro tipo de praga ou doença ocorrer,"
+        },
+        {
+          "versiculo": 38,
+          "texto": "e um homem ou todo o teu povo Israel fizer uma oração ou apresentar um pedido de favor, qualquer que seja (pois cada um conhece bem a aflição do seu coração), quando eles estenderem as mãos em direção a esta casa,"
+        },
+        {
+          "versiculo": 39,
+          "texto": "então que tu ouças desde os céus, teu lugar de morada, que perdoes e ajas, e que recompenses a cada um conforme todos os seus caminhos, pois conheces o seu coração (só tu realmente conheces o coração de todos os homens),"
+        },
+        {
+          "versiculo": 40,
+          "texto": "para que te temam todos os dias em que viverem na terra que deste aos nossos antepassados."
+        },
+        {
+          "versiculo": 41,
+          "texto": "“Quanto ao estrangeiro que não faz parte do teu povo Israel e que vier de uma terra distante por causa do teu nome"
+        },
+        {
+          "versiculo": 42,
+          "texto": "(pois ouvirão falar do teu grande nome, da tua mão poderosa e do teu braço estendido), e que vier e orar em direção a esta casa,"
+        },
+        {
+          "versiculo": 43,
+          "texto": "que tu também o ouças desde os céus, teu lugar de morada, e que faças tudo que o estrangeiro te pedir, para que todos os povos da terra conheçam o teu nome e te temam assim como o teu povo Israel faz, e para que saibam que o teu nome é invocado sobre esta casa que construí."
+        },
+        {
+          "versiculo": 44,
+          "texto": "“Se o teu povo for à guerra contra o inimigo, seguindo o caminho pelo qual os enviares, e eles orarem a Jeová em direção à cidade que escolheste e em direção à casa que construí para o teu nome,"
+        },
+        {
+          "versiculo": 45,
+          "texto": "então que tu ouças desde os céus a sua oração e o seu pedido de favor, e lhes faças justiça."
+        },
+        {
+          "versiculo": 46,
+          "texto": "“Se eles pecarem contra ti (pois não há homem que não peque), e ficares furioso com eles e os entregares a um inimigo que os leve cativos para a terra do inimigo, distante ou próxima,"
+        },
+        {
+          "versiculo": 47,
+          "texto": "e eles caírem em si na terra para onde forem levados cativos, e voltarem para ti, e implorarem o teu favor na terra dos seus captores, dizendo: ‘Pecamos, fizemos o que é errado e o que é mau’,"
+        },
+        {
+          "versiculo": 48,
+          "texto": "e eles voltarem para ti de todo o coração e de toda a alma na terra dos inimigos que os levarem cativos, e orarem a ti em direção à terra que deste aos seus antepassados, à cidade que escolheste e à casa que construí para o teu nome,"
+        },
+        {
+          "versiculo": 49,
+          "texto": "então que tu ouças a sua oração e o seu pedido de favor desde os céus, teu lugar de morada, e lhes faças justiça,"
+        },
+        {
+          "versiculo": 50,
+          "texto": "e perdoes o teu povo que pecou contra ti; que tu perdoes todas as transgressões que eles cometeram contra ti. Tu farás com que seus captores os tratem com misericórdia e sintam compaixão deles"
+        },
+        {
+          "versiculo": 51,
+          "texto": "(pois são o teu povo e a tua herança, que tiraste do Egito, do forno de fundição de ferro)."
+        },
+        {
+          "versiculo": 52,
+          "texto": "Que os teus olhos estejam abertos ao pedido de favor do teu servo e ao pedido de favor do teu povo Israel, escutando-os sempre que clamarem a ti."
+        },
+        {
+          "versiculo": 53,
+          "texto": "Pois tu os separaste como tua herança dentre todos os povos da terra, assim como disseste por meio de Moisés, teu servo, quando tiraste os nossos antepassados do Egito, ó Soberano Senhor Jeová.”"
+        },
+        {
+          "versiculo": 54,
+          "texto": "E, assim que Salomão terminou de fazer toda essa oração e esse pedido de favor a Jeová, ele se levantou de diante do altar de Jeová, onde estava de joelhos com as mãos estendidas para os céus."
+        },
+        {
+          "versiculo": 55,
+          "texto": "Então ficou de pé e abençoou toda a congregação de Israel com voz bem alta, dizendo:"
+        },
+        {
+          "versiculo": 56,
+          "texto": "“Louvado seja Jeová, que deu ao seu povo Israel um lugar de descanso, assim como prometeu. Não falhou nem uma única palavra de todas as boas promessas que ele fez por meio de Moisés, seu servo."
+        },
+        {
+          "versiculo": 57,
+          "texto": "Que Jeová, nosso Deus, esteja conosco assim como esteve com os nossos antepassados. Que ele não nos deixe nem nos abandone."
+        },
+        {
+          "versiculo": 58,
+          "texto": "Que ele faça o nosso coração se voltar para ele, para andarmos em todos os seus caminhos e cumprirmos seus mandamentos, seus decretos e suas decisões judiciais, aos quais ele ordenou que nossos antepassados obedecessem."
+        },
+        {
+          "versiculo": 59,
+          "texto": "E que estas palavras com que implorei favor a Jeová estejam perto de Jeová, nosso Deus, dia e noite, para que ele faça justiça ao seu servo e ao seu povo Israel, conforme a necessidade de cada dia,"
+        },
+        {
+          "versiculo": 60,
+          "texto": "para que todos os povos da terra saibam que Jeová é o verdadeiro Deus. Não há outro!"
+        },
+        {
+          "versiculo": 61,
+          "texto": "Portanto, que o coração de vocês seja pleno para com Jeová, nosso Deus, e que andem nos Seus decretos e guardem os Seus mandamentos como estão fazendo hoje.”"
+        },
+        {
+          "versiculo": 62,
+          "texto": "Então o rei e todo o Israel ofereceram um grande sacrifício perante Jeová."
+        },
+        {
+          "versiculo": 63,
+          "texto": "Salomão apresentou os sacrifícios de participação em comum a Jeová: ele ofereceu 22.000 bois e 120.000 ovelhas. Assim, o rei e todos os israelitas inauguraram a casa de Jeová."
+        },
+        {
+          "versiculo": 64,
+          "texto": "Naquele dia, o rei precisou santificar o centro do pátio que fica diante da casa de Jeová, pois teve de oferecer ali os sacrifícios queimados, as ofertas de cereais e a gordura dos sacrifícios de participação em comum, porque o altar de cobre, que fica diante de Jeová, era pequeno demais para os sacrifícios queimados, as ofertas de cereais e a gordura dos sacrifícios de participação em comum."
+        },
+        {
+          "versiculo": 65,
+          "texto": "Naquela ocasião, Salomão realizou a festividade junto com todo o Israel, uma grande congregação, vinda desde Lebo-Hamate até a torrente do Egito. Realizaram a festividade perante Jeová, nosso Deus, por sete dias e mais sete dias, 14 dias ao todo."
+        },
+        {
+          "versiculo": 66,
+          "texto": "No dia seguinte, ele dispensou o povo, e eles abençoaram o rei e foram para as suas casas alegres e com o coração contente, por causa de toda a bondade que Jeová havia demonstrado a Davi, seu servo, e a Israel, seu povo."
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 9:1-28 REPRODUZIR CONTEÚDO DO LIVRO Jeová aparece novamente a Salomão ( 1-9 ) Presente de Salomão ao rei Hirão ( 10-14 ) Construções de Salomão ( 15-28 )"
+        },
+        {
+          "versiculo": 9,
+          "texto": "Assim que Salomão terminou de construir a casa de Jeová, a casa do rei e tudo o que Salomão queria fazer,"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Jeová apareceu a Salomão uma segunda vez, assim como lhe tinha aparecido em Gibeão."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Jeová disse-lhe: “Ouvi a sua oração e o pedido de favor que você fez diante de mim. Santifiquei esta casa que você construiu, pondo nela o meu nome de modo permanente, e os meus olhos e o meu coração sempre estarão nela."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Se você andar diante de mim assim como andou Davi, seu pai, com um coração íntegro e com retidão, fazendo tudo o que lhe ordenei, e, se você obedecer aos meus decretos e às minhas decisões judiciais,"
+        },
+        {
+          "versiculo": 5,
+          "texto": "então estabelecerei o trono do seu reino sobre Israel para sempre, assim como prometi a Davi, seu pai, dizendo: ‘Sempre haverá um descendente seu sentado no trono de Israel.’"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Mas, se vocês e seus filhos deixarem de me seguir e não guardarem os mandamentos e os decretos que coloquei diante de vocês, e forem servir outros deuses e se curvarem diante deles,"
+        },
+        {
+          "versiculo": 7,
+          "texto": "eu eliminarei Israel da face da terra que lhes dei, e lançarei para longe da minha vista a casa que santifiquei para o meu nome, e Israel se tornará alvo de desprezo e motivo de zombaria entre todos os povos."
+        },
+        {
+          "versiculo": 8,
+          "texto": "E esta casa se tornará um montão de ruínas. Todo aquele que passar por ela olhará espantado, assobiará e perguntará: ‘Por que Jeová fez isso a esta terra e a esta casa?’"
+        },
+        {
+          "versiculo": 9,
+          "texto": "Então responderão: ‘Foi porque abandonaram a Jeová, seu Deus, que tirou seus antepassados da terra do Egito, e se apegaram a outros deuses, curvaram-se diante deles e os serviram. É por isso que Jeová trouxe sobre eles toda esta calamidade.’”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Ao fim dos 20 anos que Salomão levou para construir as duas casas, a casa de Jeová e a casa do rei,"
+        },
+        {
+          "versiculo": 11,
+          "texto": "Hirão, rei de Tiro, tinha fornecido a Salomão madeira de cedro e de junípero, e todo o ouro que ele quis. Então o rei Salomão deu a Hirão 20 cidades na terra da Galileia."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Assim, Hirão veio de Tiro para ver as cidades que Salomão lhe tinha dado, mas não ficou contente com elas."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Ele disse: “Que cidades são essas que você me deu, meu irmão?” E elas são chamadas de Terra de Cabul até hoje."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Hirão enviou ao rei 120 talentos de ouro."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Este é o relato sobre aqueles que o rei Salomão convocou para trabalhos forçados, a fim de construir a casa de Jeová, a sua própria casa, o Aterro, a muralha de Jerusalém, Hazor, Megido e Gezer."
+        },
+        {
+          "versiculo": 16,
+          "texto": "(Faraó, rei do Egito, tinha atacado e tomado Gezer, queimando-a com fogo e matando os cananeus que moravam nessa cidade. Depois ele a deu como presente de despedida à sua filha, esposa de Salomão.)"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Salomão construiu Gezer, Bete-Horom Baixa,"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Baalate, Tamar, no deserto do país,"
+        },
+        {
+          "versiculo": 19,
+          "texto": "bem como todas as cidades-armazéns de Salomão, as cidades dos carros de guerra, as cidades para os cavaleiros e tudo o que Salomão desejou construir em Jerusalém, no Líbano e em todas as terras sob o seu domínio."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Quanto a todos os que haviam restado dos amorreus, dos hititas, dos perizeus, dos heveus e dos jebuseus, que não eram parte do povo de Israel"
+        },
+        {
+          "versiculo": 21,
+          "texto": "— isto é, os descendentes desses povos que restaram no país e que os israelitas não conseguiram entregar à destruição —, foram recrutados por Salomão para trabalhos forçados, e eles são escravos até hoje."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Mas Salomão não fez nenhum dos israelitas servir como escravo, pois eles eram seus guerreiros, servos, príncipes, oficiais e chefes dos seus condutores de carros de guerra e dos cavaleiros."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Havia 550 chefes dos encarregados, que supervisionavam a obra de Salomão. Eles eram os capatazes dos trabalhadores."
+        },
+        {
+          "versiculo": 24,
+          "texto": "A filha de Faraó subiu da Cidade de Davi para a sua casa, que Salomão havia construído para ela; depois ele construiu o Aterro."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Três vezes por ano Salomão oferecia sacrifícios queimados e sacrifícios de participação em comum no altar que tinha construído para Jeová. Ele também fazia fumaça sacrificial no altar, que ficava perante Jeová. Assim, ele terminou a casa."
+        },
+        {
+          "versiculo": 26,
+          "texto": "O rei Salomão fez também uma frota de navios em Eziom-Geber, que fica junto a Elote, à beira do mar Vermelho, na terra de Edom."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Com a frota de navios, Hirão enviou os seus servos, marinheiros experientes, para trabalhar com os servos de Salomão."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Eles foram a Ofir e trouxeram de lá 420 talentos de ouro, e os levaram ao rei Salomão."
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 10:1-29 REPRODUZIR CONTEÚDO DO LIVRO Rainha de Sabá visita Salomão ( 1-13 ) Grande riqueza de Salomão ( 14-29 )"
+        },
+        {
+          "versiculo": 10,
+          "texto": "A rainha de Sabá ouviu falar da fama que Salomão havia alcançado por causa do nome de Jeová, por isso ela foi pô-lo à prova com perguntas difíceis."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Ela chegou a Jerusalém com uma comitiva impressionante, com camelos carregando óleo de bálsamo e uma grande quantidade de ouro e pedras preciosas. Ela se apresentou a Salomão e falou com ele a respeito de tudo que tinha no coração."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Salomão respondeu a todas as suas perguntas. Não havia nada que fosse difícil demais para o rei explicar a ela."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Quando a rainha de Sabá viu toda a sabedoria de Salomão, a casa que ele tinha construído,"
+        },
+        {
+          "versiculo": 5,
+          "texto": "o alimento da sua mesa, a ordem em que se sentavam seus oficiais, o serviço dos que serviam à mesa e a roupa deles, seus copeiros e os sacrifícios queimados que ele oferecia na casa de Jeová, ela ficou sem fala."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Então ela disse ao rei: “Tudo o que eu ouvi na minha terra sobre as suas realizações e sobre a sua sabedoria era verdade."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Mas só acreditei no que ouvi depois de vir e ver com os meus próprios olhos. E, na verdade, não me contaram nem a metade. O senhor superou em muito o que ouvi, tanto em sabedoria como em prosperidade."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Felizes são os seus homens, e felizes são os seus servos que estão sempre diante do senhor, escutando a sua sabedoria!"
+        },
+        {
+          "versiculo": 9,
+          "texto": "Que Jeová, seu Deus, seja louvado, aquele que se agradou do senhor, pondo-o no trono de Israel. Por causa do amor eterno de Jeová por Israel, ele designou o senhor como rei para governar com justiça e retidão.”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Então ela deu ao rei 120 talentos de ouro e uma grande quantidade de óleo de bálsamo e pedras preciosas. Nunca mais se trouxe uma quantidade de óleo de bálsamo tão grande como a que a rainha de Sabá deu ao rei Salomão."
+        },
+        {
+          "versiculo": 11,
+          "texto": "A frota de navios de Hirão, que transportava ouro de Ofir, também trouxe de Ofir uma quantidade muito grande de madeira de sândalo, bem como pedras preciosas."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Com a madeira de sândalo, o rei fez peças de apoio para a casa de Jeová e para a casa do rei, bem como harpas e instrumentos de cordas para os cantores. Nunca mais se trouxe nem se viu madeira de sândalo como aquela até hoje."
+        },
+        {
+          "versiculo": 13,
+          "texto": "O rei Salomão também deu à rainha de Sabá tudo o que ela desejava e pediu, além das coisas que ele lhe deu segundo a sua generosidade. Depois ela partiu e voltou para a sua terra com os seus servos."
+        },
+        {
+          "versiculo": 14,
+          "texto": "O peso do ouro que Salomão recebia por ano era de 666 talentos,"
+        },
+        {
+          "versiculo": 15,
+          "texto": "além do que vinha dos mercadores, do lucro dos comerciantes, de todos os reis dos árabes e dos governadores do país."
+        },
+        {
+          "versiculo": 16,
+          "texto": "O rei Salomão fez 200 escudos grandes de liga de ouro (cada escudo tinha 600 siclos de ouro)"
+        },
+        {
+          "versiculo": 17,
+          "texto": "e 300 escudos pequenos de liga de ouro (cada escudo pequeno tinha três minas de ouro). Então o rei os colocou na Casa da Floresta do Líbano."
+        },
+        {
+          "versiculo": 18,
+          "texto": "O rei também fez um grande trono de marfim e o revestiu de ouro refinado."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Havia seis degraus até o trono, e sobre o trono havia uma cobertura arredondada; o assento tinha dois braços, e ao lado de cada braço havia uma estátua de leão."
+        },
+        {
+          "versiculo": 20,
+          "texto": "E nos seis degraus havia 12 leões, um de cada lado dos seis degraus. Nenhum outro reino tinha um trono igual àquele."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Todas as taças do rei Salomão eram de ouro, e todos os utensílios da Casa da Floresta do Líbano eram de ouro puro. Não havia nada de prata; nos dias de Salomão não se dava nenhum valor à prata."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Pois o rei tinha uma frota de navios de Társis que navegava junto com a frota de Hirão, e, uma vez a cada três anos, a frota de navios de Társis vinha carregada de ouro, prata, marfim, macacos e pavões."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Assim, o rei Salomão era mais rico e mais sábio do que todos os outros reis da terra."
+        },
+        {
+          "versiculo": 24,
+          "texto": "E pessoas de toda a terra queriam uma audiência com Salomão para ouvir a sua sabedoria, que Deus lhe tinha colocado no coração."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Todos lhe traziam presentes: objetos de prata, objetos de ouro, roupas, armas, óleo de bálsamo, cavalos e mulas. Isso acontecia ano após ano."
+        },
+        {
+          "versiculo": 26,
+          "texto": "E Salomão ajuntou cada vez mais carros de guerra e cavalos; ele tinha 1.400 carros de guerra e 12.000 cavalos, e os mantinha nas cidades dos carros de guerra e em Jerusalém, perto do rei."
+        },
+        {
+          "versiculo": 27,
+          "texto": "O rei tornou a prata tão comum em Jerusalém como as pedras; e tornou a madeira de cedro tão comum como os sicômoros da Sefelá."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Os cavalos de Salomão eram importados do Egito. O grupo dos mercadores do rei comprava manadas de cavalos por um preço estabelecido."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Cada carro de guerra importado do Egito custava 600 peças de prata, e um cavalo custava 150 peças de prata. E eles os exportavam para todos os reis dos hititas e para os reis da Síria."
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 11:1-43 REPRODUZIR CONTEÚDO DO LIVRO Esposas de Salomão desviam seu coração ( 1-13 ) Opositores contra Salomão ( 14-25 ) Jeroboão receberá dez tribos ( 26-40 ) Salomão morre; Roboão torna-se rei ( 41-43 )"
+        },
+        {
+          "versiculo": 11,
+          "texto": "Mas o rei Salomão amava muitas mulheres estrangeiras, além da filha de Faraó: mulheres moabitas, amonitas, edomitas, sidônias e hititas."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Elas eram das nações sobre as quais Jeová tinha dito aos israelitas: “Vocês não devem entrar no meio delas, e elas não devem entrar no seu meio, pois certamente desviarão o seu coração para seguir os deuses delas.” Salomão, porém, apegou-se a elas e as amou."
+        },
+        {
+          "versiculo": 3,
+          "texto": "E ele tinha 700 esposas que eram princesas e 300 concubinas, e aos poucos as suas esposas desviaram o seu coração."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Na velhice de Salomão, as suas esposas desviaram o seu coração para seguir outros deuses, e seu coração não era pleno para com Jeová, seu Deus, assim como era o coração de Davi, seu pai."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Salomão seguia Astorete, a deusa dos sidônios, e Milcom, o repugnante deus dos amonitas."
+        },
+        {
+          "versiculo": 6,
+          "texto": "E Salomão fez o que era mau aos olhos de Jeová e não seguiu plenamente a Jeová assim como Davi, seu pai."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Foi então que Salomão construiu um alto sagrado para Quemós, o repugnante deus de Moabe, e outro para Moloque, o repugnante deus dos amonitas, no monte em frente a Jerusalém."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Ele fez o mesmo por todas as suas esposas estrangeiras, que faziam fumaça sacrificial e ofereciam sacrifícios aos deuses delas."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Jeová ficou furioso com Salomão, porque seu coração tinha se desviado de Jeová, o Deus de Israel, que tinha aparecido duas vezes a ele"
+        },
+        {
+          "versiculo": 10,
+          "texto": "e o havia alertado exatamente sobre isso, que ele não devia seguir outros deuses. Mas Salomão não obedeceu à ordem de Jeová."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Então Jeová disse a Salomão: “Visto que você fez isso e não guardou o meu pacto e os decretos que ordenei que cumprisse, eu certamente arrancarei de você o reino e o darei a um dos seus servos."
+        },
+        {
+          "versiculo": 12,
+          "texto": "No entanto, não farei isso durante a sua vida, por causa de Davi, seu pai. Eu o arrancarei das mãos do seu filho,"
+        },
+        {
+          "versiculo": 13,
+          "texto": "mas não arrancarei todo o reino. Darei uma tribo ao seu filho, por causa de Davi, meu servo, e por causa de Jerusalém, que eu escolhi.”"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Então Jeová fez surgir um opositor contra Salomão, Hadade, o edomita, da família real de Edom."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Quando Davi derrotou Edom, Joabe, chefe do exército, foi enterrar os mortos, e tentou exterminar todos os homens em Edom."
+        },
+        {
+          "versiculo": 16,
+          "texto": "(Joabe e todo o Israel ficaram ali por seis meses, até terem eliminado todos os homens em Edom.)"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Mas Hadade fugiu com alguns servos do seu pai, que eram edomitas. Eles foram para o Egito. Naquele tempo, Hadade ainda era um menino."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Assim, saíram de Midiã e foram a Parã. Eles seguiram para o Egito levando consigo alguns homens de Parã, e se apresentaram a Faraó, rei do Egito, que deu a Hadade uma casa, alimento e terras."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Hadade achou favor aos olhos de Faraó, tanto que este lhe deu em casamento a irmã da sua própria esposa, a rainha Tafnes."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Com o tempo, a irmã de Tafnes deu a Hadade um filho, Genubate, e Tafnes o criou na casa de Faraó; e Genubate permaneceu na casa de Faraó, entre os filhos de Faraó."
+        },
+        {
+          "versiculo": 21,
+          "texto": "No Egito, Hadade ficou sabendo que Davi tinha descansado com os seus antepassados e que Joabe, chefe do exército, tinha morrido. Por isso Hadade disse a Faraó: “Deixe-me ir embora; quero voltar para a minha terra.”"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Mas Faraó lhe perguntou: “O que lhe falta aqui para você agora querer voltar para a sua terra?” Então ele respondeu: “Não me falta nada, mas, por favor, deixe-me ir embora.”"
+        },
+        {
+          "versiculo": 23,
+          "texto": "Deus também fez surgir contra Salomão outro opositor, Rezom, filho de Eliada. Ele havia fugido do seu senhor, Hadadezer, rei de Zobá."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Quando Davi derrotou os homens de Zobá, Rezom reuniu alguns homens e se tornou chefe de um bando de saqueadores. Então eles foram para Damasco, estabeleceram-se ali e começaram a reinar em Damasco."
+        },
+        {
+          "versiculo": 25,
+          "texto": "E ele se opôs a Israel todos os dias de Salomão, aumentando os problemas já causados por Hadade. Rezom odiou Israel durante o tempo que reinou sobre a Síria."
+        },
+        {
+          "versiculo": 26,
+          "texto": "E Jeroboão, filho de Nebate, também começou a se rebelar contra o rei. Ele era efraimita de Zereda e servo de Salomão; sua mãe era uma viúva chamada Zerua."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Ele se rebelou contra o rei pelo seguinte: Salomão tinha construído o Aterro e consertado a muralha da Cidade de Davi, seu pai."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Jeroboão era um homem capaz. Quando Salomão viu que o jovem era um trabalhador árduo, encarregou-o de todo o serviço obrigatório da casa de José."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Naquela época, Jeroboão saiu de Jerusalém, e o profeta Aías, o silonita, encontrou-o na estrada. Aías estava usando um manto novo, e os dois estavam sozinhos no campo."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Aías pegou o manto novo que vestia e o rasgou em 12 pedaços."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Então ele disse a Jeroboão: “Pegue dez pedaços, pois assim diz Jeová, o Deus de Israel: ‘Vou arrancar o reino das mãos de Salomão, e darei a você dez tribos."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Mas uma tribo continuará a ser dele, por causa do meu servo Davi e por causa de Jerusalém, a cidade que escolhi dentre todas as tribos de Israel."
+        },
+        {
+          "versiculo": 33,
+          "texto": "Vou fazer isso porque eles me abandonaram e se curvam diante de Astorete, a deusa dos sidônios, de Quemós, o deus de Moabe, e de Milcom, o deus dos amonitas. Eles não andaram nos meus caminhos, não fizeram o que é certo aos meus olhos, nem obedeceram aos meus decretos e às minhas decisões judiciais, assim como fez Davi, pai de Salomão."
+        },
+        {
+          "versiculo": 34,
+          "texto": "Mas não tirarei todo o reino das mãos dele; vou mantê-lo como maioral todos os dias da sua vida, por causa de Davi, meu servo, a quem escolhi, pois ele obedeceu aos meus mandamentos e aos meus decretos."
+        },
+        {
+          "versiculo": 35,
+          "texto": "Mas tirarei o reinado das mãos do filho de Salomão e darei dez tribos a você."
+        },
+        {
+          "versiculo": 36,
+          "texto": "Ao filho dele darei uma tribo, para que Davi, meu servo, sempre tenha uma lâmpada diante de mim em Jerusalém, a cidade que escolhi para mim, como o lugar para pôr o meu nome."
+        },
+        {
+          "versiculo": 37,
+          "texto": "Eu designarei você; e você reinará sobre tudo o que desejar e se tornará rei sobre Israel."
+        },
+        {
+          "versiculo": 38,
+          "texto": "Se você obedecer a tudo o que eu lhe mandar, se andar nos meus caminhos e fizer o que é certo aos meus olhos, obedecendo aos meus decretos e aos meus mandamentos, assim como fez Davi, meu servo, então eu também estarei com você. Estabelecerei para você uma casa permanente, assim como estabeleci para Davi, e lhe darei Israel."
+        },
+        {
+          "versiculo": 39,
+          "texto": "E assim, humilharei os descendentes de Davi, mas não para sempre.’”"
+        },
+        {
+          "versiculo": 40,
+          "texto": "Por isso Salomão tentou matar Jeroboão, mas Jeroboão fugiu para o Egito e foi a Sisaque, rei do Egito. Ele ficou no Egito até a morte de Salomão."
+        },
+        {
+          "versiculo": 41,
+          "texto": "Quanto aos outros acontecimentos da história de Salomão, tudo o que ele fez e a sua sabedoria, não estão escritos no livro da história de Salomão?"
+        },
+        {
+          "versiculo": 42,
+          "texto": "O tempo que Salomão reinou em Jerusalém, sobre todo o Israel, foi 40 anos."
+        },
+        {
+          "versiculo": 43,
+          "texto": "Então Salomão descansou com os seus antepassados e foi enterrado na Cidade de Davi, seu pai; e Roboão, seu filho, tornou-se rei no seu lugar."
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 12:1-33 REPRODUZIR CONTEÚDO DO LIVRO Resposta dura de Roboão ( 1-15 ) Revolta das dez tribos ( 16-19 ) Jeroboão torna-se rei de Israel ("
+        },
+        {
+          "versiculo": 20,
+          "texto": ") Roboão não deve guerrear contra Israel ( 21-24 ) Jeroboão faz bezerros para adoração ( 25-33 )"
+        },
+        {
+          "versiculo": 12,
+          "texto": "Roboão foi a Siquém, pois todo o Israel tinha ido a Siquém para fazê-lo rei."
+        },
+        {
+          "versiculo": 2,
+          "texto": "E Jeroboão, filho de Nebate, ficou sabendo disso (ele ainda estava no Egito, pois havia fugido por causa do rei Salomão e estava morando no Egito)."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Então mandaram chamá-lo. Depois, Jeroboão e toda a congregação de Israel foram a Roboão e disseram:"
+        },
+        {
+          "versiculo": 4,
+          "texto": "“Seu pai tornou duro o nosso jugo. Mas, se o senhor aliviar o serviço duro e tornar mais leve o jugo pesado que o seu pai colocou sobre nós, nós serviremos o senhor.”"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Então ele lhes disse: “Vão embora, e voltem a mim dentro de três dias.” Portanto, o povo foi embora."
+        },
+        {
+          "versiculo": 6,
+          "texto": "O rei Roboão consultou então os homens mais velhos que haviam servido como conselheiros de Salomão, seu pai, durante a sua vida. Ele perguntou: “O que aconselham que eu responda a este povo?”"
+        },
+        {
+          "versiculo": 7,
+          "texto": "Eles responderam: “Se hoje o senhor se tornar servo deste povo, atender ao seu pedido e lhes der uma resposta favorável, eles sempre serão seus servos.”"
+        },
+        {
+          "versiculo": 8,
+          "texto": "No entanto, ele rejeitou o conselho dos homens mais velhos e consultou os jovens que haviam crescido com ele e que agora eram seus ajudantes."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Ele lhes perguntou: “Que conselho vocês me dão? Como devemos responder a este povo que me disse: ‘Torne mais leve o jugo que o seu pai colocou sobre nós’?”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Os jovens que haviam crescido com ele responderam: “A este povo que lhe disse: ‘Seu pai tornou pesado o nosso jugo, mas o senhor deve torná-lo mais leve para nós’, o senhor deve dizer o seguinte: ‘Meu dedo mínimo será mais grosso do que a cintura do meu pai."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Meu pai lhes impôs um jugo pesado, mas eu o tornarei ainda mais pesado. Meu pai castigou vocês com chicotes, mas eu os castigarei com chicotes farpados.’”"
+        },
+        {
+          "versiculo": 12,
+          "texto": "Jeroboão e todo o povo foram a Roboão no terceiro dia, assim como o rei tinha dito: “Voltem a mim daqui a três dias.”"
+        },
+        {
+          "versiculo": 13,
+          "texto": "Mas o rei deu uma resposta dura ao povo, rejeitando o conselho dos homens mais velhos."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Seguindo o conselho dos jovens, ele disse: “Meu pai tornou pesado o jugo de vocês, mas eu o tornarei ainda mais pesado. Meu pai castigou vocês com chicotes, mas eu os castigarei com chicotes farpados.”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Assim, o rei não escutou o povo, porque o que estava acontecendo era da parte de Jeová, a fim de que se cumprisse a palavra que Jeová tinha falado por meio de Aías, o silonita, a Jeroboão, filho de Nebate."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Quando todo o Israel viu que o rei não quis escutá-los, o povo disse ao rei: “Que parte nós temos com Davi? Não temos herança com o filho de Jessé! Vão para os seus deuses, ó Israel. Agora cuide da sua própria casa, ó Davi!” Com isso os israelitas voltaram para as suas casas."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Mas Roboão continuou a reinar sobre os israelitas que moravam nas cidades de Judá."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Então o rei Roboão lhes enviou Adorão, que supervisionava os convocados para trabalho obrigatório, mas todo o Israel o apedrejou até a morte. O rei Roboão conseguiu subir no seu carro de guerra e fugiu para Jerusalém."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Assim os israelitas se rebelaram contra a casa de Davi e continuam assim até hoje."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Assim que todo o Israel ouviu que Jeroboão tinha voltado, mandaram chamá-lo à assembleia e o fizeram rei sobre todo o Israel. Ninguém apoiou a casa de Davi, a não ser a tribo de Judá."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Quando Roboão chegou a Jerusalém, reuniu imediatamente toda a casa de Judá e a tribo de Benjamim, 180.000 guerreiros treinados, a fim de lutar contra a casa de Israel e restituir o reinado a Roboão, filho de Salomão."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Então Semaías, o homem do verdadeiro Deus, recebeu a seguinte palavra do verdadeiro Deus:"
+        },
+        {
+          "versiculo": 23,
+          "texto": "“Diga a Roboão, filho de Salomão e rei de Judá, bem como a toda a casa de Judá, de Benjamim e ao restante do povo:"
+        },
+        {
+          "versiculo": 24,
+          "texto": "‘Assim diz Jeová: “Não vão à guerra contra os seus irmãos israelitas. Volte cada um para a sua casa, pois fui eu que fiz isso acontecer.”’” Eles obedeceram à palavra de Jeová e voltaram para casa, assim como Jeová lhes havia ordenado."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Então Jeroboão construiu Siquém na região montanhosa de Efraim, e ficou morando ali. Depois saiu de Siquém e construiu Penuel."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Jeroboão disse no seu coração: “Agora o reino voltará para a casa de Davi."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Se este povo continuar a subir a Jerusalém para oferecer sacrifícios na casa de Jeová, o coração deste povo voltará para o seu senhor, Roboão, rei de Judá. Sim, eles me matarão e voltarão para Roboão, rei de Judá.”"
+        },
+        {
+          "versiculo": 28,
+          "texto": "Depois de se aconselhar, o rei fez dois bezerros de ouro e disse ao povo: “É muito difícil para vocês subir a Jerusalém. Aqui está o seu Deus, ó Israel, que o tirou da terra do Egito.”"
+        },
+        {
+          "versiculo": 29,
+          "texto": "Então colocou um bezerro em Betel e o outro em Dã."
+        },
+        {
+          "versiculo": 30,
+          "texto": "E isso fez o povo pecar; eles iam até Dã para adorar o bezerro que ficava lá."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Ele fez santuários nos altos sagrados e designou homens do povo que não eram levitas para ser sacerdotes."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Jeroboão também instituiu uma festividade no décimo quinto dia do oitavo mês, igual à festividade que se realizava em Judá. No altar que fez em Betel, ele oferecia sacrifícios aos bezerros que tinha feito; e em Betel ele designou sacerdotes para os altos sagrados que tinha feito."
+        },
+        {
+          "versiculo": 33,
+          "texto": "E no décimo quinto dia do oitavo mês, no mês que ele mesmo tinha escolhido, começou a fazer ofertas sobre o altar que tinha feito em Betel. Ele instituiu uma festividade para o povo de Israel e subiu ao altar para fazer ofertas e fumaça sacrificial."
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 13:1-34 REPRODUZIR CONTEÚDO DO LIVRO Profecia contra o altar em Betel ( 1-10 ) Altar racha ("
+        },
+        {
+          "versiculo": 5,
+          "texto": ") O homem de Deus desobedece ( 11-34 )"
+        },
+        {
+          "versiculo": 13,
+          "texto": "Por ordem de Jeová, um homem de Deus foi de Judá a Betel e chegou quando Jeroboão estava junto ao altar para fazer fumaça sacrificial."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Então, por ordem de Jeová, o homem proclamou contra o altar: “Ó altar, altar! Assim diz Jeová: ‘Na casa de Davi nascerá um filho que se chamará Josias. Ele sacrificará sobre você os sacerdotes dos altos sagrados, os que fazem fumaça sacrificial sobre você, e queimará sobre você ossos de homens.’”"
+        },
+        {
+          "versiculo": 3,
+          "texto": "Naquele dia o homem de Deus deu um sinal, dizendo: “Este é o sinal que Jeová declarou: ‘O altar rachará, e as cinzas que estão sobre ele se derramarão.’”"
+        },
+        {
+          "versiculo": 4,
+          "texto": "Assim que o rei Jeroboão ouviu o que o homem do verdadeiro Deus proclamou contra o altar em Betel, ele retirou a mão do altar e, apontando para o homem, disse: “Peguem-no!” Imediatamente a mão que ele tinha estendido contra o homem ficou paralisada, e ele não conseguia mais abaixá-la."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Então o altar rachou, e as cinzas do altar se derramaram, conforme o sinal que o homem do verdadeiro Deus tinha dado por ordem de Jeová."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Em vista disso, o rei disse ao homem do verdadeiro Deus: “Por favor, implore o favor de Jeová, seu Deus, e ore por mim para que a minha mão seja restabelecida.” Então o homem do verdadeiro Deus implorou o favor de Jeová, e a mão do rei voltou a ser como antes."
+        },
+        {
+          "versiculo": 7,
+          "texto": "O rei disse então ao homem do verdadeiro Deus: “Venha comigo à minha casa para comer alguma coisa, e eu lhe darei um presente.”"
+        },
+        {
+          "versiculo": 8,
+          "texto": "Mas o homem do verdadeiro Deus disse ao rei: “Mesmo que me desse metade da sua casa, eu não iria com o senhor, nem comeria pão, nem beberia água neste lugar."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Pois recebi a seguinte ordem de Jeová: ‘Não coma pão nem beba água, e não volte pelo caminho por onde você veio.’”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Assim, ele partiu por outro caminho e não voltou pelo caminho por onde tinha ido a Betel."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Havia um profeta idoso que morava em Betel. Seus filhos foram para casa e lhe contaram tudo o que o homem do verdadeiro Deus tinha feito naquele dia em Betel e as palavras que ele tinha falado ao rei. Contaram tudo isso ao seu pai."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Então seu pai lhes perguntou: “Por que caminho ele foi?” De modo que os seus filhos lhe indicaram o caminho pelo qual o homem do verdadeiro Deus, de Judá, tinha seguido."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Ele disse então aos seus filhos: “Selem o meu jumento.” Eles selaram o jumento, e ele montou nele."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Ele foi atrás do homem do verdadeiro Deus e o encontrou sentado debaixo de uma grande árvore. Então ele lhe perguntou: “É você o homem do verdadeiro Deus que veio de Judá?” Ele respondeu: “Sou.”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "O profeta idoso lhe disse: “Venha comigo à minha casa e coma pão.”"
+        },
+        {
+          "versiculo": 16,
+          "texto": "Mas ele disse: “Não posso voltar com o senhor nem aceitar seu convite, e não posso comer pão nem beber água com o senhor neste lugar."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Pois recebi a seguinte ordem de Jeová: ‘Não coma pão nem beba água ali. Não volte pelo caminho por onde você veio.’”"
+        },
+        {
+          "versiculo": 18,
+          "texto": "O profeta idoso disse-lhe: “Eu também sou profeta como você, e, por ordem de Jeová, um anjo me disse: ‘Faça-o voltar com você à sua casa, para que coma pão e beba água.’” (Ele o enganou.)"
+        },
+        {
+          "versiculo": 19,
+          "texto": "De modo que voltou com ele para comer pão e beber água na sua casa."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Enquanto estavam sentados à mesa, o profeta que o tinha feito voltar recebeu a palavra de Jeová"
+        },
+        {
+          "versiculo": 21,
+          "texto": "e clamou ao homem do verdadeiro Deus, de Judá, dizendo: “Assim diz Jeová: ‘Visto que você se rebelou contra a ordem de Jeová e não guardou o mandamento que Jeová, seu Deus, lhe deu,"
+        },
+        {
+          "versiculo": 22,
+          "texto": "mas voltou para comer pão e beber água no lugar sobre o qual você recebeu a ordem: “Não coma pão nem beba água ali”, seu cadáver não será colocado no túmulo dos seus antepassados.’”"
+        },
+        {
+          "versiculo": 23,
+          "texto": "Depois que o homem do verdadeiro Deus comeu e bebeu, o profeta idoso selou o jumento para o profeta que ele tinha feito voltar."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Então o homem foi embora, mas na estrada um leão o encontrou e o matou. O seu cadáver ficou estendido na estrada, e o jumento ficou parado ao seu lado; o leão também ficou parado junto ao cadáver."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Alguns homens passaram e viram o cadáver estendido na estrada e o leão parado junto ao cadáver. Eles entraram na cidade onde o profeta idoso morava e contaram o que tinham visto."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Quando o profeta que tinha feito o homem voltar da estrada soube o que tinha acontecido, disse imediatamente: “É o homem do verdadeiro Deus que se rebelou contra a ordem de Jeová; por isso Jeová o entregou ao leão, para que o dilacerasse e matasse, segundo a palavra que Jeová lhe tinha falado.”"
+        },
+        {
+          "versiculo": 27,
+          "texto": "Então ele disse aos seus filhos: “Selem o meu jumento.” E eles o selaram."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Então ele foi e achou o cadáver estendido na estrada, com o jumento e o leão parados junto ao cadáver. O leão não tinha devorado o cadáver nem dilacerado o jumento."
+        },
+        {
+          "versiculo": 29,
+          "texto": "O profeta pegou o cadáver do homem do verdadeiro Deus, colocou-o sobre o jumento e o trouxe de volta para a sua própria cidade para lamentá-lo e enterrá-lo."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Assim, ele colocou o cadáver no seu próprio túmulo, e choraram por ele, dizendo: “Ai, meu irmão!”"
+        },
+        {
+          "versiculo": 31,
+          "texto": "Depois de o ter enterrado, ele disse aos seus filhos: “Quando eu morrer, enterrem-me no lugar onde o homem do verdadeiro Deus está enterrado. Coloquem os meus ossos ao lado dos ossos dele."
+        },
+        {
+          "versiculo": 32,
+          "texto": "O que ele proclamou, por ordem de Jeová, contra o altar em Betel e contra todos os santuários dos altos sagrados nas cidades de Samaria certamente se cumprirá.”"
+        },
+        {
+          "versiculo": 33,
+          "texto": "Mesmo depois desses acontecimentos, Jeroboão não recuou do seu mau caminho, mas continuou a designar homens do povo em geral para ser sacerdotes de altos sagrados. Ele ordenava como sacerdote todo aquele que assim o desejasse, dizendo: “Que ele se torne um dos sacerdotes para os altos sagrados.”"
+        },
+        {
+          "versiculo": 34,
+          "texto": "Esse pecado da casa de Jeroboão resultou em ela ser destruída e eliminada da face da terra."
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 14:1-31 REPRODUZIR CONTEÚDO DO LIVRO Profecia de Aías contra Jeroboão ( 1-20 ) Roboão reina em Judá ( 21-31 ) Invasão de Sisaque ( 25, 26 )"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Naquela época, Abias, filho de Jeroboão, adoeceu."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Então Jeroboão disse à sua esposa: “Por favor, disfarce-se, para que ninguém saiba que você é a esposa de Jeroboão, e vá a Silo. Aías, o profeta, está lá. Foi ele que disse que eu me tornaria rei deste povo."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Leve dez pães, bolos e um frasco de mel, e apresente-se a ele. Ele lhe dirá o que vai acontecer ao menino.”"
+        },
+        {
+          "versiculo": 4,
+          "texto": "A esposa de Jeroboão fez o que ele disse. Ela foi a Silo e chegou à casa de Aías. Os olhos de Aías não se mexiam; ele não enxergava por causa da idade."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Mas Jeová tinha dito a Aías: “Logo a esposa de Jeroboão vai chegar para lhe perguntar sobre o filho dela, pois ele está doente. Eu lhe direi o que você deve dizer. Quando ela chegar, estará disfarçada.”"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Assim que Aías ouviu os passos dela na entrada, ele disse: “Entre, esposa de Jeroboão. Por que está disfarçada? Fui designado para lhe transmitir uma mensagem dura."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Vá, diga a Jeroboão: ‘Assim diz Jeová, o Deus de Israel: “Eu o levantei do meio do seu povo para fazê-lo líder do meu povo Israel."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Arranquei o reino da casa de Davi e o dei a você. Mas você não tem sido igual ao meu servo Davi, que guardou os meus mandamentos e me seguiu de todo o coração, fazendo somente o que era certo aos meus olhos."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Você fez pior do que todos os que reinaram antes de você; fez para si outro deus e imagens de metal para me ofender, e foi a mim que você deu as costas."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Por essa razão, estou trazendo uma calamidade sobre a casa de Jeroboão; eliminarei em Israel todos os do sexo masculino da casa de Jeroboão, incluindo o desamparado e o fraco, e vou varrer a casa de Jeroboão, assim como se varre o esterco até não sobrar nada!"
+        },
+        {
+          "versiculo": 11,
+          "texto": "Os da casa de Jeroboão que morrerem na cidade, os cães devorarão; e os que morrerem no campo, as aves dos céus comerão, pois Jeová disse isso.”’"
+        },
+        {
+          "versiculo": 12,
+          "texto": "“Agora levante-se, vá para casa. Assim que você puser os pés na cidade, o menino morrerá."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Todo o Israel o lamentará e o enterrará. Da família de Jeroboão só ele será colocado numa sepultura, porque ele é o único da casa de Jeroboão em quem Jeová, o Deus de Israel, achou algo de bom."
+        },
+        {
+          "versiculo": 14,
+          "texto": "A partir daquele dia, Jeová fará surgir para si um rei sobre Israel que eliminará a casa de Jeroboão. De fato, isso já está acontecendo."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Jeová golpeará Israel, que balançará como a cana na água, e desarraigará Israel desta terra boa que ele deu aos seus antepassados e os espalhará para o outro lado do rio Eufrates, por terem feito os postes sagrados, ofendendo a Jeová."
+        },
+        {
+          "versiculo": 16,
+          "texto": "E ele abandonará Israel por causa dos pecados que Jeroboão cometeu e levou Israel a cometer.”"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Então a esposa de Jeroboão se levantou e foi embora, e voltou para Tirza. Quando chegou à entrada da casa, o menino morreu."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Eles o enterraram, e todo o Israel o lamentou, segundo a palavra que Jeová havia falado por meio do seu servo Aías, o profeta."
+        },
+        {
+          "versiculo": 19,
+          "texto": "E os outros acontecimentos da história de Jeroboão, como ele guerreou e como reinou, estão escritos no livro da história da época dos reis de Israel."
+        },
+        {
+          "versiculo": 20,
+          "texto": "O tempo que Jeroboão reinou foi 22 anos. Depois ele descansou com os seus antepassados; e Nadabe, seu filho, tornou-se rei no seu lugar."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Nesse meio-tempo, Roboão, filho de Salomão, havia se tornado rei em Judá. Roboão tinha 41 anos de idade quando se tornou rei, e reinou por 17 anos em Jerusalém, a cidade que Jeová havia escolhido dentre todas as tribos de Israel como o lugar para pôr o seu nome. O nome da mãe de Roboão era Naamá, a amonita."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Judá fazia o que era mau aos olhos de Jeová, e, pelos pecados que cometeram, eles o provocaram mais do que todos os seus antepassados."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Eles também construíam para si altos sagrados, colunas sagradas e postes sagrados em toda colina elevada e debaixo de toda árvore frondosa."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Havia também no país prostitutos de templo. Faziam todas as coisas detestáveis que as nações que Jeová tinha expulsado de diante dos israelitas faziam."
+        },
+        {
+          "versiculo": 25,
+          "texto": "No quinto ano do rei Roboão, Sisaque, rei do Egito, veio contra Jerusalém."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Ele levou os tesouros da casa de Jeová e os tesouros da casa do rei. Levou tudo, incluindo todos os escudos de ouro que Salomão tinha feito."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Por isso, o rei Roboão fez escudos de cobre para substituí-los e os entregou aos chefes da guarda, que vigiavam a entrada da casa do rei."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Sempre que o rei ia à casa de Jeová, os guardas carregavam os escudos e depois os devolviam à sala dos guardas."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Quanto aos outros acontecimentos da história de Roboão, tudo o que ele fez, não estão escritos no livro da história da época dos reis de Judá?"
+        },
+        {
+          "versiculo": 30,
+          "texto": "Sempre houve guerra entre Roboão e Jeroboão."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Então Roboão descansou com os seus antepassados e foi enterrado com os seus antepassados na Cidade de Davi. O nome da sua mãe era Naamá, a amonita. E o filho dele, Abião, tornou-se rei no seu lugar."
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 15:1-34 REPRODUZIR CONTEÚDO DO LIVRO Abião, rei de Judá ( 1-8 ) Asa, rei de Judá ( 9-24 ) Nadabe, rei de Israel ( 25-32 ) Baasa, rei de Israel ( 33, 34 )"
+        },
+        {
+          "versiculo": 15,
+          "texto": "No décimo oitavo ano do rei Jeroboão, filho de Nebate, Abião tornou-se rei sobre Judá."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Ele reinou por três anos em Jerusalém. O nome da sua mãe era Maacá, neta de Absalão."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Abião cometeu os mesmos pecados que o seu pai cometeu antes dele e seu coração não era pleno para com Jeová, seu Deus, assim como era o coração de Davi, seu antepassado."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Mas, por causa de Davi, Jeová, seu Deus, lhe deu uma lâmpada em Jerusalém, suscitando seu filho como sucessor e assegurando a permanência de Jerusalém."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Pois Davi fez o que era certo aos olhos de Jeová e, durante todos os dias da sua vida, não se desviou de nada que ele lhe ordenou, a não ser no caso de Urias, o hitita."
+        },
+        {
+          "versiculo": 6,
+          "texto": "E houve guerra entre Roboão e Jeroboão durante todos os dias da sua vida."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Quanto aos outros acontecimentos da história de Abião, tudo o que ele fez, não estão escritos no livro da história da época dos reis de Judá? Também houve guerra entre Abião e Jeroboão."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Então Abião descansou com os seus antepassados, e o enterraram na Cidade de Davi; e Asa, seu filho, tornou-se rei no seu lugar."
+        },
+        {
+          "versiculo": 9,
+          "texto": "No vigésimo ano de Jeroboão, rei de Israel, Asa começou a reinar em Judá."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Ele reinou por 41 anos em Jerusalém. O nome da sua avó era Maacá, neta de Absalão."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Asa fez o que era certo aos olhos de Jeová, assim como Davi, seu antepassado."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Ele expulsou do país os prostitutos de templo e removeu todos os ídolos repugnantes que os seus antepassados haviam feito."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Asa até mesmo removeu a sua avó Maacá da posição de rainha-mãe, porque ela tinha feito um ídolo obsceno para a adoração do poste sagrado. Ele derrubou o ídolo obsceno dela e o queimou no vale do Cédron."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Mas os altos sagrados não foram removidos. No entanto, o coração de Asa foi pleno para com Jeová durante toda a sua vida."
+        },
+        {
+          "versiculo": 15,
+          "texto": "E ele levou para dentro da casa de Jeová as coisas que ele e o seu pai haviam tornado sagradas: prata, ouro e diversos utensílios."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Sempre houve guerra entre Asa e Baasa, rei de Israel."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Baasa, rei de Israel, veio contra Judá e começou a fortificar Ramá, para não deixar ninguém sair nem entrar no território de Asa, rei de Judá."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Em vista disso, Asa pegou toda a prata e o ouro que tinham sobrado no tesouro da casa de Jeová e no tesouro da casa do rei e os entregou aos seus servos. Então o rei Asa os enviou a Ben-Hadade, filho de Tabrimom, filho de Heziom, rei da Síria, que morava em Damasco, com a seguinte mensagem:"
+        },
+        {
+          "versiculo": 19,
+          "texto": "“Há um acordo entre mim e você, e entre o meu pai e o seu pai. Estou lhe enviando prata e ouro como presente. Desfaça o seu acordo com Baasa, rei de Israel, para que ele se retire do meu território.”"
+        },
+        {
+          "versiculo": 20,
+          "texto": "Ben-Hadade escutou o rei Asa e enviou os chefes dos seus exércitos contra as cidades de Israel, e eles atacaram Ijom, Dã, Abel-Bete-Maacá, todo o Quinerete e toda a terra de Naftali."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Assim que Baasa soube disso, parou de fortificar Ramá e permaneceu em Tirza."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Então o rei Asa convocou todo o Judá — ninguém foi isentado —, e eles levaram embora as pedras e as madeiras de Ramá, com as quais Baasa estava construindo, e com elas o rei Asa fortificou Geba, em Benjamim, e Mispá."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Quanto a todos os outros acontecimentos da história de Asa, todos os seus atos poderosos, tudo o que ele fez e as cidades que construiu, não estão escritos no livro da história da época dos reis de Judá? Mas na sua velhice ele sofreu de uma doença nos pés."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Então Asa descansou com os seus antepassados e foi enterrado com eles na Cidade de Davi, seu antepassado; e Jeosafá, seu filho, tornou-se rei no seu lugar."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Nadabe, filho de Jeroboão, tornou-se rei sobre Israel no segundo ano de Asa, rei de Judá, e ele reinou sobre Israel por dois anos."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Ele fazia o que era mau aos olhos de Jeová e andava no caminho do seu pai e no pecado dele, que ele tinha levado Israel a cometer."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Baasa, filho de Aías, da casa de Issacar, conspirou contra Nadabe, e Baasa o matou em Gibetom, que pertencia aos filisteus, enquanto Nadabe e todo o Israel cercavam Gibetom."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Baasa o matou no terceiro ano de Asa, rei de Judá, e tornou-se rei no seu lugar."
+        },
+        {
+          "versiculo": 29,
+          "texto": "E, assim que ele se tornou rei, matou todos os da casa de Jeroboão. Não deixou ninguém da casa de Jeroboão escapar; eliminou a todos, segundo a palavra que Jeová tinha falado por meio do seu servo Aías, o silonita."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Isso aconteceu por causa dos pecados que Jeroboão havia cometido e levado Israel a cometer, e porque tinha ofendido muito a Jeová, o Deus de Israel."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Quanto aos outros acontecimentos da história de Nadabe, tudo o que ele fez, não estão escritos no livro da história da época dos reis de Israel?"
+        },
+        {
+          "versiculo": 32,
+          "texto": "E sempre houve guerra entre Asa e Baasa, rei de Israel."
+        },
+        {
+          "versiculo": 33,
+          "texto": "No terceiro ano de Asa, rei de Judá, Baasa, filho de Aías, tornou-se rei em Tirza sobre todo o Israel, e reinou por 24 anos."
+        },
+        {
+          "versiculo": 34,
+          "texto": "Mas ele fazia o que era mau aos olhos de Jeová e andava no caminho de Jeroboão e no pecado dele, que ele tinha levado Israel a cometer."
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 16:1-34 REPRODUZIR CONTEÚDO DO LIVRO Julgamento de Jeová contra Baasa ( 1-7 ) Elá, rei de Israel ( 8-14 ) Zinri, rei de Israel ( 15-20 ) Onri, rei de Israel ( 21-28 ) Acabe, rei de Israel ( 29-33 ) Hiel reconstrói Jericó ("
+        },
+        {
+          "versiculo": 34,
+          "texto": ")"
+        },
+        {
+          "versiculo": 16,
+          "texto": "Então Jeú, filho de Hanani, recebeu a seguinte palavra de Jeová contra Baasa:"
+        },
+        {
+          "versiculo": 2,
+          "texto": "“Eu o levantei do pó e fiz de você líder do meu povo Israel, mas você continuou a andar no caminho de Jeroboão e fez o meu povo Israel pecar, de modo que eles me ofenderam com os pecados deles."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Por isso, vou exterminar Baasa e a casa dele, e farei com a casa dele o mesmo que fiz com a de Jeroboão, filho de Nebate."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Os da casa de Baasa que morrerem na cidade, os cães devorarão; e os que morrerem no campo, as aves dos céus comerão.”"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Quanto aos outros acontecimentos da história de Baasa, o que ele fez e os seus atos poderosos, não estão escritos no livro da história da época dos reis de Israel?"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Então Baasa descansou com os seus antepassados e foi enterrado em Tirza; e Elá, seu filho, tornou-se rei no seu lugar."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Além disso, a palavra de Jeová veio contra Baasa e a sua casa, por meio do profeta Jeú, filho de Hanani, por causa de toda a maldade que Baasa tinha praticado aos olhos de Jeová, ofendendo-o com o trabalho das suas mãos e tornando-se como a casa de Jeroboão, e também porque Baasa o tinha matado."
+        },
+        {
+          "versiculo": 8,
+          "texto": "No vigésimo sexto ano de Asa, rei de Judá, Elá, filho de Baasa, tornou-se rei sobre Israel em Tirza, e reinou por dois anos."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Zinri, servo do rei que comandava metade dos carros de guerra, conspirou contra o rei enquanto este estava em Tirza se embriagando na casa de Arza, o encarregado da casa do rei em Tirza."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Zinri entrou, golpeou o rei e o matou no vigésimo sétimo ano de Asa, rei de Judá, e tornou-se rei no seu lugar."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Assim que Zinri se tornou rei e se sentou no trono, matou todos os da casa de Baasa. Não poupou ninguém do sexo masculino, nem parentes nem amigos."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Assim, Zinri eliminou toda a casa de Baasa, segundo a palavra que Jeová tinha falado contra Baasa por meio de Jeú, o profeta."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Isso aconteceu por causa de todos os pecados que Baasa e Elá, seu filho, cometeram e levaram Israel a cometer, ofendendo a Jeová, o Deus de Israel, com os seus ídolos inúteis."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Quanto aos outros acontecimentos da história de Elá, tudo o que ele fez, não estão escritos no livro da história da época dos reis de Israel?"
+        },
+        {
+          "versiculo": 15,
+          "texto": "No vigésimo sétimo ano de Asa, rei de Judá, Zinri tornou-se rei, e reinou por sete dias em Tirza, enquanto os soldados estavam acampados contra Gibetom, que pertencia aos filisteus."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Então os soldados que estavam acampados ouviram dizer: “Zinri conspirou contra o rei e o matou.” Portanto, naquele dia, no acampamento, todo o Israel fez Onri, chefe do exército, rei sobre Israel."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Onri e todo o Israel partiram de Gibetom e cercaram Tirza."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Quando Zinri viu que a cidade tinha sido tomada, entrou na torre fortificada da casa do rei e a incendiou, morrendo nas chamas."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Isso aconteceu por causa dos pecados que ele havia cometido ao fazer o que era mau aos olhos de Jeová, andando no caminho de Jeroboão, e por causa do pecado que ele tinha levado Israel a cometer."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Quanto aos outros acontecimentos da história de Zinri e sua conspiração, não estão escritos no livro da história da época dos reis de Israel?"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Foi então que o povo de Israel se dividiu em duas facções. Uma parte do povo apoiava Tibni, filho de Ginate, e queria fazê-lo rei; e a outra parte apoiava Onri."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Mas o povo que apoiava Onri venceu o povo que apoiava Tibni, filho de Ginate. Assim, Tibni morreu, e Onri tornou-se rei."
+        },
+        {
+          "versiculo": 23,
+          "texto": "No trigésimo primeiro ano de Asa, rei de Judá, Onri tornou-se rei sobre Israel, e reinou por 12 anos. Em Tirza, ele reinou por seis anos."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Ele comprou de Semer o monte de Samaria por dois talentos de prata e construiu uma cidade no monte. Deu à cidade o nome de Samaria, por causa de Semer, dono do monte."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Onri fazia o que era mau aos olhos de Jeová e era pior do que todos os que reinaram antes dele."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Ele andou em todos os caminhos de Jeroboão, filho de Nebate, e no pecado que ele havia levado Israel a cometer, ofendendo a Jeová, o Deus de Israel, com os seus ídolos inúteis."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Quanto aos outros acontecimentos da história de Onri, o que ele fez e suas grandes realizações, não estão escritos no livro da história da época dos reis de Israel?"
+        },
+        {
+          "versiculo": 28,
+          "texto": "Então Onri descansou com os seus antepassados e foi enterrado em Samaria; e Acabe, seu filho, tornou-se rei no seu lugar."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Acabe, filho de Onri, tornou-se rei sobre Israel no trigésimo oitavo ano de Asa, rei de Judá. E Acabe, filho de Onri, reinou sobre Israel, em Samaria, por 22 anos."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Acabe, filho de Onri, foi pior aos olhos de Jeová do que todos os que reinaram antes dele."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Como se não bastasse cometer os mesmos pecados que Jeroboão, filho de Nebate, cometeu, ele também tomou como esposa Jezabel, filha de Etbaal, rei dos sidônios, e começou a servir a Baal e a curvar-se diante dele."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Além disso, fez para Baal um altar na casa de Baal, que ele tinha construído em Samaria."
+        },
+        {
+          "versiculo": 33,
+          "texto": "Acabe fez também o poste sagrado. Ele fez mais para ofender a Jeová, o Deus de Israel, do que todos os reis de Israel que reinaram antes dele."
+        },
+        {
+          "versiculo": 34,
+          "texto": "Foi nos dias dele que Hiel, o betelita, reconstruiu Jericó. Ele lançou os alicerces dela pagando com a perda de Abirão, seu primogênito, e colocou as suas portas pagando com a perda de Segube, seu filho mais novo, segundo a palavra que Jeová havia falado por meio de Josué, filho de Num."
+        }
+      ]
+    },
+    {
+      "numero": 17,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 17:1-24 REPRODUZIR CONTEÚDO DO LIVRO O profeta Elias prediz uma seca ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") Elias é alimentado por corvos ( 2-7 ) Elias visita uma viúva em Sarefá ( 8-16 ) O filho da viúva morre e é ressuscitado ( 17-24 )"
+        },
+        {
+          "versiculo": 17,
+          "texto": "E Elias, o tisbita, habitante de Gileade, disse a Acabe: “Tão certo como vive Jeová, o Deus de Israel, a quem sirvo, não haverá nem orvalho nem chuva durante estes anos, a não ser que eu ordene!”"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Elias recebeu a seguinte palavra de Jeová:"
+        },
+        {
+          "versiculo": 3,
+          "texto": "“Saia deste lugar, vá para o leste e esconda-se no vale de Querite, que fica ao leste do Jordão."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Você deve beber água do riacho, e eu ordenarei aos corvos que o supram de alimento ali.”"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Imediatamente ele foi e fez de acordo com a palavra de Jeová; ele foi e ficou no vale de Querite, ao leste do Jordão."
+        },
+        {
+          "versiculo": 6,
+          "texto": "E os corvos traziam-lhe pão e carne de manhã, e pão e carne ao anoitecer, e ele bebia água do riacho."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Mas depois de alguns dias o riacho secou, porque não chovia no país."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Então ele recebeu a seguinte palavra de Jeová:"
+        },
+        {
+          "versiculo": 9,
+          "texto": "“Vá imediatamente a Sarefá, no território de Sídon, e fique lá. Eu mandarei que uma viúva de lá o supra de alimento.”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Assim, ele foi a Sarefá. Quando chegou à entrada da cidade, encontrou uma viúva ajuntando gravetos. Ele a chamou e disse: “Por favor, traga-me um pouco de água num copo para que eu beba.”"
+        },
+        {
+          "versiculo": 11,
+          "texto": "Quando ela estava indo buscar a água, ele a chamou e disse: “Por favor, traga-me um pedaço de pão.”"
+        },
+        {
+          "versiculo": 12,
+          "texto": "Então ela disse: “Tão certo como vive Jeová, seu Deus, não tenho pão, só tenho um punhado de farinha num jarro grande e um pouco de azeite num jarro pequeno. Estou ajuntando uns gravetos e vou para casa fazer algo para mim e o meu filho. Vamos comer e depois morrer.”"
+        },
+        {
+          "versiculo": 13,
+          "texto": "Então Elias lhe disse: “Não tenha medo. Vá para casa e faça o que você disse. Mas primeiro faça-me um pequeno pão redondo com o que você tem e traga-o para mim. Depois pode preparar alguma coisa para você e o seu filho."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Pois assim diz Jeová, o Deus de Israel: ‘A farinha no jarro grande não se esgotará, e o azeite no jarro pequeno não acabará, até o dia em que Jeová fizer chover sobre o solo.’”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Portanto, ela foi e fez o que Elias disse; e ela, o profeta e a família dela tiveram o que comer por muitos dias."
+        },
+        {
+          "versiculo": 16,
+          "texto": "A farinha no jarro grande não se esgotou, e o azeite no jarro pequeno não acabou, segundo a palavra que Jeová havia falado por meio de Elias."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Depois disso, o filho da dona da casa ficou doente, e sua doença se agravou tanto que ele morreu."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Então ela disse a Elias: “O que o senhor tem contra mim, homem do verdadeiro Deus? O senhor veio à minha casa para me lembrar dos meus pecados e para matar o meu filho?”"
+        },
+        {
+          "versiculo": 19,
+          "texto": "Mas ele lhe disse: “Dê-me o seu filho.” Então o pegou dos braços dela e o levou para cima, para o quarto de terraço onde estava hospedado, e o deitou na sua própria cama."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Ele clamou a Jeová: “Ó Jeová, meu Deus, será que também estás causando calamidade à viúva que me hospedou, matando o filho dela?”"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Então ele se estendeu três vezes sobre o menino e clamou a Jeová: “Ó Jeová, meu Deus, por favor, que a vida deste menino volte a ele.”"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Jeová escutou o pedido de Elias; a vida do menino voltou a ele, e ele reviveu."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Elias pegou o menino, desceu do quarto de terraço para a casa e o entregou à sua mãe. E Elias disse: “Veja! Seu filho está vivo!”"
+        },
+        {
+          "versiculo": 24,
+          "texto": "Então a mulher disse a Elias: “Agora sei que o senhor é mesmo um homem de Deus e que a palavra que o senhor fala da parte de Jeová é verdade.”"
+        }
+      ]
+    },
+    {
+      "numero": 18,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 18:1-46 REPRODUZIR CONTEÚDO DO LIVRO Elias se encontra com Obadias e Acabe ( 1-18 ) Elias e os profetas de Baal no Carmelo ( 19-40 ) “Indecisos entre duas opiniões” ("
+        },
+        {
+          "versiculo": 21,
+          "texto": ") Fim da seca de três anos e meio ( 41-46 )"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Depois de algum tempo, no terceiro ano, Elias recebeu a seguinte palavra de Jeová: “Vá, apresente-se a Acabe, e eu farei chover sobre o solo.”"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Assim, Elias foi apresentar-se a Acabe; e a fome era severa em Samaria."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Nesse meio-tempo, Acabe chamou Obadias, que era o encarregado da casa. (Obadias temia muito a Jeová,"
+        },
+        {
+          "versiculo": 4,
+          "texto": "e, quando Jezabel estava eliminando os profetas de Jeová, Obadias levou cem profetas e os manteve escondidos em cavernas, em grupos de 50, e os sustentou com pão e água.)"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Acabe disse a Obadias: “Percorra todo o país e vá a todas as fontes de água e a todos os vales. Talvez achemos pastagem suficiente para manter vivos os cavalos e as mulas, para que não morram todos os nossos animais.”"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Então dividiram a terra que iam percorrer. Acabe foi sozinho por um caminho, e Obadias foi sozinho por outro caminho."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Quando Obadias estava seguindo seu caminho, Elias veio ao seu encontro. Obadias o reconheceu imediatamente e se prostrou com o rosto por terra, e perguntou: “É o senhor, meu senhor Elias?”"
+        },
+        {
+          "versiculo": 8,
+          "texto": "Ele lhe respondeu: “Sou eu. Vá e diga ao seu senhor, o rei: ‘Elias está aqui.’”"
+        },
+        {
+          "versiculo": 9,
+          "texto": "Mas Obadias disse: “Que pecado eu cometi, para o senhor querer entregar o seu servo a Acabe para ele me matar?"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Tão certo como vive Jeová, seu Deus, não há nação nem reino em que o meu senhor, o rei, não o tenha mandado procurar. Quando diziam: ‘Ele não está aqui’, o rei fazia cada reino e cada nação jurar que não tinha conseguido achá-lo."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Agora o senhor diz: ‘Vá e diga ao seu senhor, o rei: “Elias está aqui.”’"
+        },
+        {
+          "versiculo": 12,
+          "texto": "Quando eu for embora, o espírito de Jeová levará o senhor para um lugar que eu não saberei. E, quando eu informar a Acabe e ele não o encontrar, com certeza me matará. No entanto, o seu servo tem temido a Jeová desde a juventude."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Não informaram o meu senhor sobre o que eu fiz quando Jezabel estava matando os profetas de Jeová? Eu escondi em cavernas cem profetas de Jeová em grupos de 50, e os sustentei com pão e água."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Mas agora o senhor está dizendo: ‘Vá e diga ao seu senhor, o rei: “Elias está aqui.”’ Ele com certeza me matará.”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Contudo, Elias disse: “Tão certo como vive Jeová dos exércitos, a quem sirvo, hoje eu me apresentarei a Acabe.”"
+        },
+        {
+          "versiculo": 16,
+          "texto": "Assim, Obadias foi ao encontro de Acabe e o avisou. Então Acabe foi ao encontro de Elias."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Assim que viu Elias, Acabe disse: “É você? Aquele que está causando essa grande desgraça em Israel?”"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Então ele respondeu: “Não fui eu que causei essa desgraça em Israel; o culpado é o senhor e a casa do seu pai, porque abandonaram os mandamentos de Jeová e seguiram os baalins."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Agora convoque todo o Israel ao monte Carmelo, e também os 450 profetas de Baal e os 400 profetas do poste sagrado, que comem à mesa de Jezabel.”"
+        },
+        {
+          "versiculo": 20,
+          "texto": "Assim, Acabe mandou mensageiros a todo o povo de Israel e reuniu os profetas no monte Carmelo."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Então Elias se aproximou de todo o povo e disse: “Até quando vocês ficarão indecisos entre duas opiniões? Se Jeová é o verdadeiro Deus, sigam a ele! Mas se é Baal, sigam a ele!” Mas o povo não lhe disse nenhuma palavra em resposta."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Elias disse então ao povo: “Eu sou o único profeta de Jeová que restou, mas há 450 profetas de Baal."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Que eles tragam dois novilhos. Que escolham um novilho, o cortem em pedaços e o coloquem sobre a lenha. Mas eles não devem pôr fogo nele. Eu prepararei o outro novilho e o colocarei sobre a lenha, mas não porei fogo nele."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Então invoquem o nome do seu deus, e eu invocarei o nome de Jeová. O Deus que responder enviando fogo mostrará que é o verdadeiro Deus.” E todo o povo respondeu: “O que o senhor disse é bom.”"
+        },
+        {
+          "versiculo": 25,
+          "texto": "Elias disse então aos profetas de Baal: “Escolham um novilho e preparem-no primeiro, visto que vocês são a maioria. Depois invoquem o nome do seu deus, mas não ponham fogo no novilho.”"
+        },
+        {
+          "versiculo": 26,
+          "texto": "Assim, pegaram o novilho que tinha sido trazido, prepararam-no e invocaram o nome de Baal desde a manhã até o meio-dia, dizendo: “Ó Baal, responde-nos!” Mas não se ouvia nenhuma voz; ninguém respondia. Eles continuaram a dançar mancando em volta do altar que tinham feito."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Por volta do meio-dia, Elias começou a zombar deles e a dizer: “Gritem o mais que puderem! Afinal, ele é um deus! Talvez ele esteja entretido em seus pensamentos ou tenha ido fazer necessidades. Ou talvez esteja dormindo e alguém precisa acordá-lo!”"
+        },
+        {
+          "versiculo": 28,
+          "texto": "Eles gritavam ao máximo da sua voz e faziam cortes em si mesmos com punhais e com lanças, segundo o seu costume, até ficarem cobertos de sangue."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Passou do meio-dia, e eles continuaram em delírio até a hora de se apresentar a oferta de cereais do anoitecer, mas não se ouvia nenhuma voz, ninguém respondia; ninguém prestava atenção."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Por fim, Elias disse a todo o povo: “Aproximem-se de mim.” Assim, todo o povo se aproximou dele, e ele restaurou o altar de Jeová que havia sido derrubado."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Elias pegou então 12 pedras, conforme o número das tribos dos filhos de Jacó, o qual tinha recebido a seguinte palavra de Jeová: “Israel será o seu nome.”"
+        },
+        {
+          "versiculo": 32,
+          "texto": "Com essas pedras, Elias construiu um altar em nome de Jeová. Depois fez em volta do altar uma vala, grande o suficiente para se semear dois seás de semente."
+        },
+        {
+          "versiculo": 33,
+          "texto": "Em seguida arrumou a lenha, cortou o novilho em pedaços e o pôs sobre a lenha, e disse: “Encham quatro jarros grandes com água e despejem-na sobre a oferta queimada e sobre a lenha.”"
+        },
+        {
+          "versiculo": 34,
+          "texto": "Então ele disse: “Façam isso outra vez.” E eles o fizeram outra vez. Depois ele disse: “Façam isso pela terceira vez.” E eles o fizeram pela terceira vez."
+        },
+        {
+          "versiculo": 35,
+          "texto": "A água correu por todo o altar, e ele encheu também a vala com água."
+        },
+        {
+          "versiculo": 36,
+          "texto": "Por volta da hora de se apresentar a oferta de cereais do anoitecer, Elias, o profeta, aproximou-se do altar e disse: “Ó Jeová, Deus de Abraão, de Isaque e de Israel, saiba-se hoje que tu és Deus em Israel, que eu sou o teu servo e que foi segundo a tua ordem que fiz todas essas coisas."
+        },
+        {
+          "versiculo": 37,
+          "texto": "Responde-me, ó Jeová! Responde-me, para que este povo saiba que tu, Jeová, és o verdadeiro Deus e que tu estás fazendo o coração deles voltar para ti.”"
+        },
+        {
+          "versiculo": 38,
+          "texto": "Então desceu fogo da parte de Jeová e consumiu a oferta queimada, a lenha, as pedras e o pó, e secou a água que havia na vala."
+        },
+        {
+          "versiculo": 39,
+          "texto": "Quando o povo viu isso, todos se prostraram imediatamente com o rosto por terra e disseram: “Jeová é o verdadeiro Deus! Jeová é o verdadeiro Deus!”"
+        },
+        {
+          "versiculo": 40,
+          "texto": "Elias disse-lhes então: “Peguem os profetas de Baal! Não deixem escapar nenhum deles!” Eles os pegaram imediatamente, e Elias os fez descer ao rio Quisom e os matou ali."
+        },
+        {
+          "versiculo": 41,
+          "texto": "Elias disse a Acabe: “Vá, coma e beba, pois já se ouve o barulho de uma chuva forte.”"
+        },
+        {
+          "versiculo": 42,
+          "texto": "Então Acabe foi comer e beber, mas Elias subiu ao cume do Carmelo, ajoelhou-se no chão e ficou com o rosto entre os joelhos."
+        },
+        {
+          "versiculo": 43,
+          "texto": "Ele disse então ao seu ajudante: “Por favor, vá e olhe na direção do mar.” Portanto ele foi, olhou e disse: “Não há absolutamente nada.” E Elias disse sete vezes: “Volte e olhe de novo.”"
+        },
+        {
+          "versiculo": 44,
+          "texto": "Na sétima vez o ajudante disse: “Veja! Uma nuvem pequena do tamanho da mão de um homem está subindo do mar.” Elias disse então: “Vá, diga a Acabe: ‘Prepare o seu carro de guerra! Desça para que a chuva não o detenha!’”"
+        },
+        {
+          "versiculo": 45,
+          "texto": "Nesse meio-tempo, o céu ficou cheio de nuvens escuras, começou a ventar e caiu uma chuva forte. Acabe seguiu no seu carro de guerra para Jezreel."
+        },
+        {
+          "versiculo": 46,
+          "texto": "E a mão de Jeová veio sobre Elias; então ele prendeu sua veste na cintura e correu na frente de Acabe até Jezreel."
+        }
+      ]
+    },
+    {
+      "numero": 19,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 19:1-21 REPRODUZIR CONTEÚDO DO LIVRO Elias foge da ira de Jezabel ( 1-8 ) Jeová aparece a Elias em Horebe ( 9-14 ) Elias deve ungir Hazael, Jeú e Eliseu ( 15-18 ) Eliseu é designado sucessor de Elias ( 19-21 )"
+        },
+        {
+          "versiculo": 19,
+          "texto": "Acabe contou então a Jezabel tudo o que Elias tinha feito e como ele tinha matado todos os profetas à espada."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Em vista disso, Jezabel enviou um mensageiro a Elias para dizer-lhe: “Que os deuses me castiguem, e que o façam severamente, se amanhã, até esta hora, eu não fizer com você o mesmo que você fez com cada um daqueles profetas!”"
+        },
+        {
+          "versiculo": 3,
+          "texto": "Então ele ficou com medo. Por isso, fugiu imediatamente para salvar a sua vida. Ele chegou a Berseba, que fica em Judá, e deixou o seu ajudante ali."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Em seguida, entrou no deserto e caminhou durante um dia. Ao encontrar uma giesta-das-vassouras, sentou-se debaixo dela e pediu para morrer. Ele disse: “Já chega! Agora, ó Jeová, tira a minha vida, pois não sou melhor do que os meus antepassados.”"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Então ele se deitou e adormeceu debaixo da giesta-das-vassouras. De repente um anjo tocou nele e disse: “Levante-se e coma.”"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Quando ele olhou, havia junto à sua cabeça um pão redondo sobre pedras aquecidas e um jarro de água. Ele comeu, bebeu e se deitou novamente."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Mais tarde o anjo de Jeová veio pela segunda vez, tocou nele e disse: “Levante-se e coma, senão você não aguentará a viagem.”"
+        },
+        {
+          "versiculo": 8,
+          "texto": "Assim, ele se levantou, comeu e bebeu, e, fortalecido por aquele alimento, andou 40 dias e 40 noites até chegar a Horebe, o monte do verdadeiro Deus."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Ali ele entrou numa caverna e passou a noite; de repente, veio a ele a palavra de Jeová: “O que você está fazendo aqui, Elias?”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Ele respondeu: “Tive um zelo muito grande por Jeová, o Deus dos exércitos, pois o povo de Israel abandonou o teu pacto, derrubou os teus altares e matou os teus profetas à espada, e eu fui o único que sobrou. Agora eles estão querendo tirar a minha vida.”"
+        },
+        {
+          "versiculo": 11,
+          "texto": "Mas Ele disse: “Saia e fique de pé no monte, diante de Jeová.” E Jeová estava passando, e um vento muito forte partia montes e despedaçava rochedos diante de Jeová, mas Jeová não estava no vento. Depois do vento houve um terremoto, mas Jeová não estava no terremoto."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Depois do terremoto houve um fogo, mas Jeová não estava no fogo. Depois do fogo ouviu-se uma voz calma, baixa."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Assim que Elias ouviu essa voz, cobriu o rosto com o seu manto oficial, saiu e ficou de pé à entrada da caverna. Então uma voz lhe perguntou: “O que você está fazendo aqui, Elias?”"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Ele respondeu: “Tive um zelo muito grande por Jeová, o Deus dos exércitos, pois o povo de Israel abandonou o teu pacto, derrubou os teus altares e matou os teus profetas à espada, e eu fui o único que sobrou. Agora eles estão querendo tirar a minha vida.”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Jeová disse-lhe: “Volte, e vá ao deserto de Damasco. Ao chegar, você deve ungir Hazael para ser rei da Síria."
+        },
+        {
+          "versiculo": 16,
+          "texto": "E você deve ungir Jeú, neto de Ninsi, para ser rei de Israel, e deve ungir Eliseu, filho de Safate, de Abel-Meolá, para ser profeta no seu lugar."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Quem escapar da espada de Hazael, Jeú matará; e quem escapar da espada de Jeú, Eliseu matará."
+        },
+        {
+          "versiculo": 18,
+          "texto": "E ainda tenho 7.000 em Israel, todos os que não se ajoelharam diante de Baal e que não o beijaram.”"
+        },
+        {
+          "versiculo": 19,
+          "texto": "Assim, Elias partiu dali e encontrou Eliseu, filho de Safate. Ele estava arando a terra, e havia 12 pares de touros à sua frente; Eliseu estava com o décimo segundo par. Então Elias foi até ele e lançou sobre ele o seu manto oficial."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Em vista disso, Eliseu deixou os touros, correu atrás de Elias e disse: “Por favor, deixe-me beijar meu pai e minha mãe. Depois eu o seguirei.” Ele lhe disse: “Pode ir, não estou impedindo você.”"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Portanto, ele voltou, pegou dois touros e os ofereceu em sacrifício. Com a madeira do arado e do jugo cozinhou a carne e deu-a ao povo, e eles comeram. Depois ele seguiu Elias e começou a servi-lo."
+        }
+      ]
+    },
+    {
+      "numero": 20,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 20:1-43 REPRODUZIR CONTEÚDO DO LIVRO Sírios guerreiam contra Acabe ( 1-12 ) Acabe derrota os sírios ( 13-34 ) Profecia contra Acabe ( 35-43 )"
+        },
+        {
+          "versiculo": 20,
+          "texto": "Ben-Hadade, rei da Síria, reuniu todo o seu exército e também outros 32 reis, junto com seus cavalos e carros de guerra. Ele subiu a Samaria, cercou-a e a atacou."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Então ele enviou mensageiros à cidade, a Acabe, rei de Israel, para lhe dizer: “Assim diz Ben-Hadade:"
+        },
+        {
+          "versiculo": 3,
+          "texto": "‘A sua prata e o seu ouro são meus, e, das suas esposas e dos seus filhos, os melhores são meus.’”"
+        },
+        {
+          "versiculo": 4,
+          "texto": "Em vista disso, o rei de Israel disse: “Que seja conforme a sua palavra, meu senhor, o rei. Sou seu, junto com tudo o que me pertence.”"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Mais tarde os mensageiros voltaram a Acabe e disseram: “Assim diz Ben-Hadade: ‘Eu mandei dizer-lhe: “Você me dará a sua prata, o seu ouro, as suas esposas e os seus filhos.”"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Mas amanhã, por volta desta hora, enviarei a você os meus servos, e eles farão uma busca cuidadosa na sua casa e nas casas dos seus servos, e pegarão e levarão embora tudo o que lhe for precioso.’”"
+        },
+        {
+          "versiculo": 7,
+          "texto": "Em vista disso, o rei de Israel convocou todos os anciãos do país e disse: “Prestem atenção, por favor. Vejam como esse homem está decidido a nos causar calamidade, pois ele exigiu que eu lhe entregasse as minhas esposas, os meus filhos, a minha prata e o meu ouro, e eu não lhe neguei nada disso.”"
+        },
+        {
+          "versiculo": 8,
+          "texto": "E todos os anciãos e todo o povo lhe disseram: “Não obedeça, não aceite isso.”"
+        },
+        {
+          "versiculo": 9,
+          "texto": "Portanto, ele disse aos mensageiros de Ben-Hadade: “Diga ao meu senhor, o rei: ‘Farei tudo o que o senhor exigiu do seu servo na primeira vez, mas não posso fazer o que me pede agora.’” Com isso os mensageiros foram embora e levaram essa informação a Ben-Hadade."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Então Ben-Hadade mandou dizer-lhe: “Que os deuses me castiguem, e o façam severamente, se o pó que sobrar de Samaria for suficiente para dar um punhado a cada um dos homens que estão comigo!”"
+        },
+        {
+          "versiculo": 11,
+          "texto": "O rei de Israel respondeu: “Digam a ele: ‘Que aquele que veste a armadura não se gabe como se já a estivesse tirando.’”"
+        },
+        {
+          "versiculo": 12,
+          "texto": "Assim que Ben-Hadade ouviu isso, enquanto ele e os reis bebiam nas suas tendas, disse aos seus servos: “Preparem-se para atacar!” Então eles se prepararam para atacar a cidade."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Mas um profeta se aproximou de Acabe, rei de Israel, e disse: “Assim diz Jeová: ‘Está vendo toda esta multidão? Saiba que hoje eu a entregarei nas suas mãos, e então você saberá que eu sou Jeová.’”"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Acabe perguntou: “Por meio de quem?” O profeta respondeu: “Assim diz Jeová: ‘Por meio dos ajudantes dos príncipes das províncias.’” Então Acabe perguntou: “Quem começará a batalha?” O profeta respondeu: “O senhor!”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Acabe contou então os ajudantes dos príncipes das províncias: eles eram 232; depois contou todos os homens de Israel: 7.000."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Eles saíram ao meio-dia, enquanto Ben-Hadade estava nas tendas se embriagando junto com os 32 reis que o ajudavam."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Os ajudantes dos príncipes das províncias saíram primeiro. Imediatamente Ben-Hadade enviou uma patrulha, que o informou: “Saíram homens de Samaria.”"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Então ele disse: “Se eles saíram para a paz, peguem-nos vivos; se saíram para a guerra, peguem-nos vivos mesmo assim.”"
+        },
+        {
+          "versiculo": 19,
+          "texto": "Mas, quando os ajudantes dos príncipes das províncias e as tropas que os seguiam saíram da cidade,"
+        },
+        {
+          "versiculo": 20,
+          "texto": "cada um deles matou seu adversário. Então os sírios fugiram, e Israel foi atrás deles, mas Ben-Hadade, rei da Síria, escapou a cavalo, junto com alguns dos cavaleiros."
+        },
+        {
+          "versiculo": 21,
+          "texto": "O rei de Israel, porém, saiu e atacou os cavalos e os carros de guerra, e causou uma grande derrota aos sírios."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Mais tarde, o profeta aproximou-se do rei de Israel e disse-lhe: “Vá, fortaleça as suas defesas e pense bem no que o senhor vai fazer, pois no início do próximo ano o rei da Síria virá contra o senhor.”"
+        },
+        {
+          "versiculo": 23,
+          "texto": "Os servos do rei da Síria disseram-lhe: “O Deus deles é um Deus de montanhas. É por isso que eles nos venceram. Mas, se lutarmos contra eles na planície, nós os venceremos."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Além disso, faça o seguinte: remova todos os reis das suas funções e ponha governadores no lugar deles."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Depois reúna um exército igual ao que o senhor perdeu, com o mesmo número de cavalos e carros de guerra. Lutemos contra eles na planície e nós certamente os venceremos.” Ele escutou o conselho deles e fez exatamente isso."
+        },
+        {
+          "versiculo": 26,
+          "texto": "No início do ano, Ben-Hadade reuniu os sírios e foi a Afeque para a batalha contra Israel."
+        },
+        {
+          "versiculo": 27,
+          "texto": "O povo de Israel também foi reunido e recebeu provisões, e saiu ao encontro deles. Quando o povo de Israel se acampou diante deles, pareciam dois pequenos rebanhos de cabras, ao passo que os sírios enchiam toda a região."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Então o homem do verdadeiro Deus se aproximou do rei de Israel e disse: “Assim diz Jeová: ‘Visto que os sírios disseram: “Jeová é um Deus de montanhas, não um Deus de baixadas”, entregarei nas suas mãos toda esta multidão, e vocês certamente saberão que eu sou Jeová.’”"
+        },
+        {
+          "versiculo": 29,
+          "texto": "Os dois exércitos continuaram acampados um de frente para o outro por sete dias, e, no sétimo dia, a batalha começou. Num só dia, o povo de Israel matou 100.000 soldados dos sírios."
+        },
+        {
+          "versiculo": 30,
+          "texto": "E o restante fugiu para Afeque e entrou na cidade. Mas a muralha caiu sobre 27.000 dos homens que tinham restado. Ben-Hadade também fugiu para dentro da cidade e se escondeu num quarto de uma casa."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Então os seus servos lhe disseram: “Escute, ó rei, ouvimos dizer que os reis da casa de Israel são reis misericordiosos. Por favor, vamos nos apresentar ao rei de Israel com pano de saco na cintura e cordas em volta da cabeça. Talvez ele poupe a sua vida.”"
+        },
+        {
+          "versiculo": 32,
+          "texto": "Portanto, colocaram pano de saco na cintura e cordas em volta da cabeça, então foram ao rei de Israel e disseram: “Seu servo Ben-Hadade disse: ‘Por favor, deixe-me viver.’” O rei disse: “Ele ainda está vivo? Ele é meu irmão.”"
+        },
+        {
+          "versiculo": 33,
+          "texto": "Os homens encararam isso como um bom sinal e, aproveitando o que ele disse, afirmaram: “Sim, Ben-Hadade é seu irmão.” Então ele disse: “Vão, tragam-no.” Então Ben-Hadade se entregou ao rei, e Acabe fez com que ele subisse no seu carro de guerra."
+        },
+        {
+          "versiculo": 34,
+          "texto": "Ben-Hadade disse-lhe então: “As cidades que o meu pai tomou do seu pai, eu devolverei; e você poderá estabelecer mercados em Damasco, assim como o meu pai fez em Samaria.” Acabe disse: “Se fizermos esse acordo, eu o deixarei ir embora.” Portanto, fez um acordo com ele e o deixou ir embora."
+        },
+        {
+          "versiculo": 35,
+          "texto": "Por ordem de Jeová, um dos filhos dos profetas disse a um companheiro: “Por favor, golpeie-me.” Mas o homem negou-se a golpeá-lo."
+        },
+        {
+          "versiculo": 36,
+          "texto": "Por isso ele lhe disse: “Visto que você não escutou a voz de Jeová, assim que você for embora um leão o matará.” Quando ele foi embora, um leão o encontrou e o matou."
+        },
+        {
+          "versiculo": 37,
+          "texto": "O profeta encontrou outro homem e disse: “Por favor, golpeie-me.” Então o homem o golpeou e o feriu."
+        },
+        {
+          "versiculo": 38,
+          "texto": "Depois o profeta foi até a estrada e ficou esperando o rei. Ele se disfarçou, cobrindo os olhos com uma atadura."
+        },
+        {
+          "versiculo": 39,
+          "texto": "Quando o rei ia passando, ele gritou ao rei e disse: “Seu servo estava no meio da batalha quando um homem veio trazendo um prisioneiro e disse: ‘Vigie este homem. Se ele escapar, será a sua vida pela vida dele, ou então você terá de pagar um talento de prata.’"
+        },
+        {
+          "versiculo": 40,
+          "texto": "E, enquanto o seu servo estava ocupado com outras coisas, o prisioneiro desapareceu.” O rei de Israel lhe disse: “Essa é a sua sentença; você mesmo a pronunciou.”"
+        },
+        {
+          "versiculo": 41,
+          "texto": "Então ele removeu depressa a atadura dos olhos, e o rei de Israel o reconheceu como um dos profetas."
+        },
+        {
+          "versiculo": 42,
+          "texto": "Ele disse ao rei: “Assim diz Jeová: ‘Visto que você deixou escapar das suas mãos o homem que eu disse que devia ser morto, será a sua vida pela vida dele, e o seu povo pelo povo dele.’”"
+        },
+        {
+          "versiculo": 43,
+          "texto": "Em vista disso, o rei de Israel foi embora para a sua casa em Samaria, contrariado e abatido."
+        }
+      ]
+    },
+    {
+      "numero": 21,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 21:1-29 REPRODUZIR CONTEÚDO DO LIVRO Acabe cobiça o vinhedo de Nabote ( 1-4 ) Jezabel faz com que Nabote seja morto ( 5-16 ) Mensagem de Elias contra Acabe ( 17-26 ) Acabe se humilha ( 27-29 )"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Depois disso, houve o caso do vinhedo que pertencia a Nabote, o jezreelita. Esse vinhedo ficava em Jezreel, ao lado do palácio de Acabe, rei de Samaria."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Acabe disse a Nabote: “Dê-me o seu vinhedo para eu fazer uma horta, pois ele fica perto da minha casa. Eu lhe darei em troca um vinhedo melhor. Ou, se você preferir, eu lhe darei o valor dele em dinheiro.”"
+        },
+        {
+          "versiculo": 3,
+          "texto": "Mas Nabote disse a Acabe: “Em respeito a Jeová, eu jamais lhe daria a herança dos meus antepassados.”"
+        },
+        {
+          "versiculo": 4,
+          "texto": "Portanto, Acabe entrou na sua casa contrariado e abatido porque Nabote, o jezreelita, lhe tinha dito: “Não lhe darei a herança dos meus antepassados.” Então ele se deitou na sua cama, virou o rosto e não quis comer nada."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Jezabel, sua esposa, foi falar com ele e perguntou: “Por que você está tão triste que não quer comer?”"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Ele lhe respondeu: “Porque eu disse a Nabote, o jezreelita: ‘Venda-me o seu vinhedo. Ou, se preferir, eu lhe darei outro vinhedo em troca.’ Mas ele disse: ‘Não lhe darei o meu vinhedo.’”"
+        },
+        {
+          "versiculo": 7,
+          "texto": "Jezabel, sua esposa, disse-lhe: “Você não é o rei de Israel? Levante-se, coma alguma coisa, e que o seu coração se alegre. Eu lhe darei o vinhedo de Nabote, o jezreelita.”"
+        },
+        {
+          "versiculo": 8,
+          "texto": "Assim, ela escreveu cartas em nome de Acabe, selou-as com o selo dele e enviou as cartas aos anciãos e aos nobres que moravam na cidade de Nabote."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Ela escreveu nas cartas: “Proclamem um jejum e façam Nabote sentar-se diante do povo."
+        },
+        {
+          "versiculo": 10,
+          "texto": "E façam dois homens imprestáveis sentar-se em frente a ele e testemunhar contra ele, dizendo: ‘Você amaldiçoou a Deus e ao rei!’ Depois levem-no para fora da cidade e apedrejem-no até a morte.”"
+        },
+        {
+          "versiculo": 11,
+          "texto": "Portanto, os homens da cidade de Nabote, os anciãos e os nobres que moravam naquela cidade, fizeram exatamente como estava escrito nas cartas que Jezabel lhes tinha enviado."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Proclamaram um jejum e fizeram Nabote sentar-se diante do povo."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Então dois homens imprestáveis vieram, sentaram-se em frente a Nabote e testemunharam contra ele na frente do povo, dizendo: “Nabote amaldiçoou a Deus e ao rei!” Depois o levaram para fora da cidade e o apedrejaram até a morte."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Então mandaram dizer a Jezabel: “Nabote foi apedrejado e está morto.”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Assim que Jezabel soube que Nabote tinha sido apedrejado até a morte, ela disse a Acabe: “Vá, tome posse do vinhedo que Nabote, o jezreelita, não quis lhe vender, pois Nabote não está mais vivo. Ele está morto.”"
+        },
+        {
+          "versiculo": 16,
+          "texto": "Quando Acabe soube que Nabote estava morto, desceu imediatamente ao vinhedo de Nabote, o jezreelita, para tomar posse dele."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Mas Elias, o tisbita, recebeu a seguinte palavra de Jeová:"
+        },
+        {
+          "versiculo": 18,
+          "texto": "“Vá depressa ao encontro de Acabe, rei de Israel, que está em Samaria. Ele está no vinhedo de Nabote, pois foi para lá a fim de tomar posse dele."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Diga-lhe: ‘Assim diz Jeová: “Você assassinou um homem e também tomou o terreno dele?”’ Diga-lhe também: ‘Assim diz Jeová: “No lugar onde os cães lamberam o sangue de Nabote, os cães lamberão o seu próprio sangue.”’”"
+        },
+        {
+          "versiculo": 20,
+          "texto": "Acabe disse a Elias: “Então, meu inimigo, você me achou!” Ele respondeu: “Achei. Deus disse: ‘Visto que você está determinado a fazer o que é mau aos olhos de Jeová,"
+        },
+        {
+          "versiculo": 21,
+          "texto": "saiba que vou trazer uma calamidade sobre você, e vou exterminá-lo e eliminar em Israel todos os do sexo masculino da casa de Acabe, incluindo o desamparado e o fraco."
+        },
+        {
+          "versiculo": 22,
+          "texto": "E farei com a sua casa o mesmo que fiz com a casa de Jeroboão, filho de Nebate, e com a casa de Baasa, filho de Aías, pois você provocou a minha ira e levou Israel a pecar.’"
+        },
+        {
+          "versiculo": 23,
+          "texto": "Jeová também falou a respeito de Jezabel: ‘Os cães devorarão Jezabel no terreno em Jezreel."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Os da casa de Acabe que morrerem na cidade, os cães devorarão; e os que morrerem no campo, as aves dos céus comerão."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Certamente nunca houve ninguém tão determinado a fazer o que é mau aos olhos de Jeová como Acabe, que foi instigado por Jezabel, sua esposa."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Ele agiu do modo mais detestável possível, seguindo ídolos repugnantes, como faziam todos os amorreus, que Jeová tinha expulsado de diante dos israelitas.’”"
+        },
+        {
+          "versiculo": 27,
+          "texto": "Assim que Acabe ouviu essas palavras, rasgou as suas roupas, cobriu o corpo com pano de saco e começou a jejuar; ele se deitava em pano de saco e andava abatido."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Então Elias, o tisbita, recebeu a seguinte palavra de Jeová:"
+        },
+        {
+          "versiculo": 29,
+          "texto": "“Você viu como Acabe se humilhou por minha causa? Visto que ele se humilhou diante de mim, não trarei a calamidade durante a vida dele. Trarei a calamidade sobre a casa dele nos dias do seu filho.”"
+        }
+      ]
+    },
+    {
+      "numero": 22,
+      "versiculos": [
+        {
+          "versiculo": 22,
+          "texto": "O Primeiro dos Reis 22:1-53 REPRODUZIR CONTEÚDO DO LIVRO Jeosafá se alia a Acabe ( 1-12 ) Micaías profetiza a derrota ( 13-28 ) Um espírito engana Acabe ( 21, 22 ) Acabe é morto em Ramote-Gileade ( 29-40 ) Reinado de Jeosafá sobre Judá ( 41-50 ) Acazias, rei de Israel ( 51-53 )"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Por três anos não houve guerra entre a Síria e Israel."
+        },
+        {
+          "versiculo": 2,
+          "texto": "No terceiro ano, Jeosafá, rei de Judá, foi ao rei de Israel."
+        },
+        {
+          "versiculo": 3,
+          "texto": "O rei de Israel disse então aos seus servos: “Vocês não sabem que Ramote-Gileade pertence a nós? E, ainda assim, estamos hesitando em tomá-la de volta do rei da Síria.”"
+        },
+        {
+          "versiculo": 4,
+          "texto": "Ele perguntou então a Jeosafá: “Você vai comigo lutar em Ramote-Gileade?” Jeosafá respondeu ao rei de Israel: “Eu estarei com você. O meu povo estará com o seu povo. Os meus cavalos estarão com os seus cavalos.”"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Mas Jeosafá disse ao rei de Israel: “Por favor, primeiro procure saber qual é a palavra de Jeová.”"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Então o rei de Israel reuniu os profetas, cerca de 400 homens, e lhes perguntou: “Devo ir à guerra contra Ramote-Gileade, ou não?” Eles responderam: “Vá, e Jeová a entregará nas mãos do rei.”"
+        },
+        {
+          "versiculo": 7,
+          "texto": "Jeosafá disse então: “Será que não há um profeta de Jeová aqui? Vamos consultar a Deus por meio dele também.”"
+        },
+        {
+          "versiculo": 8,
+          "texto": "Então o rei de Israel disse a Jeosafá: “Há mais um homem por meio de quem podemos consultar a Jeová, mas eu o odeio, pois ele nunca profetiza coisas boas a meu respeito, só coisas más. É Micaías, filho de Inlá.” No entanto, Jeosafá disse: “O rei não deve dizer uma coisa dessas!”"
+        },
+        {
+          "versiculo": 9,
+          "texto": "Portanto, o rei de Israel chamou um oficial da corte e disse: “Depressa, traga Micaías, filho de Inlá.”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "O rei de Israel e Jeosafá, rei de Judá, estavam sentados, cada um no seu trono, com as suas vestes reais, na eira que ficava junto à entrada do portão de Samaria, e todos os profetas estavam profetizando diante deles."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Então Zedequias, filho de Quenaaná, fez para si chifres de ferro e disse: “Assim diz Jeová: ‘Com estes chifres você golpeará os sírios até os exterminar.’”"
+        },
+        {
+          "versiculo": 12,
+          "texto": "Todos os outros profetas profetizavam a mesma coisa, dizendo: “Suba a Ramote-Gileade e o senhor será bem-sucedido; Jeová a entregará nas mãos do rei.”"
+        },
+        {
+          "versiculo": 13,
+          "texto": "Então o mensageiro que foi chamar Micaías lhe disse: “Saiba que todas as palavras dos profetas são favoráveis ao rei. Por favor, que as suas palavras sejam iguais às deles, e diga algo favorável.”"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Mas Micaías disse: “Tão certo como Jeová vive, tudo o que Jeová me disser é o que falarei.”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Então ele se apresentou ao rei, e o rei lhe perguntou: “Micaías, devemos ir à guerra contra Ramote-Gileade, ou não?” Ele respondeu imediatamente: “Vá, e o senhor será bem-sucedido; Jeová a entregará nas mãos do rei.”"
+        },
+        {
+          "versiculo": 16,
+          "texto": "O rei lhe disse: “Quantas vezes preciso pô-lo sob juramento para não me dizer nada a não ser a verdade em nome de Jeová?”"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Então ele respondeu: “Vejo todos os israelitas espalhados pelos montes como ovelhas sem pastor. Jeová disse: ‘Eles não têm dono. Que cada um volte em paz para sua casa.’”"
+        },
+        {
+          "versiculo": 18,
+          "texto": "O rei de Israel disse então a Jeosafá: “Eu não lhe disse que ele não ia profetizar coisas boas a meu respeito, só coisas más?”"
+        },
+        {
+          "versiculo": 19,
+          "texto": "Micaías continuou: “Portanto, ouça a palavra de Jeová! Vi Jeová sentado no seu trono e todo o exército dos céus em pé junto a ele, à sua direita e à sua esquerda."
+        },
+        {
+          "versiculo": 20,
+          "texto": "E Jeová disse: ‘Quem enganará Acabe, para que ele suba a Ramote-Gileade e morra lá?’ E um dizia uma coisa, ao passo que outro dizia outra coisa."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Então um espírito veio, ficou de pé perante Jeová e disse: ‘Eu o enganarei.’ Jeová lhe perguntou: ‘Como você fará isso?’"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Ele respondeu: ‘Eu irei e me tornarei um espírito enganoso na boca de todos os profetas dele.’ Então ele disse: ‘Você o enganará e, ainda mais, será bem-sucedido. Vá e faça isso.’"
+        },
+        {
+          "versiculo": 23,
+          "texto": "E agora Jeová pôs um espírito enganoso na boca de todos estes seus profetas, mas Jeová declarou que o senhor sofrerá uma calamidade.”"
+        },
+        {
+          "versiculo": 24,
+          "texto": "Então Zedequias, filho de Quenaaná, se aproximou e deu uma bofetada em Micaías, e disse: “Quer dizer que o espírito de Jeová me deixou para falar com você?”"
+        },
+        {
+          "versiculo": 25,
+          "texto": "Micaías respondeu: “Você terá certeza disso no dia em que entrar no quarto mais secreto para se esconder.”"
+        },
+        {
+          "versiculo": 26,
+          "texto": "Então o rei de Israel disse: “Leve Micaías e entregue-o a Amom, chefe da cidade, e a Joás, filho do rei."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Diga-lhes: ‘Assim diz o rei: “Ponham este homem na prisão e deem-lhe uma porção reduzida de pão e água, até eu voltar em paz.”’”"
+        },
+        {
+          "versiculo": 28,
+          "texto": "Mas Micaías disse: “Se o senhor realmente voltar em paz, Jeová não falou comigo.” E acrescentou: “Ouçam isso, todos os povos!”"
+        },
+        {
+          "versiculo": 29,
+          "texto": "Então o rei de Israel e Jeosafá, rei de Judá, subiram a Ramote-Gileade."
+        },
+        {
+          "versiculo": 30,
+          "texto": "O rei de Israel disse a Jeosafá: “Vou me disfarçar e entrar na batalha, mas você deve usar as suas vestes reais.” Assim, o rei de Israel disfarçou-se e entrou na batalha."
+        },
+        {
+          "versiculo": 31,
+          "texto": "O rei da Síria tinha dado a seguinte ordem aos 32 chefes dos seus carros de guerra: “Não lutem com ninguém, nem com o pequeno nem com o grande, apenas com o rei de Israel.”"
+        },
+        {
+          "versiculo": 32,
+          "texto": "Por isso, assim que os chefes dos carros de guerra viram Jeosafá, disseram: “Com certeza é o rei de Israel!” E foram em sua direção para atacá-lo. Então Jeosafá começou a gritar por socorro."
+        },
+        {
+          "versiculo": 33,
+          "texto": "Assim que os chefes dos carros de guerra viram que não era o rei de Israel, pararam de persegui-lo."
+        },
+        {
+          "versiculo": 34,
+          "texto": "Mas certo homem atirou ao acaso com o seu arco e atingiu o rei de Israel entre as juntas da sua cota de malha. Então o rei disse ao condutor do seu carro de guerra: “Dê a volta e leve-me para fora da batalha, pois fui gravemente ferido.”"
+        },
+        {
+          "versiculo": 35,
+          "texto": "A batalha continuou intensa durante aquele dia, e tiveram de manter o rei em pé no seu carro de guerra, de frente para os sírios. O sangue do ferimento escorria dentro do carro de guerra, e ele morreu ao entardecer."
+        },
+        {
+          "versiculo": 36,
+          "texto": "Por volta do pôr do sol, um grito ressoou entre os soldados: “Cada um para a sua cidade! Cada um para a sua terra!”"
+        },
+        {
+          "versiculo": 37,
+          "texto": "Assim o rei morreu e foi levado para Samaria; eles enterraram o rei em Samaria."
+        },
+        {
+          "versiculo": 38,
+          "texto": "Quando lavaram o carro de guerra junto ao reservatório de Samaria, os cães lamberam o sangue dele e as prostitutas se banharam ali, segundo a palavra que Jeová havia falado."
+        },
+        {
+          "versiculo": 39,
+          "texto": "Quanto aos outros acontecimentos da história de Acabe, tudo o que ele fez, a casa de marfim que construiu e todas as cidades que construiu, não estão escritos no livro da história da época dos reis de Israel?"
+        },
+        {
+          "versiculo": 40,
+          "texto": "Então Acabe descansou com os seus antepassados; e Acazias, seu filho, tornou-se rei no seu lugar."
+        },
+        {
+          "versiculo": 41,
+          "texto": "Jeosafá, filho de Asa, havia se tornado rei sobre Judá no quarto ano de Acabe, rei de Israel."
+        },
+        {
+          "versiculo": 42,
+          "texto": "Jeosafá tinha 35 anos de idade quando se tornou rei, e reinou por 25 anos em Jerusalém. O nome da sua mãe era Azuba, filha de Sili."
+        },
+        {
+          "versiculo": 43,
+          "texto": "Ele andava em todos os caminhos de Asa, seu pai. Não se desviou deles, e fez o que era certo aos olhos de Jeová. Mas os altos sagrados não foram removidos, e o povo ainda oferecia sacrifícios e fazia fumaça sacrificial nos altos sagrados."
+        },
+        {
+          "versiculo": 44,
+          "texto": "Jeosafá manteve relações pacíficas com o rei de Israel."
+        },
+        {
+          "versiculo": 45,
+          "texto": "Quanto aos outros acontecimentos da história de Jeosafá, suas grandes realizações e suas guerras, não estão escritos no livro da história da época dos reis de Judá?"
+        },
+        {
+          "versiculo": 46,
+          "texto": "Ele também eliminou do país o restante dos prostitutos de templo, que ainda sobravam dos dias de Asa, seu pai."
+        },
+        {
+          "versiculo": 47,
+          "texto": "Naquela época, não havia rei em Edom; um governante distrital atuava como rei."
+        },
+        {
+          "versiculo": 48,
+          "texto": "Jeosafá também fez navios de Társis para irem a Ofir em busca de ouro, mas os navios não foram porque naufragaram em Eziom-Geber."
+        },
+        {
+          "versiculo": 49,
+          "texto": "Foi então que Acazias, filho de Acabe, disse a Jeosafá: “Deixe os meus servos ir com os seus servos nos navios”, mas Jeosafá não aceitou."
+        },
+        {
+          "versiculo": 50,
+          "texto": "Então Jeosafá descansou com os seus antepassados e foi enterrado com os seus antepassados na Cidade de Davi, seu antepassado; e Jeorão, seu filho, tornou-se rei no seu lugar."
+        },
+        {
+          "versiculo": 51,
+          "texto": "Acazias, filho de Acabe, tornou-se rei sobre Israel, em Samaria, no décimo sétimo ano de Jeosafá, rei de Judá, e reinou sobre Israel por dois anos."
+        },
+        {
+          "versiculo": 52,
+          "texto": "Ele fazia o que era mau aos olhos de Jeová e andava no caminho do seu pai e da sua mãe, e no caminho de Jeroboão, filho de Nebate, que tinha levado Israel a pecar."
+        },
+        {
+          "versiculo": 53,
+          "texto": "Ele servia a Baal e se curvava diante dele, e ofendia a Jeová, o Deus de Israel, assim como seu pai tinha feito."
+        }
+      ]
+    }
+  ]
+}

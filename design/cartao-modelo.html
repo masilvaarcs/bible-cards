@@ -1,0 +1,1452 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Cartões Bíblicos — Série 1 · 30 personagens (validação)</title>
+<style>
+  *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+
+  :root {
+    --azul: #2e5e8f;
+    --azul-escuro: #1d3d5c;
+    --azul-claro: #eef4fa;
+    --dourado: #c9a227;
+    --dourado-escuro: #8a6d1a;
+    --dourado-claro: #faf3dd;
+    --pergaminho: #fbf7ee;
+    --tinta: #22303c;
+    --cinza: #6b7684;
+    --borda: #d8dee6;
+    --verde: #2e7d32;
+    --vinho: #8f2e2e;
+  }
+
+  body {
+    font-family: Georgia, 'Times New Roman', serif;
+    background: #e9edf2;
+    color: var(--tinta);
+    padding: 24px 16px 80px;
+  }
+
+  /* ============ BARRA ============ */
+  .barra {
+    max-width: 1100px; margin: 0 auto 24px;
+    background: #fff; border: 1px solid var(--borda); border-radius: 10px;
+    padding: 18px 22px; box-shadow: 0 1px 4px rgba(0,0,0,.06);
+  }
+  .barra h1 { font-size: 1.3rem; color: var(--azul-escuro); margin-bottom: 4px; }
+  .barra p  { font-size: .92rem; color: var(--cinza); line-height: 1.5; }
+  .botoes { margin-top: 12px; display: flex; gap: 10px; flex-wrap: wrap; align-items: center; }
+  .botao {
+    font-family: inherit; font-size: .9rem; cursor: pointer;
+    padding: 9px 16px; border-radius: 7px; border: 1px solid var(--borda);
+    background: #fff; color: var(--tinta);
+  }
+  .botao:hover { background: var(--azul-claro); }
+  .botao-primario { background: var(--azul); border-color: var(--azul); color: #fff; }
+  .botao-primario:hover { background: var(--azul-escuro); }
+
+  .secao-titulo {
+    max-width: 1100px; margin: 28px auto 12px;
+    font-size: 1.05rem; font-weight: bold; color: var(--azul-escuro);
+    display: flex; align-items: center; gap: 8px;
+  }
+  .secao-titulo .num {
+    background: var(--dourado); color: #fff; font-family: Arial, sans-serif;
+    width: 22px; height: 22px; border-radius: 50%;
+    display: inline-flex; align-items: center; justify-content: center; font-size: .8rem;
+  }
+  .secao-nota { max-width: 1100px; margin: 0 auto 14px; font-size: .85rem; color: var(--cinza); }
+
+  /* ============ CARTÃO — 20 × 10 cm (lado esquerdo 10 × lado direito 10) ============ */
+  .cartao {
+    width: 756px; height: 378px;   /* 20 × 10 cm @ 96dpi */
+    background: var(--pergaminho);
+    border: 1px solid var(--borda);
+    border-radius: 7px;
+    box-shadow: 0 2px 6px rgba(0,0,0,.08);
+    display: grid; grid-template-columns: 1fr 1fr; grid-template-rows: minmax(0, 100%);
+    position: relative; overflow: hidden;
+    font-size: 13.5px;             /* texto ampliado: legível na hora da impressão */
+  }
+  .dobra {
+    position: absolute; left: 50%; top: 0; bottom: 0; width: 0;
+    border-left: 1.5px dashed rgba(46,94,143,.5);
+  }
+
+  /* --- LADO ESQUERDO: imagem do personagem no TOPO + 5 perguntas abaixo --- */
+  .frente { display: flex; flex-direction: column; height: 100%; min-height: 0; min-width: 0; counter-reset: p; overflow: hidden; }
+  .frente-img {
+    flex: 0 0 31%;
+    position: relative;
+    background: linear-gradient(135deg, #dce9f5 0%, #c3d8ec 100%);
+    border-bottom: 1px solid var(--borda);
+    overflow: hidden;
+  }
+  .frente-img svg { position: absolute; left: 50%; bottom: 1px; transform: translateX(-50%); height: 92%; width: auto; }
+  .ban-id {
+    position: absolute; top: 5px; right: 7px;
+    font-family: Arial, sans-serif; font-size: 10.5px; font-weight: bold;
+    background: var(--azul); color: #fff; padding: 2px 7px; border-radius: 4px;
+    letter-spacing: .04em;
+  }
+  .placa {
+    position: absolute; left: 0; right: 0; bottom: 0;
+    background: rgba(251,247,238,.94);
+    border-top: 1px solid var(--borda);
+    padding: 3px 10px;
+    display: flex; align-items: baseline; gap: 6px;
+  }
+  .placa-nome { font-size: 19px; font-weight: bold; color: var(--azul-escuro); line-height: 1.15; white-space: nowrap; }
+  .placa-meta {
+    font-family: Arial, sans-serif; font-size: 9.5px; color: var(--cinza);
+    margin-left: auto; text-align: right; line-height: 1.25; max-width: 55%;
+  }
+  .placa-meta .meta-nome { color: var(--azul-escuro); font-weight: bold; }
+
+  .frente-perguntas {
+    flex: 1; min-height: 0; padding: 6px 14px 4px;
+    display: flex; flex-direction: column; gap: 3px; overflow: hidden;
+  }
+  .q-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 3px 18px; }
+  .q-bloco { min-width: 0; }
+  .q-rotulo {
+    font-family: Arial, sans-serif; font-size: 10.5px; font-weight: bold;
+    color: var(--azul); text-transform: uppercase; letter-spacing: .03em;
+    margin-bottom: 3px;
+  }
+  .q-bloco ol { list-style: none; }
+  .q-bloco li {
+    counter-increment: p; font-size: 12.5px; line-height: 1.26;
+    padding-left: 16px; position: relative;
+  }
+  .q-bloco li::before {
+    content: counter(p) '.'; position: absolute; left: 0; font-weight: bold; color: var(--azul);
+  }
+  .q-bloco li .q-opcoes { color: var(--cinza); font-size: 12px; }
+  .q-bloco li .vazia { display: inline-block; min-width: 52px; border-bottom: 1px solid var(--cinza); height: 12px; }
+  .pergunta-pe {
+    font-family: Arial, sans-serif; font-size: 10px; color: var(--cinza);
+    margin-top: auto; padding-top: 5px; border-top: 1px dotted var(--borda);
+    display: flex; justify-content: flex-end;
+  }
+  .pergunta-pe .resp { color: var(--dourado-escuro); font-weight: bold; }
+
+  /* --- LADO DIREITO: Perfil (~80%) + Respostas (~20%) --- */
+  .verso { display: flex; flex-direction: column; height: 100%; min-height: 0; min-width: 0; overflow: hidden; }
+  .verso-cab {
+    flex: 0 0 auto;
+    background: var(--azul-escuro); color: #fff;
+    padding: 3px 12px; display: flex; align-items: baseline; gap: 7px;
+  }
+  .verso-cab .titulo { font-size: 14.5px; font-weight: bold; letter-spacing: .04em; white-space: nowrap; }
+  .verso-cab .epoca { font-family: Arial, sans-serif; font-size: 10.5px; opacity: .88; margin-left: auto; text-align: right; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
+
+  .verso-mid { flex: 1 1 auto; padding: 6px 14px 4px; overflow: hidden; display: flex; flex-direction: column; justify-content: space-evenly; min-height: 0; }
+  .historia { font-size: 12.5px; line-height: 1.38; }
+  .historia b { color: var(--azul-escuro); }
+
+  .campos { display: flex; flex-direction: column; gap: 3px; }
+  .campo { display: flex; gap: 7px; align-items: baseline; min-width: 0; }
+  .campo .rot {
+    font-family: Arial, sans-serif; font-size: 10px; font-weight: bold;
+    color: var(--azul); text-transform: uppercase; flex: 0 0 82px; letter-spacing: .02em;
+  }
+  .campo .val { font-size: 12.5px; line-height: 1.28; min-width: 0; }
+  .campo .val b { color: var(--azul-escuro); }
+  .chip {
+    display: inline-block; font-family: Arial, sans-serif; font-size: 9px; font-weight: bold;
+    padding: 1px 5px; border-radius: 3px; margin-right: 3px; color: #fff; vertical-align: 1px;
+  }
+  .chip-at { background: var(--dourado-escuro); }
+  .chip-nt { background: var(--verde); }
+
+  .verso-respostas {
+    flex: 0 0 20%;
+    background: var(--dourado-claro);
+    border-top: 1px solid var(--dourado);
+    padding: 3px 10px 3px;
+    display: flex; flex-direction: column; gap: 2px;
+    overflow: hidden;
+  }
+  .respostas-cab {
+    font-family: Arial, sans-serif; font-size: 10px; font-weight: bold;
+    color: var(--dourado-escuro); text-transform: uppercase; letter-spacing: .04em;
+    display: flex; justify-content: space-between; align-items: baseline;
+  }
+  .respostas-cab .res-id { font-size: 8.5px; font-weight: normal; color: var(--cinza); letter-spacing: 0; text-transform: none; }
+  .respostas-grid {
+    display: grid; grid-template-columns: repeat(3, 1fr); gap: 0 10px; flex: 1; align-content: space-evenly;
+  }
+  .resposta { font-size: 10px; line-height: 1.22; padding-left: 4px; border-left: 2.5px solid rgba(201,162,39,.55); min-width: 0; }
+  .resposta .n { color: var(--dourado-escuro); font-weight: bold; margin-right: 2px; }
+  .resposta .ref { color: var(--cinza); font-style: italic; }
+  .resposta.col-2 { grid-column: span 2; }
+  .respostas-grid.compacto .resposta { font-size: 9.5px; line-height: 1.18; }
+  .respostas-grid.compacto2 { display: flex; flex-direction: column; justify-content: space-evenly; }
+  .respostas-grid.compacto2 .resposta { font-size: 9.5px; line-height: 1.15; padding-left: 3px; }
+
+  /* ============ VISUALIZADOR AMPLIADO ============ */
+  .visor { background: #fff; border: 1px solid var(--borda); border-radius: 10px; padding: 18px; max-width: 860px; margin: 0 auto; }
+  .visor-controles { display: flex; align-items: center; justify-content: center; gap: 10px; margin-bottom: 14px; flex-wrap: wrap; }
+  .visor-controles select {
+    font-family: Georgia, serif; font-size: .95rem; padding: 7px 10px;
+    border: 1px solid var(--borda); border-radius: 7px; background: #fff; color: var(--tinta);
+  }
+  .visor-palco { width: 810px; height: 405px; position: relative; margin: 0 auto; overflow: hidden; }
+  .visor-palco .cartao { position: absolute; left: 0; top: 0; transform: scale(1.07); transform-origin: top left; }
+  .visor-dica { text-align: center; font-family: Arial, sans-serif; font-size: .78rem; color: var(--cinza); margin-top: 12px; }
+
+  /* ============ FOLHA A4 — margem de segurança 18px ≈ 4,8 mm (limite da impressora) ============
+     Área útil: 757 × 1083 px. 3 cartões de 10 cm = 30 cm > 29,7 cm (A4): no modo 3/página
+     o cartão é impresso a 95% (19 × 9,5 cm — a dobra continua formando quadrados 9,5 cm).
+     Nos modos 2 e 1 por página o cartão sai no tamanho exato: 20 × 10 cm.                 */
+  .folha {
+    width: 794px; height: 1123px;          /* A4 @96dpi */
+    margin: 0 auto 30px;
+    background: #fff; border: 1px solid var(--borda); border-radius: 4px;
+    box-shadow: 0 2px 10px rgba(0,0,0,.08);
+    padding: 18px;                          /* margem mínima de segurança p/ impressora */
+    display: flex; flex-direction: column; align-items: center;
+    justify-content: flex-start;            /* ocupação a partir da parte superior */
+    gap: 0;
+    position: relative; overflow: hidden;
+  }
+  .folha .pilha { display: flex; flex-direction: column; align-items: center; gap: 6px; }
+  .folha .celula { flex: 0 0 auto; position: relative; }
+  .folha .celula .cartao {
+    position: absolute; left: 0; top: 0;
+    transform-origin: top left;
+    box-shadow: none; border: 1px solid var(--borda); border-radius: 6px;
+  }
+  .folha .cabeca, .folha .pe {
+    position: absolute; left: 18px; right: 18px; text-align: center;
+    font-family: Arial, sans-serif; font-size: 8px; color: var(--cinza);
+  }
+  .folha .cabeca { top: 2px; font-weight: bold; letter-spacing: .06em; text-transform: uppercase; }
+  .folha .pe { bottom: 2px; }
+  .folha .corte-h {
+    position: absolute; left: 18px; right: 18px; height: 0;
+    border-top: 1.5px dashed #7d93a9; z-index: 2; pointer-events: none;
+  }
+  .folha .corte-h::after {
+    content: '✂ corte aqui'; position: absolute; right: -2px; top: -9px;
+    font-family: Arial, sans-serif; font-size: 9px; color: #7d93a9;
+    background: #fff; padding: 0 4px;
+  }
+
+  .painel-dobra {
+    background: #fff; border: 1px solid var(--borda); border-radius: 10px;
+    padding: 18px; font-family: Arial, sans-serif; font-size: .85rem; line-height: 1.6;
+    max-width: 760px; margin: 0 auto;
+  }
+  .painel-dobra h3 { font-size: .95rem; color: var(--azul-escuro); margin-bottom: 8px; font-family: Georgia, serif; }
+  .painel-dobra ol, .painel-dobra ul { padding-left: 18px; }
+  .painel-dobra li { margin-bottom: 5px; }
+  .painel-dobra .aviso {
+    margin-top: 12px; padding-top: 10px; border-top: 1px solid var(--borda);
+    font-size: .78rem; color: var(--cinza);
+  }
+
+  /* ============ IMPRESSÃO ============ */
+  @page { size: A4 portrait; margin: 0; }
+  @media print {
+    body { background: #fff; padding: 0; }
+    .barra, .secao-titulo, .secao-nota, .visor, .painel-dobra { display: none !important; }
+    #folha-impressao { display: block !important; }
+    .folha {
+      width: 210mm; height: 296mm; margin: 0; border: none; border-radius: 0; box-shadow: none;
+      page-break-after: always;
+    }
+    .folha:last-child { page-break-after: auto; }  /* sem página em branco no fim */
+    .cartao, .cartao * { -webkit-print-color-adjust: exact; print-color-adjust: exact; }
+  }
+</style>
+</head>
+<body>
+
+<div class="barra">
+  <h1>🃏 Cartões Bíblicos — Série 1 · 30 personagens para validação</h1>
+  <p>
+    Cartão em <b>20 × 10 cm</b> (paisagem) — <b>lado esquerdo: 10 cm</b> (imagem do personagem no topo e 5 perguntas sorteadas abaixo);
+    <b>lado direito: 10 cm</b> — <b>Perfil (~80%)</b> com relato, significado do nome, genealogia, profecia, destaque e curiosidade
+    (fiel à Bíblia e às publicações de estudo de jw.org), e o bloco <b>Respostas (~20%)</b> na base.
+    Dobrado na linha central, cada metade vira um cartão de <b>10 × 10 cm</b>.
+    As <b>5 perguntas de cada cartão são sorteadas</b> de um banco temático (Verdadeiro/Falso · Complete · Responda) — recarregue a página para um novo sorteio.
+  </p>
+  <div class="botoes">
+    <button class="botao botao-primario" onclick="window.print()">🖨️ Imprimir / Gerar PDF</button>
+    <select id="modoFolha" class="botao" onchange="reconstruirFolhas()">
+      <option value="3" selected>3 cartões/página (ideal) · 20×10 cm + faixa de rodapé</option>
+      <option value="2">2 cartões/página · maior folga para o corte</option>
+      <option value="1">1 cartão/página · imprimir separadamente</option>
+    </select>
+    <button class="botao botao-primario" id="btn-sortear" onclick="sortearTodos()">🎲 Re-sortear perguntas de todos os cartões</button>
+    <button class="botao" id="btn-todos" onclick="baixarTodos(this)">⬇️ Baixar os 30 cartões em PNG (~300 DPI)</button>
+  </div>
+</div>
+
+<div class="secao-titulo"><span class="num">1</span> Visualizador ampliado — passe pelos 30 cartões</div>
+<div class="secao-nota">A linha tracejada marca a dobra central (10 cm + 10 cm). A imagem do personagem fica na parte superior do lado esquerdo; os números 1–5 das perguntas correspondem ao bloco dourado Respostas.</div>
+<div class="visor" id="visor"></div>
+
+<div class="secao-titulo"><span class="num">2</span> Folhas A4 para impressão — escolha o layout na barra acima</div>
+<div class="secao-nota">Cartões alinhados a partir da parte superior, com margens mínimas (blocos já incluem a margem interna do recorte). Com 20×10 cm cabem <b>3 cartões por A4</b> (sobram ~4,5 cm de folga no rodapé) e 2 por página ficam com folga total para aparar. As linhas ✂ separam os cartões.</div>
+<div id="folha-impressao"></div>
+
+<div class="painel-dobra" style="margin-top:30px;">
+  <h3>📐 Estrutura 20 × 10 cm — metade esquerda = metade direita = 10 cm</h3>
+  <ul>
+    <li><b>Lado esquerdo (10 cm)</b> — <b>imagem do personagem na parte superior</b> (cena temática + faixa com nome, significado do nome e ID); abaixo, 5 perguntas numeradas sorteadas do banco (V/F · Complete · Responda).</li>
+    <li><b>Lado direito (10 cm) — Perfil (~80%)</b>: retrato, relato breve e campos aprofundados: <b>Bíblia</b> (chip A.T./N.T. + livros) · <b>Significado do nome</b> · Genealogia · Função · <b>Profecia</b> · <b>Destaque</b> · Curiosidade · Versículo — dados conferidos com a Bíblia e com as publicações de estudo de jw.org.</li>
+    <li><b>Lado direito — Respostas (~20%)</b>: faixa dourada na base com as 5 respostas na mesma numeração da capa e a referência bíblica de cada uma.</li>
+    <li><b>Dobra</b>: corte o cartão e dobre na linha tracejada central — cada metade vira um cartão de 10 × 10 cm (retrato), igual ao exemplo Salomão.</li>
+    <li><b>Folhas A4</b>: <b>3 cartões por página</b> (ideal) alinhados do topo; 2 por página para folga extra; 1 por página para impressão individual. Margens mínimas para evitar recortes tortos.</li>
+  </ul>
+  <div class="aviso">
+    ✍️ "Profecia" traz o que o personagem anunciou/cumpriu ou a profecia da Bíblia sobre ele; sem profecia registrada, o campo o diz de forma construtiva (com a referência).
+  </div>
+</div>
+
+<script>
+/* =====================================================================
+   DADOS — 30 personagens
+   Campos de perfil aprofundados (fidelidade: texto bíblico NWT + publicações
+   de estudo de jw.org — "Examine as Escrituras Diariamente", enciclopédia
+   "Toda Escritura é Inspirada por Deus e Proveitosa", catálogos biográficos).
+   Banco de 8 questões por personagem: 2 V/F (v), 3 Complete (c), 3 Responda (r).
+   No cartão são sorteadas 5: V/F + 2 Complete + 2 Responda (ordem embaralhada).
+   ===================================================================== */
+const PERSONAGENS = [
+  {
+    id: 'CB-001', nome: 'Salomão', banda: '1037–998 a.E.C. · Jerusalém',
+    nomeSignificado: 'Salomão — “Pacífico” (1Cr 22:9)',
+    banner: 'colunas', retrato: {cena: 'O rei sábio no templo', cor: '#8a6d1a', coroa: true},
+    historia: '<b>Pediu um coração sábio e obediente</b> em vez de riquezas, e se tornou o rei mais sábio. Construiu o templo de Jerusalém, mas as esposas estrangeiras o desviaram na velhice.',
+    livro: '1Rs 1–11 · 2Cr 1–9 · Pv · Ec · Ct',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Filho de Davi e Bate-Seba; também chamado <b>Jedidias</b>, “Amado de Jeová” (2Sm 12:24-25)',
+    funcao: '3º rei de Israel unido (40 anos)',
+    profecia: 'Prometido trono eterno da casa de Davi (2Sm 7:12-16)',
+    destaque: 'Construiu o templo; escreveu 3.000 provérbios e 1.005 cânticos (1Rs 4:32)',
+    curiosidade: 'A rainha de Sabá viajou ~2.400 km para testá-lo (1Rs 10:1-9)',
+    versiculo: '“Um coração que ouve” — 1Rs 3:9',
+    perguntas: [
+      {t:'v', txt:'Salomão pediu a Deus riquezas e uma vida longa.'},
+      {t:'v', txt:'Salomão construiu o templo de Jerusalém.'},
+      {t:'v', txt:'A rainha de Sabá visitou Salomão para testá-lo com perguntas.'},
+      {t:'c', txt:'Jeová chamou Salomão de ______, que significa “Amado de Jeová”.'},
+      {t:'c', txt:'Salomão podia falar ______ provérbios e seus cânticos foram ______.'},
+      {t:'c', txt:'Salomão construiu o ______ de Jeová em Jerusalém.'},
+      {t:'r', txt:'Em vez de riquezas, o que Salomão pediu a Deus?', ops:'a) um coração obediente e sábio b) um exército forte'},
+      {t:'r', txt:'O que desviou o coração de Salomão na velhice?', ops:'a) as más influências das esposas estrangeiras b) uma doença'},
+      {t:'r', txt:'Que rainha viajou cerca de 2.400 km para ouvir a sabedoria de Salomão?', ops:'a) a rainha de Sabá b) a rainha Vasti'}
+    ],
+    respostas: [
+      'F — sabedoria|1Rs 3:5-14','V|1Rs 6:1-38','V|1Rs 10:1-9','Jedidias|2Sm 12:24-25','3.000 · 1.005|1Rs 4:32','templo|1Rs 5:2-5','A — sábio|1Rs 3:9','A — esposas|1Rs 11:1-6','A — Sabá|1Rs 10:1'
+    ]
+  },
+  {
+    id: 'CB-002', nome: 'Débora', banda: 'séc. XII a.E.C. · Efraim',
+    nomeSignificado: 'Débora — “Abelha”',
+    banner: 'palmeira', retrato: {cena: 'Profetisa sob a palmeira', cor: '#2e5e8f'},
+    historia: '<b>Profetisa e juíza de Israel</b> sob a palmeira de Débora. Convocou Baraque contra Sísera e, com Jael, Israel venceu. Compôs o cântico de vitória com Baraque.',
+    livro: 'Jz 4–5',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Esposa de Lapidote (Jz 4:4)',
+    funcao: 'Profetisa e juíza de Israel',
+    profecia: 'Sísera cairia por mão de mulher (Jz 4:9)',
+    destaque: 'Única mulher juíza; liderou Israel na guerra',
+    curiosidade: 'Israel gozou de paz por 40 anos após a vitória (Jz 5:31)',
+    versiculo: '“Desperta, desperta, entoa um cântico!” — Jz 5:12',
+    perguntas: [
+      {t:'v', txt:'Débora julgava Israel debaixo de uma palmeira.'},
+      {t:'v', txt:'Baraque se recusou a ir à batalha sem Débora.'},
+      {t:'v', txt:'Débora era a rainha de Israel.'},
+      {t:'c', txt:'Débora convocou ______ para enfrentar Sísera.'},
+      {t:'c', txt:'Sísera tinha ______ carros de guerra.'},
+      {t:'c', txt:'Débora era esposa de ______.'},
+      {t:'r', txt:'Que cargo Débora ocupava entre os israelitas?', ops:'a) profetisa e juíza b) rainha'},
+      {t:'r', txt:'Quem feriu mortalmente o general Sísera?', ops:'a) Jael b) Baraque'},
+      {t:'r', txt:'O que Débora e Baraque fizeram após a vitória?', ops:'a) compuseram um cântico b) construíram um templo'}
+    ],
+    respostas: [
+      'V|Jz 4:4-5','V|Jz 4:8','F — juíza|Jz 4:4','Baraque|Jz 4:6','900|Jz 4:3','Lapidote|Jz 4:4','A — profetisa|Jz 4:4','A — Jael|Jz 4:21','A — cântico|Jz 5:1'
+    ]
+  },
+  {
+    id: 'CB-003', nome: 'Natã', banda: 'séc. X a.E.C. · Jerusalém',
+    nomeSignificado: 'Natã — “Ele deu” (derivado de Jeová)',
+    banner: 'pergaminho', retrato: {cena: 'O profeta diante do rei', cor: '#5e4a8f'},
+    historia: '<b>Repreendeu Davi com a parábola da ovelhinha.</b> Recebeu a promessa do trono eterno da casa de Davi e, com Bate-Seba, garantiu a coroação de Salomão.',
+    livro: '2Sm 7, 12 · 1Rs 1',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Profeta; família de origem judaica não registrada',
+    funcao: 'Profeta da corte de Davi',
+    profecia: 'O Messias viria da casa de Davi (2Sm 7:12-16)',
+    destaque: 'Coragem de repreender o rei; coroou Salomão',
+    curiosidade: 'Registrou as crônicas do reinado de Davi (1Cr 29:29)',
+    versiculo: '“Tu és o homem!” — 2Sm 12:7',
+    perguntas: [
+      {t:'v', txt:'Natã repreendeu Davi com uma parábola.'},
+      {t:'v', txt:'Natã apoiou Adonias como próximo rei.'},
+      {t:'v', txt:'Natã registrou por escrito os feitos do reinado de Davi.'},
+      {t:'c', txt:'Na parábola, o homem rico tomou a ______ do homem pobre.'},
+      {t:'c', txt:'“Teu trono será firme para ______.”'},
+      {t:'c', txt:'Natã e Bate-Seba avisaram Davi de que ______ queria o trono.'},
+      {t:'r', txt:'Como Natã levou Davi a reconhecer o próprio erro?', ops:'a) com uma parábola b) com uma carta'},
+      {t:'r', txt:'Que promessa Deus fez à casa de Davi por meio de Natã?', ops:'a) um trono eterno b) terras no Egito'},
+      {t:'r', txt:'Quem Natã ajudou a ser coroado rei?', ops:'a) Salomão b) Absalão'}
+    ],
+    respostas: [
+      'V|2Sm 12:1-7','F — Salomão|1Rs 1:11-13','V|1Cr 29:29','ovelhinha|2Sm 12:1-4','sempre|2Sm 7:16','Adonias|1Rs 1:11','A — parábola|2Sm 12:1-7','A — trono eterno|2Sm 7:12-16','A — Salomão|1Rs 1:38-39'
+    ]
+  },
+  {
+    id: 'CB-004', nome: 'Eunice', banda: 'séc. I d.C. · Listra',
+    nomeSignificado: 'Eunice — “Vencedora feliz”',
+    banner: 'casa', retrato: {cena: 'Mãe que ensinou Timóteo', cor: '#2e7d32'},
+    historia: '<b>Ensinou Timóteo nas Escrituras desde a infância.</b> Paulo lembra a “fé sincera” que primeiro habitou em sua avó Loide e nela. Casou-se com um grego.',
+    livro: 'At 16:1 · 2Tm 1:5; 3:14-15',
+    parte: '<span class="chip chip-nt">N.T.</span> grego',
+    genealogia: 'Filha de Loide; mãe de Timóteo',
+    funcao: 'Mãe e mestra de Timóteo',
+    profecia: 'Sem profecia própria — cumpre 2Tm 3:15',
+    destaque: 'Ensino “desde a infância” das Escrituras',
+    curiosidade: 'Timóteo sabia as Escrituras “desde a infância” (2Tm 3:15)',
+    versiculo: '“Fé sem hipocrisia... em tua mãe Eunice.” — 2Tm 1:5',
+    perguntas: [
+      {t:'v', txt:'Eunice era mãe de Timóteo.'},
+      {t:'v', txt:'Eunice era casada com um judeu.'},
+      {t:'v', txt:'A fé sincera morou primeiro em Loide e em Eunice.'},
+      {t:'c', txt:'Timóteo conheceu as Escrituras ______ a infância.'},
+      {t:'c', txt:'A ______ sincera de Eunice foi imitada por Timóteo.'},
+      {t:'c', txt:'A mãe de Eunice se chamava ______.'},
+      {t:'r', txt:'O que Eunice ensinou a Timóteo desde a infância?', ops:'a) as Escrituras b) um ofício manual'},
+      {t:'r', txt:'Eunice vivia em qual cidade?', ops:'a) Listra b) Éfeso'},
+      {t:'r', txt:'Como se chamava a avó de Timóteo?', ops:'a) Loide b) Priscila'}
+    ],
+    respostas: [
+      'V|At 16:1','F — grego|At 16:1','V|2Tm 1:5','desde|2Tm 3:15','fé|2Tm 1:5','Loide|2Tm 1:5','A — Escrituras|2Tm 3:15','A — Listra|At 16:1','A — Loide|2Tm 1:5'
+    ]
+  },
+  {
+    id: 'CB-005', nome: 'Josias', banda: '640–609 a.E.C. · Judá',
+    nomeSignificado: 'Josias — “Jeová Sustém”',
+    banner: 'templo', retrato: {cena: 'O rei menino de Judá', cor: '#8a6d1a', coroa: true},
+    historia: '<b>Rei aos 8 anos.</b> No 18º ano do reinado, reparou o templo, achou o rolo da Lei e renovou a aliança. Promoveu a maior Páscoa desde os dias de Samuel.',
+    livro: '2Rs 22–23 · 2Cr 34–35',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Filho de Amom; casa de Davi (2Rs 22:1)',
+    funcao: '16º rei de Judá (31 anos de reinado)',
+    profecia: 'Anunciado por nome ~300 anos antes (1Rs 13:2)',
+    destaque: 'Renovou a aliança diante de todo o povo (2Rs 23:3)',
+    curiosidade: 'Seu nome foi profetizado por um homem de Deus (1Rs 13:2)',
+    versiculo: '“Não houve como ele... que se apegasse à Lei.” — 2Rs 23:25',
+    perguntas: [
+      {t:'v', txt:'Josias se tornou rei aos 8 anos de idade.'},
+      {t:'v', txt:'Josias construiu um templo novo.'},
+      {t:'v', txt:'A Páscoa de Josias não teve igual desde os dias dos juízes.'},
+      {t:'c', txt:'Hilquias achou o ______ da Lei no templo.'},
+      {t:'c', txt:'Josias começou a buscar “o Deus de seu antepassado ______”.'},
+      {t:'c', txt:'Josias foi morto em ______, num combate.'},
+      {t:'r', txt:'Que idade Josias tinha quando se tornou rei?', ops:'a) 8 anos b) 18 anos'},
+      {t:'r', txt:'O que Josias fez com o rolo da Lei depois de ouvi-lo?', ops:'a) renovou a aliança b) o escondeu'},
+      {t:'r', txt:'Onde Josias morreu?', ops:'a) Megido b) Jerusalém'}
+    ],
+    respostas: [
+      'V|2Rs 22:1','F — fez reparos|2Cr 34:8-13','V|2Rs 23:22','rolo|2Rs 22:8','Davi|2Cr 34:3','Megido|2Rs 23:29','A — 8 anos|2Rs 22:1','A — renovou a aliança|2Rs 23:3','A — Megido|2Rs 23:29'
+    ]
+  },
+  {
+    id: 'CB-006', nome: 'Jael', banda: 'séc. XII a.E.C. · Saananim',
+    nomeSignificado: 'Jael — “Íbex” (cabra montesa, símbolo de agilidade)',
+    banner: 'tenda', retrato: {cena: 'A estaca da vitória', cor: '#8b6f3e'},
+    historia: '<b>Queneia, esposa de Héber.</b> Acolheu o general Sísera em fuga e o derrotou com uma estaca e um martelo. Débora a chamou de “bendita entre as mulheres”.',
+    livro: 'Jz 4–5',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Esposa de Héber, o queneu (ligado a Jetro)',
+    funcao: 'Heroína de Israel',
+    profecia: 'Cumpriu Jz 4:9 — “a vitória seria por mão de mulher”',
+    destaque: 'Derrotou o general cananeu Sísera',
+    curiosidade: 'Sísera fugia a pé após a derrota dos 900 carros (Jz 4:15-17)',
+    versiculo: '“Bendita seja... Jael.” — Jz 5:24',
+    perguntas: [
+      {t:'v', txt:'Jael era esposa de Héber, o queneu.'},
+      {t:'v', txt:'Sísera morreu ferido por uma espada.'},
+      {t:'v', txt:'Débora disse que Jeová venderia Sísera “na mão de uma mulher”.'},
+      {t:'c', txt:'Jael ofereceu ______ a Sísera e o cobriu com uma manta.'},
+      {t:'c', txt:'“Bendita seja Jael acima de todas as ______.”'},
+      {t:'c', txt:'Sísera servia a ______, rei de Hazor.'},
+      {t:'r', txt:'Com que instrumento Jael derrotou Sísera?', ops:'a) uma estaca e um martelo b) uma lança'},
+      {t:'r', txt:'A serviço de que rei estava Sísera?', ops:'a) Jabim de Hazor b) Faraó Neco'},
+      {t:'r', txt:'Jael agiu por ordem de Débora ou por decisão própria?', ops:'a) por decisão própria b) por ordem de Débora'}
+    ],
+    respostas: [
+      'V|Jz 4:17','F — por uma estaca|Jz 4:21','V|Jz 4:9','leite|Jz 4:19','mulheres|Jz 5:24','Jabim|Jz 4:2','A — estaca e martelo|Jz 4:21','A — Jabim|Jz 4:2','A — decisão própria|Jz 4:18'
+    ]
+  },
+  {
+    id: 'CB-007', nome: 'Elias', banda: 'séc. IX a.E.C. · Israel (rei Acabe)',
+    nomeSignificado: 'Elias — “Meu Deus É Jeová”',
+    banner: 'fogo', retrato: {cena: 'O profeta do fogo', cor: '#b04a3a'},
+    historia: '<b>Venceu 450 profetas de Baal no Carmelo</b> — o fogo de Jeová respondeu. Alimentado por corvos e por uma viúva, subiu ao céu num redemoinho sem morrer.',
+    livro: '1Rs 17–19 · 2Rs 1–2',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'De Tisbe, em Gileade (1Rs 17:1)',
+    funcao: 'Profeta de Israel',
+    profecia: 'Viria antes do grande dia de Jeová (Ml 4:5)',
+    destaque: 'Fogo do céu no Monte Carmelo',
+    curiosidade: 'Foi levado ao céu num redemoinho (2Rs 2:11)',
+    versiculo: '“Jeová, ele é o Deus verdadeiro!” — 1Rs 18:39',
+    perguntas: [
+      {t:'v', txt:'Elias foi alimentado por corvos junto a um ribeiro.'},
+      {t:'v', txt:'Elias perdeu o desafio do Monte Carmelo.'},
+      {t:'v', txt:'Elias foi levado ao céu num redemoinho, sem morrer.'},
+      {t:'c', txt:'Elias ressuscitou o filho da viúva de ______.'},
+      {t:'c', txt:'Elias foi levado ao céu num ______.'},
+      {t:'c', txt:'No Carmelo, Elias desafiou ______ profetas de Baal.'},
+      {t:'r', txt:'A quais deuses pertenciam os 450 profetas derrotados?', ops:'a) Baal b) Dagom'},
+      {t:'r', txt:'O que Eliseu pediu a Elias antes de ele partir?', ops:'a) duas partes do espírito b) muitas riquezas'},
+      {t:'r', txt:'De que cidade Elias era natural?', ops:'a) Tisbe, em Gileade b) Siló, em Efraim'}
+    ],
+    respostas: [
+      'V|1Rs 17:4-6','F — venceu|1Rs 18:38','V|2Rs 2:11','Sarepta|1Rs 17:17-24','redemoinho|2Rs 2:11','450|1Rs 18:19','A — Baal|1Rs 18:19','A — duas partes|2Rs 2:9','A — Tisbe|1Rs 17:1'
+    ]
+  },
+  {
+    id: 'CB-008', nome: 'Mardoqueu', banda: 'séc. V a.E.C. · Susã, Pérsia',
+    nomeSignificado: 'Mardoqueu — derivado de Mardu, deus babilônico da guerra',
+    banner: 'portao', retrato: {cena: 'Do portão ao palácio', cor: '#2e5e8f'},
+    historia: '<b>Adotou a prima Ester.</b> Denunciou uma trama de atentado contra o rei Assuero e, com Ester, frustrou o plano de Hamã de exterminar os judeus.',
+    livro: 'Et 2–10',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Bisneto de Quis; tribo de Benjamim (Et 2:5)',
+    funcao: 'Oficial do rei → primeiro-ministro (Et 10:3)',
+    profecia: 'Sem profecia própria — “para um tempo como este” (Et 4:14)',
+    destaque: 'Instituiu a festa de Purim (Et 9:20-22)',
+    curiosidade: 'Sua lealdade ficou registrada nos anais do rei (Et 6:1-2)',
+    versiculo: '“Chegaste à realeza para um tempo como este?” — Et 4:14',
+    perguntas: [
+      {t:'v', txt:'Mardoqueu denunciou uma trama de atentado contra o rei.'},
+      {t:'v', txt:'Todos sabiam desde o início que Mardoqueu era judeu.'},
+      {t:'v', txt:'Mardoqueu se recusou a se curvar diante de Hamã.'},
+      {t:'c', txt:'Mardoqueu era da tribo de ______.'},
+      {t:'c', txt:'“Chegaste à realeza para um tempo ______ este.”'},
+      {t:'c', txt:'Mardoqueu instituiu a festa do ______.'},
+      {t:'r', txt:'A qual homem Mardoqueu se recusou a se curvar?', ops:'a) Hamã b) Belsazar'},
+      {t:'r', txt:'Que cargo Mardoqueu recebeu após a queda de Hamã?', ops:'a) primeiro-ministro b) sacerdote'},
+      {t:'r', txt:'Quem Mardoqueu criou como filha adotiva?', ops:'a) Ester b) Vashti'}
+    ],
+    respostas: [
+      'V|Et 2:21-23','F — segredo|Et 2:10','V|Et 3:2-5','Benjamim|Et 2:5','como|Et 4:14','Purim|Et 9:26','A — Hamã|Et 3:2-5','A — 1º-ministro|Et 10:3','A — Ester|Et 2:7'
+    ]
+  },
+  {
+    id: 'CB-009', nome: 'Ana', banda: 'séc. I d.C. · Jerusalém',
+    nomeSignificado: 'Ana — derivado de “Hana”, que significa “graça”',
+    banner: 'dove', retrato: {cena: 'A profetisa do templo', cor: '#5e4a8f'},
+    historia: '<b>Viúva e profetisa de idade avançada</b> que não se afastou do templo, servindo a Deus com jejuns e súplicas, noite e dia. Reconheceu o bebê Jesus como a redenção.',
+    livro: 'Lc 2:36-38',
+    parte: '<span class="chip chip-nt">N.T.</span> grego',
+    genealogia: 'Filha de Fanuel; tribo de Aser (Lc 2:36)',
+    funcao: 'Profetisa',
+    profecia: 'Anunciou Jesus como a redenção de Jerusalém (Lc 2:38)',
+    destaque: 'Testemunha do Messias bebê no templo',
+    curiosidade: 'Tinha ~84 anos e servia “dia e noite” (Lc 2:37)',
+    versiculo: '“Falava dele a todos os que esperavam.” — Lc 2:38',
+    perguntas: [
+      {t:'v', txt:'Ana era da tribo de Aser.'},
+      {t:'v', txt:'Ana viu Jesus adulto no templo.'},
+      {t:'v', txt:'Ana servia a Deus com jejuns e súplicas, noite e dia.'},
+      {t:'c', txt:'Ana era filha de ______.'},
+      {t:'c', txt:'Ana servia a Deus com jejuns e ______.'},
+      {t:'c', txt:'Ana reconheceu o bebê ______ como a redenção.'},
+      {t:'r', txt:'Ana servia no templo em que horário?', ops:'a) dia e noite b) só nos sábados'},
+      {t:'r', txt:'Para quem Ana falou sobre o bebê Jesus?', ops:'a) a todos que esperavam a redenção b) só aos sacerdotes'},
+      {t:'r', txt:'Que idade aproximada Ana tinha?', ops:'a) ~84 anos b) ~24 anos'}
+    ],
+    respostas: [
+      'V|Lc 2:36','F — bebê|Lc 2:27','V|Lc 2:37','Fanuel|Lc 2:36','súplicas|Lc 2:37','Jesus|Lc 2:38','A — dia e noite|Lc 2:37','A — todos|Lc 2:38','A — ~84|Lc 2:37'
+    ]
+  },
+  {
+    id: 'CB-010', nome: 'Zorobabel', banda: '538–515 a.E.C. · Jerusalém',
+    nomeSignificado: 'Zorobabel — “Semente de Babilônia” (nasceu no exílio)',
+    banner: 'ruinas', retrato: {cena: 'O governador da restauração', cor: '#8a6d1a', coroa: true},
+    historia: '<b>Liderou o retorno do exílio</b> com ~50.000 judeus e a reconstrução do templo, incentivado por Ageu e Zacarias. Venceu a oposição; obra pronta em 515 a.E.C.',
+    livro: 'Ed 2–6 · Ag · Zac 4',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Neto do rei Jeconias; casa de Davi (1Cr 3:17-19)',
+    funcao: 'Governador de Judá',
+    profecia: 'Na linhagem do Messias (Mt 1:12-13)',
+    destaque: 'Reconstruiu o segundo templo',
+    curiosidade: 'Jeová o chamou de seu “anel de selar” (Ag 2:23)',
+    versiculo: '“Não por força, mas pelo meu Espírito.” — Zac 4:6',
+    perguntas: [
+      {t:'v', txt:'Zorobabel liderou o retorno dos judeus do exílio.'},
+      {t:'v', txt:'A obra do templo foi concluída sem oposição.'},
+      {t:'v', txt:'Zorobabel é um antepassado de Jesus na genealogia.'},
+      {t:'c', txt:'Zorobabel era neto do rei ______.'},
+      {t:'c', txt:'A obra do templo terminou no mês de ______ (Ed 6:15).'},
+      {t:'c', txt:'Os profetas ______ e Zacarias incentivaram a obra.'},
+      {t:'r', txt:'Quem incentivou Zorobabel a retomar a reconstrução?', ops:'a) os profetas Ageu e Zacarias b) o rei da Pérsia'},
+      {t:'r', txt:'Na genealogia de quem Zorobabel aparece?', ops:'a) de Jesus b) de Moisés'},
+      {t:'r', txt:'O que Deus prometeu fazer com Zorobabel (Ag 2:23)?', ops:'a) torná-lo como um anel de selar b) dar-lhe um exército'}
+    ],
+    respostas: [
+      'V|Ed 2:1-2','F — houve oposição|Ed 4','V|Mt 1:12-13','Jeconias|1Cr 3:17-19','Adar|Ed 6:15','Ageu|Ag 1:1','A — Ageu e Zacarias|Ag 1:1','A — de Jesus|Mt 1:12-13','A — anel de selar|Ag 2:23'
+    ]
+  },
+  {
+    id: 'CB-011', nome: 'Daniel', banda: '605–530 a.E.C. · Babilônia',
+    nomeSignificado: 'Daniel — “Deus É Meu Juiz”',
+    banner: 'leoes', retrato: {cena: 'Fiel na cova dos leões', cor: '#2e5e8f'},
+    historia: '<b>Levado ao exílio menino,</b> recusou a comida do rei e serviu a quatro monarcas. Interpretou sonhos e escritas; saiu ileso da cova dos leões.',
+    livro: 'Dn',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Da linhagem real de Judá; chamado <b>Beltesazar</b> na corte (Dn 1:3-7)',
+    funcao: 'Alto oficial na Babilônia e na Pérsia',
+    profecia: 'Reinos futuros e o Reino de Deus (Dn 2:44)',
+    destaque: 'Cova dos leões; mão na parede; sonhos de Nabucodonosor',
+    curiosidade: 'Chamado de “homem muito estimado” (Dn 9:23)',
+    versiculo: '“O seu Deus é o Deus vivo.” — Dn 6:26',
+    perguntas: [
+      {t:'v', txt:'Daniel orava três vezes por dia.'},
+      {t:'v', txt:'Daniel comeu a comida e o vinho da mesa do rei.'},
+      {t:'v', txt:'Os caldeus deram a Daniel o nome de Beltesazar.'},
+      {t:'c', txt:'Na parede do palácio apareceu uma ______ escrevendo.'},
+      {t:'c', txt:'Daniel foi lançado na cova dos ______.'},
+      {t:'c', txt:'Daniel e seus amigos comeram apenas ______ e água por 10 dias.'},
+      {t:'r', txt:'Que rei lançou Daniel na cova dos leões?', ops:'a) Dario b) Faraó Neco'},
+      {t:'r', txt:'De quem foi o sonho das sete vezes magras?', ops:'a) do rei Nabucodonosor b) do rei Dario'},
+      {t:'r', txt:'A escrita na parede foi durante o banquete de qual rei?', ops:'a) Belsazar b) Ciro'}
+    ],
+    respostas: [
+      'V — orava 3×|Dn 6:10','F — recusou|Dn 1:8','V|Dn 1:7','mão|Dn 5:5','leões|Dn 6:16','legumes|Dn 1:12','A — Dario|Dn 6','A — Nabucodonosor|Dn 4','A — Belsazar|Dn 5'
+    ]
+  },
+  {
+    id: 'CB-012', nome: 'Ester', banda: 'séc. V a.E.C. · Susã, Pérsia',
+    nomeSignificado: 'Ester — persa para “estrela”; heb. Hadassa, “Murta”',
+    banner: 'coroa', retrato: {cena: 'A rainha corajosa', cor: '#8f2e2e', coroa: true},
+    historia: '<b>Rainha judia da Pérsia.</b> Arriscou a vida ao entrar sem convite na corte e, após 3 dias de jejum, expôs Hamã. Salvou o povo do extermínio.',
+    livro: 'Et',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Órfã; prima de Mardoqueu (Et 2:7)',
+    funcao: 'Rainha da Pérsia (rei Assuero)',
+    profecia: 'Sem profecia — livramento pelo “tempo como este” (Et 4:14)',
+    destaque: 'Salvou os judeus do extermínio',
+    curiosidade: 'Origem da festa judaica de Purim (Et 9:26)',
+    versiculo: '“Se eu perecer, pereci.” — Et 4:16',
+    perguntas: [
+      {t:'v', txt:'Ester escondeu sua origem judia no início.'},
+      {t:'v', txt:'Hamã construiu uma forca para Mardoqueu.'},
+      {t:'v', txt:'Ester entrou na corte sem convite, arriscando a vida.'},
+      {t:'c', txt:'O rei estendeu o ______ de ouro a Ester.'},
+      {t:'c', txt:'A festa do ______ celebra o livramento dos judeus.'},
+      {t:'c', txt:'O nome hebraico de Ester era ______.'},
+      {t:'r', txt:'Qual vilão planejou exterminar os judeus?', ops:'a) Hamã b) Jabim'},
+      {t:'r', txt:'Quem criou Ester desde pequena?', ops:'a) seu primo Mardoqueu b) o sacerdote Eli'},
+      {t:'r', txt:'Por quantos dias os judeus jejuaram antes de Ester entrar na corte?', ops:'a) três dias b) quarenta dias'}
+    ],
+    respostas: [
+      'V|Et 2:10','V|Et 5:14','V|Et 4:16','cetro|Et 5:2','Purim|Et 9:26','Hadassa|Et 2:7','A — Hamã|Et 3:1','A — Mardoqueu|Et 2:7','A — três|Et 4:16'
+    ]
+  },
+  {
+    id: 'CB-013', nome: 'Josué', banda: 'séc. XV a.E.C. · Canaã',
+    nomeSignificado: 'Josué — “Jeová É Salvação” (grego: Jesus)',
+    banner: 'trombeta', retrato: {cena: 'O líder da conquista', cor: '#2e7d32'},
+    historia: '<b>Sucedeu a Moisés</b> e cruzou o Jordão em seco. Jericó caiu, o sol parou em Gibeom e a terra foi repartida entre as tribos.',
+    livro: 'Js',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Filho de Num, da tribo de Efraim (1Cr 7:27)',
+    funcao: 'Líder de Israel (~25 anos)',
+    profecia: 'Sombra do repouso de Deus (Hb 4:8-9)',
+    destaque: 'Muralhas de Jericó caíram',
+    curiosidade: 'O sol e a lua pararam um dia inteiro (Js 10:13)',
+    versiculo: '“Eu e minha casa serviremos a Jeová.” — Js 24:15',
+    perguntas: [
+      {t:'v', txt:'Josué foi um dos doze espias.'},
+      {t:'v', txt:'A conquista de Canaã foi rápida, em poucos dias.'},
+      {t:'v', txt:'Josué era da tribo de Efraim.'},
+      {t:'c', txt:'As muralhas de Jericó caíram ao som das ______.'},
+      {t:'c', txt:'Josué pediu a Jeová que o ______ parasse.'},
+      {t:'c', txt:'“Eu e minha casa serviremos a ______.”'},
+      {t:'r', txt:'A quem Josué sucedeu como líder de Israel?', ops:'a) Moisés b) Arão'},
+      {t:'r', txt:'Quem escondeu os espias israelitas em Jericó?', ops:'a) Raabe b) Jael'},
+      {t:'r', txt:'Qual era o significado do nome Josué?', ops:'a) “Jeová é Salvação” b) “Deus é Luz”'}
+    ],
+    respostas: [
+      'V — com Calebe|Nm 14:6-8','F — levou anos|Js 14:10','V|1Cr 7:27','trombetas|Js 6:20','sol|Js 10:13','Jeová|Js 24:15','A — Moisés|Js 1:1-2','A — Raabe|Js 2:1-6','A — Salvação|Mt 1:21 n.'
+    ]
+  },
+  {
+    id: 'CB-014', nome: 'Samuel', banda: '1100–1020 a.E.C. · Siló',
+    nomeSignificado: 'Samuel — “Nome de Deus” ou “Ouvido de Deus”',
+    banner: 'lampada', retrato: {cena: 'O menino que ouviu Deus', cor: '#5e4a8f'},
+    historia: '<b>Profeta desde menino.</b> Foi o último dos juízes e ungiu os dois primeiros reis de Israel: Saul e Davi. Ouviu a voz de Deus ainda criança, em Siló.',
+    livro: '1Sm 1–16',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Filho de Elcana e Ana, da tribo de Efraim (1Sm 1:20)',
+    funcao: 'Profeta, sacerdote e último juiz de Israel',
+    profecia: 'Anunciou o fim da casa de Eli (1Sm 3:14)',
+    destaque: 'Ungiu Saul e Davi',
+    curiosidade: 'Deus o chamou à noite ainda menino (1Sm 3:4)',
+    versiculo: '“Fala, teu servo ouve.” — 1Sm 3:10',
+    perguntas: [
+      {t:'v', txt:'Samuel dormia no tabernáculo de Siló.'},
+      {t:'v', txt:'Samuel foi coroado primeiro rei de Israel.'},
+      {t:'v', txt:'Samuel ungiu Davi com óleo em Belém.'},
+      {t:'c', txt:'A mãe de Samuel se chamava ______.'},
+      {t:'c', txt:'Samuel ungiu Davi com ______ em Belém.'},
+      {t:'c', txt:'Samuel foi criado pelo sacerdote ______.'},
+      {t:'r', txt:'Quem Samuel ungiu como primeiro rei de Israel?', ops:'a) Saul b) Davi'},
+      {t:'r', txt:'O que Hanna prometeu a Jeová antes de Samuel nascer?', ops:'a) dedicá-lo ao serviço do tabernáculo b) dar-lhe riquezas'},
+      {t:'r', txt:'Qual foi o papel de Samuel no povo de Israel?', ops:'a) último dos juízes b) primeiro dos escribas'}
+    ],
+    respostas: [
+      'V|1Sm 1:24','F — foi ungido, não coroado|1Sm 10:1','V|1Sm 16:13','Ana|1Sm 1:20','óleo|1Sm 16:13','Eli|1Sm 3:1','A — Saul|1Sm 10:1','A — dedicá-lo|1Sm 1:11','A — último juiz|At 13:20'
+    ]
+  },
+  {
+    id: 'CB-015', nome: 'Gideão', banda: 'séc. XII a.E.C. · Ofra',
+    nomeSignificado: 'Gideão — “Cortador” (de árvores) ou “Batedor”',
+    banner: 'la', retrato: {cena: 'O valente dos 300', cor: '#8b6f3e'},
+    historia: '<b>Triturava trigo escondido dos midianitas.</b> Jeová o chamou de “valente guerreiro” e, com 300 homens, lanterna, cântaros e trombetas, venceu Midiã.',
+    livro: 'Jz 6–8',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Filho de Joás, de Ofra; também chamado <b>Jerubaal</b> (Jz 6:32)',
+    funcao: 'Juiz de Israel (40 anos de paz)',
+    profecia: 'Sem profecia — pediu sinais com a lã (Jz 6:36-40)',
+    destaque: '300 homens venceram um exército enorme',
+    curiosidade: 'Derrubou o altar de Baal à noite (Jz 6:27)',
+    versiculo: '“Jeová é paz.” — Jz 6:24',
+    perguntas: [
+      {t:'v', txt:'Gideão pediu sinais a Deus com uma lã.'},
+      {t:'v', txt:'Gideão atacou Midiã com 32.000 homens.'},
+      {t:'v', txt:'Gideão derrubou o altar de Baal à noite.'},
+      {t:'c', txt:'Gideão derrubou o altar de ______.'},
+      {t:'c', txt:'Os 300 usavam tochas dentro de ______.'},
+      {t:'c', txt:'O anjo o chamou de ______ guerreiro.'},
+      {t:'r', txt:'Com quantos homens Gideão enfrentou Midiã?', ops:'a) 300 b) 32.000'},
+      {t:'r', txt:'Que instrumento os 300 usaram para confundir os midianitas?', ops:'a) trombetas e cântaros b) espadas e lanças'},
+      {t:'r', txt:'Que outro nome Gideão recebeu?', ops:'a) Jerubaal b) Jedidias'}
+    ],
+    respostas: [
+      'V|Jz 6:36-40','F — só 300|Jz 7:7','V|Jz 6:27','Baal|Jz 6:25','cântaros|Jz 7:16','valente|Jz 6:12','A — 300|Jz 7:7','A — trombetas|Jz 7:16','A — Jerubaal|Jz 6:32'
+    ]
+  },
+  {
+    id: 'CB-016', nome: 'Rute', banda: 'séc. XI a.E.C. · Belém',
+    nomeSignificado: 'Rute — talvez “Amiga” ou “Beleza”',
+    banner: 'espigas', retrato: {cena: 'A nora fiel', cor: '#8a6d1a'},
+    historia: '<b>Moabita que escolheu o povo de Israel.</b> Colheu espigas, casou com Boaz e se tornou bisavó do rei Davi — e antepassada de Jesus.',
+    livro: 'Rt',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Bisavó de Davi; linhagem do Messias (Rt 4:17)',
+    funcao: 'Esposa de Boaz',
+    profecia: 'Na linhagem do Messias (Mt 1:5)',
+    destaque: 'Lealdade a Noemi (Rt 1:16)',
+    curiosidade: 'Livro pequeno: apenas 4 capítulos',
+    versiculo: '“O teu povo é o meu povo, teu Deus é o meu Deus.” — Rt 1:16',
+    perguntas: [
+      {t:'v', txt:'Rute abandonou Noemi e voltou a Moabe.'},
+      {t:'v', txt:'Rute colheu espigas no campo de Boaz.'},
+      {t:'v', txt:'Rute é antepassada de Jesus na genealogia.'},
+      {t:'c', txt:'“O teu povo será o meu ______.”'},
+      {t:'c', txt:'Rute se casou com ______.'},
+      {t:'c', txt:'Rute era de ______, país vizinho a Israel.'},
+      {t:'r', txt:'Que nora voltou para Moabe, ao contrário de Rute?', ops:'a) Orfa b) Abigail'},
+      {t:'r', txt:'O neto de Rute, Obede, foi pai de quem?', ops:'a) Jessé b) Saul'},
+      {t:'r', txt:'O que Rute disse a Noemi ao partir?', ops:'a) “teu Deus é o meu Deus” b) “vou buscar outra terra”'}
+    ],
+    respostas: [
+      'F — ficou|Rt 1:14','V|Rt 2:2-3','V|Mt 1:5','povo|Rt 1:16','Boaz|Rt 4:13','Moabe|Rt 1:4','A — Orfa|Rt 1:14','A — Jessé|Rt 4:17','A — teu Deus|Rt 1:16'
+    ]
+  },
+  {
+    id: 'CB-017', nome: 'Abigail', banda: 'séc. XI a.E.C. · Carmo',
+    nomeSignificado: 'Abigail — “Pai é Alegria” (fonte de alegria)',
+    banner: 'cesta', retrato: {cena: 'A mulher de bom senso', cor: '#2e5e8f'},
+    historia: '<b>Impediu um massacre</b> com presentes e palavras sábias quando Nabal ofendeu Davi. Após a morte de Nabal, tornou-se esposa de Davi.',
+    livro: '1Sm 25',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Viúva de Nabal; depois esposa de Davi',
+    funcao: 'Mulher sábia e corajosa',
+    profecia: 'Sem profecia — benzeu Davi (1Sm 25:30)',
+    destaque: 'Acalmou a ira de Davi com palavras sábias',
+    curiosidade: 'Nabal quer dizer “tolo” (1Sm 25:25)',
+    versiculo: '“Bendita seja a tua prudência.” — 1Sm 25:33',
+    perguntas: [
+      {t:'v', txt:'Nabal, marido de Abigail, era duro e tolo.'},
+      {t:'v', txt:'Nabal atendeu bem os pastores de Davi.'},
+      {t:'v', txt:'Abigail se tornou esposa de Davi após a morte de Nabal.'},
+      {t:'c', txt:'Abigail levou a Davi pão, vinho e ______.'},
+      {t:'c', txt:'Nabal morreu ______ dias depois.'},
+      {t:'c', txt:'O nome Nabal significa ______.'},
+      {t:'r', txt:'Com que objetivo Abigail se encontrou com Davi?', ops:'a) impedir um massacre b) pedir um emprego'},
+      {t:'r', txt:'O que significa o nome Nabal?', ops:'a) tolo b) senhor'},
+      {t:'r', txt:'O que Davi reconheceu ao ouvir Abigail?', ops:'a) que ela o impediu de derramar sangue b) que era uma visita'}
+    ],
+    respostas: [
+      'V|1Sm 25:3','F — recusou|1Sm 25:10-11','V|1Sm 25:42','ovelhas|1Sm 25:18','dez|1Sm 25:38','tolo|1Sm 25:25','A — impedir|1Sm 25:26','A — tolo|1Sm 25:25','A — impediu o sangue|1Sm 25:32-33'
+    ]
+  },
+  {
+    id: 'CB-018', nome: 'Tabita', banda: 'séc. I d.C. · Jope',
+    nomeSignificado: 'Tabita — aramaico para “Gazela” (grego: Dorcas)',
+    banner: 'agulha', retrato: {cena: 'Cheia de boas obras', cor: '#2e7d32'},
+    historia: '<b>Discípula cheia de boas obras,</b> costurava túnicas para as viúvas. Morreu e foi ressuscitada por Pedro; muitos creram no Senhor em Jope.',
+    livro: 'At 9:36-42',
+    parte: '<span class="chip chip-nt">N.T.</span> grego',
+    genealogia: 'Discípula cristã em Jope',
+    funcao: 'Serva e costureira das viúvas',
+    profecia: 'Sem profecia — “cheia de boas obras” (At 9:36)',
+    destaque: 'Ressuscitada por Pedro',
+    curiosidade: 'As viúvas mostravam as túnicas que ela fizera',
+    versiculo: '“Cheia de boas obras...” — At 9:36',
+    perguntas: [
+      {t:'v', txt:'Tabita era discípula em Jope.'},
+      {t:'v', txt:'Paulo ressuscitou Tabita.'},
+      {t:'v', txt:'Tabita fazia túnicas e vestes para as viúvas.'},
+      {t:'c', txt:'As viúvas mostravam as ______ que Tabita fizera.'},
+      {t:'c', txt:'Pedro disse: “Tabita, ______.”'},
+      {t:'c', txt:'Tabita também era chamada de ______, que significa gazela.'},
+      {t:'r', txt:'Em que cidade Tabita vivia?', ops:'a) Jope b) Listra'},
+      {t:'r', txt:'O que aconteceu depois de Tabita ser ressuscitada?', ops:'a) muitos creram no Senhor b) nada foi registrado'},
+      {t:'r', txt:'O que o nome Dorcas significa?', ops:'a) gazela b) águia'}
+    ],
+    respostas: [
+      'V|At 9:36, 39','F — Pedro|At 9:40','V|At 9:39','túnicas|At 9:39','levanta-te|At 9:40','Dorcas|At 9:36','A — Jope|At 9:36','A — muitos creram|At 9:42','A — gazela|At 9:36'
+    ]
+  },
+  {
+    id: 'CB-019', nome: 'Priscila', banda: 'séc. I d.C. · Roma e Corinto',
+    nomeSignificado: 'Priscila — diminutivo de Prisca, “Antiga” ou “Honesta”',
+    banner: 'tenda', retrato: {cena: 'Mestra de Apolo', cor: '#8f2e2e'},
+    historia: '<b>Fabricante de tendas com o marido Áquila.</b> Expôs a Apolo o caminho de Deus “com mais exatidão” e hospedou a congregação em sua casa.',
+    livro: 'At 18 · Rm 16:3',
+    parte: '<span class="chip chip-nt">N.T.</span> grego',
+    genealogia: 'Judia; esposa de Áquila',
+    funcao: 'Fabricante de tendas; mestra',
+    profecia: 'Sem profecia — serve à congregação (Rm 16)',
+    destaque: 'Igreja se reunia em sua casa (1Co 16:19)',
+    curiosidade: 'Citada antes do marido 4 vezes (At 18:18, 26; Rm 16:3; 2Tm 4:19)',
+    versiculo: '“Expuseram-lhe o caminho de Deus.” — At 18:26',
+    perguntas: [
+      {t:'v', txt:'Priscila e Áquila eram fabricantes de tendas.'},
+      {t:'v', txt:'Apolo já conhecia todo o caminho de Deus.'},
+      {t:'v', txt:'Paulo morou e trabalhou com Áquila e Priscila.'},
+      {t:'c', txt:'Paulo morou com Áquila e ______.'},
+      {t:'c', txt:'Expuseram o caminho de Deus com mais ______.'},
+      {t:'c', txt:'A congregação se reunia na casa de ______.'},
+      {t:'r', txt:'Por que Áquila e Priscila saíram de Roma?', ops:'a) Cláudio expulsou os judeus b) por causa de um terremoto'},
+      {t:'r', txt:'A que ofício Priscila e Áquila se dedicavam?', ops:'a) fabricar tendas b) pescar'},
+      {t:'r', txt:'Que mestre ensinaram com mais exatidão?', ops:'a) Apolo b) Barnabé'}
+    ],
+    respostas: [
+      'V|At 18:3','F — incompleto|At 18:25','V|At 18:2-3','Priscila|At 18:2','exatidão|At 18:26','Priscila|1Co 16:19','A — Cláudio expulsou|At 18:2','A — tendas|At 18:3','A — Apolo|At 18:26'
+    ]
+  },
+  {
+    id: 'CB-020', nome: 'Ebede-Meleque', banda: '588 a.E.C. · Jerusalém',
+    nomeSignificado: 'Ebede-Meleque — “Servo do Rei”',
+    banner: 'cisterna', retrato: {cena: 'O etíope corajoso', cor: '#8b6f3e'},
+    historia: '<b>Eunuco etíope da casa real</b> que arriscou a vida para salvar Jeremias da cisterna de Malquias. Deus lhe prometeu livramento por confiar nele.',
+    livro: 'Jr 38–39',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Eunuco etíope da casa real (Jr 38:7)',
+    funcao: 'Oficial do palácio de Zedequias',
+    profecia: 'Recebeu promessa de livramento (Jr 39:16-18)',
+    destaque: 'Salvou Jeremias da cisterna',
+    curiosidade: 'O rei atendeu seu pedido imediatamente (Jr 38:10)',
+    versiculo: '“Não te sobrevirá mal.” — Jr 39:17',
+    perguntas: [
+      {t:'v', txt:'Ebede-Meleque era um etíope da corte.'},
+      {t:'v', txt:'Os príncipes protegeram Jeremias na cisterna.'},
+      {t:'v', txt:'O rei atendeu o pedido de Ebede-Meleque.'},
+      {t:'c', txt:'Ebede-Meleque puxou Jeremias da cisterna com ______.'},
+      {t:'c', txt:'Jeremias ficou na cisterna de ______.'},
+      {t:'c', txt:'Ebede-Meleque falou ao rei ______.'},
+      {t:'r', txt:'De qual país Ebede-Meleque era originário?', ops:'a) Etiópia (Cuche) b) Egito'},
+      {t:'r', txt:'O que ele pediu ao rei?', ops:'a) tirar Jeremias da cisterna b) soltar os príncipes'},
+      {t:'r', txt:'O que Deus prometeu a Ebede-Meleque?', ops:'a) livramento e a vida b) um cargo alto'}
+    ],
+    respostas: [
+      'V|Jr 38:7','F — o lançaram|Jr 38:6','V|Jr 38:10','cordas|Jr 38:11','Malquias|Jr 38:6','Zedequias|Jr 38:8','A — Etiópia|Jr 38:7','A — tirar Jeremias|Jr 38:8-9','A — livramento|Jr 39:17-18'
+    ]
+  },
+  {
+    id: 'CB-021', nome: 'Moisés', banda: '1593–1473 a.E.C. · Egito e Sinai',
+    nomeSignificado: 'Moisés — “Retirado das Águas” (Êx 2:10)',
+    banner: 'colunas', retrato: {cena: 'O libertador da Lei', cor: '#2e5e8f'},
+    historia: '<b>Conduziu Israel pelo mar Vermelho</b> e recebeu a Lei no Sinai. Escreveu os cinco primeiros livros da Bíblia e falava com Jeová “face a face”.',
+    livro: 'Êx · Nm · Dt · Sl 90',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Da tribo de Levi; filho de Anrão e Joquebede (Êx 6:20)',
+    funcao: 'Profeta e libertador de Israel',
+    profecia: 'Deus levantaria um profeta como ele (Dt 18:18)',
+    destaque: 'Cruzou o mar Vermelho; recebeu os Dez Mandamentos',
+    curiosidade: 'Criado na corte do Faraó; morreu aos 120 anos (Dt 34:7)',
+    versiculo: '“Nunca se levantou profeta como Moisés.” — Dt 34:10',
+    perguntas: [
+      {t:'v', txt:'Moisés foi criado na corte do Faraó.'},
+      {t:'v', txt:'Moisés atravessou o mar Vermelho em barcos.'},
+      {t:'v', txt:'Moisés escreveu os cinco primeiros livros da Bíblia.'},
+      {t:'c', txt:'A filha do Faraó chamou o bebê de ______.'},
+      {t:'c', txt:'Moisés recebeu a Lei no monte ______.'},
+      {t:'c', txt:'A irmã de Moisés se chamava ______.'},
+      {t:'r', txt:'Quem colocou o bebê numa arca de papiro no rio Nilo?', ops:'a) sua mãe, Joquebede b) sua irmã, Miriam'},
+      {t:'r', txt:'Com que idade Moisés morreu?', ops:'a) 120 anos b) 80 anos'},
+      {t:'r', txt:'Em que monte Moisés recebeu a Lei?', ops:'a) Sinai b) Carmelo'}
+    ],
+    respostas: [
+      'V|Êx 2:5-10','F — a pé, em seco|Êx 14:21-22','V|Dt 31:9, 24','Moisés|Êx 2:10','Sinai|Êx 19:20','Miriam|Êx 15:20','A — Joquebede|Êx 2:3','A — 120 anos|Dt 34:7','A — Sinai|Êx 19:20'
+    ]
+  },
+  {
+    id: 'CB-022', nome: 'Davi', banda: 'séc. XI a.E.C. · Belém e Jerusalém',
+    nomeSignificado: 'Davi — “Amado”',
+    banner: 'coroa', retrato: {cena: 'O pastor que virou rei', cor: '#8a6d1a', coroa: true},
+    historia: '<b>O pastor que venceu Golias</b> tornou-se o 2º rei de Israel. Compôs muitos salmos e recebeu a promessa de um trono eterno em sua casa.',
+    livro: '1Sm 16–2Sm · Sl',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Filho de Jessé, de Belém; tribo de Judá (1Sm 16:1, 13)',
+    funcao: '2º rei de Israel (40 anos)',
+    profecia: 'Do seu trono viria o Messias (2Sm 7:12-16)',
+    destaque: 'Venceu Golias com uma funda e uma pedra',
+    curiosidade: 'Tocava harpa para acalmar o rei Saul (1Sm 16:23)',
+    versiculo: '“Jeová é o meu pastor.” — Sl 23:1',
+    perguntas: [
+      {t:'v', txt:'Davi venceu Golias com uma espada.'},
+      {t:'v', txt:'Davi era da tribo de Judá.'},
+      {t:'v', txt:'Davi compôs muitos dos salmos da Bíblia.'},
+      {t:'c', txt:'O gigante derrotado por Davi chamava-se ______.'},
+      {t:'c', txt:'Davi era filho de ______, de Belém.'},
+      {t:'c', txt:'Samuel ungiu Davi com ______.'},
+      {t:'r', txt:'Que instrumento Davi tocava?', ops:'a) harpa b) trombeta'},
+      {t:'r', txt:'Quantas pedras Davi usou para acertar Golias?', ops:'a) uma b) cinco'},
+      {t:'r', txt:'Que promessa Deus fez à casa de Davi?', ops:'a) um trono eterno b) ouro e prata'}
+    ],
+    respostas: [
+      'F — funda e pedra|1Sm 17:49-50','V|1Sm 16:1','V|Sl 3:1','Golias|1Sm 17:4','Jessé|1Sm 16:1','óleo|1Sm 16:13','A — harpa|1Sm 16:23','A — uma|1Sm 17:49','A — trono eterno|2Sm 7:16'
+    ]
+  },
+  {
+    id: 'CB-023', nome: 'Noé', banda: '~2400 a.E.C. · Mesopotâmia e Ararate',
+    nomeSignificado: 'Noé — “Consolo” (Gn 5:29)',
+    banner: 'tenda', retrato: {cena: 'O construtor da arca', cor: '#8b6f3e'},
+    historia: '<b>Construiu a arca segundo as instruções divinas.</b> Pregador da justiça, foi salvo do dilúvio com a família — e dele descende toda a humanidade.',
+    livro: 'Gn 5–10 · Mt 24:37-39',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Filho de Lameque; descendente de Sete (Gn 5:28-29)',
+    funcao: 'Construtor da arca; pregador da justiça',
+    profecia: 'Jesus comparou os dias de Noé aos últimos dias (Mt 24:37-39)',
+    destaque: 'Sobreviveu ao dilúvio com 7 familiares na arca',
+    curiosidade: 'A arca tinha ~120 m de comprimento (Gn 6:15)',
+    versiculo: '“Noé fez tudo... como Deus lhe ordenara.” — Gn 6:22',
+    perguntas: [
+      {t:'v', txt:'Noé construiu a arca conforme as instruções de Deus.'},
+      {t:'v', txt:'Na arca entraram só Noé e a esposa.'},
+      {t:'v', txt:'Noé enviou um corvo e depois uma pomba.'},
+      {t:'c', txt:'Após o dilúvio, Noé viu o sinal do ______.'},
+      {t:'c', txt:'A arca pousou nas montanhas de ______.'},
+      {t:'c', txt:'Noé era pregador da ______.'},
+      {t:'r', txt:'Quantas pessoas entraram na arca?', ops:'a) oito b) doze'},
+      {t:'r', txt:'Quanto durou a chuva do dilúvio?', ops:'a) 40 dias e 40 noites b) 7 dias'},
+      {t:'r', txt:'Que pássaro voltou com uma folha de oliveira?', ops:'a) a pomba b) o corvo'}
+    ],
+    respostas: [
+      'V|Gn 6:22','F — 8 pessoas|1Pe 3:20','V|Gn 8:7-8','arco-íris|Gn 9:13','Ararate|Gn 8:4','justiça|2Pe 2:5','A — oito|1Pe 3:20','A — 40 dias|Gn 7:12','A — a pomba|Gn 8:11'
+    ]
+  },
+  {
+    id: 'CB-024', nome: 'Raabe', banda: '1473 a.E.C. · Jericó',
+    nomeSignificado: 'Raabe — possivelmente “Ampla”',
+    banner: 'portao', retrato: {cena: 'O cordão escarlate', cor: '#8f2e2e'},
+    historia: '<b>Escondeu os espias em Jericó</b> e pendurou o cordão escarlate na janela. Sua fé a salvou quando a cidade caiu e a incluiu na linhagem do Messias.',
+    livro: 'Js 2, 6 · Mt 1:5; Hb 11:31',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Mãe de Boaz; antepassada de Davi e de Jesus (Mt 1:5)',
+    funcao: 'Hospedadora em Jericó; depois israelita',
+    profecia: 'Na linhagem do Messias (Mt 1:5)',
+    destaque: 'Escondeu os espias; cordão escarlate (Js 2:21)',
+    curiosidade: 'Citada na lista dos fiéis de Hebreus 11 (Hb 11:31)',
+    versiculo: '“Jeová... é Deus nos céus acima e na terra abaixo.” — Js 2:11',
+    perguntas: [
+      {t:'v', txt:'Raabe escondeu os espias no telhado de casa.'},
+      {t:'v', txt:'Raabe era de Jerusalém.'},
+      {t:'v', txt:'Raabe pendurou um cordão escarlate na janela.'},
+      {t:'c', txt:'Raabe escondeu os espias sob ______ no telhado.'},
+      {t:'c', txt:'Os espias mandaram pendurar um cordão de cor ______.'},
+      {t:'c', txt:'A muralha de Jericó caiu no ______ dia.'},
+      {t:'r', txt:'Em que cidade Raabe vivia?', ops:'a) Jericó b) Ai'},
+      {t:'r', txt:'Como Raabe salvou sua família?', ops:'a) reunindo-os em casa com o cordão na janela b) fugindo de noite'},
+      {t:'r', txt:'Raabe é antepassada de quem?', ops:'a) de Jesus b) de Saul'}
+    ],
+    respostas: [
+      'V|Js 2:6','F — Jericó|Js 2:1','V|Js 2:21','hastes de linho|Js 2:6','escarlate|Js 2:18','sétimo|Js 6:20','A — Jericó|Js 2:1','A — cordão na janela|Js 2:18','A — de Jesus|Mt 1:5'
+    ]
+  },
+  {
+    id: 'CB-025', nome: 'Jonas', banda: 'séc. IX–VIII a.E.C. · Nínive, Assíria',
+    nomeSignificado: 'Jonas — “Pomba”',
+    banner: 'dove', retrato: {cena: 'O profeta do grande peixe', cor: '#2e5e8f'},
+    historia: '<b>Tentou fugir da missão num navio,</b> foi engolido por um grande peixe e, ao pregar em Nínive, viu a cidade inimiga inteira se arrepender.',
+    livro: 'Jn · 2Rs 14:25 · Mt 12:39-41',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Filho de Amittai; de Gate-Hefer (Jn 1:1; 2Rs 14:25)',
+    funcao: 'Profeta enviado a Nínive',
+    profecia: 'Jesus citou Jonas como sinal da ressurreição (Mt 12:40)',
+    destaque: 'Três dias e noites no ventre do grande peixe',
+    curiosidade: 'Nínive se arrependeu ao ouvi-lo (Jn 3:5)',
+    versiculo: '“A salvação vem de Jeová.” — Jn 2:9',
+    perguntas: [
+      {t:'v', txt:'Jonas tentou fugir de Deus num navio.'},
+      {t:'v', txt:'Jonas ficou três dias no ventre de um grande peixe.'},
+      {t:'v', txt:'Os ninivitas ignoraram a mensagem de Jonas.'},
+      {t:'c', txt:'Jonas foi engolido por um grande ______.'},
+      {t:'c', txt:'Jonas pregou na cidade de ______.'},
+      {t:'c', txt:'Os ninivitas se cobriram de ______ em sinal de arrependimento.'},
+      {t:'r', txt:'Por que Jonas fugiu?', ops:'a) temia que Deus poupasse Nínive b) não sabia nadar'},
+      {t:'r', txt:'Que planta cresceu para dar sombra a Jonas?', ops:'a) uma abóbora b) um cedro'},
+      {t:'r', txt:'Jesus disse que Jonas seria sinal de quê?', ops:'a) da ressurreição dele b) de uma tempestade'}
+    ],
+    respostas: [
+      'V|Jn 1:3','V|Jn 1:17','F — arrependeu-se|Jn 3:5','peixe|Jn 1:17','Nínive|Jn 1:2','saco|Jn 3:5-6','A — temia que Deus a poupasse|Jn 4:2','A — abóbora|Jn 4:6','A — da ressurreição|Mt 12:40'
+    ]
+  },
+  {
+    id: 'CB-026', nome: 'Isaías', banda: 'séc. VIII a.E.C. · Jerusalém',
+    nomeSignificado: 'Isaías — “Salvação de Jeová”',
+    banner: 'fogo', retrato: {cena: 'O profeta do Messias', cor: '#5e4a8f'},
+    historia: '<b>Viu Jeová “sentado num trono alto e elevado”</b> e respondeu: “Envia-me a mim!” Anunciou com detalhes o Messias e a sua esperança.',
+    livro: 'Is · 2Rs 19–20',
+    parte: '<span class="chip chip-at">A.T.</span> hebraico',
+    genealogia: 'Filho de Amoz; profeta em Jerusalém (Is 1:1)',
+    funcao: 'Profeta de Judá (séc. VIII a.E.C.)',
+    profecia: 'Nasceria de virgem, “Príncipe da Paz” e sofreria por nós (Is 7:14; 9:6; 53)',
+    destaque: 'Visão do trono de Jeová (Is 6:1-8)',
+    curiosidade: 'Andou descalço por 3 anos como sinal (Is 20:2-3)',
+    versiculo: '“Aqui estou! Envia-me a mim.” — Is 6:8',
+    perguntas: [
+      {t:'v', txt:'Isaías viu uma visão do trono de Jeová.'},
+      {t:'v', txt:'Isaías profetizou só para a Babilônia.'},
+      {t:'v', txt:'Isaías anunciou que o Messias nasceria de uma virgem.'},
+      {t:'c', txt:'Uma ______ tocou os lábios de Isaías, purificando-o.'},
+      {t:'c', txt:'“Aqui estou! ______ a mim.”'},
+      {t:'c', txt:'O Messias seria chamado “______ da Paz”.'},
+      {t:'r', txt:'Que rei ouviu a profecia da virgem?', ops:'a) Acaz b) Josias'},
+      {t:'r', txt:'Em que capítulo Isaías fala do servo que sofreria?', ops:'a) capítulo 53 b) capítulo 1'},
+      {t:'r', txt:'Por quanto tempo Isaías andou descalço como sinal?', ops:'a) 3 anos b) 40 dias'}
+    ],
+    respostas: [
+      'V|Is 6:1','F — para Judá|Is 1:1','V|Is 7:14','brasa|Is 6:6-7','Envia|Is 6:8','Príncipe|Is 9:6','A — Acaz|Is 7:10-14','A — 53|Is 53','A — 3 anos|Is 20:3'
+    ]
+  },
+  {
+    id: 'CB-027', nome: 'Maria', banda: 'séc. I a.C.–I d.C. · Nazaré e Belém',
+    nomeSignificado: 'Maria — forma grega de Miriam; talvez “Exaltada”',
+    banner: 'casa', retrato: {cena: 'A mãe do Messias', cor: '#2e7d32'},
+    historia: '<b>Jovem de Nazaré escolhida para gerar o Messias.</b> Disse “sim” a Deus, esteve junto à cruz do filho e orava com os discípulos depois.',
+    livro: 'Lc 1–2 · Jo 2, 19 · At 1:14',
+    parte: '<span class="chip chip-nt">N.T.</span> grego',
+    genealogia: 'Parente de Isabel; noiva de José, da casa de Davi (Lc 1:27, 36)',
+    funcao: 'Mãe de Jesus (o Messias)',
+    profecia: 'A virgem conceberia e daria à luz Emanuel (Is 7:14; Mt 1:22-23)',
+    destaque: 'Disse: “Eis a escrava de Jeová!” (Lc 1:38)',
+    curiosidade: 'Guardava tudo “no coração” (Lc 2:51)',
+    versiculo: '“Eis a escrava de Jeová!” — Lc 1:38',
+    perguntas: [
+      {t:'v', txt:'Maria morava em Nazaré quando foi anunciada.'},
+      {t:'v', txt:'Maria estava presente no primeiro milagre de Jesus.'},
+      {t:'v', txt:'Maria não acompanhou Jesus até a sua morte.'},
+      {t:'c', txt:'O anjo ______ anunciou a Maria o nascimento de Jesus.'},
+      {t:'c', txt:'Maria disse: “Eis a ______ de Jeová!”'},
+      {t:'c', txt:'Maria e José apresentaram o bebê no ______.'},
+      {t:'r', txt:'Onde Jesus nasceu?', ops:'a) Belém b) Nazaré'},
+      {t:'r', txt:'Que parente, grávida de João, Maria visitou?', ops:'a) Isabel b) Débora'},
+      {t:'r', txt:'O que Maria fazia com as coisas que via do filho?', ops:'a) guardava no coração b) esquecia logo'}
+    ],
+    respostas: [
+      'V|Lc 1:26','V|Jo 2:1-2','F — esteve junto à cruz|Jo 19:25','Gabriel|Lc 1:26','escrava|Lc 1:38','templo|Lc 2:22-27','A — Belém|Lc 2:4-7','A — Isabel|Lc 1:39-40','A — guardava no coração|Lc 2:51'
+    ]
+  },
+  {
+    id: 'CB-028', nome: 'João Batista', banda: 'séc. I d.C. · deserto da Judeia',
+    nomeSignificado: 'João — “Jeová Tem Sido Misericordioso”',
+    banner: 'lampada', retrato: {cena: 'A voz no deserto', cor: '#8b6f3e'},
+    historia: '<b>Preparou o caminho do Messias.</b> Batizou Jesus no Jordão e falou com franqueza contra o rei Herodes — e perdeu a vida por isso.',
+    livro: 'Lc 1 · Mt 3, 14',
+    parte: '<span class="chip chip-nt">N.T.</span> grego',
+    genealogia: 'Filho do sacerdote Zacarias e de Isabel (Lc 1:13, 57)',
+    funcao: 'Batizador; precursor do Messias',
+    profecia: 'Voz no deserto: “Preparem o caminho” (Is 40:3; Ml 3:1)',
+    destaque: 'Batizou Jesus; o Espírito desceu como pomba (Mt 3:16)',
+    curiosidade: 'Vestia pelos de camelo e comia gafanhotos com mel (Mt 3:4)',
+    versiculo: '“Ele deve crescer, mas eu diminuir.” — Jo 3:30',
+    perguntas: [
+      {t:'v', txt:'João Batista era filho do sacerdote Zacarias.'},
+      {t:'v', txt:'João batizou Jesus no mar Morto.'},
+      {t:'v', txt:'João foi preso e executado por Herodes.'},
+      {t:'c', txt:'João pregava no ______, dizendo: “Arrependam-se.”'},
+      {t:'c', txt:'João vestia roupas de ______ de camelo.'},
+      {t:'c', txt:'O Espírito desceu sobre Jesus como uma ______.'},
+      {t:'r', txt:'Onde João batizava as pessoas?', ops:'a) no rio Jordão b) no mar da Galileia'},
+      {t:'r', txt:'Contra quem João falou com franqueza?', ops:'a) contra Herodes b) contra César'},
+      {t:'r', txt:'Quem era a mãe de João?', ops:'a) Isabel b) Maria'}
+    ],
+    respostas: [
+      'V|Lc 1:13','F — no rio Jordão|Mt 3:13','V|Mt 14:3-10','deserto|Mt 3:1','pelos|Mt 3:4','pomba|Mt 3:16','A — rio Jordão|Mt 3:6','A — Herodes|Mt 14:4','A — Isabel|Lc 1:57'
+    ]
+  },
+  {
+    id: 'CB-029', nome: 'Pedro', banda: 'séc. I d.C. · Galileia e Jerusalém',
+    nomeSignificado: 'Pedro — “Pedra” (Jo 1:42)',
+    banner: 'portao', retrato: {cena: 'O pescador de homens', cor: '#2e5e8f'},
+    historia: '<b>Pescador chamado para “pescar homens”.</b> Negou Jesus três vezes, chorou, se arrependeu e se tornou uma coluna da congregação cristã.',
+    livro: 'Mt–At · 1Pe · 2Pe',
+    parte: '<span class="chip chip-nt">N.T.</span> grego',
+    genealogia: 'Simão, filho de João; irmão de André; pescador (Jo 1:40-44)',
+    funcao: 'Apóstolo; escritor de duas cartas',
+    profecia: 'Sem profecia própria — “apascenta minhas ovelhinhas” (Jo 21:15-17)',
+    destaque: 'Andou brevemente sobre a água (Mt 14:29)',
+    curiosidade: 'Negou Jesus três vezes na noite da prisão (Mt 26:69-75)',
+    versiculo: '“Tu és o Cristo, o Filho do Deus vivo.” — Mt 16:16',
+    perguntas: [
+      {t:'v', txt:'Pedro era pescador antes de seguir Jesus.'},
+      {t:'v', txt:'Pedro nunca negou conhecer Jesus.'},
+      {t:'v', txt:'Pedro andou sobre a água por breves instantes.'},
+      {t:'c', txt:'O irmão de Pedro se chamava ______.'},
+      {t:'c', txt:'“Tu és o ______, o Filho do Deus vivo.”'},
+      {t:'c', txt:'Pedro escreveu ______ cartas que estão na Bíblia.'},
+      {t:'r', txt:'O que Pedro e André deixaram para seguir Jesus?', ops:'a) as redes de pesca b) o exército'},
+      {t:'r', txt:'Quantas vezes Pedro negou Jesus?', ops:'a) três b) uma'},
+      {t:'r', txt:'O que Jesus pediu a Pedro três vezes?', ops:'a) “apascenta minhas ovelhinhas” b) “vai para Roma”'}
+    ],
+    respostas: [
+      'V|Mt 4:18','F — negou 3 vezes|Mt 26:69-75','V|Mt 14:29','André|Jo 1:40','Cristo|Mt 16:16','duas|2Pe 3:1','A — as redes|Mt 4:18-22','A — três|Mt 26:75','A — apascentar|Jo 21:15-17'
+    ]
+  },
+  {
+    id: 'CB-030', nome: 'Paulo', banda: 'séc. I d.C. · Tarso e Império Romano',
+    nomeSignificado: 'Paulo — “Pequeno” (latim: Paulus); antes: Saulo',
+    banner: 'pergaminho', retrato: {cena: 'O apóstolo às nações', cor: '#5e4a8f'},
+    historia: '<b>De perseguidor a apóstolo.</b> Após ver o Cristo ressuscitado no caminho de Damasco, pregou pelo Império Romano e escreveu 13 cartas da Bíblia.',
+    livro: 'At 7–28 · Rm–Filemom',
+    parte: '<span class="chip chip-nt">N.T.</span> grego',
+    genealogia: 'Fariseu da tribo de Benjamim; de Tarso (Fp 3:5; At 22:3)',
+    funcao: 'Apóstolo às nações (viagens missionárias)',
+    profecia: 'Escolhido como “instrumento” diante de nações e reis (At 9:15)',
+    destaque: 'Visão no caminho de Damasco (At 9:3-9)',
+    curiosidade: 'Sobreviveu a naufrágio e a apedrejamento (2Co 11:25)',
+    versiculo: '“Combati o bom combate.” — 2Tm 4:7',
+    perguntas: [
+      {t:'v', txt:'Paulo perseguiu cristãos antes de se tornar apóstolo.'},
+      {t:'v', txt:'Paulo nasceu em Jerusalém.'},
+      {t:'v', txt:'Paulo aprendeu o ofício de fabricar tendas.'},
+      {t:'c', txt:'No caminho de ______, Paulo viu uma luz do céu.'},
+      {t:'c', txt:'Paulo era da tribo de ______.'},
+      {t:'c', txt:'Seu nome de nascimento era ______.'},
+      {t:'r', txt:'Quem Deus enviou para curar a cegueira de Paulo?', ops:'a) Ananias b) Barnabé'},
+      {t:'r', txt:'Que ofício Paulo exercia?', ops:'a) fabricante de tendas b) cobrador de impostos'},
+      {t:'r', txt:'Paulo escreveu uma carta às congregações de qual cidade?', ops:'a) Roma b) Jericó'}
+    ],
+    respostas: [
+      'V|At 8:1-3','F — em Tarso|At 22:3','V|At 18:3','Damasco|At 9:3','Benjamim|Fp 3:5','Saulo|At 13:9','A — Ananias|At 9:10-17','A — tendas|At 18:3','A — Roma|Rm 1:7'
+    ]
+  }
+];
+
+/* ============ SORTEIO — 5 perguntas por cartão ============
+   A cada carregamento (ou clique em Re-sortear) cada cartão recebe:
+   1 V/F + 2 Complete + 2 Responda, embaralhados, do banco de 8 questões.
+   O gabarito é reordenado junto.                                        */
+function embaralhar(arr) {
+  const a = arr.slice();
+  for (let i = a.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [a[i], a[j]] = [a[j], a[i]];
+  }
+  return a;
+}
+const rotuloTipo = t => t === 'v' ? '✓ Verdadeiro ou falso' : t === 'c' ? '✎ Complete' : '▢ Responda';
+function sortearCartao(p) {
+  const banco = p.perguntas.map((q, oi) => ({ ...q, oi }));
+  const vf = embaralhar(banco.filter(q => q.t === 'v')).slice(0, 1);
+  const comp = embaralhar(banco.filter(q => q.t === 'c')).slice(0, 2);
+  const resp = embaralhar(banco.filter(q => q.t === 'r')).slice(0, 2);
+  return embaralhar(vf.concat(comp, resp));
+}
+let sorteados = PERSONAGENS.map(sortearCartao);
+function sortearTodos() {
+  sorteados = PERSONAGENS.map(sortearCartao);
+  renderVisor();
+  reconstruirFolhas();
+  const btn = document.getElementById('btn-sortear');
+  if (btn) { btn.textContent = '🎲 Sorteado!'; setTimeout(() => btn.textContent = '🎲 Re-sortear perguntas de todos os cartões', 1200); }
+}
+
+/* ============ SVGs DE CENÁRIOS E RETRATOS ============ */
+const AZ = '#1d3d5c', OU = '#c9a227';
+const CENARIOS = {
+  colunas: '<rect x="10" y="14" width="8" height="66" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="1.5"/><rect x="82" y="14" width="8" height="66" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="1.5"/><circle cx="50" cy="30" r="11" fill="'+AZ+'"/><path d="M32 92 Q32 52 50 52 Q68 52 68 92 Z" fill="'+AZ+'"/><path d="M42 40 L50 44 L58 40" stroke="'+OU+'" stroke-width="2.5" fill="none"/>',
+  palmeira: '<rect x="46" y="30" width="5" height="60" fill="#8b6f3e"/><path d="M48 32 Q30 20 18 26 Q34 32 48 34 Q66 20 78 26 Q62 32 48 34" fill="#3e7d4f"/><circle cx="50" cy="42" r="10" fill="'+AZ+'"/><path d="M34 92 Q34 60 50 60 Q66 60 66 92 Z" fill="'+AZ+'"/>',
+  pergaminho: '<rect x="22" y="26" width="56" height="48" rx="3" fill="#fbf7ee" stroke="'+AZ+'" stroke-width="2"/><line x1="30" y1="38" x2="70" y2="38" stroke="'+AZ+'" stroke-width="2"/><line x1="30" y1="48" x2="70" y2="48" stroke="'+AZ+'" stroke-width="2"/><line x1="30" y1="58" x2="58" y2="58" stroke="'+AZ+'" stroke-width="2"/><circle cx="50" cy="86" r="9" fill="'+AZ+'"/><path d="M36 92 Q36 74 50 74 Q64 74 64 92 Z" fill="'+AZ+'"/>',
+  casa: '<path d="M20 44 L50 22 L80 44" fill="none" stroke="'+AZ+'" stroke-width="3"/><rect x="28" y="44" width="44" height="38" fill="#fbf7ee" stroke="'+AZ+'" stroke-width="2"/><rect x="46" y="60" width="10" height="22" fill="'+AZ+'"/><circle cx="50" cy="92" r="7" fill="'+AZ+'"/><path d="M40 92 Q40 82 50 82 Q60 82 60 92 Z" fill="'+AZ+'"/>',
+  templo: '<rect x="14" y="60" width="72" height="8" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="1.5"/><rect x="20" y="34" width="6" height="26" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="1.2"/><rect x="74" y="34" width="6" height="26" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="1.2"/><path d="M18 34 L50 20 L82 34 Z" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="1.5"/><circle cx="50" cy="74" r="8" fill="'+AZ+'"/><path d="M38 92 Q38 78 50 78 Q62 78 62 92 Z" fill="'+AZ+'"/>',
+  tenda: '<path d="M14 78 L50 26 L86 78 Z" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="2"/><path d="M50 26 L50 78" stroke="'+AZ+'" stroke-width="1.5"/><rect x="42" y="60" width="16" height="18" fill="'+AZ+'"/><circle cx="84" cy="90" r="6" fill="#8b6f3e" opacity=".5"/>',
+  fogo: '<rect x="36" y="62" width="28" height="22" fill="#8b6f3e"/><path d="M50 28 Q60 42 54 52 Q64 50 62 62 Q56 60 50 62 Q44 60 38 62 Q36 50 46 52 Q40 42 50 28 Z" fill="#d97a2a"/><circle cx="50" cy="92" r="7" fill="'+AZ+'"/><path d="M40 92 Q40 82 50 82 Q60 82 60 92 Z" fill="'+AZ+'"/>',
+  portao: '<path d="M24 88 L24 44 Q50 22 76 44 L76 88" fill="none" stroke="'+AZ+'" stroke-width="3"/><rect x="42" y="64" width="16" height="24" fill="'+AZ+'"/><circle cx="50" cy="46" r="9" fill="'+AZ+'"/><path d="M38 92 Q38 76 50 76 Q62 76 62 92 Z" fill="'+AZ+'"/>',
+  dove: '<rect x="16" y="58" width="68" height="30" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="1.5"/><rect x="26" y="66" width="6" height="22" fill="#fbf7ee" stroke="'+AZ+'" stroke-width="1.2"/><rect x="68" y="66" width="6" height="22" fill="#fbf7ee" stroke="'+AZ+'" stroke-width="1.2"/><path d="M44 40 Q50 28 62 32 Q58 40 50 42 Q56 46 50 50 Q42 48 44 40 Z" fill="'+AZ+'"/>',
+  ruinas: '<rect x="18" y="52" width="12" height="36" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="1.5"/><rect x="70" y="60" width="12" height="28" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="1.5"/><rect x="40" y="70" width="24" height="5" fill="'+OU+'"/><rect x="44" y="60" width="16" height="5" fill="'+OU+'"/><circle cx="50" cy="34" r="9" fill="'+AZ+'"/><path d="M37 50 Q37 40 50 40 Q63 40 63 50 Z" fill="'+AZ+'"/>',
+  leoes: '<path d="M14 88 Q14 34 50 34 Q86 34 86 88 Z" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="1.5"/><circle cx="63" cy="60" r="12" fill="#c98d3f"/><circle cx="63" cy="60" r="6.5" fill="#8a6d1a"/><circle cx="29" cy="70" r="6" fill="'+AZ+'"/><path d="M23 88 Q23 77 29 77 Q35 77 35 88 Z" fill="'+AZ+'"/>',
+  coroa: '<path d="M18 64 L26 36 L39 52 L50 30 L61 52 L74 36 L82 64 Z" fill="'+OU+'" stroke="'+AZ+'" stroke-width="2"/><rect x="18" y="64" width="64" height="10" fill="'+OU+'" stroke="'+AZ+'" stroke-width="2"/><circle cx="50" cy="45" r="2.5" fill="#8f2e2e"/><circle cx="28" cy="49" r="2" fill="#8f2e2e"/><circle cx="72" cy="49" r="2" fill="#8f2e2e"/><circle cx="50" cy="86" r="7" fill="'+AZ+'"/><path d="M40 92 Q40 82 50 82 Q60 82 60 92 Z" fill="'+AZ+'"/>',
+  trombeta: '<rect x="12" y="50" width="24" height="10" fill="#c3d8ec" stroke="'+AZ+'"/><rect x="12" y="62" width="24" height="10" fill="#c3d8ec" stroke="'+AZ+'"/><rect x="12" y="74" width="24" height="10" fill="#c3d8ec" stroke="'+AZ+'"/><path d="M36 40 Q62 24 80 40 L84 48 Q62 34 40 52 Z" fill="'+OU+'" stroke="'+AZ+'" stroke-width="1.5"/><circle cx="82" cy="44" r="6" fill="'+OU+'" stroke="'+AZ+'" stroke-width="1.5"/>',
+  lampada: '<ellipse cx="46" cy="64" rx="24" ry="9" fill="'+OU+'" stroke="'+AZ+'" stroke-width="2"/><path d="M68 62 L82 54" stroke="'+AZ+'" stroke-width="3" fill="none"/><path d="M46 54 Q51 44 46 36 Q41 44 46 54 Z" fill="#d97a2a"/><circle cx="76" cy="86" r="6" fill="'+AZ+'"/><path d="M69 90 Q69 80 76 80 Q83 80 83 90 Z" fill="'+AZ+'"/>',
+  la: '<line x1="12" y1="80" x2="88" y2="80" stroke="#8b6f3e" stroke-width="2"/><ellipse cx="42" cy="62" rx="18" ry="10" fill="#fbf7ee" stroke="'+AZ+'" stroke-width="2"/><path d="M42 52 Q38 40 42 32 Q46 40 42 52" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="1"/><circle cx="76" cy="86" r="7" fill="'+AZ+'"/><path d="M69 92 Q69 82 76 82 Q83 82 83 92 Z" fill="'+AZ+'"/>',
+  espigas: '<line x1="30" y1="88" x2="30" y2="42" stroke="#8b6f3e" stroke-width="2.5"/><line x1="50" y1="88" x2="50" y2="34" stroke="#8b6f3e" stroke-width="2.5"/><line x1="70" y1="88" x2="70" y2="42" stroke="#8b6f3e" stroke-width="2.5"/><ellipse cx="30" cy="36" rx="5" ry="10" fill="'+OU+'" stroke="'+AZ+'" stroke-width="1.2"/><ellipse cx="50" cy="27" rx="5" ry="11" fill="'+OU+'" stroke="'+AZ+'" stroke-width="1.2"/><ellipse cx="70" cy="36" rx="5" ry="10" fill="'+OU+'" stroke="'+AZ+'" stroke-width="1.2"/>',
+  cesta: '<path d="M24 54 L76 54 L68 84 L32 84 Z" fill="#8b6f3e" stroke="'+AZ+'" stroke-width="2"/><path d="M28 62 L72 62 M31 70 L69 70 M33 78 L67 78" stroke="#c3d8ec" stroke-width="1.5"/><circle cx="40" cy="48" r="6" fill="#b04a3a"/><circle cx="53" cy="46" r="6" fill="'+OU+'"/><circle cx="63" cy="49" r="6" fill="#3e7d4f"/>',
+  agulha: '<path d="M34 36 L66 36 L74 84 L26 84 Z" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="2"/><line x1="30" y1="58" x2="70" y2="58" stroke="'+AZ+'" stroke-width="1.5"/><line x1="58" y1="26" x2="80" y2="14" stroke="'+AZ+'" stroke-width="2"/><path d="M80 14 Q58 38 46 36" stroke="'+OU+'" stroke-width="1.5" fill="none"/>',
+  cisterna: '<ellipse cx="48" cy="48" rx="24" ry="9" fill="#22303c" stroke="'+AZ+'" stroke-width="2"/><path d="M24 48 L24 56 Q48 66 72 56 L72 48" fill="#c3d8ec" stroke="'+AZ+'" stroke-width="1.5"/><line x1="48" y1="58" x2="48" y2="76" stroke="#8b6f3e" stroke-width="2"/><circle cx="48" cy="80" r="4" fill="'+AZ+'"/><circle cx="82" cy="78" r="6" fill="'+AZ+'"/><path d="M75 88 Q75 78 82 78 Q89 78 89 88 Z" fill="'+AZ+'"/>'
+};
+function bannerSvg(tipo) {
+  return '<svg viewBox="0 0 100 100" preserveAspectRatio="xMidYMax meet" xmlns="http://www.w3.org/2000/svg">' + (CENARIOS[tipo]||'') + '</svg>';
+}
+function retratoSvg(r) {
+  let s = '<circle cx="50" cy="30" r="12" fill="'+r.cor+'"/><path d="M27 92 Q27 50 50 50 Q73 50 73 92 Z" fill="'+r.cor+'"/>';
+  if (r.coroa) s += '<path d="M36 14 L43 6 L50 13 L57 6 L64 14 L64 22 L36 22 Z" fill="'+OU+'"/>';
+  return '<svg viewBox="0 0 100 100" xmlns="http://www.w3.org/2000/svg">' + s + '</svg>';
+}
+
+/* ============ RENDERIZAÇÃO ============ */
+let _respIdx = 0;
+function respostaHtml(r) {
+  const [txt, ref] = r.split('|');
+  const n = ++_respIdx;
+  // respostas longas ocupam 2 colunas no grid para não virar uma torre de linhas
+  const col2 = (txt + ' (' + ref + ')').length > 24 ? ' col-2' : '';
+  return '<div class="resposta' + col2 + '"><span class="n">' + n + '.</span> ' + txt + ' <span class="ref">(' + ref + ')</span></div>';
+}
+function questaoHtml(q) {
+  const ops = q.ops ? ' <span class="q-opcoes">(' + q.ops + ')</span>' : '';
+  return '<li>' + q.txt + ops + '</li>';
+}
+/* Auto-ajuste da faixa de respostas: se o conteúdo estourar (sorteio com respostas
+   longas), compacta progressivamente até caber. Chamar após renderizar cada conjunto
+   de cartões (visor, folhas e área de exportação).                            */
+function ajustarFaixaRespostas(raiz) {
+  raiz.querySelectorAll('.cartao').forEach(cartao => {
+    const faixa = cartao.querySelector('.verso-respostas');
+    if (!faixa) return;
+    const grid = faixa.querySelector('.respostas-grid');
+    grid.classList.remove('compacto', 'compacto2');
+    if (faixa.scrollHeight > faixa.clientHeight + 1) grid.classList.add('compacto');
+    if (faixa.scrollHeight > faixa.clientHeight + 1) grid.classList.add('compacto2');
+  });
+}
+function renderCartao(p) {
+  return '<div class="cartao">' + renderCartaoInterno(p) + '</div>';
+}
+function renderCartaoInterno(p) {
+  const idx = PERSONAGENS.indexOf(p);
+  const v = sorteados[idx];
+  const respostasOrdenadas = v.map(q => p.respostas[q.oi]);
+  _respIdx = 0;
+  return '' +
+    '<div class="dobra"></div>' +
+    '<div class="frente">' +
+      '<div class="frente-img">' + bannerSvg(p.banner) +
+        '<span class="ban-id">' + p.id + '</span>' +
+        '<div class="placa"><span class="placa-nome">' + p.nome + '</span><span class="placa-meta"><span class="meta-nome">' + p.nomeSignificado + '</span><br>' + p.banda + '</span></div>' +
+      '</div>' +
+      '<div class="frente-perguntas">' +
+        '<div class="q-grid">' +
+          '<div class="q-bloco"><div class="q-rotulo">' + rotuloTipo(v[0].t) + '</div><ol>' + questaoHtml(v[0]) + questaoHtml(v[1]) + '</ol></div>' +
+          '<div class="q-bloco"><div class="q-rotulo">' + rotuloTipo(v[2].t) + '</div><ol>' + questaoHtml(v[2]) + questaoHtml(v[3]) + '</ol></div>' +
+        '</div>' +
+        '<div class="q-bloco"><div class="q-rotulo">' + rotuloTipo(v[4].t) + '</div><ol>' + questaoHtml(v[4]) + '</ol></div>' +
+        '<div class="pergunta-pe"><span class="resp">Respostas no interior →</span></div>' +
+      '</div>' +
+    '</div>' +
+    '<div class="verso">' +
+      '<div class="verso-cab"><span class="titulo">PERFIL · ' + p.nome.toUpperCase() + '</span><span class="epoca">' + p.funcao + '</span></div>' +
+      '<div class="verso-mid">' +
+        '<div class="historia">' + p.historia + '</div>' +
+        '<div class="campos">' +
+          '<div class="campo"><span class="rot">Bíblia</span><span class="val">' + p.parte + ' ' + p.livro + '</span></div>' +
+          '<div class="campo"><span class="rot">Genealogia</span><span class="val">' + p.genealogia + '</span></div>' +
+          '<div class="campo"><span class="rot">Profecia</span><span class="val">' + p.profecia + '</span></div>' +
+          '<div class="campo"><span class="rot">Destaque</span><span class="val">' + p.destaque + '</span></div>' +
+          '<div class="campo"><span class="rot">Curiosidade</span><span class="val">' + p.curiosidade + '</span></div>' +
+          '<div class="campo"><span class="rot">Versículo</span><span class="val">' + p.versiculo + '</span></div>' +
+        '</div>' +
+      '</div>' +
+      '<div class="verso-respostas">' +
+        '<div class="respostas-cab"><span>Respostas — 1 a 5</span><span class="res-id">' + p.id + ' · CB · NWT</span></div>' +
+        '<div class="respostas-grid">' + respostasOrdenadas.map(r => respostaHtml(r)).join('') + '</div>' +
+      '</div>' +
+    '</div>';
+}
+
+/* ============ VISOR ============ */
+let visorIdx = 0;
+function renderVisor() {
+  const p = PERSONAGENS[visorIdx];
+  const opts = PERSONAGENS.map((x, i) => '<option value="' + i + '"' + (i === visorIdx ? ' selected' : '') + '>' + x.id + ' · ' + x.nome + '</option>').join('');
+  document.getElementById('visor').innerHTML =
+    '<div class="visor-controles">' +
+      '<button class="botao" onclick="mudar(-1)">← Anterior</button>' +
+      '<select onchange="visorIdx=+this.value;renderVisor()">' + opts + '</select>' +
+      '<button class="botao" onclick="mudar(1)">Próximo →</button>' +
+      '<button class="botao" onclick="baixarCartaoAtual(false)" title="Cartão aberto 20×10 cm em PNG (~300 DPI)">⬇️ PNG completo</button>' +
+      '<button class="botao" onclick="baixarCartaoAtual(true)" title="Lado esquerdo e lado direito em PNGs separados">⬇️ PNG lados separados</button>' +
+      '<span style="font-family:Arial;font-size:.8rem;color:#6b7684;">' + (visorIdx+1) + ' / ' + PERSONAGENS.length + '</span>' +
+    '</div>' +
+    '<div class="visor-palco">' + renderCartao(p) + '</div>' +
+    '<div class="visor-dica">← → navegue pelos cartões · a linha tracejada é a dobra central (10 cm + 10 cm)</div>';
+  ajustarFaixaRespostas(document.getElementById('visor'));
+}
+function mudar(d) { visorIdx = (visorIdx + d + PERSONAGENS.length) % PERSONAGENS.length; renderVisor(); }
+renderVisor();
+
+/* ============ FOLHAS A4 — 3 cartões/página (ideal), alinhados ao topo ============ */
+let modoFolha = '3';
+/* Geometria da folha A4 (794×1123px @96dpi) com margem de segurança de 18px (~4,8 mm)
+   nos 4 lados — limite não imprimível da impressora.
+   Cartão base: 756×378px = 20×10 cm. No modo 3/página, 3 alturas de 10 cm (30 cm)
+   não cabem nos 28,2 cm úteis: os cartões são escalados uniformemente (mesma proporção,
+   mesmo layout) para 19,2×9,6 cm — a dobra continua formando dois quadrados de 9,6 cm.
+   Nos modos 2 e 1 por página o cartão sai no tamanho exato de 20×10 cm.              */
+const FOLHA_MARGEM = 18;
+const FOLHA_LARG_UTIL = 794 - 2 * FOLHA_MARGEM;   // 758
+const FOLHA_ALT_UTIL = 1123 - 2 * FOLHA_MARGEM;   // 1087
+const CARTAO_W = 756, CARTAO_H = 378;
+const ESPACO_ENTRE = 6;                            // respiro entre cartões empilhados
+
+function geometriaFolha(passo) {
+  let escala = 1;
+  if (passo === 3) {
+    escala = Math.min(FOLHA_LARG_UTIL / CARTAO_W, (FOLHA_ALT_UTIL - 2 * ESPACO_ENTRE) / (3 * CARTAO_H));
+  } else if (passo === 2) {
+    escala = Math.min(FOLHA_LARG_UTIL / CARTAO_W, (FOLHA_ALT_UTIL - ESPACO_ENTRE) / (2 * CARTAO_H));
+  }
+  escala = Math.min(1, escala); // nunca ampliar além do tamanho de projeto (20×10 cm)
+  return {
+    escala,
+    celW: Math.floor(CARTAO_W * escala),
+    celH: Math.floor(CARTAO_H * escala)
+  };
+}
+
+function folhaHtml(lista, pagina, total) {
+  const passo = parseInt(modoFolha, 10) || 3;
+  const grupos = [];
+  for (let i = 0; i < lista.length; i += passo) grupos.push(lista.slice(i, i + passo));
+  const geo = geometriaFolha(passo);
+  const tamanhoPct = Math.round(geo.escala * 100);
+  const tamanhoTxt = tamanhoPct === 100 ? '20 × 10 cm' : '≈ 19 × 9,5 cm (escala ' + tamanhoPct + '%)';
+  const notas = {
+    3: 'Cartões Bíblicos ' + tamanhoTxt + ' — corte nas linhas ✂ entre os cartões · dobre na linha tracejada de cada cartão',
+    2: 'Cartões Bíblicos ' + tamanhoTxt + ' — corte nas linhas ✂ entre os cartões · dobre na linha tracejada de cada cartão',
+    1: 'Cartão Bíblico ' + tamanhoTxt + ' — impressão individual · dobre na linha tracejada central'
+  };
+  return grupos.map((g, gi) => {
+    const celulas = g.map(p =>
+      '<div class="celula" style="width:' + geo.celW + 'px;height:' + geo.celH + 'px;">' +
+        '<div class="cartao" style="transform:scale(' + geo.escala + ');">' + renderCartaoInterno(p) + '</div>' +
+      '</div>'
+    ).join('');
+    const cortes = [];
+    for (let c = 1; c < g.length; c++) {
+      cortes.push('<div class="corte-h" style="top:' + (FOLHA_MARGEM + c * geo.celH + (c - 0.5) * ESPACO_ENTRE) + 'px;"></div>');
+    }
+    return '<div class="folha">' +
+      '<div class="cabeca">' + notas[passo] + '</div>' +
+      '<div class="pilha">' + celulas + '</div>' +
+      cortes.join('') +
+      '<div class="pe">Página ' + (pagina + gi) + ' de ' + total + ' · respostas na faixa dourada, na base do perfil</div>' +
+    '</div>';
+  }).join('');
+}
+function reconstruirFolhas() {
+  modoFolha = document.getElementById('modoFolha').value;
+  const passo = parseInt(modoFolha, 10) || 3;
+  const totalPaginas = Math.ceil(PERSONAGENS.length / passo);
+  document.getElementById('folha-impressao').innerHTML = folhaHtml(PERSONAGENS, 1, totalPaginas);
+  ajustarFaixaRespostas(document.getElementById('folha-impressao'));
+}
+reconstruirFolhas();
+
+/* ============ EXPORTAÇÃO PNG ============ */
+function nomeArquivo(p, sufixo) {
+  const base = p.nome.normalize('NFD').replace(/[\u0300-\u036f]/g, '').replace(/[^A-Za-z0-9]/g, '');
+  return p.id + '-' + base + sufixo + '.png';
+}
+function baixarCanvas(canvas, nome) {
+  const a = document.createElement('a');
+  a.download = nome;
+  a.href = canvas.toDataURL('image/png');
+  document.body.appendChild(a);
+  a.click();
+  a.remove();
+}
+async function capturarCarta(p, seletor) {
+  const area = document.getElementById('area-exportacao');
+  area.innerHTML = renderCartao(p);
+  ajustarFaixaRespostas(area);
+  const alvo = seletor ? area.querySelector(seletor) : area.firstElementChild;
+  // ignora folhas/visor no clone do documento → captura muito mais rápida
+  const canvas = await html2canvas(alvo, {
+    scale: 4, backgroundColor: '#fbf7ee', logging: false,
+    ignoreElements: el => el.classList && (el.classList.contains('folha') || el.classList.contains('visor'))
+  });
+  area.innerHTML = '';
+  return canvas;
+}
+function checarLib() {
+  if (!window.html2canvas) {
+    alert('Biblioteca de exportação indisponível (sem internet?). Use o botão Imprimir com o modo "1 cartão por página".');
+    return false;
+  }
+  return true;
+}
+async function baixarCartaoAtual(lados) {
+  if (!checarLib()) return;
+  const p = PERSONAGENS[visorIdx];
+  if (lados) {
+    baixarCanvas(await capturarCarta(p, '.frente'), nomeArquivo(p, '-lado-esquerdo'));
+    await new Promise(r => setTimeout(r, 400));
+    baixarCanvas(await capturarCarta(p, '.verso'), nomeArquivo(p, '-lado-direito'));
+  } else {
+    baixarCanvas(await capturarCarta(p, null), nomeArquivo(p, '-aberto'));
+  }
+}
+async function baixarTodos(btn) {
+  if (!checarLib()) return;
+  const rotulo = btn.textContent;
+  btn.disabled = true;
+  try {
+    for (let i = 0; i < PERSONAGENS.length; i++) {
+      btn.textContent = '⬇️ Baixando ' + (i + 1) + '/30…';
+      baixarCanvas(await capturarCarta(PERSONAGENS[i], null), nomeArquivo(PERSONAGENS[i], '-aberto'));
+      await new Promise(r => setTimeout(r, 400));
+    }
+  } finally {
+    btn.textContent = rotulo;
+    btn.disabled = false;
+  }
+}
+window.reconstruirFolhas = reconstruirFolhas;
+window.mudar = mudar;
+window.sortearTodos = sortearTodos;
+window.baixarCartaoAtual = baixarCartaoAtual;
+window.baixarTodos = baixarTodos;
+</script>
+<div id="area-exportacao" style="position:fixed; left:-3000px; top:0; width:756px;"></div>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/html2canvas/1.4.1/html2canvas.min.js"></script>
+</body>
+</html>

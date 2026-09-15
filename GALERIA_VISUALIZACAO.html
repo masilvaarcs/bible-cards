@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="UTF-8">
+<title>Cartões Bíblicos — Galeria (PNGs 576 DPI)</title>
+<style>
+  body { font-family: Georgia, serif; background: #e9edf2; margin: 0; padding: 24px; }
+  h1 { color: #1d3d5c; font-size: 1.3rem; }
+  p.sub { color: #6b7684; font-size: .9rem; margin-top: 4px; }
+  .g { display: grid; grid-template-columns: repeat(auto-fill, minmax(560px, 1fr)); gap: 22px; }
+  figure { margin: 0; background: #fff; border: 1px solid #d8dee6; border-radius: 8px; padding: 10px; }
+  img { width: 100%; height: auto; border-radius: 4px; display: block; }
+  figcaption { font-size: .82rem; color: #1d3d5c; font-weight: bold; margin-top: 6px; }
+</style>
+</head>
+<body>
+<h1>🃏 Cartões Bíblicos — Galeria de PNGs exportados (4536×2268 px · 576 DPI)</h1>
+<p class="sub">Visualização em tela: os 30 cartões abertos (20 × 10 cm). Os lados separados (10 × 10 cm) estão em SalvedCards/.</p>
+<div class="g" id="galeria"></div>
+<script>
+const ARQS = [
+  'CB-001-Salomao-aberto.png',
+  'CB-002-Debora-aberto.png',
+  'CB-003-Nata-aberto.png',
+  'CB-004-Eunice-aberto.png',
+  'CB-005-Josias-aberto.png',
+  'CB-006-Jael-aberto.png',
+  'CB-007-Elias-aberto.png',
+  'CB-008-Mardoqueu-aberto.png',
+  'CB-009-Ana-aberto.png',
+  'CB-010-Zorobabel-aberto.png',
+  'CB-011-Daniel-aberto.png',
+  'CB-012-Ester-aberto.png',
+  'CB-013-Josue-aberto.png',
+  'CB-014-Samuel-aberto.png',
+  'CB-015-Gideao-aberto.png',
+  'CB-016-Rute-aberto.png',
+  'CB-017-Abigail-aberto.png',
+  'CB-018-Tabita-aberto.png',
+  'CB-019-Priscila-aberto.png',
+  'CB-020-EbedeMeleque-aberto.png',
+  'CB-021-Moises-aberto.png',
+  'CB-022-Davi-aberto.png',
+  'CB-023-Noe-aberto.png',
+  'CB-024-Raabe-aberto.png',
+  'CB-025-Jonas-aberto.png',
+  'CB-026-Isaias-aberto.png',
+  'CB-027-Maria-aberto.png',
+  'CB-028-JoaoBatista-aberto.png',
+  'CB-029-Pedro-aberto.png',
+  'CB-030-Paulo-aberto.png',
+];
+document.getElementById('galeria').innerHTML = ARQS.map(a => {
+  const m = a.match(/^(CB-\d+)-(.+)-aberto\.png$/);
+  return '<figure><img src="SalvedCards/' + a + '" loading="lazy" alt="' + a + '"><figcaption>' + m[1] + ' · ' + m[2] + '</figcaption></figure>';
+}).join('');
+</script>
+</body>
+</html>

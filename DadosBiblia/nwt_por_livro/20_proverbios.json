@@ -1,0 +1,4414 @@
+{
+  "traducao": "Tradução do Novo Mundo da Bíblia Sagrada (revisão de 2015)",
+  "idioma": "pt",
+  "fonte": "jw.org",
+  "livro": {
+    "nome": "Provérbios",
+    "abreviacao": "Pro",
+    "slug": "proverbios",
+    "testamento": "hebraico",
+    "ordem": 20,
+    "total_capitulos": 31
+  },
+  "capitulos": [
+    {
+      "numero": 1,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 1:1-33 REPRODUZIR CONTEÚDO DO LIVRO Objetivo dos provérbios ( 1-7 ) Perigos de más companhias ( 8-19 ) Verdadeira sabedoria grita publicamente ( 20-33 )"
+        },
+        {
+          "versiculo": 1,
+          "texto": "Provérbios de Salomão, filho de Davi, rei de Israel:"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Para aprender sabedoria e disciplina; Para entender declarações profundas;"
+        },
+        {
+          "versiculo": 3,
+          "texto": "Para obter a disciplina que dá entendimento, Justiça, bom critério e retidão;"
+        },
+        {
+          "versiculo": 4,
+          "texto": "Para dar prudência aos inexperientes; Para dar conhecimento e raciocínio aos jovens."
+        },
+        {
+          "versiculo": 5,
+          "texto": "O sábio escuta e assimila mais instrução; O homem que tem entendimento obtém orientação perita"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Para entender provérbios e declarações intrigantes, As palavras dos sábios e os seus enigmas."
+        },
+        {
+          "versiculo": 7,
+          "texto": "O temor de Jeová é o princípio do conhecimento. Apenas os tolos desprezam a sabedoria e a disciplina."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Escute, meu filho, a disciplina do seu pai E não abandone a instrução da sua mãe."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Pois são uma linda coroa de flores para a sua cabeça E um belo adorno para o seu pescoço."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Meu filho, se pecadores tentarem seduzi-lo, não se deixe levar por eles."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Se disserem: “Venha conosco. Vamos armar uma emboscada para derramar sangue. Fiquemos escondidos à espera de vítimas inocentes, só para nos divertir."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Vamos devorá-los vivos, como faz a Sepultura, Inteiros, como os que descem à cova."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Vamos tomar todos os seus preciosos tesouros; Encheremos as nossas casas com despojo."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Você devia se juntar a nós, E todos repartiremos por igual o que roubarmos”,"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Não vá atrás deles, meu filho. Mantenha seus pés longe do caminho deles,"
+        },
+        {
+          "versiculo": 16,
+          "texto": "Pois os pés deles correm para fazer o mal; Eles se apressam em derramar sangue."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Com certeza é inútil estender uma rede quando o pássaro está olhando."
+        },
+        {
+          "versiculo": 18,
+          "texto": "É por isso que eles ficam de emboscada para derramar sangue; Ficam escondidos para tirar a vida de outros."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Esses são os caminhos dos que procuram lucro desonesto, Que acaba tirando a vida dos que o obtêm."
+        },
+        {
+          "versiculo": 20,
+          "texto": "A verdadeira sabedoria grita nas ruas. Ergue a sua voz nas praças."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Clama na esquina das ruas movimentadas. Na entrada dos portões da cidade, ela diz:"
+        },
+        {
+          "versiculo": 22,
+          "texto": "“Até quando vocês, inexperientes, amarão a inexperiência? Até quando vocês, zombadores, terão prazer na zombaria? Até quando vocês, tolos, odiarão o conhecimento?"
+        },
+        {
+          "versiculo": 23,
+          "texto": "Acatem a minha repreensão, Então derramarei o meu espírito em seu benefício; Vou fazê-los conhecer as minhas palavras."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Eu chamei, mas vocês se negaram a ouvir; Estendi a mão, mas ninguém deu atenção."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Vocês desconsideraram todos os meus conselhos E rejeitaram a minha repreensão;"
+        },
+        {
+          "versiculo": 26,
+          "texto": "Por isso, vou rir da sua desgraça, Vou zombar quando acontecer aquilo que vocês temem,"
+        },
+        {
+          "versiculo": 27,
+          "texto": "Quando aquilo que vocês temem vier como uma tempestade, E a sua desgraça chegar como um vendaval, Quando vierem sobre vocês aflição e dificuldades."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Naquele tempo eles me chamarão, mas eu não responderei; Procurarão ansiosamente por mim, mas não me acharão,"
+        },
+        {
+          "versiculo": 29,
+          "texto": "Porque odiaram o conhecimento E não quiseram temer a Jeová."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Não aceitaram os meus conselhos; Eles desconsideraram todas as minhas repreensões."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Portanto, sofrerão as consequências do seu proceder E ficarão empanturrados com os seus próprios planos."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Pois a rebeldia dos inexperientes os matará, E a despreocupação dos tolos os destruirá."
+        },
+        {
+          "versiculo": 33,
+          "texto": "Mas quem me escuta residirá em segurança E ficará tranquilo, sem temer nenhuma calamidade.”"
+        }
+      ]
+    },
+    {
+      "numero": 2,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 2:1-22 REPRODUZIR CONTEÚDO DO LIVRO Valor da sabedoria ( 1-22 ) Buscar sabedoria como a tesouros escondidos ("
+        },
+        {
+          "versiculo": 4,
+          "texto": ") Raciocínio é uma proteção ("
+        },
+        {
+          "versiculo": 11,
+          "texto": ") Imoralidade leva ao desastre ( 16-19 )"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Meu filho, se você aceitar as minhas declarações E guardar no coração os meus mandamentos,"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Ouvindo atentamente a sabedoria E inclinando o seu coração ao discernimento;"
+        },
+        {
+          "versiculo": 3,
+          "texto": "Além disso, se você clamar pelo entendimento E erguer a voz pedindo discernimento;"
+        },
+        {
+          "versiculo": 4,
+          "texto": "Se você persistir em procurar essas coisas como a prata E continuar a buscá-las como a tesouros escondidos;"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Então você entenderá o que significa temer a Jeová E achará o conhecimento de Deus."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Pois é Jeová quem dá sabedoria; Da sua boca procedem conhecimento e discernimento."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Ele reserva a sabedoria prática para os justos; É um escudo para os que andam em integridade."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Ele protege as veredas da justiça E guarda o caminho dos que lhe são leais."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Assim você entenderá o que é certo, justo e direito, Todo o caminho do bem."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Quando a sabedoria entrar no seu coração E o conhecimento se tornar agradável para a sua alma,"
+        },
+        {
+          "versiculo": 11,
+          "texto": "O raciocínio o guardará E o discernimento o protegerá,"
+        },
+        {
+          "versiculo": 12,
+          "texto": "Para salvá-lo do mau caminho, Dos homens que falam perversidades,"
+        },
+        {
+          "versiculo": 13,
+          "texto": "Dos que abandonam as veredas retas Para andar nos caminhos da escuridão,"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Dos que se alegram em fazer o que é mau E se agradam de coisas más e perversas,"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Aqueles cujos caminhos são tortuosos, E cujas veredas são sempre sinuosas."
+        },
+        {
+          "versiculo": 16,
+          "texto": "A sabedoria o salvará da mulher devassa, Das palavras macias da mulher imoral,"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Que abandona o companheiro da sua juventude E se esquece do pacto com o seu Deus;"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Pois a casa da mulher imoral conduz à morte; E seus caminhos, aos impotentes na morte."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Ninguém que se envolve com ela voltará, Nem retornará às veredas da vida."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Por isso, siga o caminho das pessoas de bem E mantenha-se nas veredas dos justos,"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Pois apenas os justos morarão na terra, E os irrepreensíveis permanecerão nela."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Quanto aos maus, serão eliminados da terra; E os traiçoeiros serão arrancados dela."
+        }
+      ]
+    },
+    {
+      "numero": 3,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 3:1-35 REPRODUZIR CONTEÚDO DO LIVRO Seja sábio e confie em Jeová ( 1-12 ) Honre a Jeová com coisas valiosas ("
+        },
+        {
+          "versiculo": 9,
+          "texto": ") Sabedoria traz felicidade ( 13-18 ) Sabedoria resulta em segurança ( 19-26 ) Conduta correta para com outros ( 27-35 ) Faça o bem a outros quando possível ("
+        },
+        {
+          "versiculo": 27,
+          "texto": ")"
+        },
+        {
+          "versiculo": 3,
+          "texto": "Meu filho, não se esqueça dos meus ensinamentos, E que o seu coração obedeça aos meus mandamentos,"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Porque eles lhe acrescentarão muitos dias E anos de vida e paz."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Que o amor leal e a fidelidade não o abandonem. Coloque-os em volta do pescoço; Escreva-os na tábua do seu coração;"
+        },
+        {
+          "versiculo": 4,
+          "texto": "Então você ganhará favor e terá grande entendimento Aos olhos de Deus e dos homens."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Confie em Jeová de todo o seu coração; Não confie no seu próprio entendimento."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Lembre-se dele em todos os seus caminhos, E ele endireitará as suas veredas."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Não se torne sábio aos seus próprios olhos. Tema a Jeová e afaste-se do mal."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Isso será uma cura para o seu corpo E revigoramento para os seus ossos."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Honre a Jeová com as suas coisas valiosas, Com as primícias de todas as suas colheitas;"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Então os seus celeiros ficarão completamente cheios, E os seus tanques de vinho novo transbordarão."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Meu filho, não rejeite a disciplina de Jeová, E não abomine a sua repreensão,"
+        },
+        {
+          "versiculo": 12,
+          "texto": "Pois Jeová repreende aqueles a quem ama, Assim como o pai faz com um filho querido."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Feliz o homem que acha sabedoria E o homem que obtém discernimento;"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Ganhar sabedoria é melhor do que ganhar prata, E obtê-la é melhor do que obter ouro."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Ela é mais preciosa do que corais; Nada do que você deseja pode se comparar a ela."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Na sua mão direita há vida longa; Na esquerda, riquezas e glória."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Seus caminhos são agradáveis, E todas as suas veredas são pacíficas."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Ela é árvore de vida para os que se apegam a ela, E os que a agarram serão considerados felizes."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Jeová lançou os alicerces da terra com sabedoria. Estabeleceu firmemente os céus com discernimento."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Pelo seu conhecimento as águas profundas se partiram, E as nuvens destilaram orvalho."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Meu filho, não perca essas coisas de vista. Resguarde a sabedoria prática e o raciocínio;"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Eles lhe darão vida E serão um adorno para o seu pescoço."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Assim você andará em segurança no seu caminho, E o seu pé nunca tropeçará."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Quando você se deitar, não terá medo; Você se deitará, e o seu sono será agradável."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Você não terá medo de nenhum terror repentino, Nem da tempestade que está vindo sobre os maus."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Pois Jeová será a sua fonte de confiança, Ele protegerá o seu pé da armadilha."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Não deixe de fazer o bem a quem você deve fazê-lo, Se estiver ao seu alcance ajudar."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Não diga ao seu próximo: “Vá embora, volte depois! Eu lhe darei algo amanhã”, Se você pode dar algo agora."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Não planeje prejudicar o seu próximo, Que mora ao seu lado e confia em você."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Não entre em conflito com um homem sem motivo, Se ele não lhe fez nada de mau."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Não fique com inveja do homem violento, Nem escolha nenhum dos seus caminhos,"
+        },
+        {
+          "versiculo": 32,
+          "texto": "Pois Jeová detesta a pessoa falsa, Mas tem amizade íntima com os íntegros."
+        },
+        {
+          "versiculo": 33,
+          "texto": "A maldição de Jeová está sobre a casa dos maus, Mas ele abençoa o lar dos justos."
+        },
+        {
+          "versiculo": 34,
+          "texto": "Pois ele zomba dos zombadores, Mas mostra favor aos mansos."
+        },
+        {
+          "versiculo": 35,
+          "texto": "Os sábios herdarão a honra, Mas os tolos exaltam a desonra."
+        }
+      ]
+    },
+    {
+      "numero": 4,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 4:1-27 REPRODUZIR CONTEÚDO DO LIVRO Instrução sábia de um pai ( 1-27 ) Adquirir sabedoria é o mais importante ("
+        },
+        {
+          "versiculo": 7,
+          "texto": ") Evite a vereda dos maus ( 14, 15 ) A vereda dos justos clareia mais e mais ("
+        },
+        {
+          "versiculo": 18,
+          "texto": ") ‘Proteja o seu coração’ ("
+        },
+        {
+          "versiculo": 23,
+          "texto": ")"
+        },
+        {
+          "versiculo": 4,
+          "texto": "Escutem, meus filhos, a disciplina de um pai; Prestem atenção para obter entendimento,"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Pois lhes darei boa instrução; Não abandonem os meus ensinamentos."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Eu fui um bom filho para o meu pai, E o filho que minha mãe amava muito."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Ele me ensinava, dizendo: “Que o seu coração se apegue às minhas palavras. Guarde os meus mandamentos e você viverá."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Adquira sabedoria, adquira entendimento. Não se esqueça nem se afaste do que eu digo."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Não abandone a sabedoria, e ela o protegerá. Ame-a, e ela o guardará."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Sabedoria é a coisa mais importante, então adquira sabedoria; E, além de tudo que você adquirir, adquira entendimento."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Preze-a muito, e ela o enaltecerá. Se você a abraçar, ela o honrará."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Porá na sua cabeça uma linda grinalda; Adornará você com uma coroa de beleza.”"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Escute, meu filho, e aceite as minhas declarações, E os anos da sua vida serão muitos."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Vou instruí-lo no caminho da sabedoria; Vou conduzi-lo nas trilhas da retidão."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Ao andar, nada atrapalhará os seus passos; E, se você correr, não tropeçará."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Apegue-se à disciplina; não a largue. Resguarde-a, pois ela significa a sua vida."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Não entre na vereda dos maus E não ande no caminho dos perversos."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Evite-o, não passe por ele; Afaste-se dele e siga em frente."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Pois eles não conseguem dormir enquanto não fazem o que é mau. Perdem o sono se não fizerem alguém cair."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Eles comem o pão da maldade E bebem o vinho da violência."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Mas a vereda dos justos é como a brilhante luz da manhã, Que clareia mais e mais até a plena luz do dia."
+        },
+        {
+          "versiculo": 19,
+          "texto": "O caminho dos maus é como a escuridão; Eles nem sabem o que os faz tropeçar."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Meu filho, preste atenção às minhas palavras; Escute atentamente as minhas declarações."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Não as perca de vista; Guarde-as no fundo do coração,"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Pois elas são vida para aqueles que as encontram E saúde para todo o seu corpo."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Proteja, acima de tudo, o seu coração, Pois dele procedem as fontes da vida."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Afaste de você a mentira, E ponha longe de si as palavras falsas."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Seus olhos devem olhar diretamente para a frente, Sim, fixe o olhar diretamente na sua frente."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Torne plana a vereda para os seus pés, E todos os seus caminhos serão seguros."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Não se desvie nem para a direita nem para a esquerda. Afaste os seus pés do que é mau."
+        }
+      ]
+    },
+    {
+      "numero": 5,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 5:1-23 REPRODUZIR CONTEÚDO DO LIVRO Aviso sobre mulheres imorais ( 1-14 ) Alegre-se com sua esposa ( 15-23 )"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Meu filho, preste atenção à minha sabedoria. Escute atentamente o meu discernimento,"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Para que você proteja o seu raciocínio E resguarde o conhecimento com os seus lábios."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Pois os lábios da mulher imoral gotejam como um favo de mel, E sua boca é mais suave do que o azeite."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Mas no fim ela é amarga como o absinto E afiada como uma espada de dois gumes."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Os pés dela descem para a morte. Seus passos levam diretamente para a Sepultura."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Ela não dá atenção ao caminho da vida. Anda sem rumo, sem saber para onde vai."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Agora, meus filhos, escutem-me, E não se desviem do que eu digo."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Fique longe dela; Não se aproxime da entrada da sua casa,"
+        },
+        {
+          "versiculo": 9,
+          "texto": "Para que você não dê a sua dignidade a outros, Nem tenha anos de sofrimento;"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Para que estranhos não esgotem os seus recursos, E o fruto do seu trabalho árduo não acabe na casa de um estrangeiro."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Caso contrário, você vai gemer no fim da sua vida, Quando a sua carne e o seu corpo definharem,"
+        },
+        {
+          "versiculo": 12,
+          "texto": "E você disser: “Como eu odiei a disciplina! Como o meu coração desprezou a repreensão!"
+        },
+        {
+          "versiculo": 13,
+          "texto": "Não escutei a voz dos meus instrutores, Nem prestei atenção aos meus mestres."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Quase caí em completa ruína À vista de toda a congregação.”"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Beba a água da sua própria cisterna E a água que brota do seu próprio poço."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Deveriam suas fontes se derramar pelas ruas, Suas correntes de água nas praças?"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Que elas sejam somente para você E não repartidas com estranhos."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Seja abençoada a sua própria fonte, E alegre-se com a esposa da sua juventude,"
+        },
+        {
+          "versiculo": 19,
+          "texto": "Amável corça, graciosa cabra-montesa. Que os seus seios o satisfaçam todo o tempo. Que o amor dela sempre o extasie."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Então, meu filho, por que você se deixaria extasiar por uma mulher devassa, Ou abraçaria o seio de uma mulher imoral?"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Pois os caminhos do homem estão diante dos olhos de Jeová; Ele examina todas as suas veredas."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Quem é mau é enlaçado pelos seus próprios erros, E será apanhado nas cordas do seu próprio pecado."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Morrerá por falta de disciplina E se perderá na sua imensa tolice."
+        }
+      ]
+    },
+    {
+      "numero": 6,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 6:1-35 REPRODUZIR CONTEÚDO DO LIVRO Tome cuidado ao ser fiador de alguém ( 1-5 ) “Vá aprender com a formiga, preguiçoso” ( 6-11 ) Homem que é mau e imprestável ( 12-15 ) Sete coisas que Jeová odeia ( 16-19 ) Proteja-se da mulher má ( 20-35 )"
+        },
+        {
+          "versiculo": 6,
+          "texto": "Meu filho, se você se tornou fiador do seu próximo, Se apertou a mão de um estranho,"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Se foi enlaçado pela sua própria promessa, Se foi apanhado pelas palavras da sua própria boca,"
+        },
+        {
+          "versiculo": 3,
+          "texto": "Meu filho, faça o seguinte para se livrar, Pois você caiu nas mãos do seu próximo: Vá se humilhar e suplique logo ao seu próximo."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Não feche os olhos para dormir, Nem deixe suas pálpebras descansar."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Livre-se como a gazela se livra das mãos do caçador, Como o pássaro das mãos do passarinheiro."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Vá aprender com a formiga, preguiçoso; Observe os seus caminhos e torne-se sábio."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Embora ela não tenha comandante, chefe ou governante,"
+        },
+        {
+          "versiculo": 8,
+          "texto": "Prepara suas provisões no verão; Recolhe seu alimento durante a colheita."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Até quando você vai ficar deitado aí, preguiçoso? Quando é que se levantará do seu sono?"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Um pouco de sono, um pouco de cochilo, Um pouco de cruzar os braços para descansar,"
+        },
+        {
+          "versiculo": 11,
+          "texto": "E a sua pobreza chegará como um ladrão, E a sua carência como um homem armado."
+        },
+        {
+          "versiculo": 12,
+          "texto": "O homem que é mau e imprestável vive falando mentiras;"
+        },
+        {
+          "versiculo": 13,
+          "texto": "Pisca o olho, faz sinais com o pé e gesticula com os dedos."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Com um coração perverso, Está sempre tramando o mal e semeando discórdias."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Por isso, sua desgraça chegará de repente; Num instante ele será arruinado, e não haverá remédio."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Há seis coisas que Jeová odeia, Sim, sete coisas que ele detesta:"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Olhos arrogantes, língua mentirosa, mãos que derramam sangue inocente,"
+        },
+        {
+          "versiculo": 18,
+          "texto": "O coração que planeja tramas perversas, pés que rapidamente correm para a maldade,"
+        },
+        {
+          "versiculo": 19,
+          "texto": "A testemunha falsa que só fala mentiras E todo aquele que semeia discórdias entre irmãos."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Meu filho, obedeça ao mandamento do seu pai E não abandone a instrução da sua mãe."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Amarre-os sempre no coração; Coloque-os em volta do pescoço."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Quando você andar, eles o guiarão; Quando se deitar, vigiarão sobre você; E, quando acordar, falarão com você."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Pois o mandamento é uma lâmpada, E a lei é uma luz, E as repreensões da disciplina são o caminho para a vida."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Eles o protegerão da mulher má, Da língua sedutora da mulher imoral."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Não deseje no coração a sua beleza, Nem se deixe seduzir pelos seus olhos provocantes,"
+        },
+        {
+          "versiculo": 26,
+          "texto": "Pois a prostituta deixa o homem reduzido a um pedaço de pão, Ao passo que a adúltera caça uma vida preciosa."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Será que um homem pode juntar brasas no seu peito sem queimar a roupa?"
+        },
+        {
+          "versiculo": 28,
+          "texto": "Será que alguém pode andar sobre brasas sem queimar os pés?"
+        },
+        {
+          "versiculo": 29,
+          "texto": "O mesmo acontece com aquele que tem relações com a esposa do seu próximo; Ninguém que tocar nela ficará impune."
+        },
+        {
+          "versiculo": 30,
+          "texto": "As pessoas não tratam o ladrão com desprezo Se ele rouba para se satisfazer quando está com fome."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Mesmo assim, quando descoberto, ele devolverá sete vezes mais; Entregará todas as coisas valiosas da sua casa."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Quem comete adultério com uma mulher não tem bom senso; Aquele que faz isso arruína a si mesmo."
+        },
+        {
+          "versiculo": 33,
+          "texto": "Só achará ferimentos e desonra; Sua humilhação nunca se apagará."
+        },
+        {
+          "versiculo": 34,
+          "texto": "Pois o ciúme deixa o marido furioso; Ele não terá compaixão quando se vingar."
+        },
+        {
+          "versiculo": 35,
+          "texto": "Não aceitará nenhuma compensação; Não se conformará, por mais valioso que seja o presente que você oferecer."
+        }
+      ]
+    },
+    {
+      "numero": 7,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 7:1-27 REPRODUZIR CONTEÚDO DO LIVRO Siga os mandamentos de Deus e viva ( 1-5 ) Um rapaz ingênuo é seduzido ( 6-27 ) “Como um touro levado ao abate” ("
+        },
+        {
+          "versiculo": 22,
+          "texto": ")"
+        },
+        {
+          "versiculo": 7,
+          "texto": "Meu filho, obedeça às minhas declarações E guarde no coração os meus mandamentos."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Obedeça aos meus mandamentos e você viverá; Guarde a minha instrução como a menina dos seus olhos."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Amarre-os nos seus dedos; Escreva-os na tábua do seu coração."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Diga à sabedoria: “Você é minha irmã”, E chame o entendimento de “meu parente”,"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Para que o protejam da mulher devassa, Da mulher imoral e de suas palavras macias."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Da janela da minha casa, Olhei para baixo através da treliça"
+        },
+        {
+          "versiculo": 7,
+          "texto": "E, ao observar os ingênuos, Vi entre os jovens um rapaz que não tinha bom senso."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Ele passou pela rua perto da esquina dela E foi em direção à casa dela"
+        },
+        {
+          "versiculo": 9,
+          "texto": "No cair da tarde, quando estava anoitecendo, Ao se aproximar a noite e a escuridão."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Então vi uma mulher se encontrar com ele, Vestida como prostituta, com astúcia no coração."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Ela é escandalosa e insolente. Ela nunca fica em casa."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Ora está na rua, ora está nas praças; Fica de emboscada perto de cada esquina."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Ela o agarra e lhe dá um beijo; Com um olhar atrevido, diz a ele:"
+        },
+        {
+          "versiculo": 14,
+          "texto": "“Eu tinha de oferecer sacrifícios de participação em comum; Hoje cumpri os meus votos."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Por isso saí para encontrá-lo, Para procurar por você, e o achei!"
+        },
+        {
+          "versiculo": 16,
+          "texto": "Arrumei a minha cama com colchas finas, De linho colorido do Egito."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Borrifei a minha cama com mirra, aloés e canela."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Venha, vamos nos embriagar de amor até o amanhecer; Vamos desfrutar juntos das delícias do amor,"
+        },
+        {
+          "versiculo": 19,
+          "texto": "Pois o meu marido não está em casa; Ele viajou para um lugar distante."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Levou uma bolsa de dinheiro E não voltará antes do dia da lua cheia.”"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Ela o engana com grande persuasão. Ela o seduz com sua conversa suave."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Num instante ele vai atrás dela, como um touro levado ao abate, Como um tolo que vai ser punido no tronco,"
+        },
+        {
+          "versiculo": 23,
+          "texto": "Até que uma flecha lhe atravessa o fígado. Assim como um pássaro que voa para a armadilha, ele não sabe que isso lhe custará a vida."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Agora, meus filhos, escutem-me; Prestem atenção ao que eu digo."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Não deixe o seu coração se desviar para os caminhos dela. Não se afaste para as suas veredas,"
+        },
+        {
+          "versiculo": 26,
+          "texto": "Pois ela já tirou a vida de muitos, E os que ela matou são numerosos."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Sua casa leva à Sepultura, Desce aos aposentos da morte."
+        }
+      ]
+    },
+    {
+      "numero": 8,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 8:1-36 REPRODUZIR CONTEÚDO DO LIVRO A sabedoria personificada fala ( 1-36 ) ‘Sou a primeira das obras de Deus’ ("
+        },
+        {
+          "versiculo": 22,
+          "texto": ") ‘Estava ao lado de Deus como trabalhador perito’ ("
+        },
+        {
+          "versiculo": 30,
+          "texto": ") ‘Minha alegria eram os filhos dos homens’ ("
+        },
+        {
+          "versiculo": 31,
+          "texto": ")"
+        },
+        {
+          "versiculo": 8,
+          "texto": "A sabedoria não está clamando? O discernimento não está erguendo a sua voz?"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Nos lugares altos ao longo do caminho, Nos cruzamentos das estradas, ela toma sua posição."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Junto aos portões que dão para a cidade, Na entrada dos portões, Ela continua a gritar bem alto:"
+        },
+        {
+          "versiculo": 4,
+          "texto": "“Estou chamando a vocês, ó povo; A todos ergo a minha voz."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Inexperientes, aprendam a ser prudentes; Tolos, adquiram um coração sábio."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Escutem, pois o que eu digo é importante, Meus lábios falam o que é certo."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Minha boca fala a verdade em voz baixa, E meus lábios detestam o que é mau."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Todas as declarações da minha boca são justas. Nenhuma delas é deturpada ou enganosa."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Todas elas são claras para quem tem discernimento E corretas para os que encontraram conhecimento."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Aceitem a minha disciplina em vez de prata, E o conhecimento em lugar do ouro da melhor qualidade,"
+        },
+        {
+          "versiculo": 11,
+          "texto": "Pois a sabedoria é melhor do que corais; Nenhuma outra coisa preciosa pode se comparar a ela."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Eu, a sabedoria, moro com a prudência; Encontrei conhecimento e raciocínio."
+        },
+        {
+          "versiculo": 13,
+          "texto": "O temor de Jeová significa odiar o mal. Eu odeio a arrogância, o orgulho, o caminho mau e declarações perversas."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Tenho bons conselhos e sabedoria prática. O entendimento e o poder pertencem a mim."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Por meio de mim os reis governam, E as autoridades decretam leis justas."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Por meio de mim os príncipes governam, E os nobres julgam com justiça."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Eu amo os que me amam, E os que me procuram me acharão."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Comigo há coisas valiosas e glória, Riquezas permanentes e justiça."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Meu fruto é melhor do que o ouro, sim, do que o ouro refinado, E o que eu produzo é melhor do que a prata da melhor qualidade."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Eu ando na vereda da retidão, No meio dos caminhos da justiça;"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Dou uma valiosa herança aos que me amam, E encho os seus depósitos."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Jeová me produziu como o princípio do seu caminho, A primeira das suas realizações mais antigas."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Fui estabelecida nos tempos antigos, No começo, antes de existir a terra."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Quando não havia águas profundas, fui produzida, Quando não havia mananciais transbordando de água."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Antes de serem assentadas as montanhas, Antes de haver montes, fui produzida,"
+        },
+        {
+          "versiculo": 26,
+          "texto": "Quando ele ainda não havia feito a terra e os seus campos, Nem o primeiro punhado de solo da terra."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Quando ele preparou os céus, eu estava lá; Quando traçou o horizonte sobre a superfície das águas,"
+        },
+        {
+          "versiculo": 28,
+          "texto": "Quando ele colocou as nuvens no alto, Quando estabeleceu as fontes das águas profundas,"
+        },
+        {
+          "versiculo": 29,
+          "texto": "Quando ele decretou ao mar Que suas águas não fossem além do que ele havia ordenado, Quando lançou os alicerces da terra,"
+        },
+        {
+          "versiculo": 30,
+          "texto": "Eu estava ao seu lado como trabalhador perito. Eu era a sua maior alegria dia após dia, Alegrava-me diante dele todo o tempo."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Eu me alegrava com a terra que ele criou para ser habitada, E minha maior alegria eram os filhos dos homens."
+        },
+        {
+          "versiculo": 32,
+          "texto": "E agora, meus filhos, escutem-me, Pois felizes são os que guardam os meus caminhos."
+        },
+        {
+          "versiculo": 33,
+          "texto": "Escutem a disciplina e tornem-se sábios; Nunca a rejeitem."
+        },
+        {
+          "versiculo": 34,
+          "texto": "Feliz o homem que me escuta, Chegando cedo à minha porta dia após dia, Esperando junto à entrada da minha casa;"
+        },
+        {
+          "versiculo": 35,
+          "texto": "Pois quem me achar, achará a vida E terá a aprovação de Jeová."
+        },
+        {
+          "versiculo": 36,
+          "texto": "Mas quem me ignora, prejudica a si mesmo; E os que me odeiam, amam a morte.”"
+        }
+      ]
+    },
+    {
+      "numero": 9,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 9:1-18 REPRODUZIR CONTEÚDO DO LIVRO A verdadeira sabedoria faz um convite ( 1-12 ) “Por meu intermédio, seus dias serão muitos” ("
+        },
+        {
+          "versiculo": 11,
+          "texto": ") A mulher tola faz um convite ( 13-18 ) “Águas roubadas são doces” ("
+        },
+        {
+          "versiculo": 17,
+          "texto": ")"
+        },
+        {
+          "versiculo": 9,
+          "texto": "A verdadeira sabedoria construiu a sua casa; Talhou as suas sete colunas."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Providenciou muita carne, Misturou o seu vinho E também pôs a mesa."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Enviou as suas servas Para que clamassem dos lugares altos da cidade:"
+        },
+        {
+          "versiculo": 4,
+          "texto": "“Todos os inexperientes, venham para cá!” Ela diz aos que não têm bom senso:"
+        },
+        {
+          "versiculo": 5,
+          "texto": "“Venham, comam o meu pão E bebam o meu vinho misturado."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Deixem para trás sua inexperiência e vocês viverão; Sigam em frente no caminho do entendimento.”"
+        },
+        {
+          "versiculo": 7,
+          "texto": "Quem corrige o zombador procura desonra, E quem repreende aquele que é mau prejudica a si mesmo."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Não repreenda o zombador, senão ele o odiará. Repreenda o sábio, e ele o amará."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Dê instrução ao sábio, e ele se tornará mais sábio. Ensine o justo, e ele aumentará em conhecimento."
+        },
+        {
+          "versiculo": 10,
+          "texto": "O temor de Jeová é o início da sabedoria, E conhecer o Santíssimo é entendimento."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Pois, por meu intermédio, seus dias serão muitos, E anos serão acrescentados à sua vida."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Se você for sábio, isso será para o seu próprio bem; Mas, se você for zombador, só você sofrerá as consequências."
+        },
+        {
+          "versiculo": 13,
+          "texto": "A mulher tola é escandalosa. É ignorante e não sabe absolutamente nada."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Ela se senta à entrada da sua casa, Numa cadeira, num lugar alto da cidade,"
+        },
+        {
+          "versiculo": 15,
+          "texto": "E chama os que passam pela estrada, Os que estão seguindo o seu caminho:"
+        },
+        {
+          "versiculo": 16,
+          "texto": "“Todos os inexperientes, venham para cá!” Ela diz aos que não têm bom senso:"
+        },
+        {
+          "versiculo": 17,
+          "texto": "“As águas roubadas são doces, E o pão comido às escondidas é saboroso.”"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Mas eles não sabem que os impotentes na morte estão ali, Que os convidados dela estão nas profundezas da Sepultura."
+        }
+      ]
+    },
+    {
+      "numero": 10,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 10:1-32 REPRODUZIR CONTEÚDO DO LIVRO O filho sábio alegra o pai ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") Mãos diligentes trazem riquezas ("
+        },
+        {
+          "versiculo": 4,
+          "texto": ") Muitas palavras trazem transgressão ("
+        },
+        {
+          "versiculo": 19,
+          "texto": ") A bênção de Jeová enriquece ("
+        },
+        {
+          "versiculo": 22,
+          "texto": ") O temor de Jeová prolonga a vida ("
+        },
+        {
+          "versiculo": 27,
+          "texto": ")"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Provérbios de Salomão. O filho sábio alegra o pai, Mas o filho tolo é a tristeza da mãe."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Tesouros obtidos por meios desonestos não servirão para nada, Mas é a retidão que livra da morte."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Jeová não fará o justo passar fome, Mas negará aos maus o que eles cobiçam."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Mãos preguiçosas levam à pobreza, Mas mãos diligentes trazem riquezas."
+        },
+        {
+          "versiculo": 5,
+          "texto": "O filho que age com perspicácia colhe durante o verão, Mas o filho que age vergonhosamente dorme durante a colheita."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Sobre a cabeça dos justos há bênçãos, Mas a boca dos maus esconde violência."
+        },
+        {
+          "versiculo": 7,
+          "texto": "O justo será lembrado e abençoado, Mas o nome dos maus apodrecerá."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Quem tem coração sábio aceitará instruções, Mas quem fala de modo tolo cairá na ruína."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Quem anda em integridade andará em segurança, Mas quem perverte os seus caminhos será descoberto."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Quem pisca maliciosamente o olho causa sofrimento, E quem fala de modo tolo cairá na ruína."
+        },
+        {
+          "versiculo": 11,
+          "texto": "A boca dos justos é fonte de vida, Mas a boca dos maus esconde violência."
+        },
+        {
+          "versiculo": 12,
+          "texto": "O ódio causa brigas, Mas o amor cobre todas as transgressões."
+        },
+        {
+          "versiculo": 13,
+          "texto": "A sabedoria se encontra nos lábios de quem tem discernimento, Mas a vara é para as costas de quem não tem bom senso."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Os sábios guardam conhecimento no coração, Mas a boca do tolo está perto da ruína."
+        },
+        {
+          "versiculo": 15,
+          "texto": "A riqueza do rico é a sua cidade fortificada. A ruína do pobre é a sua pobreza."
+        },
+        {
+          "versiculo": 16,
+          "texto": "As obras dos justos levam à vida; Mas o fruto do trabalho dos maus leva ao pecado."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Quem aceita a disciplina mostra o caminho para a vida, Mas quem ignora a repreensão desencaminha outros."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Quem esconde seu ódio fala mentiras, E quem espalha calúnias é tolo."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Quando as palavras são muitas, a transgressão é inevitável, Mas quem controla a língua age com prudência."
+        },
+        {
+          "versiculo": 20,
+          "texto": "A língua dos justos é como a prata da melhor qualidade, Mas o coração dos maus é de pouco valor."
+        },
+        {
+          "versiculo": 21,
+          "texto": "As palavras do justo alimentam a muitos, Mas os tolos morrem por não ter bom senso."
+        },
+        {
+          "versiculo": 22,
+          "texto": "É a bênção de Jeová que enriquece, E ele não acrescenta a ela nenhuma dor."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Para o tolo, envolver-se em conduta vergonhosa é uma diversão, Mas o homem de discernimento tem sabedoria."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Aquilo que os maus temem virá sobre eles, Mas o desejo dos justos lhes será concedido."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Quando a tempestade passar, os maus deixarão de existir; Mas o justo é como um alicerce que dura para sempre."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Como vinagre nos dentes e fumaça nos olhos, Assim é o preguiçoso para quem o envia."
+        },
+        {
+          "versiculo": 27,
+          "texto": "O temor de Jeová prolonga a vida, Mas os anos dos maus serão abreviados."
+        },
+        {
+          "versiculo": 28,
+          "texto": "A expectativa dos justos traz alegria, Mas a esperança dos maus acabará."
+        },
+        {
+          "versiculo": 29,
+          "texto": "O caminho de Jeová é uma fortaleza para o íntegro, Mas significa ruína para os malfeitores."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Os justos nunca serão derrubados, Mas os maus não morarão mais na terra."
+        },
+        {
+          "versiculo": 31,
+          "texto": "A boca dos justos produz sabedoria, Mas a língua perversa será decepada."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Os lábios dos justos sabem o que é agradável, Mas a boca dos maus é perversa."
+        }
+      ]
+    },
+    {
+      "numero": 11,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 11:1-31 REPRODUZIR CONTEÚDO DO LIVRO A sabedoria está com os modestos ("
+        },
+        {
+          "versiculo": 2,
+          "texto": ") O apóstata arruína os outros ("
+        },
+        {
+          "versiculo": 9,
+          "texto": ") “Com muitos conselheiros há bons resultados” ("
+        },
+        {
+          "versiculo": 14,
+          "texto": ") A pessoa generosa prosperará ("
+        },
+        {
+          "versiculo": 25,
+          "texto": ") Quem confia nas suas riquezas cairá ("
+        },
+        {
+          "versiculo": 28,
+          "texto": ")"
+        },
+        {
+          "versiculo": 11,
+          "texto": "A balança desonesta é detestável para Jeová, Mas o peso exato é um prazer para ele."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Quando a presunção vem, a desonra vem em seguida, Mas a sabedoria está com os modestos."
+        },
+        {
+          "versiculo": 3,
+          "texto": "A integridade dos justos é o que os guia, Mas a falsidade dos traiçoeiros os destruirá."
+        },
+        {
+          "versiculo": 4,
+          "texto": "As riquezas não servirão para nada no dia da fúria, Mas é a justiça que livrará da morte."
+        },
+        {
+          "versiculo": 5,
+          "texto": "A justiça de quem é íntegro endireita o seu caminho, Mas aquele que é mau cairá por causa da sua própria maldade."
+        },
+        {
+          "versiculo": 6,
+          "texto": "A justiça dos justos os livrará, Mas os traiçoeiros serão apanhados pelos seus próprios desejos."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Quando morre alguém mau, sua esperança acaba; E as expectativas baseadas no seu poder também acabam."
+        },
+        {
+          "versiculo": 8,
+          "texto": "O justo é livrado da aflição, E quem é mau fica no lugar dele."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Com a boca o apóstata arruína seu próximo, Mas pelo conhecimento os justos são salvos."
+        },
+        {
+          "versiculo": 10,
+          "texto": "A bondade dos justos alegra a cidade, E, quando os maus morrem, há gritos de alegria."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Pela bênção dos justos, a cidade é enaltecida, Mas a boca dos maus a derruba."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Quem não tem bom senso trata seu próximo com desprezo, Mas o homem que tem verdadeiro discernimento se mantém calado."
+        },
+        {
+          "versiculo": 13,
+          "texto": "O caluniador espalha segredos, Mas quem é confiável guarda confidência."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Sem orientação perita, o povo cai, Mas com muitos conselheiros há bons resultados."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Quem se torna fiador de um estranho certamente terá problemas, Mas quem evita o aperto de mão ficará seguro."
+        },
+        {
+          "versiculo": 16,
+          "texto": "A mulher amável obtém glória, Mas homens impiedosos se apoderam de riquezas."
+        },
+        {
+          "versiculo": 17,
+          "texto": "O homem bondoso faz bem a si mesmo, Mas a pessoa cruel faz mal a si própria."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Quem é mau recebe um salário ilusório, Mas quem semeia justiça obtém verdadeira recompensa."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Quem toma firme posição a favor da justiça caminha para a vida, Mas quem corre atrás do que é mau caminha para a morte."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Os que têm o coração tortuoso são detestáveis para Jeová, Mas os que têm um proceder irrepreensível são um prazer para ele."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Tenha certeza do seguinte: os maus não ficarão impunes, Mas os filhos dos justos escaparão."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Como uma argola de ouro no focinho de um porco É a mulher bonita que despreza o bom senso."
+        },
+        {
+          "versiculo": 23,
+          "texto": "O desejo dos justos resulta em bem, Mas aquilo que os maus esperam resulta em fúria."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Há quem dá generosamente e acaba com mais; Outro se nega a dar o que deveria e acaba na pobreza."
+        },
+        {
+          "versiculo": 25,
+          "texto": "A pessoa generosa prosperará, E quem reanima outros será ele mesmo reanimado."
+        },
+        {
+          "versiculo": 26,
+          "texto": "O povo vai amaldiçoar quem retém os cereais, Mas vai abençoar aquele que os vende."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Quem procura diligentemente fazer o bem, procura o favor; Mas quem busca o mal, o mal certamente virá sobre ele."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Quem confia nas suas riquezas cairá, Mas os justos florescerão como a folhagem."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Aquele que causa dificuldades à sua casa herdará o vento, E o tolo será servo daquele que tem coração sábio."
+        },
+        {
+          "versiculo": 30,
+          "texto": "O fruto do justo é árvore de vida, E quem ganha almas é sábio."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Se, de fato, o justo na terra recebe sua retribuição, Quanto mais o perverso e o pecador!"
+        }
+      ]
+    },
+    {
+      "numero": 12,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 12:1-28 REPRODUZIR CONTEÚDO DO LIVRO Quem odeia a repreensão não tem bom senso ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") “Palavras impensadas são como os golpes de uma espada” ("
+        },
+        {
+          "versiculo": 18,
+          "texto": ") Promover a paz traz alegria ("
+        },
+        {
+          "versiculo": 20,
+          "texto": ") Lábios mentirosos são detestáveis para Jeová ("
+        },
+        {
+          "versiculo": 22,
+          "texto": ") A ansiedade sobrecarrega o coração ("
+        },
+        {
+          "versiculo": 25,
+          "texto": ")"
+        },
+        {
+          "versiculo": 12,
+          "texto": "Quem ama a disciplina ama o conhecimento, Mas quem odeia a repreensão é insensato."
+        },
+        {
+          "versiculo": 2,
+          "texto": "A pessoa boa obtém a aprovação de Jeová, Mas ele condena o homem que planeja o mal."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Ninguém consegue segurança por meio da maldade, Mas os justos nunca serão desarraigados."
+        },
+        {
+          "versiculo": 4,
+          "texto": "A esposa capaz é uma coroa para o seu marido, Mas a esposa que age de modo vergonhoso é como podridão nos ossos dele."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Os pensamentos dos justos são corretos, Mas as orientações dos maus são enganosas."
+        },
+        {
+          "versiculo": 6,
+          "texto": "As palavras dos maus são uma emboscada mortal, Mas a boca dos justos os salva."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Quando os maus são derrubados, deixam de existir, Mas a casa dos justos permanecerá."
+        },
+        {
+          "versiculo": 8,
+          "texto": "O homem que fala com prudência é elogiado, Mas o de coração tortuoso será tratado com desprezo."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Melhor ser uma pessoa comum e ter um servo Do que glorificar a si mesmo e não ter o que comer."
+        },
+        {
+          "versiculo": 10,
+          "texto": "O justo cuida dos seus animais domésticos, Mas até a misericórdia dos maus é cruel."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Quem cultiva a sua terra terá fartura de alimento, Mas quem se empenha por coisas sem valor não tem bom senso."
+        },
+        {
+          "versiculo": 12,
+          "texto": "O perverso tem inveja do que outros homens maus caçam, Mas a raiz dos justos produz frutos."
+        },
+        {
+          "versiculo": 13,
+          "texto": "A pessoa má é enlaçada pela sua própria conversa pecaminosa, Mas o justo escapa da aflição."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Dos frutos das suas palavras o homem se satisfaz com o que é bom, E pelo trabalho das suas mãos ele será recompensado."
+        },
+        {
+          "versiculo": 15,
+          "texto": "O caminho do tolo é certo aos seus próprios olhos, Mas o sábio aceita conselho."
+        },
+        {
+          "versiculo": 16,
+          "texto": "O tolo demonstra a sua irritação imediatamente, Mas o homem prudente deixa passar o insulto."
+        },
+        {
+          "versiculo": 17,
+          "texto": "A testemunha fiel fala a verdade, Mas a testemunha falsa fala mentiras."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Palavras impensadas são como os golpes de uma espada, Mas a língua dos sábios é uma cura."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Os lábios que dizem a verdade permanecerão para sempre, Mas a língua mentirosa durará apenas um instante."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Há engano no coração dos que tramam a maldade, Mas os que promovem a paz têm alegria."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Nenhum mal atingirá o justo, Mas os maus sofrerão muitas calamidades."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Lábios mentirosos são detestáveis para Jeová, Mas quem age fielmente é um prazer para ele."
+        },
+        {
+          "versiculo": 23,
+          "texto": "O homem prudente esconde o que sabe, Mas o coração dos tolos deixa escapar sua tolice."
+        },
+        {
+          "versiculo": 24,
+          "texto": "A mão diligente governará, Mas a mão preguiçosa fará trabalhos forçados."
+        },
+        {
+          "versiculo": 25,
+          "texto": "A ansiedade sobrecarrega o coração do homem, Mas a boa palavra alegra o coração."
+        },
+        {
+          "versiculo": 26,
+          "texto": "O justo explora seus pastos, Mas o proceder dos maus os desencaminha."
+        },
+        {
+          "versiculo": 27,
+          "texto": "O preguiçoso não vai atrás da caça, Mas a diligência é um tesouro precioso para o homem."
+        },
+        {
+          "versiculo": 28,
+          "texto": "O caminho da justiça conduz à vida; Nessa vereda não há morte."
+        }
+      ]
+    },
+    {
+      "numero": 13,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 13:1-25 REPRODUZIR CONTEÚDO DO LIVRO Os que buscam conselho são sábios ("
+        },
+        {
+          "versiculo": 10,
+          "texto": ") A esperança adiada faz adoecer o coração ("
+        },
+        {
+          "versiculo": 12,
+          "texto": ") O enviado fiel traz cura ("
+        },
+        {
+          "versiculo": 17,
+          "texto": ") Andar com sábios torna a pessoa sábia ("
+        },
+        {
+          "versiculo": 20,
+          "texto": ") Disciplina, uma expressão de amor ("
+        },
+        {
+          "versiculo": 24,
+          "texto": ")"
+        },
+        {
+          "versiculo": 13,
+          "texto": "O filho sábio aceita a disciplina do pai, Mas o zombador não dá ouvidos à repreensão."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Dos frutos das suas palavras o homem comerá o que é bom, Mas o desejo dos traiçoeiros é a violência."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Quem vigia a boca protege sua vida. Quem não fecha os lábios será arruinado."
+        },
+        {
+          "versiculo": 4,
+          "texto": "O preguiçoso muito deseja e nada tem, Mas o diligente será plenamente satisfeito."
+        },
+        {
+          "versiculo": 5,
+          "texto": "O justo odeia mentiras, Mas as ações de quem é mau causam vergonha e desonra."
+        },
+        {
+          "versiculo": 6,
+          "texto": "A justiça protege quem anda no caminho da inocência, Mas a maldade arruína o pecador."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Alguns fingem ser ricos, mas não têm nada; Outros fingem ser pobres, mas têm muitas riquezas."
+        },
+        {
+          "versiculo": 8,
+          "texto": "As riquezas servem de resgate pela vida de um homem, Mas os pobres nem são ameaçados."
+        },
+        {
+          "versiculo": 9,
+          "texto": "A luz dos justos brilha intensamente, Mas a lâmpada dos maus será apagada."
+        },
+        {
+          "versiculo": 10,
+          "texto": "A presunção só causa briga, Mas a sabedoria está com os que buscam conselho."
+        },
+        {
+          "versiculo": 11,
+          "texto": "A riqueza obtida rapidamente vai diminuir, Mas a riqueza de quem ajunta aos poucos vai aumentar."
+        },
+        {
+          "versiculo": 12,
+          "texto": "A expectativa adiada faz adoecer o coração, Mas o desejo realizado é árvore de vida."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Quem despreza instrução será punido, Mas quem respeita o mandamento será recompensado."
+        },
+        {
+          "versiculo": 14,
+          "texto": "O ensinamento do sábio é fonte de vida E desvia dos laços da morte."
+        },
+        {
+          "versiculo": 15,
+          "texto": "O profundo entendimento traz favor, Mas o caminho dos traiçoeiros é difícil."
+        },
+        {
+          "versiculo": 16,
+          "texto": "O homem prudente age com conhecimento, Mas o tolo expõe sua própria tolice."
+        },
+        {
+          "versiculo": 17,
+          "texto": "O mensageiro perverso cai em desgraça, Mas o enviado fiel traz cura."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Quem rejeita a disciplina acaba em pobreza e desonra, Mas aquele que aceita correção será glorificado."
+        },
+        {
+          "versiculo": 19,
+          "texto": "O desejo realizado é doce para a alma, Mas o tolo odeia se desviar do mal."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Quem anda com sábios se tornará sábio, Mas quem se junta com tolos acabará mal."
+        },
+        {
+          "versiculo": 21,
+          "texto": "A calamidade persegue os pecadores, Mas a prosperidade recompensa os justos."
+        },
+        {
+          "versiculo": 22,
+          "texto": "A pessoa boa deixa uma herança para os netos, Mas a riqueza do pecador está reservada para o justo."
+        },
+        {
+          "versiculo": 23,
+          "texto": "A lavoura do pobre produz muito alimento, Mas ela pode ser arrasada pela injustiça."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Quem refreia a vara odeia seu filho, Mas aquele que o ama não deixa de discipliná-lo."
+        },
+        {
+          "versiculo": 25,
+          "texto": "O justo come e fica satisfeito, Mas a barriga dos maus fica vazia."
+        }
+      ]
+    },
+    {
+      "numero": 14,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 14:1-35 REPRODUZIR CONTEÚDO DO LIVRO O coração conhece sua própria amargura ("
+        },
+        {
+          "versiculo": 10,
+          "texto": ") Um caminho que parece certo pode levar à morte ("
+        },
+        {
+          "versiculo": 12,
+          "texto": ") O ingênuo acredita em qualquer palavra ("
+        },
+        {
+          "versiculo": 15,
+          "texto": ") Muitos são os amigos do rico ("
+        },
+        {
+          "versiculo": 20,
+          "texto": ") O coração calmo é vida para o corpo ("
+        },
+        {
+          "versiculo": 30,
+          "texto": ")"
+        },
+        {
+          "versiculo": 14,
+          "texto": "A mulher realmente sábia edifica a sua casa, Mas a tola a derruba com as próprias mãos."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Quem anda na sua retidão teme a Jeová, Mas quem segue caminhos sinuosos o despreza."
+        },
+        {
+          "versiculo": 3,
+          "texto": "A vara da arrogância está na boca dos tolos, Mas os lábios dos sábios os protegerão."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Onde não há bois, a manjedoura fica limpa; Mas a força do touro produz uma colheita abundante."
+        },
+        {
+          "versiculo": 5,
+          "texto": "A testemunha fiel não mente, Mas a testemunha falsa só fala mentiras."
+        },
+        {
+          "versiculo": 6,
+          "texto": "O zombador procura sabedoria, e não acha nenhuma, Mas o conhecimento vem facilmente para quem tem entendimento."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Fique longe do homem tolo, Pois em seus lábios você não encontrará conhecimento."
+        },
+        {
+          "versiculo": 8,
+          "texto": "A sabedoria faz o homem prudente entender seu caminho, Mas os insensatos são enganados pela sua tolice."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Os tolos riem da culpa, Mas entre os justos há disposição de fazer as pazes."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Cada coração conhece sua própria amargura, E mais ninguém pode participar da sua alegria."
+        },
+        {
+          "versiculo": 11,
+          "texto": "A casa dos maus será destruída, Mas a tenda dos justos florescerá."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Há um caminho que parece certo ao homem, Mas por fim leva à morte."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Mesmo no riso, o coração talvez sinta dor; E a alegria pode acabar em tristeza."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Quem é rebelde no coração colherá as consequências dos seus caminhos, Mas o homem bom colhe a recompensa das suas ações."
+        },
+        {
+          "versiculo": 15,
+          "texto": "A pessoa ingênua acredita em qualquer palavra, Mas quem é prudente pensa bem antes de cada passo."
+        },
+        {
+          "versiculo": 16,
+          "texto": "O sábio é cauteloso e se afasta do mal, Mas o tolo é imprudente e autoconfiante."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Quem se ira facilmente comete tolices, Mas o homem de reflexão é odiado."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Os ingênuos herdarão a tolice, Mas os prudentes são coroados com o conhecimento."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Os maus terão de se curvar diante dos bons, E os perversos se curvarão diante dos portões dos justos."
+        },
+        {
+          "versiculo": 20,
+          "texto": "O pobre é odiado até pelo seu próximo, Mas muitos são os amigos do rico."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Quem despreza o seu próximo comete um pecado, Mas quem tem compaixão dos humildes é feliz."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Por acaso não se perderão os que tramam a maldade? Mas os que estão decididos a fazer o bem encontrarão amor leal e fidelidade."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Há proveito em todo tipo de trabalho árduo, Mas ficar só falando leva à pobreza."
+        },
+        {
+          "versiculo": 24,
+          "texto": "A coroa dos sábios é a sua riqueza, Mas a tolice dos tolos não passa de tolice."
+        },
+        {
+          "versiculo": 25,
+          "texto": "A testemunha verdadeira salva vidas, Mas a falsa só fala mentiras."
+        },
+        {
+          "versiculo": 26,
+          "texto": "No temor de Jeová o homem encontra forte confiança E um refúgio para os seus filhos."
+        },
+        {
+          "versiculo": 27,
+          "texto": "O temor de Jeová é fonte de vida E desvia dos laços da morte."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Um povo numeroso é a glória do rei, Mas um governante sem súditos está arruinado."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Quem não se ira facilmente tem muito discernimento, Mas quem é impaciente demonstra sua tolice."
+        },
+        {
+          "versiculo": 30,
+          "texto": "O coração calmo é vida para o corpo, Mas o ciúme é podridão para os ossos."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Quem defrauda o humilde insulta Aquele que o fez, Mas quem tem compaixão do pobre O glorifica."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Quem é mau será derrubado pela sua própria maldade, Mas o justo se refugiará na sua integridade."
+        },
+        {
+          "versiculo": 33,
+          "texto": "A sabedoria descansa sem alarde no coração dos que têm entendimento, Mas os tolos têm de exibi-la."
+        },
+        {
+          "versiculo": 34,
+          "texto": "A justiça enaltece uma nação, Mas o pecado é uma vergonha para um povo."
+        },
+        {
+          "versiculo": 35,
+          "texto": "O rei tem prazer no servo que age com perspicácia, Mas fica furioso com aquele que age vergonhosamente."
+        }
+      ]
+    },
+    {
+      "numero": 15,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 15:1-33 REPRODUZIR CONTEÚDO DO LIVRO Uma resposta branda acalma o furor ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") Os olhos de Jeová estão em todo lugar ("
+        },
+        {
+          "versiculo": 3,
+          "texto": ") A oração do justo agrada a Deus ("
+        },
+        {
+          "versiculo": 8,
+          "texto": ") Planos fracassam sem comunicação ("
+        },
+        {
+          "versiculo": 22,
+          "texto": ") Medite antes de responder ("
+        },
+        {
+          "versiculo": 28,
+          "texto": ")"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Uma resposta branda acalma o furor, Mas uma palavra dura atiça a ira."
+        },
+        {
+          "versiculo": 2,
+          "texto": "A língua dos sábios faz bom uso do conhecimento, Mas a boca dos tolos jorra tolice."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Os olhos de Jeová estão em todo lugar, Vigiando tanto os maus como os bons."
+        },
+        {
+          "versiculo": 4,
+          "texto": "A língua calma é árvore de vida, Mas a palavra perversa causa profunda tristeza."
+        },
+        {
+          "versiculo": 5,
+          "texto": "O tolo desrespeita a disciplina do pai, Mas quem é prudente aceita correção."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Na casa do justo há muitos tesouros, Mas o fruto do trabalho de quem é mau lhe causa dificuldades."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Os lábios dos sábios espalham conhecimento, Mas o coração dos tolos não é assim."
+        },
+        {
+          "versiculo": 8,
+          "texto": "O sacrifício dos maus é detestável para Jeová, Mas a oração dos justos é um prazer para ele."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Jeová detesta o caminho de quem é mau, Mas ama quem se empenha pela justiça."
+        },
+        {
+          "versiculo": 10,
+          "texto": "A disciplina parece ruim para quem abandona o caminho, Mas quem odeia a repreensão morrerá."
+        },
+        {
+          "versiculo": 11,
+          "texto": "A Sepultura e o lugar de destruição estão diante dos olhos de Jeová. Quanto mais o coração dos homens!"
+        },
+        {
+          "versiculo": 12,
+          "texto": "O zombador não gosta daquele que o corrige; Ele não consulta os sábios."
+        },
+        {
+          "versiculo": 13,
+          "texto": "O coração alegre ilumina o rosto, Mas o coração angustiado deixa o espírito abatido."
+        },
+        {
+          "versiculo": 14,
+          "texto": "O coração sábio busca conhecimento, Mas a boca dos tolos se alimenta de tolice."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Para o aflito, todos os dias são maus, Mas quem é alegre de coração tem sempre um banquete."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Melhor o pouco com o temor de Jeová Do que muita riqueza com ansiedade."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Melhor um prato de verduras onde há amor Do que um boi gordo onde há ódio."
+        },
+        {
+          "versiculo": 18,
+          "texto": "O homem que se irrita facilmente provoca briga, Mas quem é paciente acalma a discussão."
+        },
+        {
+          "versiculo": 19,
+          "texto": "O caminho do preguiçoso é cheio de espinhos, Mas a vereda dos justos é uma estrada plana."
+        },
+        {
+          "versiculo": 20,
+          "texto": "O filho sábio alegra seu pai, Mas o homem tolo despreza sua mãe."
+        },
+        {
+          "versiculo": 21,
+          "texto": "A tolice alegra quem não tem bom senso, Mas o homem de discernimento caminha direito."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Os planos fracassam quando não há comunicação, Mas com muitos conselheiros há bons resultados."
+        },
+        {
+          "versiculo": 23,
+          "texto": "O homem se alegra ao dar uma resposta certa, E como é boa uma palavra no tempo certo!"
+        },
+        {
+          "versiculo": 24,
+          "texto": "O caminho da vida conduz para cima quem tem perspicácia, Para afastá-lo da Sepultura lá embaixo."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Jeová derrubará a casa dos arrogantes, Mas protegerá os limites da propriedade da viúva."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Jeová detesta as tramas de quem é mau, Mas declarações agradáveis são puras para Ele."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Quem obtém lucro desonesto causa dificuldades à sua própria casa, Mas quem odeia o suborno continuará vivo."
+        },
+        {
+          "versiculo": 28,
+          "texto": "O coração do justo medita antes de responder, Mas a boca dos maus jorra coisas más."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Jeová está longe dos maus, Mas ouve a oração dos justos."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Olhos radiantes alegram o coração; Uma boa notícia revigora os ossos."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Quem escuta a repreensão que dá vida Habita entre os sábios."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Quem rejeita a disciplina despreza a sua vida, Mas quem escuta a repreensão obtém entendimento."
+        },
+        {
+          "versiculo": 33,
+          "texto": "O temor de Jeová ensina a pessoa a ser sábia, E antes da glória vem a humildade."
+        }
+      ]
+    },
+    {
+      "numero": 16,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 16:1-33 REPRODUZIR CONTEÚDO DO LIVRO Jeová examina as motivações ("
+        },
+        {
+          "versiculo": 2,
+          "texto": ") Confie suas obras a Jeová ("
+        },
+        {
+          "versiculo": 3,
+          "texto": ") Pesos honestos são da parte de Jeová ("
+        },
+        {
+          "versiculo": 11,
+          "texto": ") O orgulho vem antes da queda ("
+        },
+        {
+          "versiculo": 18,
+          "texto": ") Cabelos brancos, uma coroa de beleza ("
+        },
+        {
+          "versiculo": 31,
+          "texto": ")"
+        },
+        {
+          "versiculo": 16,
+          "texto": "O homem prepara os pensamentos do seu coração, Mas a resposta que ele dá vem de Jeová."
+        },
+        {
+          "versiculo": 2,
+          "texto": "O homem pensa que todos os seus caminhos são certos, Mas Jeová examina as motivações."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Confie a Jeová tudo que você faz, E os seus planos serão bem-sucedidos."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Jeová faz que tudo contribua para o seu propósito, Até mesmo os maus para o dia da calamidade."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Todos os de coração orgulhoso são detestáveis para Jeová. Tenha certeza de que eles não ficarão impunes."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Por meio do amor leal e da fidelidade expia-se o erro, E por temer a Jeová a pessoa se afasta do mal."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Quando Jeová se agrada dos caminhos de um homem, Faz com que até os seus inimigos fiquem em paz com ele."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Melhor o pouco com justiça Do que muita renda com injustiça."
+        },
+        {
+          "versiculo": 9,
+          "texto": "O homem pode traçar no coração o seu caminho, Mas é Jeová quem orienta os seus passos."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Os lábios do rei devem proferir decisões inspiradas; Ele nunca deve trair a justiça."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Balanças e pesos honestos são da parte de Jeová; Todos os pesos da bolsa são feitos por ele."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Práticas más são detestáveis para os reis, Pois é por meio da justiça que se estabelece firmemente o trono."
+        },
+        {
+          "versiculo": 13,
+          "texto": "As palavras dos justos são um prazer para os reis; Eles amam quem fala a verdade."
+        },
+        {
+          "versiculo": 14,
+          "texto": "A fúria do rei é um mensageiro da morte, Mas o homem sábio a acalma."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Quando o rosto do rei se ilumina, há vida; Seu favor é como uma nuvem de chuva na primavera."
+        },
+        {
+          "versiculo": 16,
+          "texto": "É muito melhor obter sabedoria do que ouro! Mais vale ganhar entendimento do que prata."
+        },
+        {
+          "versiculo": 17,
+          "texto": "A estrada dos justos se desvia do mal. Quem vigia seu caminho preserva sua vida."
+        },
+        {
+          "versiculo": 18,
+          "texto": "O orgulho vem antes da queda, E o espírito arrogante antes do tropeço."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Melhor ser humilde entre os mansos Do que repartir despojo com os arrogantes."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Quem mostra entendimento num assunto será bem-sucedido, E feliz é aquele que confia em Jeová."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Quem tem coração sábio será chamado de entendido, E quem fala palavras bondosas é mais persuasivo."
+        },
+        {
+          "versiculo": 22,
+          "texto": "O entendimento é fonte de vida para os que o possuem, Mas os tolos são disciplinados pela sua própria tolice."
+        },
+        {
+          "versiculo": 23,
+          "texto": "O coração do sábio dá entendimento à sua boca E acrescenta persuasão às suas palavras."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Declarações agradáveis são como um favo de mel, Doces para a alma e uma cura para os ossos."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Há um caminho que parece certo ao homem, Mas por fim leva à morte."
+        },
+        {
+          "versiculo": 26,
+          "texto": "O apetite do trabalhador o faz trabalhar arduamente, Pois a fome o impele a fazer isso."
+        },
+        {
+          "versiculo": 27,
+          "texto": "O homem imprestável traz à tona o que é mau; Suas palavras são como um fogo abrasador."
+        },
+        {
+          "versiculo": 28,
+          "texto": "O homem briguento provoca discórdias, E o caluniador separa bons amigos."
+        },
+        {
+          "versiculo": 29,
+          "texto": "O homem violento instiga seu próximo E o leva para o mau caminho."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Ele pisca o olho ao tramar perversidades. Aperta os lábios ao praticar o mal."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Os cabelos brancos são uma coroa de beleza Quando se acham no caminho da justiça."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Quem não se ira facilmente é melhor do que o homem valente, E quem controla a si mesmo é melhor do que quem conquista uma cidade."
+        },
+        {
+          "versiculo": 33,
+          "texto": "A sorte é lançada no colo, Mas toda decisão indicada por ela vem de Jeová."
+        }
+      ]
+    },
+    {
+      "numero": 17,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 17:1-28 REPRODUZIR CONTEÚDO DO LIVRO Não pague o bem com o mal ("
+        },
+        {
+          "versiculo": 13,
+          "texto": ") Retire-se antes de começar a discussão ("
+        },
+        {
+          "versiculo": 14,
+          "texto": ") O verdadeiro amigo ama em todos os momentos ("
+        },
+        {
+          "versiculo": 17,
+          "texto": ") “O coração alegre é um bom remédio” ("
+        },
+        {
+          "versiculo": 22,
+          "texto": ") O homem de discernimento controla suas palavras ("
+        },
+        {
+          "versiculo": 27,
+          "texto": ")"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Melhor um pedaço de pão seco onde há paz Do que uma casa cheia de banquetes junto com discussões."
+        },
+        {
+          "versiculo": 2,
+          "texto": "O servo que tem perspicácia terá autoridade sobre o filho que age de modo vergonhoso E receberá parte da herança como um dos irmãos."
+        },
+        {
+          "versiculo": 3,
+          "texto": "O cadinho é para a prata e o forno de fundição para o ouro, Mas é Jeová quem examina os corações."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Os maus prestam atenção em palavras que ferem, E os mentirosos escutam a língua maldosa."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Quem zomba do pobre insulta Aquele que o fez, Quem se alegra com a desgraça dos outros não ficará impune."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Os netos são uma coroa para os idosos, E os pais são a glória dos filhos."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Palavras corretas não são próprias para o tolo. Quanto menos, então, palavras falsas para um governante!"
+        },
+        {
+          "versiculo": 8,
+          "texto": "Um presente é como uma pedra preciosa para o seu dono; Torna-o bem-sucedido aonde quer que ele vá."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Quem perdoa uma transgressão promove o amor, Mas aquele que insiste em falar sobre um assunto separa bons amigos."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Uma repreensão tem efeito mais profundo em quem tem entendimento Do que bater cem vezes em quem é tolo."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Os maus só buscam a rebeldia, Mas um mensageiro cruel será enviado para puni-los."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Melhor encontrar uma ursa que perdeu seus filhotes Do que se deparar com um tolo em sua tolice."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Se alguém paga o bem com o mal, O mal não se afastará da sua casa."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Começar uma briga é como abrir uma comporta; Retire-se antes de estourar a discussão."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Quem absolve o culpado e quem condena o inocente, Tanto um como o outro são detestáveis para Jeová."
+        },
+        {
+          "versiculo": 16,
+          "texto": "De que adianta o tolo ter recursos para adquirir sabedoria, Se não tem o desejo de adquiri-la?"
+        },
+        {
+          "versiculo": 17,
+          "texto": "O verdadeiro amigo ama em todos os momentos E se torna um irmão em tempos de aflição."
+        },
+        {
+          "versiculo": 18,
+          "texto": "O homem que não tem bom senso dá um aperto de mão E concorda em ser fiador na presença do seu próximo."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Quem ama a briga ama a transgressão. Quem faz alta a sua porta procura a ruína."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Quem tem coração tortuoso não será bem-sucedido, E quem fala mentiras cairá na desgraça."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Quem é pai de um filho tolo terá tristeza; E o pai de um filho insensato não tem alegria."
+        },
+        {
+          "versiculo": 22,
+          "texto": "O coração alegre é um bom remédio, Mas o espírito abatido consome as energias da pessoa."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Quem é mau aceita suborno às escondidas Para perverter o caminho da justiça."
+        },
+        {
+          "versiculo": 24,
+          "texto": "A sabedoria está bem diante de quem tem discernimento, Mas os olhos do tolo vagueiam até os confins da terra."
+        },
+        {
+          "versiculo": 25,
+          "texto": "O filho tolo causa tristeza ao seu pai E amargura àquela que o deu à luz."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Não é bom punir o justo, E açoitar pessoas honradas vai contra o que é certo."
+        },
+        {
+          "versiculo": 27,
+          "texto": "O homem de conhecimento controla as suas palavras, E o homem de discernimento mantém a calma."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Até o tolo é considerado sábio quando fica calado, E quem fecha os lábios é considerado alguém de discernimento."
+        }
+      ]
+    },
+    {
+      "numero": 18,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 18:1-24 REPRODUZIR CONTEÚDO DO LIVRO Isolar-se é egoísmo e insensatez ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") O nome de Jeová é uma torre forte ("
+        },
+        {
+          "versiculo": 10,
+          "texto": ") A riqueza é uma proteção ilusória ("
+        },
+        {
+          "versiculo": 11,
+          "texto": ") Sabedoria de escutar os dois lados ("
+        },
+        {
+          "versiculo": 17,
+          "texto": ") Um amigo se apega mais do que um irmão ("
+        },
+        {
+          "versiculo": 24,
+          "texto": ")"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Quem se isola busca seus desejos egoístas; Rejeita toda a sabedoria prática."
+        },
+        {
+          "versiculo": 2,
+          "texto": "O tolo não tem prazer no entendimento; Prefere divulgar o que tem no coração."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Com os maus vem o desprezo, E com a desonra vem a humilhação."
+        },
+        {
+          "versiculo": 4,
+          "texto": "As palavras da boca do homem são como águas profundas. A fonte da sabedoria é como um riacho transbordante."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Não é bom mostrar parcialidade a favor de quem é mau, Nem privar o justo da justiça."
+        },
+        {
+          "versiculo": 6,
+          "texto": "As palavras do tolo provocam discussões, E sua boca atrai uma surra."
+        },
+        {
+          "versiculo": 7,
+          "texto": "A boca do tolo é sua ruína, E seus lábios são uma armadilha para sua vida."
+        },
+        {
+          "versiculo": 8,
+          "texto": "As palavras do caluniador são como petiscos saborosos, Que são engolidos com facilidade e descem direto para o estômago."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Quem é preguiçoso no seu trabalho É irmão de quem causa destruição."
+        },
+        {
+          "versiculo": 10,
+          "texto": "O nome de Jeová é uma torre forte. O justo corre para dentro dela e recebe proteção."
+        },
+        {
+          "versiculo": 11,
+          "texto": "A riqueza do rico é a sua cidade fortificada; Na sua imaginação ela é como uma muralha protetora."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Antes da queda, o coração do homem é arrogante; E antes da glória há humildade."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Responder antes de ouvir os fatos É tolice e resulta em humilhação."
+        },
+        {
+          "versiculo": 14,
+          "texto": "O espírito do homem pode sustentá-lo na sua doença, Mas quem pode suportar o espírito abatido?"
+        },
+        {
+          "versiculo": 15,
+          "texto": "O coração de quem tem entendimento adquire conhecimento, E o ouvido dos sábios busca o conhecimento."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Um presente abre as portas para quem o dá E lhe permite ter acesso a pessoas importantes."
+        },
+        {
+          "versiculo": 17,
+          "texto": "O primeiro a apresentar a sua causa parece estar certo, Até que vem a outra parte e o interroga."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Lançar sortes acaba com as disputas E decide questões entre adversários poderosos."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Um irmão ofendido é mais inacessível do que uma cidade fortificada, E há disputas que são como as trancas de uma fortaleza."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Dos frutos das suas palavras o homem encherá o seu estômago; Ele se fartará com o produto dos seus lábios."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Morte e vida estão no poder da língua; Os que gostam de usá-la comerão os seus frutos."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Quem encontra uma boa esposa encontra algo bom, E recebe o favor de Jeová."
+        },
+        {
+          "versiculo": 23,
+          "texto": "O pobre fala suplicando, Mas o rico responde de modo duro."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Alguns amigos estão prontos para acabar um com o outro, Mas há um amigo que se apega mais do que um irmão."
+        }
+      ]
+    },
+    {
+      "numero": 19,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 19:1-29 REPRODUZIR CONTEÚDO DO LIVRO Perspicácia faz com que a pessoa não se ire facilmente ("
+        },
+        {
+          "versiculo": 11,
+          "texto": ") A esposa briguenta é como uma goteira ("
+        },
+        {
+          "versiculo": 13,
+          "texto": ") A esposa prudente vem de Jeová ("
+        },
+        {
+          "versiculo": 14,
+          "texto": ") Discipline seu filho enquanto há esperança ("
+        },
+        {
+          "versiculo": 18,
+          "texto": ") Sabedoria de escutar conselho ("
+        },
+        {
+          "versiculo": 20,
+          "texto": ")"
+        },
+        {
+          "versiculo": 19,
+          "texto": "Melhor ser pobre e andar em integridade Do que ser tolo e falar mentiras."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Não é bom a pessoa não ter conhecimento, E quem age precipitadamente peca."
+        },
+        {
+          "versiculo": 3,
+          "texto": "É a tolice do homem que distorce o seu caminho, E o seu coração fica furioso com Jeová."
+        },
+        {
+          "versiculo": 4,
+          "texto": "A riqueza atrai muitos amigos, Mas o pobre até pelo amigo será abandonado."
+        },
+        {
+          "versiculo": 5,
+          "texto": "A testemunha falsa não ficará impune, E quem só fala mentiras não escapará."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Muitos buscam o favor de um nobre, E todos são amigos de quem dá presentes."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Se todos os irmãos do pobre o odeiam, Quanto mais os seus amigos se afastarão dele! Ele vai atrás deles com pedidos, mas ninguém responde."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Quem obtém bom senso ama a si mesmo. Quem preza o discernimento será bem-sucedido."
+        },
+        {
+          "versiculo": 9,
+          "texto": "A testemunha falsa não ficará impune, E quem só fala mentiras morrerá."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Não é próprio para o tolo viver em luxo, E muito menos para um servo governar príncipes!"
+        },
+        {
+          "versiculo": 11,
+          "texto": "A perspicácia do homem faz com que ele não se ire facilmente, E é bonito da sua parte deixar passar a ofensa."
+        },
+        {
+          "versiculo": 12,
+          "texto": "A fúria do rei é como o rugido de um leão, Mas seu favor é como o orvalho sobre a vegetação."
+        },
+        {
+          "versiculo": 13,
+          "texto": "O filho tolo causa dificuldades ao seu pai, E a esposa briguenta é como uma goteira que não para de pingar."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Casa e riquezas são herdadas dos pais, Mas a esposa prudente vem de Jeová."
+        },
+        {
+          "versiculo": 15,
+          "texto": "A preguiça causa sono profundo, E a pessoa preguiçosa passará fome."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Quem guarda os mandamentos preserva a sua vida; Quem descuida da própria conduta morrerá."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Quem mostra favor ao pobre empresta a Jeová, E Ele o recompensará por isso."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Discipline o seu filho enquanto há esperança; Não se torne responsável pela morte dele."
+        },
+        {
+          "versiculo": 19,
+          "texto": "O homem que se irrita facilmente será punido; Se você tentar poupá-lo, terá de fazer isso vez após vez."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Escute o conselho e aceite a disciplina, Para se tornar sábio no futuro."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Muitos são os planos no coração do homem, Mas é a vontade de Jeová que prevalecerá."
+        },
+        {
+          "versiculo": 22,
+          "texto": "O que se deseja num homem é seu amor leal; Melhor ser pobre do que mentiroso."
+        },
+        {
+          "versiculo": 23,
+          "texto": "O temor de Jeová conduz à vida; Quem o tem descansará tranquilo, livre de perigo."
+        },
+        {
+          "versiculo": 24,
+          "texto": "O preguiçoso enfia a mão na tigela, Mas nem se esforça em levá-la de volta à boca."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Golpeie o zombador para que o inexperiente se torne prudente; Repreenda quem tem entendimento, e ele aumentará em conhecimento."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Quem maltrata o pai e manda embora a mãe É um filho que causa vergonha e desonra."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Meu filho, se você deixar de escutar a disciplina, Você se desviará das declarações de conhecimento."
+        },
+        {
+          "versiculo": 28,
+          "texto": "A testemunha imprestável zomba da justiça, E a boca dos perversos devora o que é mau."
+        },
+        {
+          "versiculo": 29,
+          "texto": "A condenação está reservada para os zombadores; E os golpes, para as costas dos tolos."
+        }
+      ]
+    },
+    {
+      "numero": 20,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 20:1-30 REPRODUZIR CONTEÚDO DO LIVRO O vinho é zombador ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") O preguiçoso não ara no inverno ("
+        },
+        {
+          "versiculo": 4,
+          "texto": ") Os pensamentos do homem são como águas profundas ("
+        },
+        {
+          "versiculo": 5,
+          "texto": ") Aviso sobre fazer um voto precipitadamente ("
+        },
+        {
+          "versiculo": 25,
+          "texto": ") A glória dos jovens é a sua força ("
+        },
+        {
+          "versiculo": 29,
+          "texto": ")"
+        },
+        {
+          "versiculo": 20,
+          "texto": "O vinho é zombador, e o álcool é indisciplinado; Quem se perde por causa deles não é sábio."
+        },
+        {
+          "versiculo": 2,
+          "texto": "O pavor de um rei é como o rugido de um leão; Quem provoca sua ira arrisca a própria vida."
+        },
+        {
+          "versiculo": 3,
+          "texto": "É honroso para o homem evitar discussões, Mas qualquer tolo se envolve nelas."
+        },
+        {
+          "versiculo": 4,
+          "texto": "O preguiçoso não ara a terra no inverno; Por isso mendigará durante a colheita, quando não tiver nada."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Os pensamentos do coração de um homem são como águas profundas, Mas o homem de discernimento os puxa para fora."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Muitos homens proclamam o seu próprio amor leal, Mas quem pode encontrar um homem fiel?"
+        },
+        {
+          "versiculo": 7,
+          "texto": "O justo está andando na sua integridade. Felizes os filhos que vierem depois dele."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Quando o rei se senta no trono para julgar, Elimina todos os maus com o seu olhar."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Quem pode dizer: “Purifiquei meu coração, Estou limpo do meu pecado”?"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Pesos desonestos e medidas falsificadas São detestáveis para Jeová."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Até mesmo uma criança mostra o que é pelas suas ações, Se o seu comportamento é puro e correto."
+        },
+        {
+          "versiculo": 12,
+          "texto": "O ouvido que ouve e o olho que vê, Foi Jeová que fez a ambos."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Não ame o sono, senão você ficará pobre. Abra os olhos, e terá fartura de pão."
+        },
+        {
+          "versiculo": 14,
+          "texto": "“Não é bom, não é bom!” diz o comprador, Então vai embora e se gaba do negócio que fez."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Há ouro e grande quantidade de corais, Mas os lábios que transmitem conhecimento são mais preciosos."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Tome a roupa do homem que se tornou fiador de um estranho, E tome dele uma garantia caso ele seja fiador de uma mulher estrangeira."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Saboroso para o homem é o pão ganho por meio de mentiras, Mas depois sua boca ficará cheia de cascalho."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Quando há comunicação, os planos são bem-sucedidos; Trave a sua guerra com orientação perita."
+        },
+        {
+          "versiculo": 19,
+          "texto": "O caluniador espalha segredos; Não se junte com quem gosta de tagarelar."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Quem amaldiçoa seu pai e sua mãe Terá sua lâmpada apagada quando chegar a escuridão."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Uma fortuna iniciada com ganância Não será uma bênção no fim."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Não diga: “Vou me vingar!” Espere em Jeová, e ele o salvará."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Pesos desonestos são detestáveis para Jeová, E uma balança enganosa não é boa."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Os passos de um homem são dirigidos por Jeová. Como pode um homem entender seu próprio caminho?"
+        },
+        {
+          "versiculo": 25,
+          "texto": "É uma armadilha para o homem dizer precipitadamente: “É sagrado!” E só depois pensar no voto que fez."
+        },
+        {
+          "versiculo": 26,
+          "texto": "O rei sábio separa os maus E passa sobre eles uma roda de debulhar."
+        },
+        {
+          "versiculo": 27,
+          "texto": "O fôlego do homem é a lâmpada de Jeová; Ela examina o mais íntimo do seu ser."
+        },
+        {
+          "versiculo": 28,
+          "texto": "O amor leal e a fidelidade protegem o rei; Por meio do amor leal ele sustenta seu trono."
+        },
+        {
+          "versiculo": 29,
+          "texto": "A glória dos jovens é a sua força, E o esplendor dos idosos são os seus cabelos brancos."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Ferimentos e contusões removem o mal, E os golpes purificam o mais íntimo do ser."
+        }
+      ]
+    },
+    {
+      "numero": 21,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 21:1-31 REPRODUZIR CONTEÚDO DO LIVRO Jeová direciona o coração do rei ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") A justiça é melhor do que um sacrifício ("
+        },
+        {
+          "versiculo": 3,
+          "texto": ") A diligência dá bons resultados ("
+        },
+        {
+          "versiculo": 5,
+          "texto": ") Quem não escuta o pobre não será ouvido ("
+        },
+        {
+          "versiculo": 13,
+          "texto": ") Não há sabedoria que possa se opor a Jeová ("
+        },
+        {
+          "versiculo": 30,
+          "texto": ")"
+        },
+        {
+          "versiculo": 21,
+          "texto": "O coração do rei é como correntes de água nas mãos de Jeová. Ele o direciona para onde quiser."
+        },
+        {
+          "versiculo": 2,
+          "texto": "O homem pensa que todos os seus caminhos são certos, Mas Jeová examina os corações."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Fazer o que é correto e justo É mais agradável a Jeová do que um sacrifício."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Olhos arrogantes e um coração orgulhoso; A lâmpada que guia os maus é o pecado."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Os planos do diligente certamente dão bons resultados, Mas todos os precipitados acabarão na pobreza."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Tesouros obtidos com uma língua mentirosa São como uma neblina passageira, uma armadilha mortal."
+        },
+        {
+          "versiculo": 7,
+          "texto": "A violência dos maus os destruirá, Pois eles se negam a praticar a justiça."
+        },
+        {
+          "versiculo": 8,
+          "texto": "O caminho do homem culpado é tortuoso, Mas as ações do homem puro são retas."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Melhor morar num canto do terraço Do que com uma esposa briguenta, na mesma casa."
+        },
+        {
+          "versiculo": 10,
+          "texto": "O homem perverso anseia o que é mau; Ele não mostra favor ao seu próximo."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Quando o zombador é punido, o inexperiente obtém sabedoria; Quando o sábio recebe instrução, obtém conhecimento."
+        },
+        {
+          "versiculo": 12,
+          "texto": "O Justo observa a casa de quem é mau, E faz os maus cair na ruína."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Quem tapa o ouvido ao clamor do pobre, Também clamará e não terá resposta."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Um presente dado em segredo abranda a ira; E o suborno dado às escondidas, o forte furor."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Agir com justiça é uma alegria para o justo, Mas é algo terrível para os que praticam a maldade."
+        },
+        {
+          "versiculo": 16,
+          "texto": "O homem que se desvia do caminho do entendimento Descansará na companhia dos impotentes na morte."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Quem ama a diversão ficará pobre; Quem ama o vinho e o azeite não ficará rico."
+        },
+        {
+          "versiculo": 18,
+          "texto": "O perverso serve de resgate para o justo; E o traiçoeiro, para os íntegros."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Melhor morar no deserto Do que com uma esposa briguenta e geniosa."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Há tesouro precioso e azeite na casa do sábio, Mas o tolo desperdiça o que tem."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Quem se empenha pela justiça e pelo amor leal Achará vida, justiça e glória."
+        },
+        {
+          "versiculo": 22,
+          "texto": "O sábio pode escalar a muralha da cidade dos valentes E minar a força em que eles confiam."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Quem vigia sua boca e sua língua Fica livre de problemas."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Chama-se de zombador presunçoso e arrogante Quem age com excessiva presunção."
+        },
+        {
+          "versiculo": 25,
+          "texto": "O desejo do preguiçoso o matará, Pois suas mãos se negam a trabalhar."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Ele passa o dia desejando avidamente, Mas o justo dá sem reservas."
+        },
+        {
+          "versiculo": 27,
+          "texto": "O sacrifício dos maus é detestável. Quanto mais quando o oferecem com más intenções!"
+        },
+        {
+          "versiculo": 28,
+          "texto": "A testemunha mentirosa morrerá, Mas o homem que sabe escutar será bem-sucedido em seu testemunho."
+        },
+        {
+          "versiculo": 29,
+          "texto": "O perverso mostra no rosto a sua insolência, Mas é o justo que tem o caminho seguro."
+        },
+        {
+          "versiculo": 30,
+          "texto": "Não há sabedoria, nem discernimento, nem conselho que possam se opor a Jeová."
+        },
+        {
+          "versiculo": 31,
+          "texto": "O cavalo é preparado para o dia da batalha, Mas a salvação pertence a Jeová."
+        }
+      ]
+    },
+    {
+      "numero": 22,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 22:1-29 REPRODUZIR CONTEÚDO DO LIVRO Um bom nome é melhor do que muitas riquezas ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") A educação na infância durará a vida toda ("
+        },
+        {
+          "versiculo": 6,
+          "texto": ") O preguiçoso tem medo do leão lá fora ("
+        },
+        {
+          "versiculo": 13,
+          "texto": ") A disciplina afasta a tolice ("
+        },
+        {
+          "versiculo": 15,
+          "texto": ") O trabalhador habilidoso serve a reis ("
+        },
+        {
+          "versiculo": 29,
+          "texto": ")"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Mais vale um bom nome do que muitas riquezas; Ser estimado é melhor do que prata e ouro."
+        },
+        {
+          "versiculo": 2,
+          "texto": "O rico e o pobre têm isto em comum: Jeová fez os dois."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Quem é prudente vê o perigo e se esconde, Mas os inexperientes vão em frente e sofrem as consequências."
+        },
+        {
+          "versiculo": 4,
+          "texto": "A humildade e o temor de Jeová resultam Em riquezas, glória e vida."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Há espinhos e armadilhas no caminho do perverso, Mas quem dá valor à vida fica longe deles."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Eduque a criança no caminho em que ela deve andar; Mesmo quando ela envelhecer, não se desviará dele."
+        },
+        {
+          "versiculo": 7,
+          "texto": "O rico domina o pobre, E quem toma emprestado é escravo de quem empresta."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Quem semeia injustiça colherá desgraça, E a vara da sua fúria chegará ao fim."
+        },
+        {
+          "versiculo": 9,
+          "texto": "A pessoa generosa será abençoada, Pois reparte seu alimento com o pobre."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Expulse o zombador, E as brigas desaparecerão; As disputas e os insultos acabarão."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Quem ama a pureza de coração e fala palavras agradáveis Terá o rei como seu amigo."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Os olhos de Jeová resguardam o conhecimento, Mas ele faz fracassar as palavras do traiçoeiro."
+        },
+        {
+          "versiculo": 13,
+          "texto": "O preguiçoso diz: “Há um leão lá fora! Serei morto no meio da rua!”"
+        },
+        {
+          "versiculo": 14,
+          "texto": "A boca da mulher imoral é uma cova funda. Quem é condenado por Jeová cairá nela."
+        },
+        {
+          "versiculo": 15,
+          "texto": "A tolice está ligada ao coração das crianças, Mas a vara da disciplina a afastará delas."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Tanto quem defrauda o pobre para enriquecer Como quem dá presentes ao rico Acabarão na pobreza."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Preste atenção e escute as palavras dos sábios, Para aplicar seu coração ao meu conhecimento;"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Pois será agradável guardá-las no seu íntimo, Para que todas elas estejam sempre nos seus lábios."
+        },
+        {
+          "versiculo": 19,
+          "texto": "A fim de que a sua confiança esteja em Jeová, Dou-lhe hoje conhecimento."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Já não lhe escrevi Para dar conselhos e conhecimento,"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Para lhe ensinar palavras verdadeiras e confiáveis, A fim de que você possa voltar com um relatório exato a quem o enviou?"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Não roube o pobre por ele ser pobre, E não oprima o humilde no portão da cidade,"
+        },
+        {
+          "versiculo": 23,
+          "texto": "Pois o próprio Jeová defenderá a causa deles E tirará a vida dos que os defraudam."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Não ande com quem se irrita facilmente, Nem se envolva com quem é propenso à ira,"
+        },
+        {
+          "versiculo": 25,
+          "texto": "Para que você nunca aprenda seus caminhos E arme um laço para si mesmo."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Não seja daqueles que dão um aperto de mão, Que se tornam fiadores de empréstimos."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Se não tiver como pagar, Até a sua cama será tirada de debaixo de você!"
+        },
+        {
+          "versiculo": 28,
+          "texto": "Não mude de lugar os antigos marcos divisórios Que foram colocados pelos seus antepassados."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Você já viu um homem que é habilidoso no seu trabalho? Ele tomará posição diante de reis, Não diante de homens comuns."
+        }
+      ]
+    },
+    {
+      "numero": 23,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 23:1-35 REPRODUZIR CONTEÚDO DO LIVRO Seja prudente ao aceitar hospitalidade ("
+        },
+        {
+          "versiculo": 2,
+          "texto": ") Não busque riquezas ("
+        },
+        {
+          "versiculo": 4,
+          "texto": ") As riquezas podem voar para longe ("
+        },
+        {
+          "versiculo": 5,
+          "texto": ") Não esteja entre os que bebem em excesso ("
+        },
+        {
+          "versiculo": 20,
+          "texto": ") A bebida alcoólica morderá igual a uma serpente ("
+        },
+        {
+          "versiculo": 32,
+          "texto": ")"
+        },
+        {
+          "versiculo": 23,
+          "texto": "Quando você se sentar com um rei para comer, Considere cuidadosamente o que está diante de você;"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Ponha uma faca na sua própria garganta, Se você tiver um grande apetite."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Não deseje suas iguarias, Pois são alimentos enganosos."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Não se esgote para obter riquezas. Pare e mostre entendimento."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Assim que você põe os olhos nelas, elas desaparecem, Pois certamente criam asas como uma águia e saem voando para o céu."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Não coma a comida de alguém mesquinho; Não deseje suas iguarias,"
+        },
+        {
+          "versiculo": 7,
+          "texto": "Pois ele é como alguém que fica calculando os gastos. Ele lhe diz: “Coma e beba”, mas não está sendo sincero."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Você vomitará o pouco que comeu E terá desperdiçado seus elogios."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Não fale aos ouvidos do tolo, Pois ele desprezará a sabedoria das suas palavras."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Não mude de lugar os antigos marcos divisórios, Nem entre no campo dos órfãos."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Pois o Defensor deles é forte; Ele defenderá a causa deles contra você."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Aplique seu coração à disciplina E seu ouvido às declarações de conhecimento."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Não deixe de disciplinar o menino. Se você bater nele com a vara, ele não morrerá."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Você deve bater nele com a vara, Para salvá-lo da Sepultura."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Meu filho, se o seu coração se tornar sábio, Meu coração se alegrará."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Meu íntimo sentirá alegria Quando seus lábios falarem o que é certo."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Que o seu coração não inveje os pecadores, Mas que tema a Jeová o dia inteiro,"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Pois então você terá um bom futuro, E a sua esperança não lhe será tirada."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Meu filho, ouça e torne-se sábio, E guie seu coração no caminho certo."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Não esteja entre os que bebem muito vinho, Entre os que se empanturram de carne,"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Pois o beberrão e o glutão ficarão pobres, E a sonolência os vestirá de trapos."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Escute seu pai, que causou o seu nascimento, E não despreze a sua mãe só porque ela envelheceu."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Compre a verdade e nunca a venda, Também a sabedoria, a disciplina e o entendimento."
+        },
+        {
+          "versiculo": 24,
+          "texto": "O pai de um justo com certeza exultará; Quem é pai de um filho sábio se alegrará por causa dele."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Seu pai e sua mãe se alegrarão, E aquela que o deu à luz exultará."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Meu filho, dê-me o seu coração, E que os seus olhos se agradem dos meus caminhos."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Pois a prostituta é uma cova funda, E a mulher imoral é um poço estreito;"
+        },
+        {
+          "versiculo": 28,
+          "texto": "Igual a um assaltante, ela fica de emboscada, E aumenta o número de homens infiéis."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Quem tem ais? Quem tem ansiedades? Quem tem discussões? Quem tem queixas? Quem tem ferimentos sem nenhum motivo? Quem tem olhos vermelhos?"
+        },
+        {
+          "versiculo": 30,
+          "texto": "Os que passam muito tempo bebendo vinho, Os que procuram vinho misturado."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Não fique olhando para a cor vermelha do vinho, Quando ele cintila no copo e desce suavemente,"
+        },
+        {
+          "versiculo": 32,
+          "texto": "Pois no fim ele morde igual a uma serpente E libera veneno igual a uma víbora."
+        },
+        {
+          "versiculo": 33,
+          "texto": "Seus olhos verão coisas estranhas, E seu coração falará coisas perversas."
+        },
+        {
+          "versiculo": 34,
+          "texto": "Você ficará como quem se deita no meio do mar, Como quem se deita no topo do mastro de um navio."
+        },
+        {
+          "versiculo": 35,
+          "texto": "Você dirá: “Bateram em mim, mas não senti nada; Deram uma surra em mim, mas não percebi. Quando é que acordarei? Preciso de mais uma bebida.”"
+        }
+      ]
+    },
+    {
+      "numero": 24,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 24:1-34 REPRODUZIR CONTEÚDO DO LIVRO Não inveje os maus ("
+        },
+        {
+          "versiculo": 1,
+          "texto": ") Pela sabedoria se edifica uma casa ("
+        },
+        {
+          "versiculo": 3,
+          "texto": ") Mesmo que o justo caia, ele se levantará ("
+        },
+        {
+          "versiculo": 16,
+          "texto": ") Não revide ("
+        },
+        {
+          "versiculo": 29,
+          "texto": ") Cochilar leva à pobreza ( 33, 34 )"
+        },
+        {
+          "versiculo": 24,
+          "texto": "Não inveje os maus, Nem deseje a companhia deles,"
+        },
+        {
+          "versiculo": 2,
+          "texto": "Pois o coração deles trama violência, E seus lábios falam de coisas ruins."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Pela sabedoria se edifica uma casa, E pelo discernimento ela é firmada."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Pelo conhecimento seus aposentos ficam cheios De todo tipo de tesouros preciosos e agradáveis."
+        },
+        {
+          "versiculo": 5,
+          "texto": "O homem sábio é forte, E com o conhecimento o homem aumenta a sua força."
+        },
+        {
+          "versiculo": 6,
+          "texto": "É com orientação perita que você travará a sua guerra, E com muitos conselheiros há vitória."
+        },
+        {
+          "versiculo": 7,
+          "texto": "A verdadeira sabedoria é inalcançável para o tolo; Ele não tem nada a dizer no portão da cidade."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Quem trama o mal Será chamado de mestre em intrigas."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Tramas tolas são pecado, E as pessoas detestam o zombador."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Se você ficar desanimado no dia da aflição, Sua força será escassa."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Livre os que estão sendo levados para a morte; Salve os que estão cambaleando para a matança."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Se você disser: “Mas não sabíamos de nada”, Será que Aquele que examina os corações não discernirá isso? Sim, Aquele que observa você saberá E retribuirá a cada homem segundo as suas ações."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Meu filho, coma mel, porque é bom; O mel dos favos é doce para o paladar."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Do mesmo modo, saiba que a sabedoria é boa para você. Se a achar, você terá um bom futuro, E a sua esperança não lhe será tirada."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Não fique de emboscada, como um homem perverso, perto da casa do justo; Não destrua seu lugar de descanso."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Pois, mesmo que o justo caia sete vezes, ele se levantará de novo; Mas os maus tropeçarão por causa da calamidade."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Quando o seu inimigo cair, não se alegre; E, quando ele tropeçar, seu coração não deve exultar;"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Senão, Jeová verá isso e não ficará satisfeito, E fará sua ira recuar dele."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Não fique aborrecido por causa dos malfeitores; Não inveje os maus."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Pois não há futuro para os malfeitores; A lâmpada dos maus será apagada."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Meu filho, tema a Jeová e ao rei, E não se envolva com dissidentes,"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Pois o desastre deles ocorrerá repentinamente. Quem sabe que ruína os dois trarão sobre eles?"
+        },
+        {
+          "versiculo": 23,
+          "texto": "Estas declarações também são dos sábios: Não é bom mostrar parcialidade no julgamento."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Quem disser àquele que é mau: “Você é justo”, Será amaldiçoado pelos povos e condenado pelas nações."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Mas os que o repreendem se sairão bem E serão abençoados com coisas boas."
+        },
+        {
+          "versiculo": 26,
+          "texto": "As pessoas beijarão os lábios daquele que dá uma resposta sincera."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Prepare o seu trabalho lá fora e deixe tudo pronto no campo; Depois construa a sua casa."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Não testemunhe contra o seu próximo se não tiver base, Não use os seus lábios para enganar outros."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Não diga: “Farei com ele o mesmo que ele fez comigo; Eu lhe retribuirei o que ele fez.”"
+        },
+        {
+          "versiculo": 30,
+          "texto": "Passei pelo campo do preguiçoso, Pelo vinhedo do homem que não tem bom senso."
+        },
+        {
+          "versiculo": 31,
+          "texto": "Vi que estava cheio de ervas daninhas; O solo estava coberto de urtigas, E seu muro de pedras estava em ruínas."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Observei isso e fiquei pensando; Vi e aprendi a seguinte lição:"
+        },
+        {
+          "versiculo": 33,
+          "texto": "Um pouco de sono, um pouco de cochilo, Um pouco de cruzar os braços para descansar,"
+        },
+        {
+          "versiculo": 34,
+          "texto": "E a sua pobreza chegará como um ladrão, E a sua carência como um homem armado."
+        }
+      ]
+    },
+    {
+      "numero": 25,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 25:1-28 REPRODUZIR CONTEÚDO DO LIVRO Confidencialidade ("
+        },
+        {
+          "versiculo": 9,
+          "texto": ") Palavras bem escolhidas ("
+        },
+        {
+          "versiculo": 11,
+          "texto": ") Respeitar a privacidade ("
+        },
+        {
+          "versiculo": 17,
+          "texto": ") Amontoar brasas sobre a cabeça de um inimigo ( 21, 22 ) A notícia boa é como água fresca ("
+        },
+        {
+          "versiculo": 25,
+          "texto": ")"
+        },
+        {
+          "versiculo": 25,
+          "texto": "Estes também são provérbios de Salomão e foram transcritos pelos homens de Ezequias, rei de Judá:"
+        },
+        {
+          "versiculo": 2,
+          "texto": "A glória de Deus é manter um assunto em segredo, E a glória dos reis é examinar um assunto."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Assim como os céus são elevados e a terra é profunda, Assim o coração dos reis é insondável."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Remova a escória da prata, E ela ficará completamente refinada."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Retire aquele que é mau da presença do rei, E seu trono ficará firmemente estabelecido na justiça."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Não honre a si mesmo diante do rei, Nem ocupe um lugar entre homens importantes,"
+        },
+        {
+          "versiculo": 7,
+          "texto": "Pois é melhor que ele lhe diga: “Suba para cá”, Do que ele humilhar você na presença de um nobre."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Não se apresse para entrar numa disputa judicial, Pois o que você fará depois, se o seu próximo o humilhar?"
+        },
+        {
+          "versiculo": 9,
+          "texto": "Resolva a sua causa com o seu próximo, Mas não revele o que lhe confidenciaram."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Caso contrário, quem escuta o envergonhará, E você não poderá retirar o mau relato que espalhou."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Como maçãs de ouro em esculturas de prata É a palavra falada no tempo certo."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Como brincos de ouro e um enfeite de ouro puro É a repreensão do sábio para o ouvido atento."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Como a neve refrescante no dia da colheita É o mensageiro fiel para os que o enviam, Pois ele reanima o seu senhor."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Como nuvens e vento que não trazem chuva É o homem que se gaba de um presente que nunca deu."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Com paciência pode-se convencer um governante, E a língua suave pode quebrar um osso."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Se você encontrar mel, coma apenas o necessário; Pois, se comer demais, acabará vomitando."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Ponha raramente o pé na casa do seu próximo, Para que ele não se canse de você e passe a odiá-lo."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Como uma clava de guerra, uma espada ou uma flecha afiada É o homem que dá falso testemunho contra o seu próximo."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Como um dente quebrado e um pé sem firmeza É confiar, em tempos de aflição, em quem não merece crédito."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Como quem tira a roupa num dia frio E como vinagre derramado na soda É aquele que canta canções para um coração triste."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Se o seu inimigo estiver com fome, dê-lhe pão para comer; Se estiver com sede, dê-lhe água para beber;"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Pois assim você amontoará brasas sobre a cabeça dele, E Jeová recompensará você."
+        },
+        {
+          "versiculo": 23,
+          "texto": "O vento norte traz chuva; E a língua tagarela, rostos irados."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Melhor morar num canto do terraço Do que com uma esposa briguenta, na mesma casa."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Como água fresca para a alma cansada, Assim é a notícia boa de uma terra distante."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Como uma nascente barrenta e uma fonte poluída É o justo que cede diante de quem é mau."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Não é bom comer mel demais, Nem é glorioso buscar a própria glória."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Como uma cidade arrombada, sem muralhas, É o homem que não consegue se controlar."
+        }
+      ]
+    },
+    {
+      "numero": 26,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 26:1-28 REPRODUZIR CONTEÚDO DO LIVRO Descrição do preguiçoso ( 13-16 ) Não se envolva na discussão dos outros ("
+        },
+        {
+          "versiculo": 17,
+          "texto": ") Evite brincadeiras de mau gosto ( 18, 19 ) Sem lenha não há fogo ( 20, 21 ) As palavras do caluniador são como petiscos saborosos ("
+        },
+        {
+          "versiculo": 22,
+          "texto": ")"
+        },
+        {
+          "versiculo": 26,
+          "texto": "Como a neve no verão e a chuva na colheita, Assim a honra não é própria para o tolo."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Assim como o pássaro tem motivo para fugir e a andorinha para voar, Assim a maldição não vem sem nenhum motivo."
+        },
+        {
+          "versiculo": 3,
+          "texto": "O chicote é para o cavalo, o freio é para o jumento, E a vara é para as costas dos tolos."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Não responda ao tolo de acordo com a tolice dele, Para que você não se iguale a ele."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Responda ao tolo de acordo com a tolice dele, Para que ele não pense que é sábio."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Como alguém que mutila os próprios pés e prejudica a si mesmo, Assim é quem confia seus assuntos ao tolo."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Como as pernas fracas de um manco, Assim é um provérbio na boca dos tolos."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Como amarrar uma pedra na funda, Assim é dar glória a um tolo."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Como uma planta espinhosa na mão do bêbado, Assim é um provérbio na boca dos tolos."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Como um arqueiro que fere ao acaso, Assim é quem contrata o tolo ou qualquer um que passa."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Assim como o cão que volta ao seu vômito, Assim o tolo repete a sua tolice."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Você já viu um homem que pensa que é sábio? Há mais esperança para um tolo do que para ele."
+        },
+        {
+          "versiculo": 13,
+          "texto": "O preguiçoso diz: “Há um leão jovem na estrada, Há um leão no meio da rua!”"
+        },
+        {
+          "versiculo": 14,
+          "texto": "A porta gira em suas dobradiças, E o preguiçoso em sua cama."
+        },
+        {
+          "versiculo": 15,
+          "texto": "O preguiçoso enfia a mão na tigela, Mas fica cansado demais para levá-la de volta à boca."
+        },
+        {
+          "versiculo": 16,
+          "texto": "O preguiçoso pensa que é mais sábio Do que sete pessoas que respondem de modo sensato."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Como alguém que agarra as orelhas de um cão É quem passa e fica furioso por causa da discussão dos outros."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Como um louco que atira dardos ardentes e flechas mortais,"
+        },
+        {
+          "versiculo": 19,
+          "texto": "Assim é o homem que engana seu próximo e diz: “Eu só estava brincando!”"
+        },
+        {
+          "versiculo": 20,
+          "texto": "Onde não há lenha, apaga-se o fogo; E onde não há caluniador, acaba-se a discussão."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Como o carvão para as brasas e a lenha para o fogo, Assim é o homem briguento para atiçar uma discussão."
+        },
+        {
+          "versiculo": 22,
+          "texto": "As palavras do caluniador são como petiscos saborosos, Que são engolidos com facilidade e descem direto para o estômago."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Como a prata que reveste um caco de barro, Assim são as palavras carinhosas vindas de um coração mau."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Quem odeia outros disfarça isso com os lábios, Mas abriga falsidade dentro de si."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Apesar de ele falar de modo gentil, não acredite nele, Pois há sete coisas detestáveis no seu coração."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Embora seu ódio seja escondido pela falsidade, Sua maldade será exposta na congregação."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Quem cava um buraco cairá nele, E quem rola uma pedra será atingido por ela."
+        },
+        {
+          "versiculo": 28,
+          "texto": "A língua mentirosa odeia aqueles a quem ela oprime, E a boca bajuladora causa ruína."
+        }
+      ]
+    },
+    {
+      "numero": 27,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 27:1-27 REPRODUZIR CONTEÚDO DO LIVRO A repreensão vinda de um amigo é proveitosa ( 5, 6 ) Meu filho, alegre meu coração ("
+        },
+        {
+          "versiculo": 11,
+          "texto": ") O ferro afia o ferro ("
+        },
+        {
+          "versiculo": 17,
+          "texto": ") Conheça seu rebanho ("
+        },
+        {
+          "versiculo": 23,
+          "texto": ") As riquezas não duram para sempre ("
+        },
+        {
+          "versiculo": 24,
+          "texto": ")"
+        },
+        {
+          "versiculo": 27,
+          "texto": "Não se gabe do amanhã, Pois você não sabe o que cada dia trará."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Que outros, não a sua própria boca, façam elogios a você; Que outra pessoa faça isso, não os seus próprios lábios."
+        },
+        {
+          "versiculo": 3,
+          "texto": "A pedra é pesada, e a areia é uma carga, Mas a irritação causada por um tolo é mais pesada do que as duas."
+        },
+        {
+          "versiculo": 4,
+          "texto": "O furor é cruel, e a ira é como uma enxurrada, Mas quem pode resistir ao ciúme?"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Melhor a repreensão feita abertamente do que o amor escondido."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Leais são os ferimentos causados por um amigo, Mas muitos são os beijos do inimigo."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Quem está com o apetite saciado recusa o mel dos favos; Mas, para quem está faminto, até o amargo é doce."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Como um pássaro afastado do ninho É o homem afastado do seu lar."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Óleo e incenso alegram o coração, Bem como a doce amizade que nasce de um conselho sincero."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Não abandone o seu amigo ou o amigo do seu pai, E não vá à casa do seu irmão quando você sofrer uma calamidade; Melhor um vizinho perto do que um irmão longe."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Seja sábio, meu filho, e alegre meu coração, Para que eu possa dar uma resposta àquele que me desafia."
+        },
+        {
+          "versiculo": 12,
+          "texto": "A pessoa prudente vê o perigo e se esconde, Mas os inexperientes vão em frente e sofrem as consequências."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Tome a roupa do homem que se tornou fiador de um estranho, E tome dele uma garantia caso ele seja fiador de uma mulher estrangeira."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Quando alguém abençoa seu próximo com voz bem alta, de manhã cedo, Isso é encarado por ele como maldição."
+        },
+        {
+          "versiculo": 15,
+          "texto": "A esposa briguenta é como uma goteira que pinga sem parar num dia de chuva."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Quem consegue detê-la, consegue deter o vento E consegue pegar óleo com a mão direita."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Assim como o ferro afia o ferro, Assim o homem afia o seu amigo."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Quem cuida da figueira comerá do seu fruto, E quem cuida do seu senhor será honrado."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Assim como a água reflete o rosto de um homem, Assim o coração de um homem reflete o de outro."
+        },
+        {
+          "versiculo": 20,
+          "texto": "A Sepultura e o lugar de destruição nunca se saciam, Assim também os olhos do homem são insaciáveis."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Assim como o cadinho é para a prata e o forno de fundição para o ouro, Assim a pessoa é testada pelo elogio que recebe."
+        },
+        {
+          "versiculo": 22,
+          "texto": "Mesmo que você triture o tolo Como grãos no pilão, Sua tolice não se afastará dele."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Você deve conhecer bem a aparência do seu rebanho. Cuide bem das suas ovelhas,"
+        },
+        {
+          "versiculo": 24,
+          "texto": "Pois as riquezas não duram para sempre, Nem a coroa por todas as gerações."
+        },
+        {
+          "versiculo": 25,
+          "texto": "A relva verde desaparece, e aparece a relva nova, E é recolhida a vegetação dos montes."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Os carneirinhos fornecem a sua roupa, E os bodes fornecem o preço de um campo."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Também há bastante leite de cabra para alimentar você, Para alimentar os da sua casa e para sustentar as suas servas."
+        }
+      ]
+    },
+    {
+      "numero": 28,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 28:1-28 REPRODUZIR CONTEÚDO DO LIVRO A oração de quem não dá ouvidos à lei é detestável ("
+        },
+        {
+          "versiculo": 9,
+          "texto": ") Quem confessa recebe misericórdia ("
+        },
+        {
+          "versiculo": 13,
+          "texto": ") Não há riqueza rápida sem pecado ("
+        },
+        {
+          "versiculo": 20,
+          "texto": ") Repreensão melhor que bajulação ("
+        },
+        {
+          "versiculo": 23,
+          "texto": ") Os generosos não têm falta de nada ("
+        },
+        {
+          "versiculo": 27,
+          "texto": ")"
+        },
+        {
+          "versiculo": 28,
+          "texto": "Os maus fogem mesmo quando ninguém os persegue, Mas os justos são tão confiantes como um leão."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Quando há transgressão no país, há uma sucessão de príncipes; Mas, com a ajuda de um homem de discernimento e conhecimento, o príncipe permanecerá por muito tempo."
+        },
+        {
+          "versiculo": 3,
+          "texto": "O pobre que defrauda os humildes É como a chuva devastadora que acaba com todo o alimento."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Os que abandonam a lei elogiam quem é mau, Mas os que obedecem à lei ficam indignados com eles."
+        },
+        {
+          "versiculo": 5,
+          "texto": "Os maus não podem entender a justiça, Mas os que buscam a Jeová podem entender tudo."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Melhor o pobre que anda na sua integridade Do que o rico que segue caminhos corruptos."
+        },
+        {
+          "versiculo": 7,
+          "texto": "O filho que tem entendimento obedece à lei, Mas quem é amigo de glutões desonra seu pai."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Quem aumenta a sua riqueza por meio de juros ou lucros injustos Acumula-a para aquele que mostra favor aos pobres."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Quem se recusa a dar ouvidos à lei, Até mesmo sua oração é detestável."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Quem desvia o justo para o mau caminho cairá na sua própria armadilha, Mas os íntegros herdarão o que é bom."
+        },
+        {
+          "versiculo": 11,
+          "texto": "O rico é sábio aos seus próprios olhos, Mas o pobre que tem discernimento o vê como ele realmente é."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Quando os justos triunfam, há grande glória; Mas, quando os maus sobem ao poder, as pessoas se escondem."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Quem encobre as suas transgressões não será bem-sucedido, Mas aquele que as confessa e abandona será tratado com misericórdia."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Feliz o homem que sempre está vigilante, Mas quem endurece seu coração sofrerá calamidade."
+        },
+        {
+          "versiculo": 15,
+          "texto": "Como o leão que ruge e o urso que ataca É o governante perverso que domina sobre um povo indefeso."
+        },
+        {
+          "versiculo": 16,
+          "texto": "O líder que não tem discernimento abusa do poder, Mas quem odeia o lucro desonesto prolongará sua vida."
+        },
+        {
+          "versiculo": 17,
+          "texto": "O homem atormentado pela culpa de sangue, por ter tirado uma vida, será fugitivo até a sepultura. Que ninguém o ajude!"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Quem anda de modo íntegro será salvo, Mas quem segue caminhos tortuosos cairá repentinamente."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Quem cultiva seu solo se fartará de pão, Mas quem se empenha por coisas sem valor se fartará de pobreza."
+        },
+        {
+          "versiculo": 20,
+          "texto": "O homem fiel receberá muitas bênçãos, Mas quem se apressa para enriquecer não continuará inocente."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Não é bom mostrar parcialidade, Mas talvez um homem faça o que é errado por um pedaço de pão."
+        },
+        {
+          "versiculo": 22,
+          "texto": "O homem invejoso corre atrás de riquezas, Sem saber que a pobreza virá sobre ele."
+        },
+        {
+          "versiculo": 23,
+          "texto": "Quem repreende um homem achará por fim mais favor Do que alguém que usa a língua para bajular."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Quem rouba o pai e a mãe, e diz: “Isso não é errado”, É parceiro do homem que causa ruína."
+        },
+        {
+          "versiculo": 25,
+          "texto": "A pessoa gananciosa provoca discórdias, Mas quem confia em Jeová prosperará."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Quem confia no seu próprio coração é tolo, Mas quem anda em sabedoria escapará."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Quem dá aos pobres não terá falta de nada, Mas quem fecha os olhos para eles receberá muitas maldições."
+        },
+        {
+          "versiculo": 28,
+          "texto": "Quando os maus sobem ao poder, o homem se esconde; Mas, quando eles morrem, os justos se tornam muitos."
+        }
+      ]
+    },
+    {
+      "numero": 29,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 29:1-27 REPRODUZIR CONTEÚDO DO LIVRO A criança deixada solta causa vergonha ("
+        },
+        {
+          "versiculo": 15,
+          "texto": ") Sem uma visão, o povo fica sem controle ("
+        },
+        {
+          "versiculo": 18,
+          "texto": ") O homem irado provoca brigas ("
+        },
+        {
+          "versiculo": 22,
+          "texto": ") O humilde obtém glória ("
+        },
+        {
+          "versiculo": 23,
+          "texto": ") O medo de homens é uma armadilha ("
+        },
+        {
+          "versiculo": 25,
+          "texto": ")"
+        },
+        {
+          "versiculo": 29,
+          "texto": "O homem que continua obstinado depois de muita repreensão Será arruinado de repente, e não haverá remédio."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Quando os justos são muitos, o povo se alegra; Mas, quando os maus governam, o povo geme."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Quem ama a sabedoria alegra seu pai, Mas quem anda com prostitutas desperdiça sua riqueza."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Por meio da justiça o rei dá estabilidade ao país, Mas o homem que procura suborno leva o país à ruína."
+        },
+        {
+          "versiculo": 5,
+          "texto": "O homem que bajula seu próximo Arma uma rede para os pés dele."
+        },
+        {
+          "versiculo": 6,
+          "texto": "A transgressão do perverso é um laço para ele, Mas o justo grita de alegria e exulta."
+        },
+        {
+          "versiculo": 7,
+          "texto": "O justo se preocupa com os direitos dos pobres, Mas os maus não se importam com isso."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Homens que se gabam incendeiam a cidade, Mas os sábios acalmam a ira."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Quando um sábio entra numa controvérsia com um tolo, Há exaltação e zombaria, mas nada é resolvido."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Homens sanguinários odeiam quem é inocente, E procuram tirar a vida do justo."
+        },
+        {
+          "versiculo": 11,
+          "texto": "O tolo dá vazão a toda a sua ira, Mas o sábio continua calmo e a mantém sob controle."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Quando o governante dá atenção a mentiras, Todos os seus servos são maus."
+        },
+        {
+          "versiculo": 13,
+          "texto": "O pobre e o opressor têm isto em comum: Jeová dá luz aos olhos dos dois."
+        },
+        {
+          "versiculo": 14,
+          "texto": "Se um rei julgar os pobres de modo imparcial, Seu trono estará sempre seguro."
+        },
+        {
+          "versiculo": 15,
+          "texto": "A vara e a repreensão dão sabedoria, Mas a criança deixada solta causa vergonha à sua mãe."
+        },
+        {
+          "versiculo": 16,
+          "texto": "Quando os maus se multiplicam, multiplicam-se as transgressões; Mas os justos verão a queda deles."
+        },
+        {
+          "versiculo": 17,
+          "texto": "Discipline seu filho, e ele lhe trará descanso E dará grande prazer a você."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Quando não há visão, o povo fica sem controle, Mas os que obedecem à lei são felizes."
+        },
+        {
+          "versiculo": 19,
+          "texto": "Um servo não se deixará corrigir só com palavras, Pois, embora ele compreenda, não obedece."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Você já observou um homem que fala de modo precipitado? Há mais esperança para um tolo do que para ele."
+        },
+        {
+          "versiculo": 21,
+          "texto": "Se um servo é mimado desde jovem, Ele acabará se tornando um ingrato."
+        },
+        {
+          "versiculo": 22,
+          "texto": "O homem que facilmente se ira provoca brigas, E quem é propenso à ira comete muitas transgressões."
+        },
+        {
+          "versiculo": 23,
+          "texto": "A arrogância do homem o humilhará, Mas quem é humilde de espírito terá glória."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Quem é parceiro de um ladrão odeia a si mesmo. Ele ouve a convocação para testemunhar, mas não relata nada."
+        },
+        {
+          "versiculo": 25,
+          "texto": "Tremer diante de homens é uma armadilha, Mas quem confia em Jeová será protegido."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Muitos buscam uma audiência com um governante, Mas é de Jeová que se obtém justiça."
+        },
+        {
+          "versiculo": 27,
+          "texto": "O homem injusto é detestável para os justos, E quem anda no caminho reto é detestável para quem é mau."
+        }
+      ]
+    },
+    {
+      "numero": 30,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 30:1-33 REPRODUZIR CONTEÚDO DO LIVRO P ALAVRAS DE A GUR ( 1-33 ) Não me dês nem pobreza nem riquezas ("
+        },
+        {
+          "versiculo": 8,
+          "texto": ") Coisas que nunca ficam satisfeitas ( 15, 16 ) Coisas que não deixam rastro ( 18, 19 ) Mulher adúltera ("
+        },
+        {
+          "versiculo": 20,
+          "texto": ") Animais que são instintivamente sábios ("
+        },
+        {
+          "versiculo": 24,
+          "texto": ")"
+        },
+        {
+          "versiculo": 30,
+          "texto": "Palavras de Agur, filho de Jaque. A mensagem importante que ele transmitiu a Itiel; a Itiel e a Ucal."
+        },
+        {
+          "versiculo": 2,
+          "texto": "Sou mais ignorante do que qualquer outro, E não tenho o entendimento que um homem deveria ter."
+        },
+        {
+          "versiculo": 3,
+          "texto": "Não aprendi a sabedoria, E não tenho o conhecimento do Santíssimo."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Quem subiu ao céu e depois desceu? Quem ajuntou o vento na palma das mãos? Quem embrulhou as águas em sua roupa? Quem estabeleceu os confins da terra? Qual é o nome dele e o nome do seu filho, se é que você sabe?"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Toda declaração de Deus é pura. Ele é um escudo para os que se refugiam nele."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Não acrescente nada às palavras dele, Senão ele o repreenderá, E ficará claro que você é um mentiroso."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Duas coisas eu te peço; Não me negues isto antes de eu morrer:"
+        },
+        {
+          "versiculo": 8,
+          "texto": "Afasta de mim a falsidade e a mentira, E não me dês nem pobreza nem riquezas. Dá-me apenas a minha porção de alimento,"
+        },
+        {
+          "versiculo": 9,
+          "texto": "Para que eu não me farte e te negue, e diga: “Quem é Jeová?” Nem fique pobre e roube, e desonre o nome do meu Deus."
+        },
+        {
+          "versiculo": 10,
+          "texto": "Não calunie um servo diante do senhor dele, Senão ele amaldiçoará você, e você será considerado culpado."
+        },
+        {
+          "versiculo": 11,
+          "texto": "Há uma geração que amaldiçoa o pai E não abençoa a mãe."
+        },
+        {
+          "versiculo": 12,
+          "texto": "Há uma geração que é pura aos seus próprios olhos, Mas que não foi purificada da sua imundície."
+        },
+        {
+          "versiculo": 13,
+          "texto": "Há uma geração que tem olhos tão arrogantes E um olhar tão orgulhoso!"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Há uma geração cujos dentes são espadas E cujos maxilares são facas; Eles devoram os humildes da terra E eliminam os pobres do meio da humanidade."
+        },
+        {
+          "versiculo": 15,
+          "texto": "As sanguessugas têm duas filhas que gritam: “Mais! Mais!” Há três coisas que não ficam satisfeitas, Quatro que nunca dizem “Chega”:"
+        },
+        {
+          "versiculo": 16,
+          "texto": "A Sepultura e o ventre estéril, A terra sedenta de água, E o fogo, que nunca diz: “Chega!”"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Os olhos que zombam do pai e desprezam a obediência à mãe Serão arrancados pelos corvos do vale E devorados pelos filhotes de águia."
+        },
+        {
+          "versiculo": 18,
+          "texto": "Há três coisas que estão além da minha compreensão, Quatro que eu não entendo:"
+        },
+        {
+          "versiculo": 19,
+          "texto": "O caminho da águia nos céus, O caminho da serpente sobre uma rocha, O caminho do navio em alto-mar, E o caminho do homem com uma moça."
+        },
+        {
+          "versiculo": 20,
+          "texto": "Este é o caminho de uma mulher adúltera: Ela come, limpa a boca E diz: “Não fiz nada de errado.”"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Há três coisas que fazem a terra tremer, Quatro coisas que ela não pode suportar:"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Um escravo que se torna rei, Um tolo empanturrado de comida,"
+        },
+        {
+          "versiculo": 23,
+          "texto": "Uma mulher odiada que é tomada como esposa, E uma serva que toma o lugar da sua senhora."
+        },
+        {
+          "versiculo": 24,
+          "texto": "Há quatro criaturas que estão entre as menores da terra, Mas são instintivamente sábias:"
+        },
+        {
+          "versiculo": 25,
+          "texto": "As formigas não são criaturas fortes, Ainda assim, preparam seu alimento no verão."
+        },
+        {
+          "versiculo": 26,
+          "texto": "Os procávias não são criaturas poderosas, Mas fazem sua casa nos rochedos."
+        },
+        {
+          "versiculo": 27,
+          "texto": "Os gafanhotos não têm rei, Mas todos eles avançam em fileiras."
+        },
+        {
+          "versiculo": 28,
+          "texto": "A lagartixa gruda em tudo com as suas patas, E entra no palácio do rei."
+        },
+        {
+          "versiculo": 29,
+          "texto": "Há três coisas que andam de modo impressionante, Quatro coisas que são impressionantes ao se mover:"
+        },
+        {
+          "versiculo": 30,
+          "texto": "O leão, que é o mais valente dos animais E não recua diante de ninguém,"
+        },
+        {
+          "versiculo": 31,
+          "texto": "O galgo, o bode E o rei acompanhado de seu exército."
+        },
+        {
+          "versiculo": 32,
+          "texto": "Se você foi tolo e enalteceu a si mesmo, Ou se planejou fazer isso, Ponha a mão sobre a boca."
+        },
+        {
+          "versiculo": 33,
+          "texto": "Pois assim como bater o leite produz manteiga E apertar o nariz faz sair sangue, Assim também atiçar a ira provoca discussões."
+        }
+      ]
+    },
+    {
+      "numero": 31,
+      "versiculos": [
+        {
+          "versiculo": 31,
+          "texto": "Provérbios 31:1-31 REPRODUZIR CONTEÚDO DO LIVRO P ALAVRAS DO R EI L EMUEL ( 1-31 ) Quem pode encontrar uma esposa capaz? ("
+        },
+        {
+          "versiculo": 10,
+          "texto": ") Trabalhadora e diligente ("
+        },
+        {
+          "versiculo": 17,
+          "texto": ") A bondade está na sua língua ("
+        },
+        {
+          "versiculo": 26,
+          "texto": ") O marido e os filhos a elogiam ("
+        },
+        {
+          "versiculo": 28,
+          "texto": ") Encanto e beleza são passageiros ("
+        },
+        {
+          "versiculo": 30,
+          "texto": ")"
+        },
+        {
+          "versiculo": 31,
+          "texto": "Palavras do rei Lemuel. As palavras importantes que sua mãe falou para o instruir:"
+        },
+        {
+          "versiculo": 2,
+          "texto": "O que devo lhe dizer, meu filho? O quê, filho do meu ventre? O quê, filho dos meus votos?"
+        },
+        {
+          "versiculo": 3,
+          "texto": "Não entregue o seu vigor às mulheres, Nem siga caminhos que destroem reis."
+        },
+        {
+          "versiculo": 4,
+          "texto": "Não é apropriado para os reis, ó Lemuel, Não é apropriado para os reis beber vinho, Nem para os governantes dizer: “Onde está a minha bebida?”"
+        },
+        {
+          "versiculo": 5,
+          "texto": "Para que não bebam e se esqueçam do que foi decretado, E neguem os direitos dos humildes."
+        },
+        {
+          "versiculo": 6,
+          "texto": "Dê álcool aos que estão morrendo E vinho aos que estão amargurados."
+        },
+        {
+          "versiculo": 7,
+          "texto": "Que eles bebam e se esqueçam da sua pobreza, Que não se lembrem mais da sua desgraça."
+        },
+        {
+          "versiculo": 8,
+          "texto": "Fale a favor de quem não pode falar; Defenda os direitos de todos os que estão morrendo."
+        },
+        {
+          "versiculo": 9,
+          "texto": "Fale por eles e julgue com justiça; Defenda os direitos dos humildes e dos pobres. א [ álefe ]"
+        },
+        {
+          "versiculo": 10,
+          "texto": "Quem pode encontrar uma esposa capaz? Seu valor é muito maior do que o de corais. ב [ bete ]"
+        },
+        {
+          "versiculo": 11,
+          "texto": "Seu marido confia nela de coração, E a ele não falta nada de valor. ג [ guímel ]"
+        },
+        {
+          "versiculo": 12,
+          "texto": "Ela o recompensa com o bem, não com o mal, Todos os dias da sua vida. ד [ dálete ]"
+        },
+        {
+          "versiculo": 13,
+          "texto": "Ela obtém lã e linho, E tem prazer em trabalhar com as mãos. ה [ hê ]"
+        },
+        {
+          "versiculo": 14,
+          "texto": "Ela é como os navios de um mercador; De longe traz o seu alimento. ו [ vau ]"
+        },
+        {
+          "versiculo": 15,
+          "texto": "Também se levanta enquanto ainda é noite, Para dar comida aos da sua casa E porções às suas servas. ז [ zaine ]"
+        },
+        {
+          "versiculo": 16,
+          "texto": "Ela decide obter um campo e o compra; Planta um vinhedo com o resultado do seu trabalho. ח [ hete ]"
+        },
+        {
+          "versiculo": 17,
+          "texto": "Ela se prepara para o trabalho árduo, E fortalece seus braços. ט [ tete ]"
+        },
+        {
+          "versiculo": 18,
+          "texto": "Ela vê que seus negócios são lucrativos; Sua lâmpada não se apaga à noite. י [ iode ]"
+        },
+        {
+          "versiculo": 19,
+          "texto": "Suas mãos seguram a roca de fiar; Suas mãos pegam o fuso. כ [ cafe ]"
+        },
+        {
+          "versiculo": 20,
+          "texto": "Ela estende a mão ao humilde, E abre as mãos ao pobre. ל [ lâmede ]"
+        },
+        {
+          "versiculo": 21,
+          "texto": "Ela não se preocupa com os da sua casa quando neva, Pois todos eles usam roupas quentes. מ [ meme ]"
+        },
+        {
+          "versiculo": 22,
+          "texto": "Ela faz as suas próprias colchas. Sua roupa é de linho e de lã roxa. נ [ nune ]"
+        },
+        {
+          "versiculo": 23,
+          "texto": "Seu marido é bem conhecido nos portões da cidade, Onde se senta entre os anciãos do país. ס [ sâmeque ]"
+        },
+        {
+          "versiculo": 24,
+          "texto": "Ela faz roupas de linho e as vende, E fornece cintos aos mercadores. ע [ aine ]"
+        },
+        {
+          "versiculo": 25,
+          "texto": "Ela se veste de força e esplendor, E olha para o futuro com confiança. פ [ pê ]"
+        },
+        {
+          "versiculo": 26,
+          "texto": "Ela abre a boca com sabedoria; A lei da bondade está na sua língua. צ [ tsadê ]"
+        },
+        {
+          "versiculo": 27,
+          "texto": "Ela vigia as atividades da sua casa, E não come o pão da preguiça. ק [ cofe ]"
+        },
+        {
+          "versiculo": 28,
+          "texto": "Seus filhos se levantam e a elogiam; Seu marido se levanta e também a elogia. ר [ rexe ]"
+        },
+        {
+          "versiculo": 29,
+          "texto": "Há muitas esposas capazes, Mas você supera a todas elas. ש [ chim ]"
+        },
+        {
+          "versiculo": 30,
+          "texto": "O encanto talvez seja falso, e a beleza talvez seja passageira, Mas a mulher que teme a Jeová receberá elogios. ת [ tau ]"
+        },
+        {
+          "versiculo": 31,
+          "texto": "Que ela seja recompensada pelo que faz, E que seja elogiada nos portões da cidade pelas suas obras."
+        }
+      ]
+    }
+  ]
+}
