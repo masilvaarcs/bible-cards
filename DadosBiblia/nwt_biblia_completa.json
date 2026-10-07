@@ -6407,7 +6407,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Êxodo",
-        "abreviacao": "Êxo",
+        "abreviacao": "Êx",
         "slug": "exodo",
         "testamento": "hebraico",
         "ordem": 2,
@@ -11474,7 +11474,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Levítico",
-        "abreviacao": "Lev",
+        "abreviacao": "Le",
         "slug": "levitico",
         "testamento": "hebraico",
         "ordem": 3,
@@ -20407,7 +20407,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Deuteronômio",
-        "abreviacao": "Deut",
+        "abreviacao": "De",
         "slug": "deuteronomio",
         "testamento": "hebraico",
         "ordem": 5,
@@ -27195,7 +27195,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Juízes",
-        "abreviacao": "Juí",
+        "abreviacao": "Jz",
         "slug": "juizes",
         "testamento": "hebraico",
         "ordem": 7,
@@ -29783,7 +29783,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Rute",
-        "abreviacao": "Rute",
+        "abreviacao": "Ru",
         "slug": "rute",
         "testamento": "hebraico",
         "ordem": 8,
@@ -30158,7 +30158,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "1 Samuel",
-        "abreviacao": "1Sam",
+        "abreviacao": "1Sa",
         "slug": "1-samuel",
         "testamento": "hebraico",
         "ordem": 9,
@@ -33732,7 +33732,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "2 Samuel",
-        "abreviacao": "2Sam",
+        "abreviacao": "2Sa",
         "slug": "2-samuel",
         "testamento": "hebraico",
         "ordem": 10,
@@ -36771,7 +36771,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "1 Reis",
-        "abreviacao": "1Reis",
+        "abreviacao": "1Rs",
         "slug": "1-reis",
         "testamento": "hebraico",
         "ordem": 11,
@@ -40272,7 +40272,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "2 Reis",
-        "abreviacao": "2Reis",
+        "abreviacao": "2Rs",
         "slug": "2-reis",
         "testamento": "hebraico",
         "ordem": 12,
@@ -43388,7 +43388,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "1 Crônicas",
-        "abreviacao": "1Cró",
+        "abreviacao": "1Cr",
         "slug": "1-cronicas",
         "testamento": "hebraico",
         "ordem": 13,
@@ -47448,7 +47448,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "2 Crônicas",
-        "abreviacao": "2Cró",
+        "abreviacao": "2Cr",
         "slug": "2-cronicas",
         "testamento": "hebraico",
         "ordem": 14,
@@ -52268,7 +52268,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Neemias",
-        "abreviacao": "Nee",
+        "abreviacao": "Ne",
         "slug": "neemias",
         "testamento": "hebraico",
         "ordem": 16,
@@ -53968,7 +53968,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Ester",
-        "abreviacao": "Ester",
+        "abreviacao": "Est",
         "slug": "ester",
         "testamento": "hebraico",
         "ordem": 17,
@@ -69783,7 +69783,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Provérbios",
-        "abreviacao": "Pro",
+        "abreviacao": "Pr",
         "slug": "proverbios",
         "testamento": "hebraico",
         "ordem": 20,
@@ -74197,7 +74197,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Eclesiastes",
-        "abreviacao": "Ecl",
+        "abreviacao": "Ec",
         "slug": "eclesiastes",
         "testamento": "hebraico",
         "ordem": 21,
@@ -75963,7 +75963,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Isaías",
-        "abreviacao": "Isa",
+        "abreviacao": "Is",
         "slug": "isaias",
         "testamento": "hebraico",
         "ordem": 23,
@@ -81476,7 +81476,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Jeremias",
-        "abreviacao": "Jer",
+        "abreviacao": "Je",
         "slug": "jeremias",
         "testamento": "hebraico",
         "ordem": 24,
@@ -87203,7 +87203,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Lamentações",
-        "abreviacao": "Lam",
+        "abreviacao": "La",
         "slug": "lamentacoes",
         "testamento": "hebraico",
         "ordem": 25,
@@ -87943,7 +87943,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Ezequiel",
-        "abreviacao": "Eze",
+        "abreviacao": "Ez",
         "slug": "ezequiel",
         "testamento": "hebraico",
         "ordem": 26,
@@ -93290,7 +93290,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Daniel",
-        "abreviacao": "Dan",
+        "abreviacao": "Da",
         "slug": "daniel",
         "testamento": "hebraico",
         "ordem": 27,
@@ -94793,7 +94793,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Oseias",
-        "abreviacao": "Ose",
+        "abreviacao": "Os",
         "slug": "oseias",
         "testamento": "hebraico",
         "ordem": 28,
@@ -95666,7 +95666,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Joel",
-        "abreviacao": "Joel",
+        "abreviacao": "Jl",
         "slug": "joel",
         "testamento": "hebraico",
         "ordem": 29,
@@ -95988,7 +95988,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Amós",
-        "abreviacao": "Amós",
+        "abreviacao": "Am",
         "slug": "amos",
         "testamento": "hebraico",
         "ordem": 30,
@@ -96628,7 +96628,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Obadias",
-        "abreviacao": "Obd",
+        "abreviacao": "Ob",
         "slug": "obadias",
         "testamento": "hebraico",
         "ordem": 31,
@@ -96954,7 +96954,7 @@
       "idioma": "pt",
       "fonte": "jw.org",
       "livro": {
-        "nome": "Miqueias",
+        "nome": "Miquéias",
         "abreviacao": "Miq",
         "slug": "miqueias",
         "testamento": "hebraico",
@@ -97425,7 +97425,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Naum",
-        "abreviacao": "Naum",
+        "abreviacao": "Na",
         "slug": "naum",
         "testamento": "hebraico",
         "ordem": 34,
@@ -98139,7 +98139,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Ageu",
-        "abreviacao": "Ageu",
+        "abreviacao": "Ag",
         "slug": "ageu",
         "testamento": "hebraico",
         "ordem": 37,
@@ -98316,7 +98316,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Zacarias",
-        "abreviacao": "Zac",
+        "abreviacao": "Za",
         "slug": "zacarias",
         "testamento": "hebraico",
         "ordem": 38,
@@ -99500,7 +99500,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Mateus",
-        "abreviacao": "Mat",
+        "abreviacao": "Mt",
         "slug": "mateus",
         "testamento": "grego",
         "ordem": 40,
@@ -104083,7 +104083,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Marcos",
-        "abreviacao": "Mar",
+        "abreviacao": "Mr",
         "slug": "marcos",
         "testamento": "grego",
         "ordem": 41,
@@ -106930,7 +106930,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Lucas",
-        "abreviacao": "Luc",
+        "abreviacao": "Lu",
         "slug": "lucas",
         "testamento": "grego",
         "ordem": 42,
@@ -111797,7 +111797,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "João",
-        "abreviacao": "João",
+        "abreviacao": "Jo",
         "slug": "joao",
         "testamento": "grego",
         "ordem": 43,
@@ -115533,7 +115533,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Atos",
-        "abreviacao": "Atos",
+        "abreviacao": "At",
         "slug": "atos",
         "testamento": "grego",
         "ordem": 44,
@@ -119880,7 +119880,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Romanos",
-        "abreviacao": "Rom",
+        "abreviacao": "Ro",
         "slug": "romanos",
         "testamento": "grego",
         "ordem": 45,
@@ -121807,7 +121807,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "1 Coríntios",
-        "abreviacao": "1Cor",
+        "abreviacao": "1Co",
         "slug": "1-corintios",
         "testamento": "grego",
         "ordem": 46,
@@ -123758,7 +123758,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "2 Coríntios",
-        "abreviacao": "2Cor",
+        "abreviacao": "2Co",
         "slug": "2-corintios",
         "testamento": "grego",
         "ordem": 47,
@@ -125635,7 +125635,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Efésios",
-        "abreviacao": "Efé",
+        "abreviacao": "Ef",
         "slug": "efesios",
         "testamento": "grego",
         "ordem": 49,
@@ -128856,7 +128856,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Tito",
-        "abreviacao": "Tito",
+        "abreviacao": "Tit",
         "slug": "tito",
         "testamento": "grego",
         "ordem": 56,
@@ -129069,7 +129069,7 @@
       "idioma": "pt",
       "fonte": "jw.org",
       "livro": {
-        "nome": "Filémon",
+        "nome": "Filemom",
         "abreviacao": "Flm",
         "slug": "filemon",
         "testamento": "grego",
@@ -129190,7 +129190,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Hebreus",
-        "abreviacao": "Heb",
+        "abreviacao": "He",
         "slug": "hebreus",
         "testamento": "grego",
         "ordem": 58,
@@ -130610,7 +130610,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Tiago",
-        "abreviacao": "Tia",
+        "abreviacao": "Tg",
         "slug": "tiago",
         "testamento": "grego",
         "ordem": 59,
@@ -132600,7 +132600,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Judas",
-        "abreviacao": "Judas",
+        "abreviacao": "Ju",
         "slug": "judas",
         "testamento": "grego",
         "ordem": 65,
@@ -132728,7 +132728,7 @@
       "fonte": "jw.org",
       "livro": {
         "nome": "Apocalipse",
-        "abreviacao": "Apo",
+        "abreviacao": "Ap",
         "slug": "apocalipse",
         "testamento": "grego",
         "ordem": 66,
