@@ -29,9 +29,9 @@ const HTML = readFileSync(join(RAIZ, '..', 'design', 'cartao-modelo.html'), 'utf
 
 /* ---- extrai o array PERSONAGENS do <script> do HTML ---- */
 const EXCERPT_START = 'const PERSONAGENS = ['
-const EXCERPT_END = '\n];\n'
+const EXCERPT_END = '];'
 const start = HTML.indexOf(EXCERPT_START)
-const end = HTML.indexOf(EXCERPT_END)
+const end = HTML.indexOf(EXCERPT_END, start)
 assert.ok(start > 0 && end > start, 'não consegui achar PERSONAGENS no HTML')
 const vm = await import('node:vm')
 
