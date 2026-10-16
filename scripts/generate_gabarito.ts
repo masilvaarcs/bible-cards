@@ -7,13 +7,14 @@ const RAIZ = dirname(fileURLToPath(import.meta.url))
 const HTML = readFileSync(join(RAIZ, '..', 'design', 'cartao-modelo.html'), 'utf8')
 
 const EXCERPT_START = 'const PERSONAGENS = ['
-const EXCERPT_END = '\n];\n'
+const EXCERPT_END = /\r?\n\];\r?\n/
 const start = HTML.indexOf(EXCERPT_START)
-const end = HTML.indexOf(EXCERPT_END)
-assert.ok(start > 0 && end > start, 'não consegui achar PERSONAGENS no HTML')
+const endMatch = HTML.slice(start).match(EXCERPT_END)
+assert.ok(start > 0 && endMatch, 'não consegui achar PERSONAGENS no HTML')
+const end = start + endMatch.index!
 
 const { createContext, runInContext } = await import('node:vm')
-const snippet = HTML.slice(start, end + EXCERPT_END.length)
+const snippet = HTML.slice(start, end + endMatch[0].length)
 const initializer = snippet.replace(/^(?:const|let|var)\s+PERSONAGENS\s*=\s*/, 'var PERSONAGENS = ')
 
 const ctx = createContext({ Math, console })

@@ -1,6 +1,6 @@
 # 📊 Relatório de Qualidade — Exportação dos Cartões Bíblicos
 
-Gerado em: 07/10/2026, 18:48:23
+Gerado em: 12/10/2026, 02:44:01
 
 ## PNGs (raster — impressão jato de tinta / visualização)
 
@@ -9,12 +9,12 @@ Gerado em: 07/10/2026, 18:48:23
 - **Dimensões:** 2262×2256 px ×60 arquivos · 4536×2268 px ×30 arquivos
   - 4536×2268 px = 20×10 cm a 576 DPI (cartão aberto)
   - 2268×2268 px = 10×10 cm a 576 DPI (cada lado)
-- **Tamanho total dos PNGs: 53.7 MB** (sem compressão com perdas — PNG sem perdas)
+- **Tamanho total dos PNGs: 53.6 MB** (sem compressão com perdas — PNG sem perdas)
 
 ## PDFs (vetoriais — nitidez máxima em qualquer impressora)
 
 - **CartoesBiblicos_A4_1porPagina.pdf** — 30 páginas · 1.97 MB · imagens rasterizadas: 89 (0 = 100% vetorial)
-- **CartoesBiblicos_A4_3porPagina.pdf** — 10 páginas · 1.23 MB · imagens rasterizadas: 29 (0 = 100% vetorial)
+- **CartoesBiblicos_A4_3porPagina.pdf** — 10 páginas · 1.22 MB · imagens rasterizadas: 29 (0 = 100% vetorial)
 - Texto e formas exportados como vetores: nítidos em 300, 600, 1200 DPI ou zoom infinito.
 
 ## Como imprimir

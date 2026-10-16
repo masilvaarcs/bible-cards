@@ -51,13 +51,20 @@ function acharNavegador() {
   await page.setViewport({ width: 1400, height: 1200, deviceScaleFactor: DPI })
 
   await page.goto('file:///' + HTML.replace(/\\/g, '/'), { waitUntil: 'networkidle0' })
-  await page.waitForFunction(
-    () =>
-      document.readyState === 'complete' &&
-      typeof renderCartao === 'function' &&
-      document.querySelectorAll('.folha').length > 0,
-    { timeout: 30000 },
-  )
+  console.log('Aguardando página carregar...')
+  await page.waitForFunction(() => document.readyState === 'complete', { timeout: 30000 })
+  console.log('ReadyState completo, verificando funções...')
+  const hasRender = await page.evaluate(() => {
+    return {
+      renderCartao: typeof renderCartao,
+      renderCartaoInterno: typeof renderCartaoInterno,
+      renderVisor: typeof renderVisor
+    }
+  })
+  console.log('Funções:', hasRender)
+  await page.waitForFunction(() => typeof renderCartaoInterno === 'function' || typeof renderCartao === 'function', { timeout: 10000 })
+  console.log('Funções carregadas, aguardando inicialização...')
+  await new Promise(r => setTimeout(r, 3000))
 
   // Sorteio determinístico (reprodutível): 1 V/F + 2 Complete + 2 Responda por cartão
   await page.evaluate(() => {
@@ -98,7 +105,8 @@ function acharNavegador() {
     const info = await page.evaluate(
       (i, sel, suf) => {
         const area = document.getElementById('area-exportacao')
-        area.innerHTML = renderCartao(PERSONAGENS[i])
+        const fn = typeof renderCartao === 'function' ? renderCartao : renderCartaoInterno;
+        area.innerHTML = fn(PERSONAGENS[i])
         ajustarFaixaRespostas(area)
         const el = sel ? area.querySelector(sel) : area.firstElementChild
         const r = el.getBoundingClientRect()

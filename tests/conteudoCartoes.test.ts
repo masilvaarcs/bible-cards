@@ -10,7 +10,8 @@
  *   de modo que qualquer ordem de perguntas não revele outra.
  *
  * Regra 3 (estrutura): cada cartão tem exatamente 2 r, 2 v, 2 c;
- *   cada v traz 1 V e 1 F; cada r traz ops 'a)… b)…' e uma `chave`; cada c
+ *   cada v é enunciado afirmativo/negativo SEM prefixo V—/F— (o julgamento
+ *   fica na dica lateral, 1 V e 1 F); cada r traz ops 'a)… b)…' e uma `chave`; cada c
  *   traz uma `chave`; cada resposta termina com `|ref` (ex.: |1Rs 3:9).
  *
  * Regra 4 (palavras vetadas): texto vem do modelo NWT do repo. A palavra
@@ -217,13 +218,21 @@ test('cartões: todos têm 6 perguntas (2 r + 2 v + 2 c)', () => {
   }
 })
 
-test('cartões: cada V/F tem 1 V e 1 F (8 questões)', () => {
+test('cartões: enunciados V/F sem prefixo V—/F—; dicas trazem 1 V e 1 F', () => {
+  // O enunciado é uma afirmação pura (afirmativa ou negativa). O V/F fica
+  // só na dica lateral — senão "F — X" se lê como "X é falso" OU como
+  // "não X", ambiguidade reportada pelo usuário (bug CB-006).
   for (const p of personagens) {
-    const vqs = p.perguntas.filter(q => q.t === 'v')
-    const temV = vqs.some(q => String(q.txt).includes('V — ') || String(q.txt).startsWith('V'))
-    const temF = vqs.some(q => String(q.txt).includes('F — ') || String(q.txt).startsWith('F'))
-    assert.ok(temV, `CB-${p.id}: falta V`)
-    assert.ok(temF, `CB-${p.id}: falta F`)
+    const idxs: number[] = []
+    p.perguntas.forEach((q: any, i: number) => { if (q.t === 'v') idxs.push(i) })
+    for (const i of idxs) {
+      const txt = String(p.perguntas[i].txt)
+      assert.ok(!/^\s*[VF]\s*[—-]/.test(txt), `CB-${p.id}: enunciado V/F com prefixo V—/F—: "${txt}"`)
+      assert.ok(!txt.includes('V — ') && !txt.includes('F — '), `CB-${p.id}: enunciado V/F contém "V — "/"F — ": "${txt}"`)
+    }
+    const dicas = idxs.map(i => String(p.respostas[i] || ''))
+    assert.ok(dicas.some(d => d.startsWith('V — ')), `CB-${p.id}: dica V ausente`)
+    assert.ok(dicas.some(d => d.startsWith('F — ')), `CB-${p.id}: dica F ausente`)
   }
 })
 
@@ -287,5 +296,51 @@ test('cartões: "cruz" não aparece nas respostas', () => {
       const texto = reflexo.split('|')[0].toLowerCase()
       assert.ok(!texto.includes(GAG_PALAVRA), `CB-${p.id}: c SAX "${GAG_PALAVRA}" em resposta: ${reflexo}`)
     }
+  }
+})
+
+test('cartões: cada resposta de Responda corresponde exatamente à opção indicada pela letra', () => {
+  // Regra 3 do cabeçalho (letra da resposta ∈ opções): a resposta precisa
+  // citar a MESMA letra E o MESMO texto da opção em `ops` — senão o aluno
+  // confere a letra errada no gabarito (bugs CB-001/009/010/017).
+  for (const p of personagens) {
+    p.perguntas.forEach((q: any, i: number) => {
+      if (q.t !== 'r') return
+      const m = String(q.ops).match(/a\)\s*(.*?)\s*b\)\s*(.*)/)
+      assert.ok(m, `CB-${p.id} q${i + 1}: ops sem formato "a) … b) …" — ${q.ops}`)
+      const ops = { a: m[1].trim(), b: m[2].trim() }
+      const resp = String(p.respostas[i] || '').split('|')[0].trim()
+      const mr = resp.match(/^([ab])\)\s*(.+)$/) || resp.match(/^([AB])\s+[—-]\s*(.+)$/)
+      assert.ok(mr, `CB-${p.id} resposta ${i + 1}: formato sem letra — "${resp}"`)
+      const letra = mr[1].toLowerCase()
+      assert.strictEqual(
+        mr[2].trim(), ops[letra],
+        `CB-${p.id} resposta ${i + 1}: "${resp}" ≠ opção ${letra}) "${ops[letra]}"`
+      )
+    })
+  }
+})
+
+test('cartões: prefixo numérico "N — " (se presente) confere com a posição renderizada 1–6', () => {
+  // O CSS numera as questões via counter(p) na ordem de DOM (agrupamento
+  // consecutivo por tipo). Se o txt traz "N — ", N precisa ser a posição real
+  // da questão no cartão — senão o aluno vê número trocado (bug CB-018).
+  for (const p of personagens) {
+    const grupos: { t: string; qs: any[] }[] = []
+    for (const q of p.perguntas) {
+      const g = grupos[grupos.length - 1]
+      if (g && g.t === q.t) g.qs.push(q)
+      else grupos.push({ t: q.t, qs: [q] })
+    }
+    const ordem = grupos.flatMap(g => g.qs)
+    ordem.forEach((q, i) => {
+      const m = String(q.txt).match(/^(\d+) —/)
+      if (m) {
+        assert.strictEqual(
+          Number(m[1]), i + 1,
+          `CB-${p.id}: prefixo "${m[1]} —" na posição ${i + 1} (${String(q.txt).slice(0, 40)}…)`
+        )
+      }
+    })
   }
 })
